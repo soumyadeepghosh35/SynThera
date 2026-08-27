@@ -1,0 +1,22 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,PubChem Standard Value,Ki Qualifier,Ki,IC50 Qualifier,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","Qualifier (e.g. >, <, =) for PubChem Standard Value","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.","Qualifier (e.g. >, <, =) for Ki",,"Qualifier (e.g. >, <, =) for IC50",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,,NANOMOLAR,,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,,TRUE,,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,TRUE,,,,,,,,
+1,125082203,15959235,C1=CC=C(C(=C1)C(=O)ON2C3=CC=CC=C3N=N2)N,Active,,,,Ki,,0.0195,,19.5,,,P0C6X7,BDBM59237,Replicase polyprotein 1ab
+2,125082204,15959236,CN(C)C1=CC=C(C=C1)C(=O)ON2C3=CC=CC=C3N=N2,Active,,,,Ki,,0.0174,,17.4,,,P0C6X7,BDBM59238,Replicase polyprotein 1ab
+3,125082205,15959237,CNC1=CC=C(C=C1)C(=O)ON2C3=CC=CC=C3N=N2,Active,,,,Ki,,0.0121,,12.1,,,P0C6X7,BDBM59239,Replicase polyprotein 1ab
+4,125082206,15959238,CCN(CC)C1=CC=C(C=C1)C(=O)ON2C3=CC=CC=C3N=N2,Active,,,,Ki,,0.0111,,11.1,,,P0C6X7,BDBM59240,Replicase polyprotein 1ab
+5,125082207,15959239,C1=CC=C2C(=C1)N=NN2OC(=O)C3=CC4=C(C=C3)N=CN4,Active,,,,Ki,,0.0229,,22.9,,,P0C6X7,BDBM59241,Replicase polyprotein 1ab
+6,125082208,15959240,C1=CC=C2C(=C1)N=NN2OC(=O)C3=CC4=C(C=C3)NC=C4,Active,,,,Ki,,0.0075,,7.5,,,P0C6X7,BDBM59242,Replicase polyprotein 1ab
+7,125082209,15959241,C1=CC=C2C(=C1)C=C(N2)C(=O)ON3C4=CC=CC=C4N=N3,Active,,,,Ki,,0.0123,,12.3,,,P0C6X7,BDBM59243,Replicase polyprotein 1ab
+8,125082210,15959242,C1=CC=C2C(=C1)N=NN2OC(=O)C3=CC4=C(N3)C=CC(=C4)F,Active,,,,Ki,,0.0138,,13.8,,,P0C6X7,BDBM59244,Replicase polyprotein 1ab
+9,125082211,677493,C1=CC=C2C(=C1)N=NN2CC(=O)C3=CC=C(C=C3)[N+](=O)[O-],Inactive,,,,IC50,>,50,,,>,50000,P0C6X7,BDBM59245,Replicase polyprotein 1ab
+10,125082212,15959243,CCN(CC)C1=CC=C(C=C1)C(=O)CN2C3=CC=CC=C3N=N2,Active,,,,Ki,,1,,1000,,,P0C6X7,BDBM59246,Replicase polyprotein 1ab
+11,125082213,15959244,C1=CC=C2C(=C1)N=NN2CC(=O)C3=CC=C(C=C3)N,Inactive,,,,IC50,>,50,,,>,50000,P0C6X7,BDBM59247,Replicase polyprotein 1ab
+12,125082214,15959245,C1=CC=C2C(=C1)N=NN2CC(C3=CC=C(C=C3)N)O,Inactive,,,,IC50,>,50,,,>,50000,P0C6X7,BDBM59248,Replicase polyprotein 1ab
+13,125082215,15959246,CNC1=CC=C(C=C1)C(=O)CN2C3=CC=CC=C3N=N2,Active,,,,Ki,,4.5,,4500,,,P0C6X7,BDBM59249,Replicase polyprotein 1ab
+14,125082216,15959247,CN(C)C1=CC=C(C=C1)C(=O)CN2C3=CC=CC=C3N=N2,Active,,,,Ki,,6.7,,6700,,,P0C6X7,BDBM59250,Replicase polyprotein 1ab
+15,125082217,15959248,CNC1=CC=C(C=C1)C(CN2C3=CC=CC=C3N=N2)O,Inactive,,,,Ki,>,50,>,50000,,,P0C6X7,BDBM59251,Replicase polyprotein 1ab
+16,125082218,15959249,CN(C)C1=CC=C(C=C1)C(CN2C3=CC=CC=C3N=N2)O,Inactive,,,,Ki,>,50,>,50000,,,P0C6X7,BDBM59252,Replicase polyprotein 1ab

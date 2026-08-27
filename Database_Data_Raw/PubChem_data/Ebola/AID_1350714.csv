@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,312392786,90467922,COC1=C(C=CC(=C1)C2=CC3=NSC(=C3N=C2)N4CCOCC4)N,Unspecified,,,,21.91,EC90,=,21.91,uM,
+2,312392786,90467922,COC1=C(C=CC(=C1)C2=CC3=NSC(=C3N=C2)N4CCOCC4)N,Unspecified,,,,11.86,EC50,=,11860,nM,
+3,404652556,134817201,C[C@@H]1CN(C[C@@H](O1)C)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,7.732,EC90,=,7.732,uM,
+4,404652556,134817201,C[C@@H]1CN(C[C@@H](O1)C)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,2.436,EC50,=,2436,nM,
+5,404654789,145951454,C[C@H]1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,8.062,EC90,=,8.062,uM,
+6,404654789,145951454,C[C@H]1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,2.728,EC50,=,2728,nM,
+7,404654789,145951454,C[C@H]1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Unspecified,,,Potential missing data,,Activity,,,,Dose-dependent effect
+8,404663730,145957629,CC1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,7.865,EC90,=,7.865,uM,
+9,404663730,145957629,CC1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,2.001,EC50,=,2001,nM,
+10,404663730,145957629,CC1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Unspecified,,,Potential missing data,,Activity,,,,Dose-dependent effect
+11,404666773,145959760,C[C@@H]1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Active,,,,4.345,EC50,=,4345,nM,
+12,404666773,145959760,C[C@@H]1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Unspecified,,,Potential missing data,,Activity,,,,Dose-dependent effect
+13,404666773,145959760,C[C@@H]1CN(CCO1)C2=C3C(=NS2)C=C(C=N3)C4=CC(=C(C=C4)N)OC,Unspecified,,,,10,EC90,>,10,uM,

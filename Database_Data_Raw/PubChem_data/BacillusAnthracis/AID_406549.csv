@@ -1,0 +1,26 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+1,103165163,5904,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,Unspecified,,,,IZ,=,33,mm,
+2,103228261,14969,C[C@H]1[C@H]([C@@](C[C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)[C@H]([C@H](C(=O)N[C@H](C(=O)N[C@H]5C(=O)N[C@@H]7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)[C@H](NC(=O)[C@H]([C@@H](C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)[C@@H](CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,Unspecified,,,,IZ,=,27,mm,
+3,103585687,44561279,CSSC1=CC(=C(C=C1)F)F,Unspecified,,,,IZ,=,11,mm,
+4,103585688,44561280,CC1=C(C=C(C=C1)SSC)C,Unspecified,,,,IZ,=,10,mm,
+5,103585689,44561281,CCOC1=CC(=CC=C1)SSC,Unspecified,,,,IZ,=,9,mm,
+6,103585690,25001885,CSSC1=CC=CC=C1CO,Unspecified,,,,IZ,=,14,mm,
+7,103585691,173923,CSSC1=CC=CC=N1,Unspecified,,,,IZ,=,23,mm,
+8,103585753,24997137,CC(=O)NC1=CC=C(C=C1)SSC,Unspecified,,,,IZ,=,20,mm,
+9,103585754,25001884,CSSC1=CC=C(C=C1)N,Unspecified,,,,IZ,=,0,mm,
+10,103585755,485597,CSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,35,mm,
+11,103585756,25001880,CCSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,54,mm,Outside typical range
+12,103585757,25001881,CC(C)SSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,85,mm,Outside typical range
+13,103585758,25001882,CCC(C)SSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,68,mm,Outside typical range
+14,103585759,25001883,CCCSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,43,mm,
+15,103585760,12336449,CCCCSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,53,mm,Outside typical range
+16,103585761,485622,CSSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,36,mm,
+17,103585762,25001888,CCSSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,45,mm,
+18,103585826,24997132,CC(C)SSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,85,mm,Outside typical range
+19,103585827,24997133,CCC(C)SSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,IZ,=,45,mm,
+20,103585828,485592,CSSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,IZ,=,37,mm,
+21,103585829,24997134,CCSSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,IZ,=,40,mm,
+22,103585830,24997135,CC(C)SSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,IZ,=,31,mm,
+23,103585831,24997136,CCC(C)SSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,IZ,=,24,mm,

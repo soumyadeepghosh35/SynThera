@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103202903,446727,C1[C@@H]([C@H](O[C@H]1N2C=C(C(=O)NC2=O)/C=C/Br)CO)O,Active,,,,0.036,EC50,=,36,nM,
+2,103233471,60750,C1=CN(C(=O)N=C1N)[C@H]2C([C@@H]([C@H](O2)CO)O)(F)F,Active,,,,0.028,EC50,=,28,nM,
+3,103504490,135398740,C1=NC2=C(N1COC(CO)CO)N=C(NC2=O)N,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+4,103504725,135398513,C1=NC2=C(N1COCCO)N=C(NC2=O)N,Active,,,,1.6,EC50,=,1600,nM,
+5,194168035,11169170,C[C@@H](C(=O)OCC1=CC=CC=C1)NP(=O)(OC[C@@H]2[C@H](C([C@@H](O2)N3C=CC(=NC3=O)N)(F)F)O)OC4=CC=CC=C4,Active,,,,0.074,EC50,=,74,nM,
+6,461520182,162647033,CO[C@]1([C@H](C([C@@H](O1)N2C=CC(=O)NC2=O)(F)F)O)CO,Unspecified,,,,100,EC50,>,100000,nM,
+7,461526474,23519645,C1=CN(C(=O)N=C1N)[C@H]2C([C@@H]([C@](O2)(CO)F)O)(F)F,Active,,,,0.042,EC50,=,42,nM,
+8,461528069,162652514,C[C@@H](C(=O)OCC1=CC=CC=C1)NP(=O)(OC[C@@]2([C@H](C([C@@H](O2)N3C=CC(=NC3=O)N)(F)F)O)F)OC4=CC=CC=C4,Active,,,,2.32,EC50,=,2320,nM,
+9,461529042,162653200,C1=CN(C(=O)NC1=O)[C@H]2C([C@@H]([C@](O2)(CO)F)O)(F)F,Unspecified,,,,100,EC50,>,100000,nM,
+10,461540405,162661207,C[C@@H](C(=O)OCC1=CC=CC=C1)NP(=O)(OC[C@@]2([C@H](C([C@@H](O2)N3C=CC(=NC3=O)N)(F)F)O)OC)OC4=CC=CC=C4,Unspecified,,,,100,EC50,>,100000,nM,
+11,461550891,162668522,CO[C@]1([C@H](C([C@@H](O1)N2C=CC(=NC2=O)N)(F)F)O)CO,Unspecified,,,,100,EC50,>,100000,nM,
+12,494430641,60933,C1=CN(C(=O)N=C1N)C[C@@H](CO)OCP(=O)(O)O.O.O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined

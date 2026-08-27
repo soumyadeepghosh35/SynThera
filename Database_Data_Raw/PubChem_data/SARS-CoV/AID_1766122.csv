@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,469815528,164621134,CN1C=C(C(=O)NC1=O)C2=CN(C(=O)C(=C2)C3=CC(=CC(=C3)Cl)OCC4CC4)C5=CN=CC=C5,Active,,,,1.2,EC50,=,1200,nM,
+2,469818125,164623015,CN1C=C(C(=O)NC1=O)C2=CN(C(=O)C(=C2)C3=CC(=CC(=C3)Cl)OCCC(F)(F)F)C4=CN=CC=C4,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+3,469818944,156587561,CN1C=C(C(=O)NC1=O)C2=CN(C(=O)C(=C2)C3=CC(=CC(=C3)Cl)OCC4=C(N=CS4)C(F)(F)F)C5=CN=CC=C5,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+4,469819400,164623930,C1=CC(=CN=C1)N2C=C(C=C(C2=O)C3=CC(=CC(=C3)Cl)OCC4=C(N=CO4)C(F)(F)F)C5=CNC(=O)NC5=O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+5,469821017,155926655,C1=CC=C(C(=C1)COC2=C(C(=CC(=C2)C3=CC(=CN(C3=O)C4=CN=CC=C4)C5=CNC(=O)NC5=O)Cl)F)Cl,Active,,,,1,EC50,=,1000,nM,
+6,469821341,164625317,C1=CC(=CN=C1)N2C=C(C=C(C2=O)C3=CC(=CC(=C3)Cl)OCC4=C(N=CS4)C(F)(F)F)C5=CNC(=O)NC5=O,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined
+7,469821572,156009100,CC1=C(N=CS1)COC2=CC(=CC(=C2)C3=CC(=CN(C3=O)C4=CN=CC=C4)C5=CNC(=O)NC5=O)Cl,Inconclusive,,,Potential missing data,,EC50,,,,Not Determined

@@ -1,0 +1,7 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,PubChem Standard Value,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,MICROMOLAR,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,
+1,46518166,126941,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,Active,,,,IC50,0.015,15,,BDBM18050,Dihydrofolate reductase
+2,46518183,135509070,CNC1=C(C(=O)NC(=N1)N)[N+](=O)[O-],Inactive,,,,IC50,104.2,104200,,BDBM18068,Dihydrofolate reductase

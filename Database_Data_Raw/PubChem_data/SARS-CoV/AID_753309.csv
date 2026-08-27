@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103595115,359,C1=C(C=C(C=C1O)O)O,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+2,103617519,145937,C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C(C=C(C=C4O3)O)O)O)O)O,Active,,,,8.2,Ki,=,8200,nM,
+3,103617520,3008868,C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C(C=C(C=C4O3)OC5=C(C=C(C=C5O)OC6=C(C=C(C7=C6OC8=C(C=C(C=C8O7)O)O)O)O)O)O)O)O)O,Active,,,,2.4,Ki,=,2400,nM,
+4,103650659,44590821,C1=C(C=C(C(=C1O)C2=C(C=C(C=C2OC3=C(C=C(C=C3OC4=C(C=C(C=C4O)O)O)O)O)O)O)O)O,Unspecified,,,,63.5,Ki,=,63500,nM,
+5,103650660,130976,C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C3C5=C(C(=C4)O)OC6=C(O5)C(=CC(=C6OC7=CC(=CC(=C7)O)O)O)O)O)O)O,Unspecified,,,,10.6,Ki,=,10600,nM,
+6,103650735,10480940,C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C(C=C(C=C4O3)OC5=C(C=C(C=C5O)O)O)O)O)O)O,Unspecified,,,,19.3,Ki,=,19300,nM,
+7,103681364,10429214,C1=C(C=C2C(=C1O)OC3=C(O2)C4=C(C(=C3)O)OC5=CC(=CC(=C5O4)O)O)O,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+8,174486367,5320532,C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C(C=C(C=C4O3)O)O)O)OC5=C(C=C(C=C5O)O)O)O,Unspecified,,,,24,Ki,=,24000,nM,
+9,174511999,23427055,C1=C(C=C(C=C1O)OC2=C(C=C(C=C2O)OC3=C(C=C(C=C3O)O)O)O)O,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined

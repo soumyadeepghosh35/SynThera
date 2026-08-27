@@ -1,0 +1,16 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103174520,7504,C1=CC=C(C=C1)CN,Inactive,,,Potential missing data,MIC,,,,Not Active
+2,103185577,1102,C(CCNCCCN)CN,Inactive,,,Potential missing data,MIC,,,,Not Active
+3,103400843,6514,C(CS)C(=O)O,Inactive,,,Potential missing data,MIC,,,,Not Active
+4,103512866,54675776,C[C@@]1([C@H]2C[C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O,Unspecified,,,,MIC,<,2,ug.mL-1,
+5,336868198,127026972,C1=CC=C(C=C1)CN(C(C2=CC=C(C=C2)Br)C(=O)NCCCCN)C(=O)CCS,Unspecified,,,,MIC,=,4,ug.mL-1,
+6,336868198,127026972,C1=CC=C(C=C1)CN(C(C2=CC=C(C=C2)Br)C(=O)NCCCCN)C(=O)CCS,Unspecified,,,Potential missing data,Activity,,,,Dose-dependent effect
+7,336868199,127026973,CCCC(=O)N(CC1=CC=CC=C1)C(C2=CC=C(C=C2)Br)C(=O)NCCCCN,Unspecified,,,,MIC,=,32,ug.mL-1,
+8,336868200,15916864,C(CCN=C(N)N)C[C@@H](CC(=O)N[C@H](C(=O)NCCCCNCCCN)O)O,Unspecified,,,,MIC,=,12.5,ug.mL-1,
+9,336868201,46333057,C1CN(CCN1)C(=O)CN(CCCC2=CC=CC=C2)C(=O)C3=CC=C(C=C3)C#N,Unspecified,,,,MIC,>,128,ug.mL-1,
+10,336868202,16487104,CC(C)C1CCC(CC1)C(=O)NCC(=O)NCC2=CC=CC=C2,Unspecified,,,,MIC,>,128,ug.mL-1,
+11,336868663,39822344,CC(C)SCC(=O)NCC(=O)NCC1=CC=CC=C1,Unspecified,,,,MIC,>,128,ug.mL-1,
+12,336880317,53508007,CCC(C)C(=O)NCC(=O)N1CCN(CC1)CC2=CC=CC=C2,Unspecified,,,,MIC,>,128,ug.mL-1,
+13,336884569,70741,C1=CC(=CC=C1C=O)Br,Inactive,,,Potential missing data,MIC,,,,Not Active

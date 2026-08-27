@@ -1,0 +1,9 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM
+1,103169732,2719,CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl,Unspecified,,,,Selectivity Index,>,88.5
+2,103512718,492405,C1=C(N=C(C(=O)N1)C(=O)N)F,Unspecified,,,,Selectivity Index,>,6.46
+3,103516894,4477,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,Selectivity Index,>,16.76
+4,103567639,135398748,C1=NC2=C(N1CCC(CO)CO)N=C(NC2=O)N,Unspecified,,,,Selectivity Index,>,4.17
+5,103619997,37542,C1=NC(=NN1[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O)C(=O)N,Unspecified,,,,Selectivity Index,>,3.65
+6,494411846,171352735,CCC(CC)OC(=O)[C@H](C)N[P@@](=O)(CC[C@@H]1[C@H]([C@H]([C@](O1)(C#N)C2=CC=C3N2N=CN=C3N)O)O)OC4=CC=CC=C4,Unspecified,,,,Selectivity Index,>,129.87

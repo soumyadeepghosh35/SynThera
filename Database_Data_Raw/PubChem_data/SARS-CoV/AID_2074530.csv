@@ -1,0 +1,14 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,475986053,166629340,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCC(=O)N4CCN(CC4)CCNC(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Active,,,,6,Solubility,=,6000,nM,
+2,475991827,166632190,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCCCCCNC(=O)CC4=C(N(C5=C4C=C(C=C5)OC)C(=O)C6=CC=C(C=C6)Cl)C)O,Unspecified,,,Potential missing data,,Kinetic_solubility,,,,Bld
+3,520015649,170836195,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CN4CCN(CC4)C(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Unspecified,,,Potential missing data,,Kinetic_solubility,,,,Bld
+4,520019986,177648896,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCC(=O)NCCCN4CCN(CC4)CCCNC(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Active,,,,9.4,Solubility,=,9400,nM,
+5,520023317,177650427,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)COCCOCCN4CCN(CC4)CCNC(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Unspecified,,,,26,Solubility,=,26000,nM,
+6,520050599,177656412,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)COCCOCCN4CCN(CC4)C(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Active,,,,7.7,Solubility,=,7700,nM,
+7,520055879,177658380,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCN4CCN(CC4)C(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Unspecified,,,Potential missing data,,Kinetic_solubility,,,,Bld
+8,520060897,177659728,CC1=C(SC=N1)C2=CC=C(C=C2)[C@H](C)NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCCCCN4CCN(CC4)C(=O)CC5=C(N(C6=C5C=C(C=C6)OC)C(=O)C7=CC=C(C=C7)Cl)C)O,Unspecified,,,Potential missing data,,Kinetic_solubility,,,,Bld

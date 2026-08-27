@@ -1,0 +1,21 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103167027,5280343,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,Unspecified,,,,Activity,=,61,%
+2,103190607,5361,CC1=C(C=C(C=C1)C(=O)NC2=C3C(=CC(=CC3=C(C=C2)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)NC(=O)C4=CC(=CC=C4)NC(=O)NC5=CC=CC(=C5)C(=O)NC6=C(C=CC(=C6)C(=O)NC7=C8C(=CC(=CC8=C(C=C7)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)C,Unspecified,,,,Activity,=,-4.8,%
+3,103197137,3663,CC1=CC(=O)C2=C(C3=C(C=C(C4=C3C5=C2C1=C6C(=CC(=O)C7=C(C8=C(C=C(C4=C8C5=C67)O)O)O)C)O)O)O,Unspecified,,,,Activity,=,90,%
+4,103200429,222757,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)OC(=O)C5=CC=CC=C5,Unspecified,,,,Activity,=,89.1,%
+5,103207220,5280445,C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O,Unspecified,,,,Activity,=,89,%
+6,103219982,3220,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O,Unspecified,,,,Activity,=,85.6,%
+7,103226312,65064,C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O,Unspecified,,,,Activity,=,63.3,%
+8,103243188,133021,CC1(CC2=C(C(=C(N2C1)CC(=O)O)C3=CC=C(C=C3)Cl)C4=CC=CC=C4)C,Unspecified,,,,Activity,=,169,%
+9,103258696,5281600,C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)C4=C(C=CC(=C4)C5=CC(=O)C6=C(C=C(C=C6O5)O)O)O)O,Unspecified,,,,Activity,=,93,%
+10,103447557,5320315,COC1=C(C2=C(C=C1O)OC(=CC2=O)C3=CC=CC=C3)O,Unspecified,,,,Activity,=,42,%
+11,103558909,5281255,CC(=CCC1=C(C=CC(=C1O)C(=O)/C=C/C2=CC=C(C=C2)O)O)C,Unspecified,,,,Activity,=,109,%
+12,103566203,5468522,CC(=CCC[C@@](C)(C=C)/C=C/C1=CC=C(C=C1)O)C,Unspecified,,,,Activity,=,111,%
+13,103601968,6449999,CCCCCC1=CC(=C(C(=C1C(=O)O)O)C/C=C(\C)/CCC=C(C)C)O,Unspecified,,,,Activity,=,95.7,%
+14,103643509,160570,CCCCCC1=CC(=C(C(=C1C(=O)O)O)[C@@H]2C=C(CC[C@H]2C(=C)C)C)O,Unspecified,,,,Activity,=,81.3,%
+15,103724035,67249,C1=CC(=CC=C1C2=[O+]C3=CC(=CC(=C3C=C2O)O)O)O.[Cl-],Unspecified,,,,Activity,=,83,%
+16,104240781,131411,CCOC(=O)C1=C(N(C2=CC(=C(C(=C21)CN(C)C)O)Br)C)CSC3=CC=CC=C3,Unspecified,,,,Activity,=,58,%
+17,136939963,969516,COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O,Unspecified,,,,Activity,=,116,%
+18,160668474,6918155,CC(C)C(=O)OCC(=O)[C@@]12[C@@H](C[C@@H]3[C@@]1(C[C@@H]([C@H]4[C@H]3CCC5=CC(=O)C=C[C@]45C)O)C)O[C@H](O2)C6CCCCC6,Unspecified,,,,Activity,=,66.1,%

@@ -1,0 +1,61 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103510906,3498108,C1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+2,103510943,16204324,COC1=CC=CC(=C1)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+3,103559020,16203906,C1=CN=CC=C1C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+4,103559021,16204423,C1=CC(=CN=C1)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+5,103559022,16202740,C1=CC(=CC=C1C(=O)OC2=CC(=CN=C2)Cl)Cl,Unspecified,,,,K,=,18700,/M/s,
+6,103621212,16202859,C1=CC=C(C(=C1)C(=O)OC2=CC(=CN=C2)Cl)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+7,103621400,16202861,COC1=CC=CC=C1C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,16100,/M/s,
+8,103621405,16204120,CNC1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,1170,/M/s,
+9,103621469,16202857,C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)OC3=CC(=CN=C3)Cl,Unspecified,,,,K,=,19300,/M/s,
+10,103621470,16204113,C1=CC(=CC(=C1)Cl)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+11,103621598,16204011,C1=CC(=CC=C1C(=O)OC2=CC(=CN=C2)Cl)F,Unspecified,,,,K,=,11300,/M/s,
+12,103621658,16204013,COC1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,13900,/M/s,
+13,103626913,25110701,C1=CC(=C2C=CNC2=C1)C(=O)OC3=CC(=CN=C3)Cl,Unspecified,,,,K,=,14800,/M/s,
+14,461563615,155903259,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)[C@H](C(C)(C)C)NC(=O)C(F)(F)F)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C#N)C,Unspecified,,,,K,=,86400,/M/s,
+15,482082314,155925842,C1=CC2=C(C=C1Cl)C=C(N2)C(=O)OC3=CC(=CN=C3)Cl,Unspecified,,,,K,=,29100,/M/s,
+16,520003044,177378886,C1=CC(=CC(=C1)Cl)C(=O)OC2=CC(=CN=C2)Br,Inconclusive,,,Potential missing data,K,,,,Not Determined
+17,520003114,177378868,COC1=C(C=CC(=C1F)C(=O)OC2=CC(=CN=C2)Cl)Cl,Unspecified,,,,K,=,5140,/M/s,
+18,520003122,177378865,C1=CC(=C(C=C1Cl)Cl)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,17500,/M/s,
+19,520003141,177378885,C1=CC=C(C(=C1)C(=O)OC2=CC(=CN=C2)Br)Cl,Unspecified,,,,K,=,6700,/M/s,
+20,520003796,177378883,C1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Br,Unspecified,,,,K,=,3450,/M/s,
+21,520003812,177378859,C1=CC(=CC=C1C(=O)OC2=CC(=CN=C2)Cl)I,Unspecified,,,,K,=,25550,/M/s,
+22,520004300,177378860,CCOC1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,26000,/M/s,
+23,520004944,177378870,C1=CC(=C(C=C1I)F)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,84400,/M/s,
+24,520005004,177378862,C1=CC(=CN=C1)C2=CC=C(C=C2)C(=O)OC3=CC(=CN=C3)Cl,Unspecified,,,,K,=,18000,/M/s,
+25,520005031,177378873,C1=CC=C(C=C1)COC2=CC(=C(C=C2)C(=O)OC3=CC(=CN=C3)Cl)F,Unspecified,,,,K,=,11400,/M/s,
+26,520005055,177378857,C1=CC(=CC(=C1)F)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+27,520005509,5016983,C1=CC=C(C(=C1)C(=O)OC2=CC(=CN=C2)Cl)F,Inconclusive,,,Potential missing data,K,,,,Not Determined
+28,520005531,177378863,C1=CC(=C(C(=C1)Cl)Cl)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,46000,/M/s,
+29,520005567,177378878,COC1=CC=CC(=C1OC)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,37300,/M/s,
+30,520006116,177378894,CCOC1=CC(=C(C=C1)C(=O)OC2=CC(=CN=C2)Br)F,Unspecified,,,,K,=,28100,/M/s,
+31,520006133,177378872,CCOC1=CC(=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl)F,Unspecified,,,,K,=,51600,/M/s,
+32,520006618,177378887,COC1=CC=CC(=C1)C(=O)OC2=CC(=CN=C2)Br,Inconclusive,,,Potential missing data,K,,,,Not Determined
+33,520006660,177378861,C1=CC(=CC=C1C(=O)OC2=CC(=CN=C2)Cl)N=C(N)N,Inconclusive,,,Potential missing data,K,,,,Not Determined
+34,520006689,5121681,CCCCCCCOC1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+35,520007199,177378896,COC1=CC=CC(=C1OC)C(=O)OC2=CC(=CN=C2)Br,Unspecified,,,,K,=,35000,/M/s,
+36,520007204,177378864,C1=CC(=C(C=C1C(=O)OC2=CC(=CN=C2)Cl)Cl)Cl,Unspecified,,,,K,=,56500,/M/s,
+37,520007210,177378876,COC1=CC(=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl)OC,Unspecified,,,,K,=,2320,/M/s,
+38,520007893,177378867,C1=CC(=C(C=C1Cl)F)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,56700,/M/s,
+39,520007958,177378877,COC1=C(C=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl)Cl,Unspecified,,,,K,=,22700,/M/s,
+40,520008617,177378880,C1=C(C=C(C=C1Cl)Cl)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+41,520009915,177378875,COC1=C(C=CC(=C1)F)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,10200,/M/s,
+42,520010732,177378895,C1=CC=C(C=C1)COC2=CC(=C(C=C2)C(=O)OC3=CC(=CN=C3)Br)F,Unspecified,,,,K,=,14800,/M/s,
+43,520010786,177378881,C1=CC(=C(C(=C1)F)C(=O)OC2=CC(=CN=C2)Cl)F,Unspecified,,,,K,=,7160,/M/s,
+44,520010864,177378858,C1=CC=C(C=C1)C2=CC(=CC=C2)C(=O)OC3=CC(=CN=C3)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+45,520011388,177378874,C1=CC(=C(C=C1N)F)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,3960,/M/s,
+46,520011871,177378891,C1=CC(=C(C=C1Cl)Cl)C(=O)OC2=CC(=CN=C2)Br,Unspecified,,,,K,=,47300,/M/s,
+47,520011950,177378892,C1=CC(=C(C=C1Cl)F)C(=O)OC2=CC(=CN=C2)Br,Unspecified,,,,K,=,131000,/M/s,
+48,520011954,177378856,C1=CC=C(C=C1)C2=CC=CC=C2C(=O)OC3=CC(=CN=C3)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+49,520011993,177378879,C1=C(C=C(C=C1F)F)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+50,520012010,177378866,CC1=C(C=CC(=C1)Cl)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,1700,/M/s,
+51,520012028,177378884,C1=CC=C(C(=C1)C(=O)OC2=CC(=CN=C2)Br)F,Inconclusive,,,Potential missing data,K,,,,Not Determined
+52,520012474,177378882,COC1=C(C(=C(C=C1)F)C(=O)OC2=CC(=CN=C2)Cl)F,Inconclusive,,,Potential missing data,K,,,,Not Determined
+53,520012516,177378869,C1=CC(=C(C=C1Br)F)C(=O)OC2=CC(=CN=C2)Cl,Unspecified,,,,K,=,71800,/M/s,
+54,520012526,177378893,C1=CC(=C(C=C1I)F)C(=O)OC2=CC(=CN=C2)Br,Unspecified,,,,K,=,50450,/M/s,
+55,520012555,177378888,C1=CC(=CC=C1C(=O)OC2=CC(=CN=C2)Br)Cl,Unspecified,,,,K,=,26500,/M/s,
+56,520012568,177378890,C1=CC(=C(C=C1C(=O)OC2=CC(=CN=C2)Br)Cl)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+57,520012639,177378871,C1=CC(=C(C=C1C#N)F)C(=O)OC2=CC(=CN=C2)Cl,Inconclusive,,,Potential missing data,K,,,,Not Determined
+58,520012964,177378889,COC1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Br,Unspecified,,,,K,=,26700,/M/s,

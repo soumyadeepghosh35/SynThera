@@ -1,0 +1,21 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,103516892,456199,C1[C@@H](COC2=NC(=CN21)[N+](=O)[O-])OCC3=CC=C(C=C3)OC(F)(F)F,Inactive,,,Potential missing data,Activity,Not Active
+2,336888552,127039254,C1CCN(CC1)C2=CC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+3,336889044,127039635,C1COCC(=O)N1C2=CC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+4,336889059,127039642,C1CSCC(=O)N1C2=NC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+5,336889060,127039643,C1COCCN1C2=CC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+6,336889061,127039644,C1COCCN1C2=NC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+7,336889062,127039645,C1COCCN1C2=C(C=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-])F,Inactive,,,Potential missing data,Activity,Not Active
+8,336889472,127039976,C1COCC(=O)N1C2=NC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+9,336889473,127039977,C1COCC(=O)N1C2=C(C=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-])F,Inactive,,,Potential missing data,Activity,Not Active
+10,336889474,127039978,C1CCN(C(=O)C1)C2=CC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+11,336889475,127039979,C1CCN(C(=O)C1)C2=NC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+12,336889476,127039980,C1CCN(C(=O)C1)C2=C(C=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-])F,Inactive,,,Potential missing data,Activity,Not Active
+13,336889477,127039981,C1CSCC(=O)N1C2=CC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+14,336889478,127039982,C1CSCC(=O)N1C2=C(C=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-])F,Inactive,,,Potential missing data,Activity,Not Active
+15,336889479,127039983,C1CCN(CC1)C2=NC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+16,336889480,127039984,C1CCN(CC1)C2=C(C=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-])F,Inactive,,,Potential missing data,Activity,Not Active
+17,336889915,127040325,C1CSCCN1C2=CC=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,Not Active
+18,336889916,127040326,C1CSCCN1C2=C(C=C(C=C2)CO[C@H]3CN4C=C(N=C4OC3)[N+](=O)[O-])F,Inactive,,,Potential missing data,Activity,Not Active

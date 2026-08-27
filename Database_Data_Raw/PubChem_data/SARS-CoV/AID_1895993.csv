@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103510722,174312,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)N,Unspecified,,,,100,IC50,>,100000,nM,
+2,482055021,156600264,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCCCCCNC2=C(C=C(C=C2)N3N=CC=N3)[N+](=O)[O-],Active,,,,0.001,IC50,<,1,nM,
+3,482057585,157049323,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCCCCCNC2=C(C=C(C=C2)N=[N+]=[N-])[N+](=O)[O-],Active,,,,0.0337,IC50,=,33.7,nM,
+4,482060779,156613453,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCCCNC2=C(C=C(C=C2)N=[N+]=[N-])[N+](=O)[O-],Active,,,,1.01,IC50,=,1010,nM,
+5,482060836,148822483,CCCCN[C@H]1C[C@@]([C@H]([C@@H]([C@H]1O)O)O)(CO)O,Unspecified,,,,38.69,IC50,=,38690,nM,
+6,482061578,156600263,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCCCCCNC2=C(C=C(C=C2)N3C=NN=N3)[N+](=O)[O-],Active,,,,1.419,IC50,=,1419,nM,
+7,482062470,156600262,COCCCCCCCCCN[C@H]1C[C@@]([C@H]([C@@H]([C@H]1O)O)O)(CO)O,Active,,,,0.4902,IC50,=,490.2,nM,
+8,482065868,164917846,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCOCCNC2=C(C=C(C=C2)N=[N+]=[N-])[N+](=O)[O-],Unspecified,,,,37,IC50,=,37000,nM,
+9,482071407,156612905,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCCCCCNC2=C(C=C(C=C2)N3C=CN=N3)[N+](=O)[O-],Active,,,,0.0155,IC50,=,15.5,nM,
+10,482075249,156612906,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCCCCCNC2=C(C=C(C=C2)C3=NC=CC=N3)[N+](=O)[O-],Active,,,,0.0011,IC50,=,1.1,nM,
+11,482088071,164917835,C1[C@@H]([C@@H]([C@H]([C@@H]([C@]1(CO)O)O)O)O)NCCNC(=O)OCCNC2=C(C=C(C=C2)N=[N+]=[N-])[N+](=O)[O-],Unspecified,,,Potential missing data,,IC50,,,,ND

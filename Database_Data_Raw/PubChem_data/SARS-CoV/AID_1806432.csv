@@ -1,0 +1,8 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,PubChem Standard Value,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,MICROMOLAR,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,
+1,50091670,41774,C[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](OC([C@@H]([C@H]3O)O)O)CO)CO)O)O)N[C@H]4C=C([C@H]([C@@H]([C@H]4O)O)O)CO,Active,,,,IC50,0.126,126,,BDBM23406,"Glucan 1,4-alpha-glucosidase"
+2,103979884,9210,C1=CC=C2C(=C1)C=NC=N2,Active,,,,IC50,0.278,278,,BDBM50049572,"Glucan 1,4-alpha-glucosidase"
+3,469681417,163296688,CC(C)(C)OCC1=C(C=CC(=C1)OC)N2C=NC3=C(C2=O)C=C(C=C3)OC,Active,,,,IC50,0.065,65,,BDBM546721,"Glucan 1,4-alpha-glucosidase"

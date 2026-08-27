@@ -1,0 +1,70 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103167026,5281605,C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+2,103167143,4534,CC(CC1=CC(=C(C=C1)O)O)C(C)CC2=CC(=C(C=C2)O)O,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+3,103169156,3883,CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2)OCC(F)(F)F,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+4,103181569,4055,CC1=CC(=O)C2=CC=CC=C2C1=O,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+5,103192812,4124851,CN1C(=O)N(C(=O)S1)CC2=CC=CC=C2,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+6,103215707,707055,C1=CC=C(C=C1)NC2=NNC(=S)S2,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+7,103225315,164981,C1=CC=C(C=C1)N2C(=O)C3=CC=CC=C3S2,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+8,103236346,2302435,C1=CC=C2C(=C1)C(=O)N(S2(=O)=O)CCl,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+9,103241624,2346,C1=CC=C(C=C1)CN=C=S,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+10,103252042,439647,CC1=CC=C(C=C1)S(=O)(=O)N[C@@H](CC2=CC=CC=C2)C(=O)CCl,Active,,,,0.8389,IC50 relative,=,0.8389,uM,Active
+11,103255895,462382,CC(C)C[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCC1=CC=CC=C1,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+12,103258907,5281672,C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,Active,,,,0.2594,IC50 relative,=,0.2594,uM,Active
+13,103259617,135403797,C1=CC2=CC(=C(C(=C2C(=O)C(=C1)O)O)O)O,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+14,103321621,10757,C1=CC=C(C=C1)C(=O)CCl,Active,,,,0.2459,IC50 relative,=,0.2459,uM,Active
+15,103327147,533728,CCN(CC)C(=S)[S-].[Na+],Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+16,103330429,107794,C1=C(C(=CC(=C1O)O)O)CC(C(=O)O)N,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+17,103456480,160254,C[C@H]1COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CCCC4(C)C,Inactive,,,,14.84,IC50 relative,=,14.84,uM,Inactive
+18,103462665,8371,C1(=C(C(=O)C(=C(C1=O)Cl)Cl)Cl)Cl,Active,,,,0.1831,IC50 relative,=,0.1831,uM,Active
+19,103500897,10324367,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)[C@H](C(C)(C)C)NC(=O)NC(C)(C)C)C(=O)NC(CC3CCC3)C(=O)C(=O)N)C,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+20,103520325,690730,C1=CC=C(C=C1)N2C(=S)N=NN2,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+21,103527751,2941638,C1=CC(=CC=C1NC(=O)CC2C(=O)N3C(=NC=N3)S2)Br,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+22,103556054,24768261,C1C[C@H]([C@@H](C1)C(=O)O)C(=O)C2=CC=C(C=C2)C3=CC=C(C=C3)NC(=O)NC4=CC=CC=C4,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+23,103557049,4594,CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+24,103566093,665449,CC(C)(C)OC(=O)NCCC1=NN=C(O1)S(=O)(=O)CC2=C(C=C(C=C2)Cl)Cl,Inactive,,,,7.291,IC50 relative,=,7.291,uM,Inactive
+25,103590513,2577,CCCCCCNC(=O)N1C=C(C(=O)NC1=O)F,Active,,,,0.3543,IC50 relative,=,0.3543,uM,Active
+26,103611913,8447,C1=CC=C2C(=C1)N=C(S2)SSC3=NC4=CC=CC=C4S3,Active,,,,0.5375,IC50 relative,=,0.5375,uM,Active
+27,103645028,313619,C1=CC=[N+](C(=C1)SC2=CC=C(C3=NON=C23)[N+](=O)[O-])[O-],Active,,,,0.5299,IC50 relative,=,0.5299,uM,Active
+28,103672854,147514,C1CNCC(C2=CC(=C(C=C21)O)O)C3=CC=CC=C3.Cl,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+29,103699403,674768,CCOC(=O)C1=C(SC(=C1C)C2=CC=CC=C2)N,Active,,,,3.607,IC50 relative,=,3.607,uM,Active
+30,103700519,573747,C1=CSC(=C1)C(=O)C2=NO[N+](=C2C(=O)C3=CC=CS3)[O-],Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+31,103770695,9409,CC1=C(C=CC(=C1)C2=CC(=C(C=C2)N=NC3=C(C4=C(C=C3)C(=CC(=C4N)S(=O)(=O)[O-])S(=O)(=O)[O-])O)C)N=NC5=C(C6=C(C=C5)C(=CC(=C6N)S(=O)(=O)[O-])S(=O)(=O)[O-])O.[Na+].[Na+].[Na+].[Na+],Active,,,,0.0219,IC50 relative,=,0.0219,uM,Active
+32,103771056,2724354,[C@@H]([C@@H](C(=O)O)S)(C(=O)O)S,Active,,,,0.0836,IC50 relative,=,0.0836,uM,Active
+33,104253094,25167777,COC1=C(C=C(C=N1)C2=CC3=C(C=CN=C3C=C2)C4=CN=NC=C4)NS(=O)(=O)C5=C(C=C(C=C5)F)F,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+34,123087665,26964,C1=CC(=C(C(=C1CNNC(=O)C(CO)N)O)O)O.Cl,Active,,,,0.1824,IC50 relative,=,0.1824,uM,Active
+35,123088030,1180676,CN1CCN(CC1)C2=C(C(=O)N(C2=O)C3=CC(=C(C=C3)Cl)Cl)Cl,Active,,,,1.562,IC50 relative,=,1.562,uM,Active
+36,123097243,1074953,C1COCCN1C2=C(C(=O)N(C2=O)C3=CC(=C(C=C3)Cl)Cl)Cl,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+37,124971573,16078986,C1=CC(=CC(=C1)N=C=S)NC(=S)NCCCCNC(=S)NC2=CC(=CC=C2)N=C=S,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+38,131275805,1510389,CC1=CC(=C(C=C1)C)N2C(=O)C3=C(S2)C=C(C=C3)F,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+39,131277728,935415,CC1=CC=C(C=C1)N2C(=O)C3=CC=CC=C3S2,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+40,136943191,1570,C1=CC(=S)N(C=C1)O,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+41,136943198,9798923,CN(C)C1=CC(=C(C(=C1)OC)O)CN(C)CCC2=CC=C(C=C2)[N+](=O)[O-],Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+42,136943693,2733079,CC1=CC=C(C=C1)N2C(=O)N(C(=O)S2)CC3=CC=C(C=C3)F,Active,,,,0.1481,IC50 relative,=,0.1481,uM,Active
+43,174502111,135635230,CC1=CC(=C(C=C1C)[N+](=O)[O-])C2=CC=C(O2)/C=C/3\C(=O)NC(=NC4=CC(=C(C=C4)Cl)C(=O)O)S3,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+44,194142947,774382,C1=CC=C(C(=C1)C2=NNC(=S)O2)Cl,Inactive,,,,7.714,IC50 relative,=,7.714,uM,Inactive
+45,194146192,25142799,C1=CC=C2C(=C1)C=CC(=N2)/C=C/C(=O)C3=CC=NC=C3,Active,,,,0.191,IC50 relative,=,0.191,uM,Active
+46,242084471,3938248,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=S)N,Active,,,,1.451,IC50 relative,=,1.451,uM,Active
+47,242152075,5040456,CN(C)S(=O)(=O)C1=CC=CC(=C1)N2C(=O)C3=CC=CC=C3S2,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+48,242200961,728720,C1CC2=CC=CC=C2N(C1)C(=S)NC(=O)C3=CC=CC=C3,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+49,242206191,2907339,CCOC1=C(C=CC(=C1)C(C2=C(C3=C(C=CC=N3)C=C2)O)NC4=NC=CC(=C4)C)OC,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+50,242216643,744304,COC1=CC2=C(C=C1)NC3=C2NC=NC3=S,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+51,242229259,3384730,CCN1CCN(CC1)C(C2=CC=C(C=C2)C(F)(F)F)C3=C(C4=C(C=CC=N4)C=C3)O,Active,,,,1.336,IC50 relative,=,1.336,uM,Active
+52,242244438,2891495,C1COCCN1C2=C(C=C(C=C2)[N+](=O)[O-])C(=O)C3=CC=C(C=C3)Cl,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+53,242309391,665603,COC1=CC2=C(C=C1)NC(=S)N2,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+54,242401022,2886035,CC1=CC(=CC(=C1)N2C(=O)CC(C2=O)SC3=NC=NN3)C,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+55,242431156,2381612,CCN(CC)S(=O)(=O)C1=CC=CC(=C1)N2C(=O)C3=CC=CC=C3S2,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+56,242572155,32343,C1=C2C(=C3C=C(C(=O)C(=C3OC2=C(C(=C1I)[O-])I)I)I)C4=C(C(=C(C(=C4Cl)Cl)Cl)Cl)C(=O)[O-].[Na+].[Na+],Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+57,318423664,59599728,CN1CCN(CC1)C(=O)C2=CC=C(S2)C3=CC4=C(C=C3)C(=C(C=C4)O)C=O,Inactive,,,,5.648,IC50 relative,=,5.648,uM,Inactive
+58,336868601,71565985,CC1=C(C=NN1CC23CC4CC(C2)CC(C4)C3)C5=C(N=C(C=C5)N6CCC7=C(C6)C(=CC=C7)C(=O)NC8=NC9=CC=CC=C9S8)C(=O)O,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+59,336899369,2725942,C1COCCN1C(C2=CC=C(C=C2)C(F)(F)F)C3=CC4=C(C=C3O)OCO4,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+60,374263412,23684923,COC1=C(C(=NC=C1)CS(=O)C2=NC3=C([N-]2)C=CC(=C3)OC(F)F)OC.O.[Na+],Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+61,374333838,2308652,CCCCN1C(=C(C2=NC3=CC=CC=C3N=C21)C#N)NC(=O)C4=CC=CS4,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+62,374336362,16760394,CC(C)[C@@H](C(=O)N[C@@H](CC(=O)OC)C(=O)CF)NC(=O)[C@H](CCC(=O)OC)NC(=O)[C@H](CC(=O)OC)NC(=O)OCC1=CC=CC=C1,Active,,,,0.02,IC50 relative,<,0.02,uM,Active
+63,494418011,16211947,C1=CC2=C(C=CC(=C2N=C1)O)N.Cl.Cl,Inactive,,,,20,IC50 relative,>,20,uM,Inactive
+64,494418033,13710524,C1=CC(=C(C=C1C(=C2C=CC(=O)C(=C2)C(=O)O)C3=CC(=C(C=C3)O)C(=O)O)C(=O)O)O.N.N.N,Active,,,,1.745,IC50 relative,=,1.745,uM,Active

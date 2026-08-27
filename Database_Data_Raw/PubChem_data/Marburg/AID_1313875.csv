@@ -1,0 +1,34 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,318391451,35502062,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=CC=C3,Unspecified,,,,Inhibition,=,88,%,
+2,336893726,127043130,C1=CC=C2C(=C1)N=C(C(=N2)SCC(=O)NC(=O)NC3=CC=CC=C3Cl)C(F)(F)F,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+3,336893728,127043132,CCC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=C(C(=CC=C3)F)C,Unspecified,,,,Inhibition,=,67,%,
+4,336893970,118418598,C1=CC=C(C=C1)CC2=NC3=CC=CC=C3N=C2SCC(=O)NC(=O)NC4=CC=C(C=C4)F,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+5,336893971,127043320,CC1=NC2=CC=CC=C2N=C1S(=O)(=O)CC(=O)NC(=O)NC3=CC=C(C=C3)F,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+6,336893972,127043321,CC1=CC=CC=C1NC(=O)NC(=O)COC2=NC3=CC=CC=C3N=C2C,Unspecified,,,,Inhibition,=,100,%,
+7,336894177,127043474,CC1=CC=CC=C1NC(=O)NC(=O)CSC2=NC3=CC=CC=C3N=C2C,Unspecified,,,,Inhibition,=,100,%,
+8,336894693,34906102,C1=CC=C2C(=C1)N=CC(=N2)SCC(=O)NC(=O)NC3=CC=CC=C3F,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+9,336895178,127044162,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=CC(=C3)C#N,Unspecified,,,,Inhibition,=,72,%,
+10,336895179,127044163,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=CC=C3OC,Unspecified,,,,Inhibition,=,96,%,
+11,336895180,127044164,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC(=CC=C3)OC,Unspecified,,,,Inhibition,=,100,%,
+12,336895181,35501788,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=C(C=C3)OC,Unspecified,,,,Inhibition,=,100,%,
+13,336895405,35503004,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=CC=C3C#N,Unspecified,,,,Inhibition,=,87,%,
+14,336895683,36470251,CCNC(=O)NC(=O)CSC1=NC2=CC=CC=C2N=C1C,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+15,336895684,36470979,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3CC3,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+16,336895685,35502144,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NCC3=CC=CS3,Unspecified,,,,Inhibition,=,97,%,
+17,336895686,36470059,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NCC3=CC=CC=C3,Unspecified,,,,Inhibition,=,60,%,
+18,336895687,36471097,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=CC=C3F,Unspecified,,,,Inhibition,=,100,%,
+19,336895688,118418594,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC(=CC=C3)F,Unspecified,,,,Inhibition,=,41,%,
+20,336895696,118418605,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=C(C=C3)F,Unspecified,,,,Inhibition,=,80,%,
+21,336895731,127044496,CC1=C(C(=NN1C2=CC=CC=C2)C)NC(=O)NC(=O)CSC3=NC4=CC=CC=C4N=C3C,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+22,336895948,127044634,CC1=CC(=CC=C1)NC(=O)NC(=O)CSC2=NC3=CC=CC=C3N=C2C,Unspecified,,,,Inhibition,=,100,%,
+23,336895949,35503002,CC1=CC=C(C=C1)NC(=O)NC(=O)CSC2=NC3=CC=CC=C3N=C2C,Unspecified,,,,Inhibition,=,100,%,
+24,336896239,118418579,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CN=CC=C3,Unspecified,,,,Inhibition,=,78,%,
+25,336896243,118418576,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=NN3,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+26,336896244,118418613,CC1=C(C(=NN1)C)NC(=O)NC(=O)CSC2=NC3=CC=CC=C3N=C2C,Unspecified,,,,Inhibition,=,50,%,
+27,336896487,118418601,CC1=C(C(=NN1C)C)NC(=O)NC(=O)CSC2=NC3=CC=CC=C3N=C2C,Unspecified,,,,Inhibition,=,64,%,
+28,336896972,118418581,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)N(C)C3=CC=CC=C3,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+29,336896973,127045298,CC1=NC2=CC=CC=C2N=C1SCC(=O)N(C)C(=O)NC3=CC=CC=C3F,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+30,336896974,127045299,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)N3CCC4=CC=CC=C43,Inactive,,,Potential missing data,Inhibition,,,,Not Active
+31,336896975,118418590,CC1=NC2=CC=CC=C2N=C1SCC(=O)NC(=O)NC3=CC=CC=N3,Unspecified,,,,Inhibition,=,80,%,

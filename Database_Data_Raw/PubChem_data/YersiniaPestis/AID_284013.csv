@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103514517,44422021,C1=CC=C(C=C1)C2=CC=C(C=C2)C3=CN(N=N3)C4=CC=C(C=C4)C(=O)C(=O)O,Unspecified,,,,84,IC50,=,84000,nM,
+2,103514518,44422022,C1=CC(=CC(=C1)C2=CN(N=N2)C3=CC=C(C=C3)C(=O)C(=O)O)C4=CN(N=N4)C5=CC=C(C=C5)C(=O)C(=O)O,Unspecified,,,,77,IC50,=,77000,nM,
+3,103514519,44422023,CC1=CC=C(C=C1)S(=O)(=O)C2=CN(N=N2)C[C@H](CC3=CNC4=CC=CC=C43)NC(=O)C5=CN(N=N5)C6=CC=C(C=C6)C(=O)C(=O)O,Active,,,,7.4,IC50,=,7400,nM,
+4,103514520,44422024,COC1=CC2=C(C=C1)C=C(C=C2)C3=CN(N=N3)C[C@H](CC4=CNC5=CC=CC=C54)NC(=O)C6=CN(N=N6)C7=CC=C(C=C7)C(=O)C(=O)O,Active,,,,5.7,IC50,=,5700,nM,
+5,103514521,16186374,C1=CC=C2C(=C1)C(=CN2)C[C@@H](CN3C=C(N=N3)C4=CC=C(C=C4)C5=CN(N=N5)C[C@H](CC6=CNC7=CC=CC=C76)NC(=O)C8=CN(N=N8)C9=CC=C(C=C9)C(=O)C(=O)O)NC(=O)C1=CN(N=N1)C1=CC=C(C=C1)C(=O)C(=O)O,Active,,,,2.1,IC50,=,2100,nM,
+6,103514522,44422025,C1=CC=C2C(=C1)C(=CN2)C[C@@H](CN3C=C(N=N3)C4=CC(=CC=C4)C5=CN(N=N5)C[C@H](CC6=CNC7=CC=CC=C76)NC(=O)C8=CN(N=N8)C9=CC=C(C=C9)C(=O)C(=O)O)NC(=O)C1=CN(N=N1)C1=CC=C(C=C1)C(=O)C(=O)O,Active,,,,4.1,IC50,=,4100,nM,
+7,103514543,44422038,C1=CC=C2C(=C1)C(=CN2)C[C@@H](CO)NC(=O)C3=CN(N=N3)C4=CC=C(C=C4)C(=O)C(=O)O,Unspecified,,,,500,IC50,=,500000,nM,Outside typical range

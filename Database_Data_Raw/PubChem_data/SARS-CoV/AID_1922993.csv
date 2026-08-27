@@ -1,0 +1,21 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103167027,5280343,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,Unspecified,,,,16,Solubility,=,16000,nM
+2,103207220,5280445,C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O,Unspecified,,,,21,Solubility,=,21000,nM
+3,103518919,6477683,C1=CC(=C2C(=C1)OC(=CC2=O)/C=C/C3=CC(=C(C=C3)O)O)O,Active,,,,1,Solubility,<,1000,nM
+4,103721524,46228135,CCCCC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O,Active,,,,1,Solubility,<,1000,nM
+5,312355020,118711941,CCCCOC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O,Unspecified,,,,156,Solubility,=,156000,nM
+6,494395627,169245775,CCCC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O,Unspecified,,,,13,Solubility,=,13000,nM
+7,494398892,169725455,C1=CC(=C2C(=C1)OC(=CC2=O)CCC3=CC(=C(C=C3)O)O)O,Unspecified,,,,67,Solubility,=,67000,nM
+8,494399454,20159736,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OCCO)O)O,Unspecified,,,,167,Solubility,=,167000,nM
+9,494403155,169245773,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OCCCO)O)O,Unspecified,,,,231,Solubility,=,231000,nM
+10,494404396,169725045,C1=CC(=C2C(=C1)OC(=CC2=O)C(=O)NCCNC(=S)NC3=CC(=C(C=C3)O)O)O,Active,,,,1,Solubility,<,1000,nM
+11,494415270,169745636,C1=CC(=C2C(=C1)OC(=CC2=O)CC3=CC(=C(C=C3)O)O)O,Unspecified,,,,63,Solubility,=,63000,nM
+12,494416515,15661823,CC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O,Unspecified,,,,32,Solubility,=,32000,nM
+13,494417077,169746063,C1=CC(=C2C(=C1)OC(=CC2=O)C(=O)OC3=CC(=C(C=C3)O)O)O,Active,,,,1,Solubility,<,1000,nM
+14,494417717,169744508,CC(C1=CC(=C(C=C1)O)O)C2=CC(=O)C3=C(C=CC=C3O2)O,Unspecified,,,,165,Solubility,=,165000,nM
+15,494417776,169245784,C1=CC(=C2C(=C1)OC(=CC2=O)C(=O)NC3=CC(=C(C=C3)O)O)O,Unspecified,,,,65,Solubility,=,65000,nM

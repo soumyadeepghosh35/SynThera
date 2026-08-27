@@ -1,0 +1,20 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,,
+1,103174127,2259,C1=CC(=C(C=C1C(=C2C=CC(=O)C(=C2)C(=O)O)C3=CC(=C(C=C3)O)C(=O)O)C(=O)O)O,Active,,,,10,INH,=,0.01,mM,,Non standard unit for type
+2,103174127,2259,C1=CC(=C(C=C1C(=C2C=CC(=O)C(=C2)C(=O)O)C3=CC(=C(C=C3)O)C(=O)O)C(=O)O)O,Active,,,,6.8,IC50,=,6800,nM,,
+3,103174127,2259,C1=CC(=C(C=C1C(=C2C=CC(=O)C(=C2)C(=O)O)C3=CC(=C(C=C3)O)C(=O)O)C(=O)O)O,Unspecified,,,Potential missing data,,Inhibition,,,,Dose-dependent effect,
+4,103387432,311,C(C(=O)O)C(CC(=O)O)(C(=O)O)O,Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+5,103509317,2829313,C1=CC(=C(C=C1NC2=NC(=NC(=N2)Cl)Cl)C3=C4C=CC(=O)C=C4OC5=C3C=CC(=C5)O)C(=O)O,Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+6,103526897,6254,C1=CC(=C(C=C1SSC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O)C(=O)O)[N+](=O)[O-],Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+7,124967965,978327,C1CCC(CC1)C[C@H](C(=O)O)NC(=O)OCC2C3=CC=CC=C3C4=CC=CC=C24,Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+8,136936838,,,Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+9,160698807,81409,C1=CC2=C(C(=C1)[N+](=O)[O-])NC(=C2)C(=O)O,Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+10,374329981,22278680,CS(=O)(=O)CCN1CCOCC1,Unspecified,,,,1000,INH,=,1,mM,,Non standard unit for type
+11,374329981,22278680,CS(=O)(=O)CCN1CCOCC1,Unspecified,,,,6693,IC50,=,6.693e+06,nM,,Outside typical range
+12,374354667,135870601,C1=CC=C2C(=C1)C=CC=C2N=NC3=C(C4=C(C=C(C=C4C=C3S(=O)(=O)[O-])S(=O)(=O)[O-])O)O.[Na+].[Na+],Unspecified,,,,100,INH,=,0.1,mM,,Non standard unit for type
+13,374354667,135870601,C1=CC=C2C(=C1)C=CC=C2N=NC3=C(C4=C(C=C(C=C4C=C3S(=O)(=O)[O-])S(=O)(=O)[O-])O)O.[Na+].[Na+],Unspecified,,,,66.2,IC50,=,66200,nM,,
+14,374354667,135870601,C1=CC=C2C(=C1)C=CC=C2N=NC3=C(C4=C(C=C(C=C4C=C3S(=O)(=O)[O-])S(=O)(=O)[O-])O)O.[Na+].[Na+],Unspecified,,,Potential missing data,,Inhibition,,,,Dose-dependent effect,

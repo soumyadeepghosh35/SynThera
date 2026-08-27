@@ -1,0 +1,24 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM
+1,103684699,1296839,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=CC4=CC=CC=C43)CCC(=O)O,Unspecified,,,,Selectivity Index,=,0.09
+2,163314515,71450048,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC(=C(C=C4)Cl)Cl)CCC(=O)O,Unspecified,,,,Selectivity Index,=,6.4
+3,163314516,71450049,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=C(C=C4)Cl)CCC(=O)NC,Unspecified,,,,Selectivity Index,=,0.91
+4,163314517,71450050,CC1=C(C=CC2=C1OC(=O)C(=C2)CCC(=O)O)OCC3=CC=C(C=C3)C4=CC=CC=C4,Unspecified,,,,Selectivity Index,>,40
+5,163317897,1748682,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC4=CC=CC=C4C=C3)CCC(=O)O,Unspecified,,,,Selectivity Index,=,7.6
+6,163317898,71451829,CC1=C(C(=O)OC2=C1C=CC(=C2)OCC3=CC=CC=C3C4=CC=CC=C4)CCC(=O)O,Unspecified,,,,Selectivity Index,=,1.6
+7,163317899,71451830,CC1=C(C(=O)OC2=C1C=CC(=C2)OCC3=CC(=CC=C3)C4=CC=CC=C4)CCC(=O)O,Unspecified,,,,Selectivity Index,=,4
+8,163317900,71451831,CC1=C(C(=O)OC2=C1C=CC(=C2)OCC3=CC=C(C=C3)C4=CC=CC=C4)CCC(=O)O,Unspecified,,,,Selectivity Index,=,8.5
+9,163317980,71451864,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=CC=C4)CC(=O)O,Unspecified,,,,Selectivity Index,=,46
+10,163317981,71451865,CCC1=C(C=CC2=C1OC(=O)C(=C2C)CCCC(=O)O)OCC3=CC=C(C=C3)C4=CC=CC=C4,Unspecified,,,,Selectivity Index,=,6.2
+11,163324802,71455415,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=C(C=C4)C(F)(F)F)CCC(=O)O,Unspecified,,,,Selectivity Index,>,25.4
+12,163324804,71455417,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=CC=C4)CCC(=O)NCCN(C)C,Unspecified,,,,Selectivity Index,=,0.44
+13,163328247,71457193,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=CC=C4C#N)CCC(=O)O,Unspecified,,,,Selectivity Index,=,15.6
+14,163335176,71460817,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=C4C=CC=CC4=CC5=CC=CC=C53)CCC(=O)O,Unspecified,,,,Selectivity Index,=,3.3
+15,163335177,71460818,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=CC=C3C4=CC=CC=C4)CCC(=O)O,Unspecified,,,,Selectivity Index,=,1.8
+16,163335264,53377571,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=C(C=C4)Cl)CCC(=O)O,Unspecified,,,,Selectivity Index,=,40
+17,163335265,71460857,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=C(C=C4)F)CCC(=O)O,Unspecified,,,,Selectivity Index,>,24
+18,163335266,71460858,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=CC=C4)CCCC(=O)O,Unspecified,,,,Selectivity Index,=,25
+19,163338573,71462536,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC(=CC=C3)C4=CC=CC=C4)CCC(=O)O,Unspecified,,,,Selectivity Index,=,9
+20,163338640,71462562,CC1=C(C(=O)OC2=C1C=CC(=C2C)OCC3=CC=C(C=C3)C4=CC=CC=C4)CCC(=O)O,Unspecified,,,,Selectivity Index,=,66
+21,163338641,71462563,CCC1=C(C=CC2=C1OC(=O)C(=C2C)CCC(=O)O)OCC3=CC=C(C=C3)C4=CC=CC=C4,Unspecified,,,,Selectivity Index,=,34

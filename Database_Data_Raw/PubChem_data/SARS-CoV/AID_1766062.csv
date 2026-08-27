@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103770366,3246155,CN1[C@@H]2CC[C@H]1CC(C2)OC(C3=CC=CC=C3)C4=CC=CC=C4.CS(=O)(=O)O,Unspecified,,,,Efficacy,=,78,%
+2,103770778,5281069,C[C@@](C1=CC=CC=C1)(C2=CC=C(C=C2)Cl)OCC[C@H]3CCCN3C.C(=C/C(=O)O)\C(=O)O,Unspecified,,,,Efficacy,=,79,%
+3,124959754,959537,C[C@@H](C1=CC=CC=C1)NC2=NC(=NC3=CC=CC=C32)N4CCNCC4,Unspecified,,,,Efficacy,=,94.3,%
+4,194151557,6604776,CN1[C@@H]2CC[C@H]1CC(C2)OC(C3=CC=C(C=C3)F)C4=CC=C(C=C4)F,Unspecified,,,,Efficacy,=,87,%
+5,242328583,2950240,CC(C1=CC=CC=C1)NC2=NC(=NC3=CC=CC=C32)N4CCOCC4,Unspecified,,,,Efficacy,=,94.1,%
+6,469799391,164609454,CC(C1=CC=CC=C1)NC2=NC(=NC3=CC=CC=C32)N4CCC(=O)CC4,Unspecified,,,,Efficacy,=,100,%
+7,469801029,164610643,CC(C1=C(C=CC=C1F)F)NC2=NC(=NC3=CC=CC=C32)N4CCNCC4,Unspecified,,,,Efficacy,=,88.9,%
+8,469811242,164618025,CC(C1=CC=CC=C1)NC2=NC(=NC3=C2C=CC(=C3)Br)N4CCNCC4,Unspecified,,,,Efficacy,=,97.1,%
+9,469812120,164618655,CC(C1=CC=CC=C1N)NC2=NC(=NC3=CC=CC=C32)N4CCNCC4,Unspecified,,,,Efficacy,=,70.2,%
+10,469818256,164623119,CC(C1=CC=CC=C1)NC2=NC(=NC3=C2C=C(C=C3)F)N4CCNCC4,Unspecified,,,,Efficacy,=,70.6,%
+11,469824386,164626867,CC(C1=CC=CC=C1)NC2=NC(=NC3=C2C=C(C=C3)C4=CC=CC=C4)N5CCNCC5,Unspecified,,,,Efficacy,=,100,%
+12,469825080,164627173,CC(C1=CC=CC=C1)NC2=NC(=NC3=C2C=CC(=C3)C4=CC=CC=C4)N5CCNCC5,Unspecified,,,,Efficacy,=,96.2,%

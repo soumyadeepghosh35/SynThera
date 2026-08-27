@@ -1,0 +1,20 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,134436155,56659315,CS(=O)(=O)C1=CC=C(C=C1)[C@H]([C@H](CO)O)O,Unspecified,,,,Inhibition,=,95.3,%
+2,134436156,56659316,COC[C@@H]([C@@H](C1=CC=C(C=C1)S(=O)(=O)C)OC)OC,Unspecified,,,,Inhibition,=,18.5,%
+3,134440027,56662778,COC(=O)C1=CC=C(C=C1)C(C(CO)O)O,Unspecified,,,,Inhibition,=,0,%
+4,134440028,27832,C1=CC=C(C=C1)C(C(CO)O)O,Unspecified,,,,Inhibition,=,12.9,%
+5,134440029,56662779,CS(=O)(=O)C1=CC=CC=C1[C@H]([C@H](CO)O)O,Unspecified,,,,Inhibition,=,0,%
+6,134442315,56665069,COC[C@@H]([C@@H](C1=CC=C(C=C1)S(=O)(=O)C)OC)O,Unspecified,,,,Inhibition,=,0,%
+7,134443884,56666251,CS(=O)(=O)C1=CC=CC(=C1)C(C(CO)O)O,Unspecified,,,,Inhibition,=,10.5,%
+8,134447749,56669659,CS(=O)(=O)C1=CC=C(C=C1)[C@H]([C@@H](CO)O)O,Unspecified,,,,Inhibition,=,69.1,%
+9,134447750,56669660,CS(=O)(=O)C1=CC=C(C=C1)[C@@H]([C@H](CO)O)O,Unspecified,,,,Inhibition,=,0,%
+10,134447751,56669661,CSC1=CC=C(C=C1)C(C(CO)O)O,Unspecified,,,,Inhibition,=,0,%
+11,134451691,56673169,CS(=O)(=O)C1=CC=C(C=C1)[C@@H]([C@@H](CO)O)O,Unspecified,,,,Inhibition,=,1.6,%
+12,134451692,56673170,COC[C@@H]([C@@H](C1=CC=C(C=C1)S(=O)(=O)C)O)O,Unspecified,,,,Inhibition,=,10.1,%
+13,134455450,11095273,C1=CC(=CC=C1C(C(CO)O)O)O,Unspecified,,,,Inhibition,=,12.9,%
+14,134455451,56676498,CS(=O)(=O)C1=CC=C(C=C1)[C@H](C=C)O,Unspecified,,,,Inhibition,=,21.3,%
+15,134455452,56676499,CO[C@H](C1=CC=C(C=C1)S(=O)(=O)C)[C@H](CO)O,Unspecified,,,,Inhibition,=,0,%
+16,134463103,56683141,CS(=O)(=O)OC1=CC=C(C=C1)C(C(CO)O)O,Unspecified,,,,Inhibition,=,11.5,%
+17,134463104,56683142,C1=CC(=CC=C1C(C(CO)O)O)S(=O)(=O)N,Unspecified,,,,Inhibition,=,4.5,%

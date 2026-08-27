@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103166129,3278,CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl,Unspecified,,,,375,Ki,=,375000,nM,Outside typical range
+2,494399969,154732718,CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)NC(=O)OC(C)(C)C(=O)N)Cl)Cl,Unspecified,,,,45.8,Ki,=,45800,nM,
+3,494413742,171353763,C[C@@H](C(=O)N[C@@H](C(C)C)C(=O)OCC1=CC=CC=C1)N[C@@H](CC2=CNC3=CC=CC=C32)[C@H]([C@@H]([C@H](CC4=CNC5=CC=CC=C54)N[C@@H](C(C)C)C(=O)N[C@@H](C)C(=O)OCC6=CC=CC=C6)O)O,Active,,,,0.073,Ki,=,73,nM,
+4,494414998,171354419,C1=CC=C(C=C1)CN[C@@H](CC2=CNC3=CC=CC=C32)[C@H]([C@@H]([C@H](CC4=CNC5=CC=CC=C54)NCC6=CC=CC=C6)O)O,Active,,,,0.34,Ki,=,340,nM,
+5,494415144,171354516,C1=CC=C(C=C1)C[C@@H]([C@H]([C@@H]([C@H](CC2=CC=CC=C2)NCC3=CC=CC=C3)O)O)NCC4=CC=CC=C4,Active,,,,0.0015,Ki,=,1.5,nM,
+6,494416362,171355203,C[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)CNC(=O)[C@H](CO)N,Unspecified,,,,2200,Ki,=,2.2e+06,nM,Outside typical range
+7,494424511,154732717,CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)NC(=O)OC(C)(C)C)Cl)Cl,Active,,,,3.2,Ki,=,3200,nM,

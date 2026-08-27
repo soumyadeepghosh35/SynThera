@@ -1,0 +1,10 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,520008489,859959,CC1([C@@H]2CC[C@]1(C(=O)C2)CS(=O)(=O)N3CCOCC3)C,Active,,,,0.9,IC50,=,900,nM,
+2,520008505,859961,CC1([C@@H]2CC[C@]1(C(=O)C2)CS(=O)(=O)N3CCN(CC3)C)C,Unspecified,,,,540,IC50,=,540000,nM,Outside typical range
+3,520009731,7335506,CC1([C@@H]2CC[C@]1(C(=O)C2)CS(=O)(=O)N3CCCCC3)C,Unspecified,,,,60,IC50,=,60000,nM,
+4,520011648,2196090,CCN1CCN(CC1)S(=O)(=O)C[C@@]23CC[C@@H](C2(C)C)CC3=O,Unspecified,,,,91,IC50,=,91000,nM,

@@ -1,0 +1,8 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103175813,5329102,CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C\2/C3=C(C=CC(=C3)F)NC2=O)C,Unspecified,,,Potential missing data,Inhibition,%,Dose-Dependent Effect
+2,440114579,138393295,COC1=C(C=C(C=C1)C2=CC3=C(NC=C3C#CC4=CN=CC=C4)N=C2)OC,Unspecified,,,Potential missing data,Inhibition,%,Dose-Dependent Effect
+3,440129304,134812845,CCN(CC)S(=O)(=O)NC1=CC=CC(=C1)C2=CC3=C(C=C2)C(=NN3)NC(=O)C4CC4,Unspecified,,,Potential missing data,Inhibition,%,Dose-Dependent Effect
+4,475993438,118419773,CC(C)C[C@@](C)(COC1=C(N=C(C=C1)C2=CC(=NC=C2)C(F)F)C(F)F)N,Unspecified,,,Potential missing data,Inhibition,%,Dose-Dependent Effect
+5,520018052,170836181,C1COCC2N1C3=C(C=C(C=C3)C4=CC5=C(NC=C5C#CC6=CN=CC=C6)N=C4)OC2,Unspecified,,,Potential missing data,Inhibition,%,Dose-Dependent Effect

@@ -1,0 +1,32 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,,
+1,103407218,220875,C1=CC=C2C(=C1)C(=O)C(=CN2)C(=O)O,Unspecified,,,,2200,Kd,=,2.2e+06,nM,,Outside typical range
+2,103407537,328521,C1=CC2=C(C=C1F)NC=C(C2=O)C(=O)O,Unspecified,,,Potential missing data,,Kd,,,,NA,
+3,103484217,220876,CCOC(=O)C1=CNC2=CC=CC=C2C1=O,Unspecified,,,,200,Kd,=,200000,nM,,Outside typical range
+4,103500905,339510,CN(C)C1=CC2=C(C=C1)NC=C(C2=O)C(=O)O,Unspecified,,,Potential missing data,,Kd,,,,NA,
+5,103500933,721205,C1=CC2=C(C=C1F)C(=O)C(=CN2)C(=O)O,Unspecified,,,Potential missing data,,Kd,,,,NA,
+6,381879553,2763963,C1=CC=C(C=C1)C2=C(C(=O)C3=CC=CC=C3N2)O,Unspecified,,,Potential missing data,,Kd,,,,NA,
+7,461527207,162651883,C1=CC=C(C=C1)C2=C(C(=O)C3=C(N2)C=CC(=C3)F)O,Unspecified,,,Potential missing data,,Kd,,,,NA,
+8,482046758,168269016,CN(C)C(=O)C1=CNC2=C(C1=O)C=CC=C2F,Unspecified,,,,300,Kd,=,300000,nM,,Outside typical range
+9,482050311,168271449,CN(C)C(=O)C1=CNC2=C(C1=O)C=C(C=C2)S(=O)(=O)N(C)C,Unspecified,,,Potential missing data,,Kd,,,,NA,
+10,482051206,163409893,CCOC(=O)C1=CC=CC2=C1NC(=CC2=O)C(=O)OCC,Unspecified,,,,600,Kd,=,600000,nM,,Outside typical range
+11,482053480,168273678,CN(C)C(=O)C1=CNC2=C(C1=O)C=C(C=C2)F,Unspecified,,,,2900,Kd,=,2.9e+06,nM,,Outside typical range
+12,482054637,168274535,C1=CC=C(C=C1)OC(=O)C2=CNC3=C(C2=O)C=C(C=C3)F,Unspecified,,,Potential missing data,,Kd,,,,NA,
+13,482063427,718121,CCOC(=O)C1=CC=CC2=C1NC=C(C2=O)C(=O)OCC,Unspecified,,,,100,Kd,=,100000,nM,,
+14,482067082,126455390,CCOC(=O)C1=CC2=C(C=C1)NC(=CC2=O)C(=O)OCC,Unspecified,,,Potential missing data,,Kd,,,,NA,
+15,482067132,53212100,C1CCN(CC1)S(=O)(=O)C2=CC3=C(C=C2)NC=C(C3=O)C(=O)O,Unspecified,,,,500,Kd,=,500000,nM,,Outside typical range
+16,482068311,168284513,CN(C)C(=O)C1=CC2=C(C=C1)C(=O)C(=CN2)S(=O)(=O)C3=CC=CC=C3,Unspecified,,,,300,Kd,=,300000,nM,,Outside typical range
+17,482069094,3217691,C1COCCN1C(=O)C2=CNC3=C(C2=O)C=C(C=C3)F,Unspecified,,,Potential missing data,,Kd,,,,NA,
+18,482073683,138755957,CCOC(=O)C1=CC(=O)C2=C(N1)C(=CC=C2)F,Unspecified,,,,500,Kd,=,500000,nM,,Outside typical range
+19,482074852,168289271,CN(C)C1=CC2=C(C=C1)NC=C(C2=O)C(=O)N(C)C,Unspecified,,,Potential missing data,,Kd,,,,NA,
+20,482074976,168289360,CN(C)C1=CC2=C(C=C1)C(=O)C(=CN2)C(=O)N(C)C,Unspecified,,,,400,Kd,=,400000,nM,,Outside typical range
+21,482075252,101463401,CCOC(=O)C1=CC(=O)C2=C(N1)C=CC(=C2)N(C)C,Unspecified,,,Potential missing data,,Kd,,,,NA,
+22,482076385,22425219,CCOC(=O)C1=CC(=O)C2=C(N1)C=CC(=C2)F,Unspecified,,,Potential missing data,,Kd,,,,NA,
+23,482080598,735351,CCOC(=O)C1=CNC2=C(C1=O)C=C(C=C2)N(C)C,Unspecified,,,,300,Kd,=,300000,nM,,Outside typical range
+24,482084185,168295578,C1CCN(CC1)C(=O)C2=CNC3=C(C2=O)C=CC(=C3)F,Unspecified,,,Potential missing data,,Kd,,,,NA,
+25,482085830,168296540,C1=CC=C(C=C1)S(=O)(=O)C2=CNC3=C(C2=O)C=CC(=C3)F,Unspecified,,,,1900,Kd,=,1.9e+06,nM,,Outside typical range
+26,482087102,168297269,CN(C)C1=CC2=C(C=C1)NC=C(C2=O)C(=O)N3CCOCC3,Unspecified,,,Potential missing data,,Kd,,,,NA,

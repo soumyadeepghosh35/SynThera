@@ -1,0 +1,14 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,PubChem Standard Value,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,MICROMOLAR,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,
+1,164037789,68939,C1=C(C=C(C(=C1S(=O)C2=C(C(=CC(=C2)Cl)Cl)O)O)Cl)Cl,Active,,,,IC50,7.6,7600,P0C6U8,BDBM96545,Replicase polyprotein 1a
+2,252617853,2406,C1=C(C=C(C(=C1SC2=C(C(=CC(=C2)Cl)Cl)O)O)Cl)Cl,Inactive,,,,IC50,46,46000,P0C6U8,BDBM36880,Replicase polyprotein 1a
+3,434124938,253827,CC1=CC(=CC(=C1O)CC2=C(C(=CC(=C2)Cl)C)O)Cl,Inactive,,,,IC50,46,46000,P0C6U8,BDBM420281,Replicase polyprotein 1a
+4,434124939,84907,C1=C(C=C(C(=C1CC2=C(C(=CC(=C2)Cl)Br)O)O)Br)Cl,Inactive,,,,IC50,46,46000,P0C6U8,BDBM420282,Replicase polyprotein 1a
+5,434124942,1965840,C1=C(C=C(C(=C1SC2=C(C(=CC(=C2)Cl)Br)O)O)Br)Cl,Inactive,,,,IC50,46,46000,P0C6U8,BDBM420285,Replicase polyprotein 1a
+6,434124943,70063,C1=C(C=C(C(=C1[N+](=O)[O-])O)SC2=CC(=CC(=C2O)[N+](=O)[O-])Cl)Cl,Inactive,,,,IC50,46,46000,P0C6U8,BDBM420286,Replicase polyprotein 1a
+7,434124944,3794875,CC(=O)OC1=C(C(=C(C=C1Cl)Cl)Cl)SC2=C(C(=CC(=C2Cl)Cl)Cl)OC(=O)C,Inactive,,,,IC50,46,46000,P0C6U8,BDBM420287,Replicase polyprotein 1a
+8,434124946,3816490,C1=C(C(=C(C(=C1Cl)Cl)S(=O)(=O)C2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl,Inactive,,,,IC50,46,46000,P0C6U8,BDBM420289,Replicase polyprotein 1a
+9,434124947,1368742,C1=C(C=C(C(=C1S(=O)(=O)C2=C(C(=CC(=C2)Cl)Cl)O)O)Cl)Cl,Active,,,,IC50,9.2,9200,P0C6U8,BDBM420290,Replicase polyprotein 1a

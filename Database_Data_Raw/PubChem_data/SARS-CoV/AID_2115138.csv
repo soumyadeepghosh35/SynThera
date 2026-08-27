@@ -1,0 +1,49 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,242410834,16194133,C1C(=O)N(C(C2=CC=CC=[N+]21)C(=O)NC3=CC=C(C=C3)Cl)CC4=CC5=C(C=C4)OCO5,Active,,,,6.9,IC50,=,6900,nM,
+2,242412108,9550224,CC1=C(C(=CC=C1)C)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=CC=C4C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+3,242415763,16193957,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2CC4=CC5=C(C=C4)OCO5,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+4,312468007,11313622,C1=CC=C(C=C1)CN2C(=O)N(SC2=O)C3=CC=CC4=CC=CC=C43,Active,,,,0.3,IC50,=,300,nM,
+5,461563615,155903259,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)[C@H](C(C)(C)C)NC(=O)C(F)(F)F)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C#N)C,Active,,,,0.0296,IC50,=,29.6,nM,
+6,520002748,46257157,C1C(=O)N(C(C2=CC=CC=[N+]21)C(=O)NC3=CC=C(C=C3)Cl)C4=CC(=CC=C4)Cl,Active,,,,5.1,IC50,=,5100,nM,
+7,520002773,6622711,CN1C(C2=CC=CC=[N+]2CC1=O)C(=O)NC3=CC=CC=C3,Active,,,,8.9,IC50,=,8900,nM,
+8,520002875,46257164,CC1=CC=CC=C1NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C,Active,,,,4,IC50,=,4000,nM,
+9,520004153,177377782,CC(C)(C)[C@@H](C(=O)N1CC2(C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C#N)SCCS2)NC(=O)C(C)(C)C,Active,,,,0.022,IC50,=,22,nM,
+10,520004605,46246387,CCOC1=CC=C(C=C1)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=C(C=C4)OCC,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+11,520004855,46257178,CC1=C(C(=CC=C1)C)NC(=O)C2(C3=CC=CC=[N+]3CC(=O)N2C4=CC=C(C=C4)Cl)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+12,520004856,46257138,CC1=CC=CC=C1N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=CC=C4,Active,,,,5.6,IC50,=,5600,nM,
+13,520005265,2855887,C1=CC2(C3C(C1O2)C(=O)N(C3=O)C4=C(C=CC(=C4)C(F)(F)F)Cl)CO,Active,,,,4.4,IC50,=,4400,nM,
+14,520005265,2855887,C1=CC2(C3C(C1O2)C(=O)N(C3=O)C4=C(C=CC(=C4)C(F)(F)F)Cl)CO,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-Dependent Effect
+15,520005349,46257177,CC1(C2=CC=CC=[N+]2CC(=O)N1C3=CC=C(C=C3)Cl)C(=O)NC4=CC=C(C=C4)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+16,520005774,46257215,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC(=C(C=C4)C)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+17,520005877,46506028,C1C(=O)N(C(C2=CC=CC=[N+]21)C(=O)NC3=CC=C(C=C3)Cl)C4=CC=C(C=C4)Cl,Active,,,,9.6,IC50,=,9600,nM,
+18,520006064,46257217,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2CC=C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+19,520006291,6622743,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C,Active,,,,8.3,IC50,=,8300,nM,
+20,520006314,46257206,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=CC=C4OC,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+21,520006342,46506033,C1C(=O)N(C(C2=CC=CC=[N+]21)C(=O)NC3=CC=C(C=C3)Cl)C4=CC=C(C=C4)Br,Active,,,,8.5,IC50,=,8500,nM,
+22,520006351,46257166,CCCN1C(C2=CC=CC=[N+]2CC1=O)C(=O)NC3=C(C=CC=C3C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+23,520006393,46257163,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC5=C(C=C4)OCO5,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+24,520006421,46257193,CC1=CC(=CC(=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=C(C=C4)Cl)C,Active,,,,8.8,IC50,=,8800,nM,
+25,520006442,6622642,C1C(=O)N(C(C2=CC=CC=[N+]21)C(=O)NC3=CC=CC=C3)C4=CC=CC=C4,Active,,,,5.2,IC50,=,5200,nM,
+26,520006882,46257165,CCN1C(C2=CC=CC=[N+]2CC1=O)C(=O)NC3=C(C=CC=C3C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+27,520007166,46506035,CC1=C(C=C(C=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=C(C=C4)Cl)Br,Active,,,,4.5,IC50,=,4500,nM,
+28,520007699,46257158,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC(=CC=C4)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+29,520008469,46506031,CCOC1=CC=C(C=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=C(C=C4)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+30,520009022,46257223,COC1=CC=C(C=C1)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=CC=C4O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+31,520009735,46257219,CCC1=CC=CC(=C1N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=CC=C4C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+32,520010265,46257187,CCOC1=CC=C(C=C1)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=CC=C4,Active,,,,5,IC50,=,5000,nM,
+33,520010281,46257142,CC1=CC(=CC=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=CC=C4,Active,,,,6.1,IC50,=,6100,nM,
+34,520010281,46257142,CC1=CC(=CC=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=CC=C4,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-Dependent Effect
+35,520010293,46257214,CC1=CC=CC=C1NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC(=CC(=C4)C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+36,520010378,46257145,CC1=CC=C(C=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=CC=C4C,Active,,,,6.1,IC50,=,6100,nM,
+37,520010394,46257211,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=CC(=C4)C(F)(F)F,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+38,520010478,46506027,COC1=CC=C(C=C1)N2C(C3=CC=CC=[N+]3CC2=O)C(=O)NC4=CC=C(C=C4)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+39,520010490,46246386,CCOC1=CC=C(C=C1)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=C(C=C4)OC,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+40,520011120,46257195,C1C(=O)N(C(C2=CC=CC=[N+]21)C(=O)NC3=CC=CC=C3)C4=CC=C(C=C4)Br,Active,,,,8.6,IC50,=,8600,nM,
+41,520011686,46257156,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2C4=CC=C(C=C4)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+42,520012243,46257172,CC1=CC=C(C=C1)N2C(=O)C[N+]3=CC=CC=C3C2(C)C(=O)NC4=CC=C(C=C4)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+43,520012327,45106270,CC1=C(C(=CC=C1)C)NC(=O)C2C3=CC=CC=[N+]3CC(=O)N2CCO,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined

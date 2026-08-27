@@ -1,0 +1,28 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103516894,4477,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,8.5,10^-6 cm/s
+2,103715729,5065884,C1=CC(=CC(=C1)NC(=O)C2=C(C=CC(=C2)Cl)O)C(F)(F)F,Unspecified,,,,permeability,=,4.2,10^-6 cm/s
+3,104234145,2520,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,Unspecified,,,,permeability,=,114.8,10^-6 cm/s
+4,134437966,5039,CNC(=C[N+](=O)[O-])NCCSCC1=CC=C(O1)CN(C)C,Unspecified,,,,permeability,=,1.6,10^-6 cm/s
+5,160675769,20196,C1=CC(=CC(=C1)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,8.6,10^-6 cm/s
+6,160686418,487720,C1=CC(=CC(=C1)[N+](=O)[O-])NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,19.5,10^-6 cm/s
+7,160686419,5274059,C1=CC(=CC=C1C(F)(F)F)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,6.9,10^-6 cm/s
+8,160697310,487721,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)[N+](=O)[O-],Unspecified,,,,permeability,=,12.4,10^-6 cm/s
+9,163312413,2844786,C1=CC=C(C(=C1)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)O,Unspecified,,,,permeability,=,15.3,10^-6 cm/s
+10,163321530,57878632,CC(C)(C)C1=CC(=CC=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,18.7,10^-6 cm/s
+11,163324899,487724,C1=CC(=CC(=C1)F)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,3.7,10^-6 cm/s
+12,163331894,71459109,CC1=CC(=C(C=C1)O)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,20.9,10^-6 cm/s
+13,164127914,28831172,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Cl)O)Cl)F,Unspecified,,,,permeability,=,11.5,10^-6 cm/s
+14,164136331,487723,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)F,Unspecified,,,,permeability,=,18.2,10^-6 cm/s
+15,164138927,14869,C1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,16,10^-6 cm/s
+16,440152661,19027407,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Cl)O)Cl)[N+](=O)[O-],Unspecified,,,,permeability,=,12.3,10^-6 cm/s
+17,440217301,29276344,CC1=CC=C(C=C1)CNC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,42.6,10^-6 cm/s
+18,440226191,25217274,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)F)O,Unspecified,,,,permeability,=,30.7,10^-6 cm/s
+19,482048043,168269902,CC1=CC(=C(C=C1)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)O,Unspecified,,,,permeability,=,6.1,10^-6 cm/s
+20,482050857,522117,C1=CC=C(C=C1)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,42.2,10^-6 cm/s
+21,482054864,12924710,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)O,Unspecified,,,,permeability,=,33.1,10^-6 cm/s
+22,482072168,168287315,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O,Unspecified,,,,permeability,=,1.9,10^-6 cm/s
+23,482073376,33279719,CC1=CC(=CC=C1)CNC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,28.4,10^-6 cm/s
+24,482076850,168290700,C1CCN(CC1)C2=CC=C(C=C2)NC(=O)C3=C(C=CC(=C3)Cl)O,Unspecified,,,,permeability,=,43.3,10^-6 cm/s
+25,482086900,28739891,C1=CC(=CC(=C1)O)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,15.9,10^-6 cm/s

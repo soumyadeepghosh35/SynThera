@@ -1,0 +1,6 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Inhibition,Standard Deviation
+RESULT_TYPE,,,,,,,,FLOAT,FLOAT
+RESULT_DESCR,,,,,,,,Normalized percent inhibition of the counterscreen screen at a compound concentration of 20 micromolar.,Standard deviation of the counterscreen assay derived from the normalized percent inhibition of the triplicate data for each compound.
+RESULT_UNIT,,,,,,,,PERCENT,NONE
+RESULT_ATTR_CONC_MICROMOL,,,,,,,,20,
+1,87915544,44634772,CC(C)(C)C1=CC=C(C=C1)N(C(C2=CN=CC=C2)C(=O)NC(C)(C)C)C(=O)C3=CC=CO3,Inactive,0,,,23,0.18

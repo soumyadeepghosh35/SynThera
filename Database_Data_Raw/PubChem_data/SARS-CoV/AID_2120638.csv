@@ -1,0 +1,9 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,520003072,177641322,C[C@]12CCCC([C@@H]1CC[C@@]3([C@@H]2C[C@H](O3)C4=CC(=O)OC4O)CO)(C)C,Unspecified,,,Potential missing data,Activity,Toxic
+2,520005605,177642493,CC(=O)OC[C@@]12CC[C@@H]3[C@@]([C@H]1C[C@H](O2)C4=CC(=O)OC4O)(CCCC3(C)C)C,Unspecified,,,Potential missing data,Activity,Toxic
+3,520008591,10315886,C[C@]12CCCC([C@@H]1CC[C@]34[C@@H]2C[C@H](O3)C5(CC(=O)O[C@H]5O)OC4)(C)C,Unspecified,,,Potential missing data,Activity,Non-Toxic
+4,520009973,177644501,C[C@]12CCCC([C@@H]1CC[C@]3([C@@H]2C[C@H](O3)C4=CC(=O)OC4O)CO)(C)C,Unspecified,,,Potential missing data,Activity,Toxic
+5,520010810,177644895,C[C@]12CCCC([C@@H]1CC[C@]3([C@@H]2CC(OC3)([C@H](CC(=O)O)O)O)O)(C)C,Unspecified,,,Potential missing data,Activity,Toxic
+6,520011421,177645167,C[C@]12CCCC([C@@H]1CC[C@]34[C@@H]2C[C@H](O3)C5=CC(=O)O[C@H]5OC4)(C)C,Unspecified,,,Potential missing data,Activity,Toxic

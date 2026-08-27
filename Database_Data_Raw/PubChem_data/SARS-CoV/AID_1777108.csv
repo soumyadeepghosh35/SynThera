@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,104240365,65482,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)C[C@H](CC[C@@H](C(=O)O)N)N)O)O)N,Unspecified,,,Potential missing data,permeability,,,,Bld
+2,469806981,164614932,C1=C(NNC1=O)CSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,permeability,,,,Bld
+3,469807876,60074519,C1=CC(=CC(=C1)SC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)C(=O)O,Unspecified,,,,permeability,=,3.9,%,
+4,469808700,164616165,C1CN(CCN1CC(=O)O)C(=O)[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+5,469808964,164616350,C1=CC(=CC(=C1)NC(=O)[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)C(=O)O,Unspecified,,,,permeability,<,1,%,
+6,469813142,164619396,C1=C(N=NN1C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)CCC(=O)O,Unspecified,,,Potential missing data,permeability,,,,Bld
+7,469814307,164620233,C1=CC=C(C=C1)CCN(CCCC(=O)O)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,permeability,,,,Bld
+8,469814364,164620275,C1=NNN=C1CCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,permeability,,,,Bld
+9,469818814,164623501,C1=CC=C(C=C1)CCNC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+10,469820032,164624390,C1=C(NN=C1)CNC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+11,469827518,164628487,C1=CC=C2C=C(C=CC2=C1)CSC[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Unspecified,,,,permeability,<,1,%,
+12,469828319,164628824,C1=CC(=CC(=C1)C(=O)O)CSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,permeability,<,1,%,

@@ -1,0 +1,5 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,475986265,88076400,CN1CCN(CC1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CCC3=CC=CC=C3)C=O,Unspecified,,,Potential missing data,Inhibition,%,Tde
+2,475992514,166632525,CN1CCN(CC1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@H]3CC4=CC=CC=C4OC3O,Unspecified,,,Potential missing data,Inhibition,%,Tde

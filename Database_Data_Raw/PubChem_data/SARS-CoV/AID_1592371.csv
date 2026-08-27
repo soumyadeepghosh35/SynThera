@@ -1,0 +1,27 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,440111521,155511680,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)F)C(=O)O)OC,Unspecified,,,,mortality,=,80,%
+2,440112899,155512608,COC1=CC(=NC(=N1)SC2=C(C=C(C=C2)C(=O)O)Br)OC,Unspecified,,,,mortality,=,50,%
+3,440122266,155518812,COC1=NC(=NC(=N1)SC2=CC=CC(=C2C#N)F)OC,Unspecified,,,,mortality,=,20,%
+4,440125826,155521033,COC1=NC(=NC(=N1)SC2=CC(=C(C=C2)C(=O)O)C(F)(F)F)OC,Unspecified,,,,mortality,=,80,%
+5,440139113,155529689,COC1=CC(=NC(=N1)SC2=C(C=C(C=C2)C(=O)O)F)OC,Unspecified,,,,mortality,=,30,%
+6,440140823,155530827,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)C(=O)O)Cl)OC,Unspecified,,,,mortality,=,20,%
+7,440145298,155533795,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)C(=O)O)F)OC,Unspecified,,,,mortality,=,30,%
+8,440146798,155534791,COC1=NC(=NC(=N1)SC2=C(C(=CC=C2)Cl)C#N)OC,Unspecified,,,,mortality,=,5,%
+9,440158330,155541054,COC1=NC(=NC(=N1)SC2=C(C=CC(=C2)Cl)C#N)OC,Unspecified,,,,mortality,=,25,%
+10,440158500,155541118,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)C#N)F)OC,Unspecified,,,,mortality,=,0,%
+11,440176126,155548187,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)C#N)Cl)OC,Unspecified,,,,mortality,=,30,%
+12,440178486,155549165,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)Br)C(=O)O)OC,Unspecified,,,,mortality,=,45,%
+13,440180608,155549996,COC1=NC(=NC(=N1)SC2=C(C(=CC=C2)Br)C#N)OC,Unspecified,,,,mortality,=,75,%
+14,440182359,155550693,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)Cl)C(=O)O)OC,Unspecified,,,,mortality,=,40,%
+15,440191543,155554307,COC1=NC(=NC(=N1)SC2=C(C(=CC=C2)I)C#N)OC,Unspecified,,,,mortality,=,45,%
+16,440195113,14601113,COC1=CC(=NC(=N1)SC2=C(C=C(C=C2)Cl)C(=O)O)OC,Unspecified,,,,mortality,=,5,%
+17,440195436,155555833,COC1=CC(=NC(=N1)SC2=C(C=C(C=C2)Br)C(=O)O)OC,Unspecified,,,,mortality,=,65,%
+18,440210942,155562043,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)C#N)Br)OC,Unspecified,,,,mortality,=,30,%
+19,440211814,155562362,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)Cl)C#N)OC,Unspecified,,,,mortality,=,0,%
+20,440212937,155562813,COC1=CC(=NC(=N1)SC2=C(C=C(C=C2)C(=O)O)Cl)OC,Unspecified,,,,mortality,=,50,%
+21,440213054,155562850,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)C(=O)O)Br)OC,Unspecified,,,,mortality,=,10,%
+22,440214628,155563509,COC1=CC(=NC(=N1)SC2=C(C=CC(=C2)C(F)(F)F)C#N)OC,Unspecified,,,,mortality,=,65,%
+23,440218075,155564900,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)F)C#N)OC,Unspecified,,,,mortality,=,20,%
+24,440224430,155567351,COC1=NC(=NC(=N1)SC2=C(C=C(C=C2)Br)C#N)OC,Unspecified,,,,mortality,=,20,%

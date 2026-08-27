@@ -1,0 +1,24 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103723938,46229495,C/C(=N\NC1=NC2=CC=CC=C2NC1=O)/C3=CC4=CC=CC=C4OC3=O,Unspecified,,,,IZ,=,18,mm,
+2,103723966,46229508,C/C(=N\NC1=NC2=CC=CC=C2NC1=O)/C3=CC4=C(C=CC(=C4)Cl)OC3=O,Unspecified,,,,IZ,=,25,mm,
+3,103723967,46229509,C1CCC(=NNC2=NC3=CC=CC=C3NC2=O)C1,Unspecified,,,,IZ,=,10,mm,
+4,103723968,693318,C1=CC=C2C(=C1)NC(=O)C(=N2)NN,Unspecified,,,,IZ,=,24,mm,
+5,103723969,46200963,CC(=NNC1=NC2=CC=CC=C2NC1=O)C,Unspecified,,,,IZ,=,14,mm,
+6,103723970,46229510,CCC(=NNC1=NC2=CC=CC=C2NC1=O)CC,Unspecified,,,,IZ,=,0,mm,
+7,103723971,46229511,CC/C(=N\NC1=NC2=CC=CC=C2NC1=O)/C,Unspecified,,,,IZ,=,12,mm,
+8,103723972,46229512,C/C(=N\NC1=NC2=CC=CC=C2NC1=O)/C3=CC4=C(C=CC(=C4)Br)OC3=O,Unspecified,,,,IZ,=,16,mm,
+9,103724001,46229527,CC1=CC2=C(C=C1)OC(=O)C(=C2)/C(=N/NC3=NC4=CC=CC=C4NC3=O)/C,Unspecified,,,,IZ,=,14,mm,
+10,103724002,136066054,C1=CC=C2C(=C1)C(=C(N2)O)N=NC3=NC4=CC=CC=C4NC3=O,Unspecified,,,,IZ,=,11,mm,
+11,103724003,136066055,C1=CC=C2C(=C1)NC(=O)C(=N2)N=NC3=C(NC4=C3C=C(C=C4)Br)O,Unspecified,,,,IZ,=,8,mm,
+12,103724004,136066056,C1=CC=C2C(=C1)NC(=O)C(=N2)N=NC3=C(NC4=C3C=C(C=C4)Cl)O,Unspecified,,,,IZ,=,20,mm,
+13,103724005,136066057,CC1=CC2=C(C=C1)NC(=C2N=NC3=NC4=CC=CC=C4NC3=O)O,Unspecified,,,,IZ,=,0,mm,
+14,103724036,46229550,C1C2=CC=CC=C2C(=NNC3=NC4=CC=CC=C4NC3=O)C5=CC=CC=C51,Unspecified,,,,IZ,=,14,mm,
+15,103724037,46229551,CC1(C2CCC1(/C(=N/NC3=NC4=CC=CC=C4NC3=O)/C2)C)C,Unspecified,,,,IZ,=,5,mm,
+16,103724038,46229552,C1CCC(=NNC2=NC3=CC=CC=C3NC2=O)CC1,Unspecified,,,,IZ,=,0,mm,
+17,103724039,46229553,C1CC/C(=N\NC2=NC3=CC=CC=C3NC2=O)/C(C1)Br,Unspecified,,,,IZ,=,19,mm,
+18,103724040,46229554,C1CC/C(=N\NC2=NC3=CC=CC=C3NC2=O)/C(C1)Cl,Unspecified,,,,IZ,=,14,mm,
+19,103724041,46229555,CC\1CCCC/C1=N\NC2=NC3=CC=CC=C3NC2=O,Unspecified,,,,IZ,=,16,mm,
+20,242084574,19649,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O,Unspecified,,,,IZ,=,18,mm,
+21,504843665,,,Inactive,,,Potential missing data,IZ,,,,Not Active

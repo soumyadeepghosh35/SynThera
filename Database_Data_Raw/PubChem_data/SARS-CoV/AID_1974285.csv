@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM
+1,504798548,172442329,[2H]C([2H])(C(C)(C)OC1=CC=C(C=C1)Cl)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]2CCNC2=O)C=O,Unspecified,,,,Ratio CC50/EC50,=,3333
+2,504801774,172444540,[2H]C([2H])(C(C)(C)OC1=CC=C(C=C1)Cl)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]2CCNC2=O)C(O)S(=O)(=O)[O-].[Na+],Unspecified,,,,Ratio CC50/EC50,=,3333
+3,504802514,172445054,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OCC(C)(C)SC2=CC(=CC=C2)Cl,Unspecified,,,,Ratio CC50/EC50,=,3333
+4,504804587,172446508,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC(C)(C)SC2=CC(=CC=C2)Cl.[Na+],Unspecified,,,,Ratio CC50/EC50,=,3333
+5,504806838,172448065,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OCC(C)(C)OC2=CC(=CC=C2)Cl,Unspecified,,,,Ratio CC50/EC50,=,3333
+6,504814855,172453616,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OCC(C)(C)SC2=CC=CC(=C2)F,Unspecified,,,,Ratio CC50/EC50,=,3333
+7,504820934,172457837,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC(C)(C)OC2=CC(=CC=C2)Cl.[Na+],Unspecified,,,,Ratio CC50/EC50,=,3333
+8,504824083,172460020,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC(C)(C)SC2=CC=CC=C2.[Na+],Unspecified,,,,Ratio CC50/EC50,=,3333
+9,504827068,172462084,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC(C)(C)SC2=CC=CC(=C2)F.[Na+],Unspecified,,,,Ratio CC50/EC50,=,3333
+10,504831126,172464875,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OCC(C)(C)SC2=CC=CC=C2,Unspecified,,,,Ratio CC50/EC50,=,3333
+11,504831579,172465179,[2H]C([2H])(C(C)(C)SC1=CC=CC=C1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]2CCNC2=O)C=O,Unspecified,,,,Ratio CC50/EC50,=,3333
+12,504840391,172471386,[2H]C([2H])(C(C)(C)SC1=CC=CC=C1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]2CCNC2=O)C(O)S(=O)(=O)[O-].[Na+],Unspecified,,,,Ratio CC50/EC50,=,3333

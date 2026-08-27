@@ -1,0 +1,27 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103619355,133129,C1=CC(=CC=C1C(=O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.015,/min
+2,404673444,145964280,C1CN(CCC1OC2=CC(=NC=C2)N)C(=O)C3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.049,/min
+3,404673915,145964588,CC1=NC(=C2C=NN(C2=N1)C3CCN(CC3)CC4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.052,/min
+4,404674488,145964953,C1CN(CCC1N2C=NC3=C(N=CN=C32)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.01,/min
+5,404675669,145965732,C1C(CN1C(=O)C2=CC=C(C=C2)S(=O)(=O)F)OC3=CC(=NC=C3)N,Unspecified,,,,Kinact,=,0.003,/min
+6,404675995,145965950,CC1=NC(=C2C(=N1)N(C=N2)C3CCN(CC3)CC4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.028,/min
+7,404677644,145967052,C1=CC(=CC=C1C(=O)NCCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.043,/min
+8,404680407,145968929,CC1=NC(=C2C=NN(C2=N1)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.072,/min
+9,404680408,145968930,C1CN(CCC1N2C=CC3=C(N=CN=C32)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.282,/min
+10,404683082,145970745,C1=CC(=CC=C1CNCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.029,/min
+11,404685132,145972159,C1CN(C[C@@H]1OC2=CC(=NC=C2)N)C(=O)C3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.008,/min
+12,404686186,145972851,C1=CC(=CC=C1C(=O)NCCCN2C=NC3=C(N=CN=C32)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.012,/min
+13,404686370,145972971,C1=CC(=CC=C1C(=O)NCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.028,/min
+14,404686547,145973096,C1CN(CCC1N2C3=NC=NC(=C3C=N2)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.26,/min
+15,404687370,145973641,C1C[C@H](CN(C1)C(=O)C2=CC=C(C=C2)S(=O)(=O)F)N3C=NC4=C(N=CN=C43)N,Unspecified,,,,Kinact,=,0.039,/min
+16,404688145,145974161,CC1=NC(=C2C(=N1)N(C=N2)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.062,/min
+17,404689554,145975108,CC1=NC(=CC(=N1)OC2CCN(CC2)C(=O)C3=CC=C(C=C3)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.112,/min
+18,404690904,145975991,C1=CC(=CC=C1C(=O)OCCN2C=NC3=C(N=CN=C32)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.011,/min
+19,404692994,145977396,CC1=NC(=C2C=CN(C2=N1)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.129,/min
+20,404693264,145977577,C1=CC(=CC=C1COC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.198,/min
+21,404694145,145978141,C1=CC(=CC=C1CNCCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.063,/min
+22,404694313,145978254,CC1=NC(=C2C=NN(C2=N1)CCCNC(=O)C3=CC=C(C=C3)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.121,/min
+23,404694415,145978321,CC1=NC(=CC(=N1)OCCNC(=O)C2=CC=C(C=C2)S(=O)(=O)F)N,Unspecified,,,,Kinact,=,0.158,/min
+24,404695066,145978739,CC1=CC(=CC(=N1)N)OC2CCN(CC2)CC3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,Kinact,=,0.02,/min

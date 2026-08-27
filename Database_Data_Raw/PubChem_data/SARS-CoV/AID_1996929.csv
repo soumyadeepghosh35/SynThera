@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+1,242496418,767655,C1=CC=C(C(=C1)C2=NOC(=N2)C3=CC=CC=C3O)O,Unspecified,,,,Inhibition,=,-50.6,%,Outside typical range
+2,504810340,172450480,C1C(=O)N(C2=CC=CC=C2C3=NOC(=N3)C4=CC=CC=C4O1)CC(=O)O,Unspecified,,,,Inhibition,=,10.6,%,
+3,504819081,577836,C1=CC=C(C=C1)C2=NOC(=N2)C3=CC=CC=C3N,Unspecified,,,,Inhibition,=,31.4,%,
+4,504819163,97057798,C1=CC=C(C(=C1)C2=NC(=NO2)C3=CC=C(C=C3)C(F)(F)F)N,Unspecified,,,,Inhibition,=,-98.1,%,Outside typical range
+5,504822742,12908869,C1=CC=C(C=C1)C2=NC(=NO2)C3=CC=CC=C3N,Unspecified,,,,Inhibition,=,23.3,%,
+6,504823912,172459902,C1=CC=C(C(=C1)C2=NOC(=N2)C3=CC=CC=C3O)N,Unspecified,,,,Inhibition,=,18.1,%,
+7,504829729,172463909,C1=CC=C(C(=C1)C2=NOC(=N2)C3=CC=CC=C3O)NC=O,Unspecified,,,,Inhibition,=,44.3,%,
+8,504830264,172464295,CC(=O)N(C1=CC=CC=C1C2=NOC(=N2)C3=CC=CC=C3OC(=O)C)C(=O)C,Unspecified,,,,Inhibition,=,44.4,%,
+9,504831831,172465359,CC1=NC=C(C(=C1O)C=NC2=CC=CC=C2C3=NOC(=N3)C4=CC=CC=C4O)COP(=O)(O)[O-].[Na+],Unspecified,,,,Inhibition,=,26.1,%,
+10,504832458,172465817,C1=CC=C(C(=C1)C2=NOC(=N2)C3=CC=CC=C3O)N=[N+]=[N-],Unspecified,,,,Inhibition,=,-1617.5,%,Outside typical range
+11,504836633,61832598,C1=CC=C(C(=C1)C2=NOC(=N2)C3=CC=NC=C3)N,Unspecified,,,,Inhibition,=,65.6,%,
+12,504836923,172468998,C1=CC=C(C(=C1)C2=NOC(=N2)C3=CC=CC=C3N)N,Unspecified,,,,Inhibition,=,26.1,%,
+13,504838436,172470066,CC1=NC=C(C(=C1O)C=NC2=CC=CC=C2C3=NOC(=N3)C4=CC=CC=C4)COP(=O)(O)[O-].[Na+],Unspecified,,,,Inhibition,=,36.7,%,
+14,504838537,172470132,CCOC(=O)CN1C(=O)COC2=CC=CC=C2C3=NC(=NO3)C4=CC=CC=C41,Unspecified,,,,Inhibition,=,15.6,%,

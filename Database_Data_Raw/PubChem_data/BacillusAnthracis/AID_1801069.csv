@@ -1,0 +1,9 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,PubChem Standard Value,IC50 Qualifier,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","Qualifier (e.g. >, <, =) for PubChem Standard Value","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.","Qualifier (e.g. >, <, =) for IC50",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,TRUE,,,,,,
+1,252826956,9552079,C1=CC(=CC=C1N/C(=N/C(=NCCCCCCN=C(/N=C(/NC2=CC=C(C=C2)Cl)\N)N)N)/N)Cl,Inactive,,,,IC50,,14,,14000,,BDBM152706,"Acetyltransferase, GNAT family"
+2,252826957,2864859,CC1=C(C(CC(=O)N1)C2=CC3=C(C=C2Br)OCO3)C(=O)OC,Inactive,,,,IC50,>,200,>,200000,,BDBM152707,"Acetyltransferase, GNAT family"
+3,252826958,1718894,CCN(CC)CCCNC(=O)C1=C(C2=CC=CC=C2S1)Cl,Inactive,,,,IC50,>,200,>,200000,,BDBM152708,"Acetyltransferase, GNAT family"

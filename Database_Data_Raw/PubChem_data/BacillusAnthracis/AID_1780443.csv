@@ -1,0 +1,21 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,469804457,164613146,COC1=NC2=C(C=C1)N=CC(=O)N2CC(C3OCC(CO3)NCC4=CC5=C(C=N4)OCCO5)O,Inconclusive,,,Potential missing data,MIC50,,,,Not Determined
+2,469804457,164613146,COC1=NC2=C(C=C1)N=CC(=O)N2CC(C3OCC(CO3)NCC4=CC5=C(C=N4)OCCO5)O,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined
+3,469811085,164617908,COC1=CC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=N4)OCCO5)O,Inconclusive,,,Potential missing data,MIC50,,,,Not Determined
+4,469811085,164617908,COC1=CC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=N4)OCCO5)O,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined
+5,469813703,164619788,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=N4)OCC(=O)N5)O,Inconclusive,,,Potential missing data,MIC50,,,,Not Determined
+6,469813703,164619788,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=N4)OCC(=O)N5)O,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined
+7,469815473,164621090,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC(=C(C=C4)Cl)Cl)O,Inconclusive,,,Potential missing data,MIC50,,,,Not Determined
+8,469815473,164621090,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC(=C(C=C4)Cl)Cl)O,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined
+9,469817194,164622331,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=C4)OCCO5)O,Unspecified,,,,MIC50,=,1,ug.mL-1,
+10,469817194,164622331,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=C4)OCCO5)O,Unspecified,,,,MIC90,=,4,ug.mL-1,
+11,469817924,164622867,COC1=CC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(N=N4)OCCS5)O,Inconclusive,,,Potential missing data,MIC50,,,,Not Determined
+12,469817924,164622867,COC1=CC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(N=N4)OCCS5)O,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined
+13,469821672,164625572,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=N4)OCCO5)O,Unspecified,,,,MIC50,=,2,ug.mL-1,
+14,469821672,164625572,COC1=NC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=N4)OCCO5)O,Unspecified,,,,MIC90,=,8,ug.mL-1,
+15,469823041,146503217,COC1=CC2=C(C(=CN=C2C=C1)F)C(CC3OCC(CO3)NCC4=CC5=C(C=C4)OCCO5)O,Unspecified,,,,MIC50,=,2,ug.mL-1,
+16,469823041,146503217,COC1=CC2=C(C(=CN=C2C=C1)F)C(CC3OCC(CO3)NCC4=CC5=C(C=C4)OCCO5)O,Unspecified,,,,MIC90,=,8,ug.mL-1,
+17,469823891,164626621,COC1=CC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=C4)OCCO5)O,Inconclusive,,,Potential missing data,MIC50,,,,Not Determined
+18,469823891,164626621,COC1=CC2=C(C(=CN=C2C=C1)F)C[C@@H](C3OCC(CO3)NCC4=CC5=C(C=C4)OCCO5)O,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined

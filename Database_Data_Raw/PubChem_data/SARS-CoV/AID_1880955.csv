@@ -1,0 +1,36 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,469802676,164611840,CC1=NN=C(S1)SC(=O)C2=CC=C(O2)C3=CC=CC=C3,Unspecified,,,Potential missing data,Ratio,,,,ND
+2,482046639,164946833,C1=CC=C2C(=C1)C=C(N2)C(=O)SC3=NC=CC=N3,Unspecified,,,,Ratio,=,58700,/M/s,
+3,482047260,168269364,CC1=CC(=NC(=N1)SC(=O)C2=CC=C(O2)C#CC3=CC=CC=C3)C,Unspecified,,,Potential missing data,Ratio,,,,ND
+4,482053553,168273738,C[C@@H](C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)SC3=NC=CC=N3,Unspecified,,,,Ratio,=,33900,/M/s,
+5,482055078,168274858,CC1=NN=C(S1)SC(=O)C2=CC3=C(C=C2)NC=C3,Unspecified,,,,Ratio,=,3370,/M/s,
+6,482055296,168275028,C1=CC=C(C=C1)C2=CC=C(O2)C(=O)SC3=NC=CC=N3,Unspecified,,,Potential missing data,Ratio,,,,ND
+7,482056657,168276044,CC1=NN=C(S1)SC(=O)C2=CC=C(O2)Br,Unspecified,,,Potential missing data,Ratio,,,,ND
+8,482057121,168276391,C1=CC=C2C(=C1)C=C(S2)C(=O)SC3=NC4=CC=CC=C4S3,Unspecified,,,,Ratio,=,2000,/M/s,
+9,482058065,168277056,C1=CC=C(C=C1)C2=CC=C(S2)C(=O)SC3=NC4=CC=CC=C4S3,Unspecified,,,,Ratio,=,2100,/M/s,
+10,482060784,168279031,CC1=NN=C(S1)SC(=O)C2=CC3=C(C=C2)C=CN3,Unspecified,,,,Ratio,=,5850,/M/s,
+11,482063586,168281068,C1=CC=C(C=C1)C2=CC=C(O2)C(=O)SC3=NC4=CC=CC=C4S3,Unspecified,,,,Ratio,=,515,/M/s,
+12,482063926,168281334,CC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,Potential missing data,Ratio,,,,ND
+13,482065589,168282541,C1=CC=C2C(=C1)C=CC(=N2)C(=O)SC3=NC=CC=N3,Unspecified,,,Potential missing data,Ratio,,,,ND
+14,482065740,168282660,C1=CC=C(C=C1)C2=CC=C(S2)C(=O)SC3=NC=CC=N3,Unspecified,,,Potential missing data,Ratio,,,,ND
+15,482065971,168282841,CC1=NN=C(S1)SC(=O)C2=C3C=CNC3=CC=C2,Unspecified,,,Potential missing data,Ratio,,,,ND
+16,482066097,168282927,CC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3O2,Unspecified,,,,Ratio,=,5190,/M/s,
+17,482068564,168284698,C1=CC=C2C(=C1)N=C(S2)SC(=O)C3=CC=C(O3)C4=CC=C(C=C4)Br,Unspecified,,,,Ratio,=,1490,/M/s,
+18,482068848,168284914,CC1=CC(=NC(=N1)SC(=O)C2=CC3=CC=CC=C3N2)C,Unspecified,,,,Ratio,=,1790,/M/s,
+19,482069928,168285688,CC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3C=C2,Unspecified,,,,Ratio,=,6960,/M/s,
+20,482074657,168289135,CC1=NN=C(S1)SC(=O)C2=CC=C(N2)C3=CC=CC=C3,Unspecified,,,,Ratio,=,5070,/M/s,
+21,482074921,168289320,C1=CC=C2C(=C1)C=CC(=N2)C(=O)SC3=NC4=CC=CC=C4S3,Unspecified,,,,Ratio,=,5450,/M/s,
+22,482075123,168289470,C1=CC=C2C(=C1)C=C(N2)C(=O)SC3=NC4=CC=CC=C4S3,Unspecified,,,,Ratio,=,14200,/M/s,
+23,482078117,168291645,CC1=NN=C(N1C(=O)C2=CC3=CC=CC=C3N2)SC(=O)C4=CC5=CC=CC=C5N4,Unspecified,,,,Ratio,=,12200,/M/s,
+24,482078139,168291665,CC1=NN=C(S1)SC(=O)C2=CC=CC3=C2NC=C3,Unspecified,,,,Ratio,=,3690,/M/s,
+25,482078691,168292064,CC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2C,Unspecified,,,,Ratio,=,7170,/M/s,
+26,482080819,168293590,CSC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,,Ratio,=,11800,/M/s,
+27,482081119,168293814,COC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,,Ratio,=,7870,/M/s,
+28,482081261,168293909,C1=CC=C2C(=C1)C=C(N2)C(=O)SC3=NN=CS3,Unspecified,,,,Ratio,=,10700,/M/s,
+29,482083474,168295193,CC1=NN=C(S1)SC(=O)C2=CC=C(O2)C#CC3=CC=CC=C3,Unspecified,,,,Ratio,=,5200,/M/s,
+30,482083489,168295203,CC1=NN=C(O1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,,Ratio,=,3880,/M/s,
+31,482084330,168295680,CC1=NC(=NC=C1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,,Ratio,=,27200,/M/s,
+32,482087253,168297324,C1=CC=C2C(=C1)C=C(S2)C(=O)SC3=NC=CC=N3,Unspecified,,,Potential missing data,Ratio,,,,ND
+33,482087886,168297735,C1=CN=C(N=C1)SC(=O)C2=CC=C(S2)C3=CC=C(C=C3)Br,Unspecified,,,Potential missing data,Ratio,,,,ND

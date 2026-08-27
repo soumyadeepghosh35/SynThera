@@ -1,0 +1,35 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,ACTIVITY_TYPE,EC50_MICROM,EC50_95CI_LOW,EC50_95CI_HIGH,LOGEC50,STD_LOGEC50,HILLSLOPE,STD_HILLSLOPE,TOP,STD_TOP,RSQR ,N_POINTS,%Inhibition_0.008uM,%Inhibition_0.023uM,%Inhibition_0.069uM,%Inhibition_0.206uM,%Inhibition_0.617uM,%Inhibition_1.85uM,%Inhibition_5.56uM,%Inhibition_16.7uM,%Inhibition_50uM
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,INTEGER,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT
+RESULT_DESCR,,,,,,,,Qualifier for the value of EC50,Effective concentration of half maximal event count as estimated by curve fit,Lower 95% confidence interval boundary for the EC50 curve fit estimate,Upper 95% confidence interval boundary for the EC50 curve fit estimate,Log of the EC50 estimate,Standard error for the Log EC50 value,Hill slope estimate for the fitted dose response curve,Standard error for the HILL SLOPE,Response value at the top plateau,Standard error for the response value at the top plateau,Correlation coefficient for the fitted dose response curve,Number of data points for each dose response curve,Percent Inhibition measured with 0.008 microM concentration of test compound,Percent Inhibition measured with 0.023 microM concentration of test compound,Percent Inhibition measured with 0.069 microM concentration of test compound,Percent Inhibition measured with 0.206 microM concentration of test compound,Percent Inhibition measured with 0.617 microM concentration of test compound,Percent Inhibition measured with 1.85 microM concentration of test compound,Percent Inhibition measured with 5.56 microM concentration of test compound,Percent Inhibition measured with 16.7 microM concentration of test compound,Percent Inhibition measured with 50 microM concentration of test compound
+RESULT_UNIT,,,,,,,,NONE,MICROMOLAR,MICROMOLAR,MICROMOLAR,NONE,NONE,NONE,NONE,PERCENT,PERCENT,NONE,NONE,PERCENT,PERCENT,PERCENT,PERCENT,PERCENT,PERCENT,PERCENT,PERCENT,PERCENT
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,
+RESULT_ATTR_CONC_MICROMOL,,,,,,,,,,,,,,,,,,,,0.008,0.023,0.069,0.206,0.617,1.85,5.56,16.7,50
+1,144187789,3482786,C1C(N(N=C1C2=CC=NC=C2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-5.1,-2.3,-2.6,-1.6,-1.5,0.6,-0.7,3.1,14
+2,144187790,60182421,C1C(N(N=C1C2=CC=NC=C2)C3=CC=C(C=C3)S(=O)(=O)N)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.4,1.7,2.2,1.3,0.8,1.2,1.7,1.5,3.4
+3,144187791,60182418,CS(=O)(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CN=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-1.1,0.2,-0.3,-0.7,0.2,-0.4,0.4,1.4,4.2
+4,144187792,2837695,C1C(N(N=C1C2=CC=CC=C2)C3=CC=C(C=C3)S(=O)(=O)N)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,1.1,0.9,2,4.6,1.4,0.9,0.2,-0.3,-0.5
+5,144187793,60182432,CC(C)NC(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-0.9,-0.5,-0.2,-0.8,-0.4,-0.1,0.2,1.2,0.2
+6,144187794,60182433,CS(=O)(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CC=NC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-0.1,0,0.2,0.3,0.8,0.5,-0.7,-0.9,2
+7,144187795,60182424,COC1=CC=C(C=C1)N2C(CC(=N2)C3=CC=NC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-1,-1.6,-0.1,-0.6,-1.2,0.6,0.2,1.6,4.4
+8,144187796,60182426,COC1=CC=C(C=C1)N2C(CC(=N2)C3=CN=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.5,1.2,0.5,1.7,1,0.2,0,-0.2,-3
+9,144187797,60182431,CC(C)CNC(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-0.9,-1.1,-1.1,-1.1,-0.8,-0.4,-0.1,0,-1.4
+10,144187798,60182420,C1C(N(N=C1C2=CN=CC=C2)C3=CC=C(C=C3)S(=O)(=O)N)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.5,0,0.8,-0.2,0,0.1,0.9,2,1.2
+11,144187799,60182427,COC1=CC=C(C=C1)N2C(CC(=N2)C3=CC=CC=N3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-1,-1.1,-1,-1.3,0.4,-1,-0.4,0.4,-0.4
+12,144187800,95937,C1C(N(N=C1C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-1.1,-0.4,0.2,15.8,1.2,0.5,0.3,0.9,1.6
+13,144187801,60182423,CNC(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-1.9,-1.5,-1.4,-0.3,0.2,-1.1,-1.9,-0.2,1.4
+14,144187802,60182425,CSC1=CC=C(C=C1)C2=NN(C(C2)C3=CC=CC=C3)C4=CC=C(C=C4)S(=O)(=O)C,Inactive,0,,,>,20,,,,,,,,,,9,0.3,1,1,0.6,1.3,2.9,3.6,4.4,5.2
+15,144187803,12581134,CSC1=CC=C(C=C1)C2=NN(C(C2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-0.3,-0.4,1.3,0.8,1.6,3.5,3.6,3.5,8.6
+16,144187804,9835928,C1C(N(N=C1C2=CC=CC=N2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,1.1,1.2,0.4,0,1.8,0.6,1.1,2.1,6.7
+17,144187805,60182435,CSC1=CC=C(C=C1)C2=NN(C(C2)C3=CC=CC=C3)C4=CC=C(C=C4)[N+](=O)[O-],Active,98,,,=,0.5,0.2,1.2,-0.334,0.17,0.531,0.087,32.4,,0.979,9,3.2,8.2,11,17.8,18.1,23.6,28.6,30.4,29.7
+18,144187806,15607786,COC1=CC=C(C=C1)N2C(CC(=N2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,1.2,1.9,1.2,1.2,1.2,1.1,1.3,2.4,1.5
+19,144187807,60182422,CSC1=CC=C(C=C1)C2=NN(C(C2)C3=CC=CC=C3)C4=CC=C(C=C4)S(=O)(=O)N,Inactive,0,,,>,20,,,,,,,,,,9,0.3,-0.1,0.7,0,1,1.3,2.3,3.1,7.6
+20,144187808,4063594,C1C(N(N=C1C2=CN=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,-0.6,0.4,0.6,0.5,2.9,0.9,0.9,1.7,4.1
+21,144187809,60182419,C1CCN(CC1)C(=O)C2=CC=C(C=C2)N3C(CC(=N3)C4=CC=CC=C4)C5=CC=CC=C5,Inactive,0,,,>,20,,,,,,,,,,9,-0.2,-0.6,0.2,0.5,0.8,0.3,1.8,2.9,4.8
+22,144187810,60182429,CSC1=CC=C(C=C1)C2=NN(C(C2)C3=CC=CC=C3)C4=CC=C(C=C4)C(=O)N5CCCCC5,Inactive,0,,,>,20,,,,,,,,,,9,1.2,1,-0.1,0.7,1.7,3.1,6.1,12.8,14.9
+23,144187811,2827281,C1C(N(N=C1C2=CC=CC=C2)C3=CC=C(C=C3)[N+](=O)[O-])C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.7,2.9,5,11.7,13.6,13.5,14,15.3,16.1
+24,144187812,60182430,CNC(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CC=C(C=C3)SC)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.7,0.3,1,0.1,0.7,0.3,1.9,3.5,4.4
+25,144187813,60182434,C1COCCN1C(=O)C2=CC=C(C=C2)N3C(CC(=N3)C4=CC=CC=C4)C5=CC=CC=C5,Inactive,0,,,>,20,,,,,,,,,,9,0.5,0.5,-0.1,-0.2,0.9,0.8,1.1,1.8,6.9
+26,144187814,60182417,COC1=CC=C(C=C1)N2C(CC(=N2)C3=CC=C(C=C3)SC)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.3,0.3,0.3,1,0.7,0.9,3.1,2.4,0.7
+27,144187815,12581130,CS(=O)(=O)C1=CC=C(C=C1)N2C(CC(=N2)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,1.1,0,0.7,-2.1,0.7,-0.1,0,-0.2,2
+28,144187816,60182428,CSC1=CC=C(C=C1)C2=NN(C(C2)C3=CC=CC=C3)C4=CC=C(C=C4)C(=O)N5CCOCC5,Inactive,0,,,>,20,,,,,,,,,,9,0,0.4,1,2,0.5,1.8,4.8,12.4,16.3
+29,144187817,626614,C1=CC=C(C=C1)C2=CC(=NN2C3=CC=CC=C3)C4=CC=CC=C4,Inactive,0,,,>,20,,,,,,,,,,9,0.8,0.6,0.2,0.3,0.6,0.7,-0.1,-0.3,-1.6

@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103535485,877450,C1=CC=C(C=C1)NCCC(=O)C2=CC(=CC=C2)[N+](=O)[O-],Unspecified,,,,,Inhibition,=,87.3,%
+2,103535492,723918,C1COCCN1CCC(=O)C2=CC=C(C=C2)Cl,Unspecified,,,,,Inhibition,=,90.6,%
+3,103568373,4448737,CN(C)CCC(=O)C1=CC=C(C=C1)S(=O)(=O)C,Unspecified,,,,,Inhibition,=,91.3,%
+4,103568445,2978553,CC1CCCN(C1)CCC(=O)C2=CC=C(C=C2)Br,Unspecified,,,,,Inhibition,=,83.7,%
+5,103568448,420859,CC1=CC=C(C=C1)C(=O)CCN2CCOCC2,Unspecified,,,,,Inhibition,=,88.9,%
+6,103568485,408257,CN(C)CCC(=O)C1=CC=CS1,Active,,,,4.8,IC50,=,4800,nM
+7,103568485,408257,CN(C)CCC(=O)C1=CC=CS1,Unspecified,,,,,Inhibition,=,90.7,%
+8,103568486,432139,CN(C)CCC(=O)C1=CC(=C(C=C1)Cl)Cl,Unspecified,,,,,Inhibition,=,90.4,%
+9,103568702,5045939,CCOC(=O)N1CCN(CC1)CCC(=O)C2=CC=C(C=C2)Br,Unspecified,,,,,Inhibition,=,90.7,%
+10,103568737,200802,C1COCCN1CCC(=O)C2=CC=C(C=C2)F,Unspecified,,,,,Inhibition,=,89.1,%
+11,103568739,223143,CN(C)CCC(=O)C1=CC(=CC=C1)[N+](=O)[O-],Unspecified,,,,,Inhibition,=,90.2,%

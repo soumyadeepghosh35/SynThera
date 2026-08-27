@@ -1,0 +1,8 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103266437,443955,CC[C@@]12CCCN3[C@@H]1C4=C(CC3)C5=CC=CC=C5N4C(=C2)C(=O)OCC,Unspecified,,,,T1/2,=,13.1,hr
+2,404673444,145964280,C1CN(CCC1OC2=CC(=NC=C2)N)C(=O)C3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,T1/2,=,0.66,hr
+3,404673915,145964588,CC1=NC(=C2C=NN(C2=N1)C3CCN(CC3)CC4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,T1/2,=,1.2,hr
+4,404680407,145968929,CC1=NC(=C2C=NN(C2=N1)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,T1/2,=,1.2,hr
+5,404680408,145968930,C1CN(CCC1N2C=CC3=C(N=CN=C32)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Unspecified,,,,T1/2,=,0.62,hr

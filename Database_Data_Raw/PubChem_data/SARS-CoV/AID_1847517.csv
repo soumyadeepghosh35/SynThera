@@ -1,0 +1,6 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103278282,5328796,C1=CC(=CC=C1/C=C(\C#N)/C(=O)N)O,Unspecified,,,,permeability,=,8.4,10^-6 cm/s
+2,242333749,3378440,C1=CC(=C2C(=C1[N+](=O)[O-])C(=O)C3=C(C=CC(=C3C2=O)O)[N+](=O)[O-])O,Unspecified,,,,permeability,=,4.45,10^-6 cm/s
+3,482076717,3122793,C1=CC=C(C=C1)NC(C2=C(C3=C(C=CC=N3)C=C2)O)C4=CC=CC=N4,Unspecified,,,,permeability,=,4.12,10^-6 cm/s

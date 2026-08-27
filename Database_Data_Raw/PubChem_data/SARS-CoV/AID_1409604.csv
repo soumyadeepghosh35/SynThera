@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103169732,2719,CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl,Unspecified,,,,Inhibition,=,2,%
+2,103169732,2719,CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl,Unspecified,,,,Inhibition,=,3,%
+3,103188875,2157,CCCCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)I)OCCN(CC)CC)I,Unspecified,,,,Inhibition,=,1,%
+4,103188875,2157,CCCCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)I)OCCN(CC)CC)I,Unspecified,,,,Inhibition,=,2,%
+5,103190631,2165,CCN(CC)CC1=C(C=CC(=C1)NC2=C3C=CC(=CC3=NC=C2)Cl)O,Unspecified,,,,Inhibition,=,1,%
+6,103190631,2165,CCN(CC)CC1=C(C=CC(=C1)NC2=C3C=CC(=CC3=NC=C2)Cl)O,Unspecified,,,,Inhibition,=,-5,%
+7,103628891,3005573,CN(C)CCOC1=CC=C(C=C1)/C(=C(/CCCl)\C2=CC=CC=C2)/C3=CC=CC=C3,Unspecified,,,,Inhibition,=,1,%
+8,103628891,3005573,CN(C)CCOC1=CC=C(C=C1)/C(=C(/CCCl)\C2=CC=CC=C2)/C3=CC=CC=C3,Unspecified,,,,Inhibition,=,10,%
+9,104234145,2520,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,Unspecified,,,,Inhibition,=,1,%
+10,104234145,2520,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,Unspecified,,,,Inhibition,=,10,%
+11,104240781,131411,CCOC(=O)C1=C(N(C2=CC(=C(C(=C21)CN(C)C)O)Br)C)CSC3=CC=CC=C3,Unspecified,,,,Inhibition,=,1,%
+12,104240781,131411,CCOC(=O)C1=C(N(C2=CC(=C(C(=C21)CN(C)C)O)Br)C)CSC3=CC=CC=C3,Unspecified,,,,Inhibition,=,10,%
+13,242568127,2800,CCN(CC)CCOC1=CC=C(C=C1)C(=C(C2=CC=CC=C2)Cl)C3=CC=CC=C3,Unspecified,,,,Inhibition,=,2,%
+14,242568127,2800,CCN(CC)CCOC1=CC=C(C=C1)C(=C(C2=CC=CC=C2)Cl)C3=CC=CC=C3,Unspecified,,,,Inhibition,=,12,%

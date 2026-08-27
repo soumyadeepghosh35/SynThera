@@ -1,0 +1,30 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,242179726,827719,CC12CN(CC(C1=O)(CN(C2)CC3=CC=CC=C3)C)CC4=CC=CC=C4,Unspecified,,,,359,IC50,=,359000,nM,Outside typical range
+2,242268255,580199,CC(=O)N1CC2(CN(CC(C1)(C2=O)C)C(=O)C)C,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range
+3,469946668,823176,CC12CN(CC(C1=O)(CN(C2)CC#N)C)CC#N,Unspecified,,,,700,IC50,>,700000,nM,Outside typical range
+4,475978890,166625734,CC12CC(CN(C1)C(=O)OC(C)(C)C)(CN(C2)C(=O)OC(C)(C)C)C,Unspecified,,,,302,IC50,=,302000,nM,Outside typical range
+5,475979709,166626129,CC12CN(CC(C1=O)(CN(C2)C(=O)C#C)C)C(=O)C#C,Unspecified,,,,57.3,IC50,=,57300,nM,
+6,475980067,27378854,CC12CC(CN(C1)C(=O)C=C)(CN(C2)C(=O)C=C)C,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range
+7,475980825,768164,CC12CNCC(C1=O)(CNC2)C,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range
+8,475980926,166626743,CC12CN(CC(C1=O)(CN(C2)C(=O)C3=NN(C4=C3CC5=CC=CC=C54)C)C)C(=O)C6=NN(C7=C6CC8=CC=CC=C87)C,Unspecified,,,,800,IC50,>,800000,nM,Outside typical range
+9,475983334,166627946,CC12CN(CC(C1=O)(CN(C2)CC3=CN(N=N3)CCNC(=O)OC(C)(C)C)C)CC4=CN(N=N4)CCNC(=O)OC(C)(C)C,Unspecified,,,,410,IC50,=,410000,nM,Outside typical range
+10,475984206,166628390,CC12CN(CC(C1=O)(CN(C2)C(=O)C3=NN(C(=C3)C4=CC=CC=C4)C5=CC=CC=C5)C)C(=O)C6=NN(C(=C6)C7=CC=CC=C7)C8=CC=CC=C8,Unspecified,,,,700,IC50,>,700000,nM,Outside typical range
+11,475985365,166628997,CC12CN(CC(C1=O)(CN(C2)CC3=CN(N=N3)CC4=CC=CC=C4)C)CC5=CN(N=N5)CC6=CC=CC=C6,Unspecified,,,,560,IC50,=,560000,nM,Outside typical range
+12,475985478,166629059,CC12CN(CC(C1=O)(CN(C2)CCN(C(=O)O)C(=O)O)C)CCN(CC(=O)O)CC(=O)O,Unspecified,,,,257,IC50,=,257000,nM,Outside typical range
+13,475986190,166629411,CC12CN(CC(C1=O)(CN(C2)CC3=CN(N=N3)CC(=O)OC(C)(C)C)C)CC4=CN(N=N4)CC(=O)OC(C)(C)C,Unspecified,,,,465,IC50,=,465000,nM,Outside typical range
+14,475987520,570145,CC12CN(CC(C1=O)(CN(C2)C(=O)C3=CC=CC=C3)C)C(=O)C4=CC=CC=C4,Unspecified,,,,692,IC50,=,692000,nM,Outside typical range
+15,475990776,166631680,CC12C(=O)C(CN(C1)C(=O)/C=C/C3=CC=CC=C3)(CN(C2)C(=O)/C=C/C4=CC=CC=C4)C,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range
+16,475991356,145994979,CC12CN(CC(C1=O)(CN(C2)CC#C)C)CC#C,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range
+17,475991825,166632189,CC12CN(CC(C1=O)(CN(C2)C(=O)C3=NN(C(=C3)C4=CC=CC=C4)C)C)C(=O)C5=NN(C(=C5)C6=CC=CC=C6)C,Unspecified,,,,900,IC50,>,900000,nM,Outside typical range
+18,475992942,166632740,CC12CN(CC(C1)(CN(C2)C(=O)/C=C/C3=CC=CC=C3)C)C(=O)/C=C/C4=CC=CC=C4,Unspecified,,,,253,IC50,=,253000,nM,Outside typical range
+19,475993573,166633039,CC12CN(CC(C1=O)(CN(C2)C(=O)C3=NN(C(=C3)C4=CC=CS4)C)C)C(=O)C5=NN(C(=C5)C6=CC=CS6)C,Unspecified,,,,456,IC50,=,456000,nM,Outside typical range
+20,475995401,166633953,CC12CN(CC(C1=O)(CN(C2)C(=O)C3=NN(C4=C3CCC5=CC=CC=C54)C)C)C(=O)C6=NN(C7=C6CCC8=CC=CC=C87)C,Unspecified,,,,800,IC50,>,800000,nM,Outside typical range
+21,475997957,166635232,CC1=NOC(=C1)CN2CC3(CN(CC(C2)(C3=O)C)CC4=CC(=NO4)C)C,Unspecified,,,,700,IC50,>,700000,nM,Outside typical range
+22,475998432,166635475,CC12CN(CC(C1=O)(CN(C2)C(=O)OC(C)(C)C)C)C(=O)OC(C)(C)C,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range
+23,475998496,166635505,CCOC(=O)C1=C(C=NN1)N2C=C(N=N2)CN3CC4(CN(CC(C3)(C4=O)C)CC5=CN(N=N5)C6=C(NN=C6)C(=O)OCC)C,Unspecified,,,,700,IC50,>,700000,nM,Outside typical range
+24,475998868,4046044,CC12CN(CC(C1=O)(CN(C2)CC(=O)O)C)CC(=O)O,Unspecified,,,,1000,IC50,>,1e+06,nM,Outside typical range

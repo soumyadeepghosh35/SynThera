@@ -1,0 +1,32 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,,
+1,103619355,133129,C1=CC(=CC=C1C(=O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)F,Unspecified,,,,18.4,Ki,=,18400,nM,,
+2,103619355,133129,C1=CC(=CC=C1C(=O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)F,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect,
+3,103619355,133129,C1=CC(=CC=C1C(=O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)F,Unspecified,,,Potential missing data,,Inhibition,,,%,Tde,
+4,404673444,145964280,C1CN(CCC1OC2=CC(=NC=C2)N)C(=O)C3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,59.1,Ki,=,59100,nM,,
+5,404673915,145964588,CC1=NC(=C2C=NN(C2=N1)C3CCN(CC3)CC4=CC=C(C=C4)S(=O)(=O)F)N,Active,,,,4.6,Ki,=,4600,nM,,
+6,404674488,145964953,C1CN(CCC1N2C=NC3=C(N=CN=C32)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Active,,,,9.4,Ki,=,9400,nM,,
+7,404675669,145965732,C1C(CN1C(=O)C2=CC=C(C=C2)S(=O)(=O)F)OC3=CC(=NC=C3)N,Unspecified,,,,10.9,Ki,=,10900,nM,,
+8,404675995,145965950,CC1=NC(=C2C(=N1)N(C=N2)C3CCN(CC3)CC4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,14.7,Ki,=,14700,nM,,
+9,404677644,145967052,C1=CC(=CC=C1C(=O)NCCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,88.1,Ki,=,88100,nM,,
+10,404680407,145968929,CC1=NC(=C2C=NN(C2=N1)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Active,,,,2.1,Ki,=,2100,nM,,
+11,404680408,145968930,C1CN(CCC1N2C=CC3=C(N=CN=C32)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Active,,,,0.3,Ki,=,300,nM,,
+12,404683082,145970745,C1=CC(=CC=C1CNCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,49.6,Ki,=,49600,nM,,
+13,404685132,145972159,C1CN(C[C@@H]1OC2=CC(=NC=C2)N)C(=O)C3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,38.9,Ki,=,38900,nM,,
+14,404686186,145972851,C1=CC(=CC=C1C(=O)NCCCN2C=NC3=C(N=CN=C32)N)S(=O)(=O)F,Unspecified,,,,37.7,Ki,=,37700,nM,,
+15,404686370,145972971,C1=CC(=CC=C1C(=O)NCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,127.4,Ki,=,127400,nM,,Outside typical range
+16,404686547,145973096,C1CN(CCC1N2C3=NC=NC(=C3C=N2)N)C(=O)C4=CC=C(C=C4)S(=O)(=O)F,Active,,,,3.7,Ki,=,3700,nM,,
+17,404687370,145973641,C1C[C@H](CN(C1)C(=O)C2=CC=C(C=C2)S(=O)(=O)F)N3C=NC4=C(N=CN=C43)N,Unspecified,,,,96.5,Ki,=,96500,nM,,
+18,404688145,145974161,CC1=NC(=C2C(=N1)N(C=N2)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Unspecified,,,,16.5,Ki,=,16500,nM,,
+19,404689554,145975108,CC1=NC(=CC(=N1)OC2CCN(CC2)C(=O)C3=CC=C(C=C3)S(=O)(=O)F)N,Unspecified,,,,27.6,Ki,=,27600,nM,,
+20,404690904,145975991,C1=CC(=CC=C1C(=O)OCCN2C=NC3=C(N=CN=C32)N)S(=O)(=O)F,Unspecified,,,,25.9,Ki,=,25900,nM,,
+21,404692994,145977396,CC1=NC(=C2C=CN(C2=N1)C3CCN(CC3)C(=O)C4=CC=C(C=C4)S(=O)(=O)F)N,Active,,,,0.7,Ki,=,700,nM,,
+22,404693264,145977577,C1=CC(=CC=C1COC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,954.7,Ki,=,954700,nM,,Outside typical range
+23,404694145,145978141,C1=CC(=CC=C1CNCCCOC2=CC(=NC=C2)N)S(=O)(=O)F,Unspecified,,,,222.4,Ki,=,222400,nM,,Outside typical range
+24,404694313,145978254,CC1=NC(=C2C=NN(C2=N1)CCCNC(=O)C3=CC=C(C=C3)S(=O)(=O)F)N,Unspecified,,,,34.8,Ki,=,34800,nM,,
+25,404694415,145978321,CC1=NC(=CC(=N1)OCCNC(=O)C2=CC=C(C=C2)S(=O)(=O)F)N,Unspecified,,,,286.3,Ki,=,286300,nM,,Outside typical range
+26,404695066,145978739,CC1=CC(=CC(=N1)N)OC2CCN(CC2)CC3=CC=C(C=C3)S(=O)(=O)F,Unspecified,,,,42.2,Ki,=,42200,nM,,

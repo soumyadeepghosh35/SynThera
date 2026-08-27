@@ -1,0 +1,36 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Additional comments
+1,103760931,135430293,C1=CC(=CC=C1/C=N/N=C(\N)/NO)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+2,103760939,135486206,C1=CC=C(C(=C1)/C=N/N=C(/N)\NO)O,Unspecified,,,,Ratio,>,2,
+3,103767285,135860584,C1CN(CCN1C(=O)NO)C(=S)N/N=C/C2=CC=CC=C2O,Unspecified,,,,Ratio,>,20,
+4,136922528,136196485,C1[C@H](NN=C1C2=CC=CC=C2O)C3=CC=CC=C3O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+5,136922529,136196486,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)NO)C3=CC=CC=C3O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+6,136922530,136196487,C1=CC=C(C(=C1)/C=N/NC(=O)NO)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+7,136922531,136196488,C/C(=N\NC(=O)NO)/C1=CC=CC=C1O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+8,136925762,136196517,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)NO)C3=CC=C(C=C3)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+9,136925763,136196518,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)C3=CC=NC=C3)C4=CC=C(C=C4)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+10,136925764,136196519,C1[C@H](N(N=C1C2=CC=CC=C2O)S(=O)(=O)C3=CC=CC=C3)C4=CC=C(C=C4)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+11,136925765,136196520,C/C(=N\NC(=O)NO)/C1=CC=C(C=C1)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+12,136928994,136196555,C1[C@H](N(N=C1C2=CC=CC=C2O)/C(=N/O)/N)C3=CC=C(C=C3)O,Unspecified,,,,Ratio,>,3,
+13,136932227,719839,C1[C@H](NN=C1C2=CC=CC=C2O)C3=CC=C(C=C3)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+14,136932228,136126519,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=N)N)C3=CC=CC=C3O,Unspecified,,,,Ratio,>,1,
+15,136932229,136126520,C1[C@H](N(N=C1C2=CC=CC=C2O)/C(=N/O)/N)C3=CC=CC=C3O,Unspecified,,,,Ratio,>,1,
+16,136932230,136126521,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)C3=CC=CC=C3)C4=CC=CC=C4O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+17,136932231,136126522,CC1=CC=C(C=C1)S(=O)(=O)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=C(C=C4)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+18,136935690,136126554,CC1=CC=CC=C1[C@@H]2CC(=NN2C(=S)N)C3=CC=CC=C3O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+19,136935691,136126555,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)C3=CC=NC=C3)C4=CC=CC=C4O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+20,136935692,136126556,CC1=CC=C(C=C1)S(=O)(=O)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=CC=C4O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+21,136938816,136126598,CC(=O)N1[C@@H](CC(=N1)C2=CC=CC=C2O)C3=CC=CC=C3O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+22,136938817,136126599,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=N)N)C3=CC=C(C=C3)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+23,136938818,136126600,C1[C@H](N(N=C1C2=CC=CC=C2O)S(=O)(=O)C3=CC=CC=C3)C4=CC=CC=C4O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+24,136938819,136126601,C1=CC(=CC=C1/C=N/NC(=O)NO)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+25,136938820,135545742,CSC(=S)N/N=C/C1=CC=CC=C1O,Unspecified,,,,Ratio,>,4,
+26,136942015,136202982,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)N)C3=CC=C(C=C3)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+27,136942016,136202983,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)C3=CC=CC=C3)C4=CC=C(C=C4)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+28,136942017,135583288,C/C(=N\NC(=S)SC)/C1=CC=CC=C1O,Unspecified,,,,Ratio,=,2,
+29,136945185,136203025,CC(=O)N1[C@@H](CC(=N1)C2=CC=CC=C2O)C3=CC=C(C=C3)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+30,136945186,136203026,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=O)N)C3=CC=CC=C3O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+31,136945187,136203027,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)N)C3=CC=CC=C3O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+32,136945188,135400532,CSC(=S)N/N=C/C1=CC=C(C=C1)O,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+33,242084574,19649,C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)(C=O)O,Unspecified,,,,Ratio,=,2,

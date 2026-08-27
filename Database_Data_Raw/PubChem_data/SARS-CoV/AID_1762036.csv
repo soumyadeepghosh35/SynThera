@@ -1,0 +1,72 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103516894,4477,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,<,1,10^-6 cm/s,
+2,103608572,2946791,COC1=C(C=CC(=C1)[N+](=O)[O-])NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,334.4,10^-6 cm/s,
+3,103714614,2946213,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Br)O,Unspecified,,,,permeability,=,67.1,10^-6 cm/s,
+4,136932560,50908294,C1=CC(=C(C=C1Cl)C(=O)NC2=NC=C(S2)[N+](=O)[O-])O,Unspecified,,,,permeability,=,37,10^-6 cm/s,
+5,160686419,5274059,C1=CC(=CC=C1C(F)(F)F)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,<,22.3,10^-6 cm/s,
+6,160697310,487721,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)[N+](=O)[O-],Unspecified,,,,permeability,=,127.1,10^-6 cm/s,
+7,160707935,24326,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)Cl,Unspecified,,,,permeability,=,297,10^-6 cm/s,
+8,163331894,71459109,CC1=CC(=C(C=C1)O)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,134.3,10^-6 cm/s,
+9,163335362,767789,C1=CC(=C(C=C1N)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,152,10^-6 cm/s,
+10,164127890,487719,COC1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,81,10^-6 cm/s,
+11,164127914,28831172,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Cl)O)Cl)F,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+12,164129005,71527595,C1CNCCC1OC2=C(C=C(C=C2)Cl)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,517,10^-6 cm/s,
+13,164136048,3491605,COC1=C(C=C(C=C1)Cl)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,1007,10^-6 cm/s,
+14,164136331,487723,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)F,Unspecified,,,,permeability,=,390.8,10^-6 cm/s,
+15,164139247,2804680,C1=CC(=C(C=C1F)F)NC(=O)C2=C(C=CC(=C2)Cl)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+16,164139248,28881701,C1=CC(=C(C(=C1)F)NC(=O)C2=C(C=CC(=C2)Cl)O)F,Unspecified,,,,permeability,=,32,10^-6 cm/s,
+17,164142017,23281998,C1=CC=C(C(=C1)C(F)(F)F)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,26,10^-6 cm/s,
+18,164144219,3766271,C1=CC=C(C(=C1)NC(=O)C2=C(C=CC(=C2)Cl)O)[N+](=O)[O-],Unspecified,,,,permeability,=,153,10^-6 cm/s,
+19,164144801,71508708,C1=CC(=C(C=C1C(F)(F)F)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+20,164148705,71527596,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)OCCN,Unspecified,,,,permeability,=,1023,10^-6 cm/s,
+21,164149867,71720819,CC(=O)NC1=CC(=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O)Cl,Unspecified,,,,permeability,=,87,10^-6 cm/s,
+22,174509506,487718,CC1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,21,10^-6 cm/s,
+23,242182737,3101739,C1=CC(=C(C=C1Cl)C(=O)NC2=C(C=C(C=C2Cl)[N+](=O)[O-])Cl)O,Unspecified,,,,permeability,=,53,10^-6 cm/s,
+24,242626761,4617217,C1=CC=C2C(=C1)C=CC(=C2O)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,90.2,10^-6 cm/s,
+25,312379054,5274057,C1=CC(=CC=C1C(F)(F)F)NC(=O)C2=C(C=CC(=C2)Br)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+26,318383764,245914,C1=CC=C(C(=C1)NC(=O)C2=C(C=CC(=C2)Cl)O)Cl,Unspecified,,,,permeability,=,118,10^-6 cm/s,
+27,318383765,352403,C1=CC(=C(C=C1Cl)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,<,22.4,10^-6 cm/s,
+28,318383767,60716160,C1=CC(=C(C(=C1)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O)Cl,Unspecified,,,,permeability,=,73,10^-6 cm/s,
+29,318383768,28881682,C1=CC(=C(C=C1F)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,50.5,10^-6 cm/s,
+30,440142497,71554813,C1=CC(=C(C=C1C#N)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,5.1,10^-6 cm/s,
+31,440152661,19027407,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Cl)O)Cl)[N+](=O)[O-],Unspecified,,,,permeability,=,68,10^-6 cm/s,
+32,440204246,46836254,C1=CC(=C(C=C1Cl)C(=O)NC2=C(C=NC=C2)Cl)O,Unspecified,,,,permeability,=,31,10^-6 cm/s,
+33,440226191,25217274,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)F)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+34,469798470,164608819,CC(C)C1=CN=C(S1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,117,10^-6 cm/s,
+35,469799103,71373098,C1=CC=C2C(=C1)C=CC(=C2C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl)O,Unspecified,,,,permeability,=,356.1,10^-6 cm/s,
+36,469799117,163370571,CS(=O)(=O)NC1=C(C=C(C=C1)Br)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,85.1,10^-6 cm/s,
+37,469799626,163370535,CC(=O)NC1=CC=CC=C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,431,10^-6 cm/s,
+38,469800239,18104278,COC1=CC=CC(=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,43,10^-6 cm/s,
+39,469800258,3767152,COC1=C(C=CC(=C1)[N+](=O)[O-])NC(=O)C2=C(C=CC(=C2)Br)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+40,469800400,164610182,C1=CC(=C(C=C1C#N)Cl)NC(=O)C2=C(C=CC(=C2)C3=C(C=C(C=C3)F)F)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+41,469800660,164610358,CN(C)C(=O)C1=CC(=CC=C1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,5,10^-6 cm/s,
+42,469801813,163370549,C1=CC=C2C(=C1)C(=CC=C2[N+](=O)[O-])NC(=O)C3=C(C=CC(=C3)Cl)O,Unspecified,,,,permeability,=,141,10^-6 cm/s,
+43,469802039,164611379,C1=CC(=C(C=C1Cl)C(=O)NC2=CC(=C(C=C2F)Cl)[N+](=O)[O-])O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+44,469805481,61635837,COC1=CC(=C(C=C1)Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,34,10^-6 cm/s,
+45,469805697,163370500,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Br)O)Cl)C(F)(F)F,Unspecified,,,,permeability,=,23.2,10^-6 cm/s,
+46,469806991,163370476,C1=CC=C2C(=C1)C=CC(=C2O)C(=O)NC3=C(C=C(C=C3)C#N)Cl,Unspecified,,,,permeability,=,111.2,10^-6 cm/s,
+47,469807624,163370454,C1=CC=C(C=C1)S(=O)(=O)NC2=C(C=C(C=C2)Cl)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,2250,10^-6 cm/s,
+48,469807849,43216066,CN1CCC(CC1)NC(=O)C2=C(C=CC(=C2)Cl)O,Unspecified,,,,permeability,=,212,10^-6 cm/s,
+49,469807901,163370534,CC(=O)C1=CC(=C(C=C1)O)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,33.1,10^-6 cm/s,
+50,469810735,164617653,C1=CC=C2C(=C1)C(=O)C(=CN2)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,499,10^-6 cm/s,
+51,469811321,124157484,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl)O,Unspecified,,,,permeability,<,23.7,10^-6 cm/s,
+52,469811899,83077977,C1=CC(=C(C=C1Cl)C(=O)NC2=C(C=C(C=C2Cl)F)Cl)O,Unspecified,,,,permeability,=,25,10^-6 cm/s,
+53,469812444,164618896,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)N,Unspecified,,,,permeability,=,671,10^-6 cm/s,
+54,469812770,163370509,C1=CC(=C(C(=C1)Cl)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)N,Unspecified,,,,permeability,=,450,10^-6 cm/s,
+55,469813064,12321820,C1=CC(=CC=C1NC(=O)C2=C(C=CC(=C2)Cl)O)S(=O)(=O)N,Unspecified,,,,permeability,<,1,10^-6 cm/s,
+56,469814979,124157653,C1=CC=C2C(=C1)C=CC(=C2O)C(=O)NC3=C(C=C(C=C3)C(F)(F)F)Cl,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+57,469814988,163370450,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Br)O)F)C(F)(F)F,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+58,469815646,164621224,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)NC3=C(C=C(C=C3)C(F)(F)F)Cl)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+59,469816496,103829122,C1=CC2=C(C(=C1)C(=O)NC3=C(C=C(C=C3)C#N)Cl)NC=C2,Unspecified,,,,permeability,=,553,10^-6 cm/s,
+60,469816840,25217041,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=C(C=C2)Cl)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+61,469817262,163370528,C1=CC2=C(C=CC(=C2)[N+](=O)[O-])C=C1NC(=O)C3=C(C=CC(=C3)Cl)O,Unspecified,,,,permeability,=,447.3,10^-6 cm/s,
+62,469819280,155662754,C1=CC(=C(C(=C1)O)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+63,469820320,163370465,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Br)O)Cl)[N+](=O)[O-],Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+64,469820409,4679959,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)[N+](=O)[O-])O,Unspecified,,,,permeability,=,30.3,10^-6 cm/s,
+65,469822030,164625729,C1=CC2=C(C(=C1)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl)NC=C2,Unspecified,,,,permeability,=,1763,10^-6 cm/s,
+66,469824751,86272473,COC1=CC(=C(C=C1)O)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl,Unspecified,,,,permeability,=,67.1,10^-6 cm/s,
+67,469825127,12840083,CC1=C(C(=CC=C1)NC(=O)C2=C(C=CC(=C2)Cl)O)C,Unspecified,,,,permeability,=,48,10^-6 cm/s,
+68,469825542,17860290,C1=CC(=C(C=C1C(F)(F)F)Cl)NC(=O)C2=C(C=CC(=C2)Br)O,Inconclusive,,,Potential missing data,permeability,,,,Not Determined
+69,469826979,124157513,COC1=CC(=C(C=C1)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)O,Unspecified,,,,permeability,<,3,10^-6 cm/s,

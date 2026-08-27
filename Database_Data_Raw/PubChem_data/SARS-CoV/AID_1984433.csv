@@ -1,0 +1,22 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,461514649,11561899,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)CO)NC(=O)C2=CC3=C(N2)C=CC=C3OC,Unspecified,,,,PPB,=,77.2,%
+2,461563615,155903259,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)[C@H](C(C)(C)C)NC(=O)C(F)(F)F)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C#N)C,Unspecified,,,,PPB,=,54.8,%
+3,504794102,166169975,CC(C)/C=C/C(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,PPB,=,43.5,%
+4,504794469,166170482,CC(C)C[C@H](C(=O)N1C[C@@H](C[C@H]1C(=O)N[C@@H](C[C@@H]2CCNC2=O)C(=O)COC(F)(F)F)C(F)(F)F)O,Unspecified,,,,PPB,=,50.1,%
+5,504800141,166170539,C1CNC(=O)[C@@H]1C[C@@H](C(=O)COC(F)(F)F)NC(=O)[C@@H]2CC3(CC3)CN2C(=O)C(=O)NC4=CC=CC=C4F,Unspecified,,,,PPB,=,63.6,%
+6,504803784,166170732,CC(C)(C)NC(=O)C(=O)N1C[C@@H]2CCC[C@@H]2[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,PPB,=,39.8,%
+7,504810046,166170507,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C(=O)NCC(F)(F)F,Unspecified,,,,PPB,=,31.7,%
+8,504811954,166170540,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)[C@H]2CCCO2,Unspecified,,,,PPB,=,34.3,%
+9,504818862,166169794,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)CO)NC(=O)C(=O)NC2=CC=CC=C2F,Unspecified,,,,PPB,=,51.8,%
+10,504819783,166170188,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC2=C(C(=CC(=C2F)F)F)F)NC(=O)C3=CC4=C(N3)C=CC=C4F,Unspecified,,,,PPB,=,99.3,%
+11,504824103,166169868,CC1(CC(C1)(C(=O)N2CC3(CC3)C[C@H]2C(=O)N[C@@H](C[C@@H]4CCNC4=O)C(=O)COC(F)(F)F)O)C,Unspecified,,,,PPB,=,58.8,%
+12,504826636,166170518,CC(C)C[C@H](C(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F)O,Unspecified,,,,PPB,=,56.3,%
+13,504827801,166170209,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)C(=O)NC(C)(C)C)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F)C,Unspecified,,,,PPB,=,53.6,%
+14,504829194,166170592,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC2=C(C(=CC(=C2F)F)F)F)NC(=O)C(=O)NC3=CC=CC=C3F,Unspecified,,,,PPB,=,93.4,%
+15,504835529,166169818,CC(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,PPB,<,1,%
+16,504835833,166170593,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C(=O)NC23CC(C2)(C3)F,Unspecified,,,,PPB,=,47.3,%
+17,504835997,166170138,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C(=O)NC2=CC=CC=C2F,Unspecified,,,,PPB,=,72.8,%
+18,504838474,166170432,CC(C)CC(=O)C(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,PPB,=,54.8,%
+19,504840236,166170007,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C2=NOC(=C2)C(C)(C)F,Unspecified,,,,PPB,=,67.5,%

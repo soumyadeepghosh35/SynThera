@@ -1,0 +1,62 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,103163840,3715,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+2,103164548,5284616,C[C@@H]1CC[C@H]2C[C@@H](/C(=C/C=C/C=C/[C@H](C[C@H](C(=O)[C@@H]([C@@H](/C(=C/[C@H](C(=O)C[C@H](OC(=O)[C@@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@@H]4CC[C@H]([C@@H](C4)OC)O)C)/C)O)OC)C)C)/C)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+3,103167216,3559,C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F,Unspecified,,,Potential missing data,Activity,INACTIVE
+4,103170416,4413,C1=CC(=CC=C1C(=O)OC2=CC3=C(C=C2)C=C(C=C3)C(=N)N)N=C(N)N,Unspecified,,,Potential missing data,Activity,INACTIVE
+5,103175608,5994,CC(=O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CCC4=CC(=O)CC[C@]34C)C,Unspecified,,,Potential missing data,Activity,INACTIVE
+6,103177883,3121,CCCC(CCC)C(=O)O,Unspecified,,,Potential missing data,Activity,"INACTIVE, TEST AT HIGHER DOSE"
+7,103186198,126388,CN(CCC1=CC(=C(C=C1)Cl)Cl)CCN2CCCC2,Unspecified,,,Potential missing data,Activity,INACTIVE
+8,103189004,5959,C1=CC(=CC=C1[C@H]([C@@H](CO)NC(=O)C(Cl)Cl)O)[N+](=O)[O-],Unspecified,,,Potential missing data,Activity,INACTIVE
+9,103202903,446727,C1[C@@H]([C@H](O[C@H]1N2C=C(C(=O)NC2=O)/C=C/Br)CO)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+10,103210632,4201,C1CCN(CC1)C2=NC(=N)N(C(=C2)N)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+11,103212386,92305,CC(C)[C@](CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+12,103216741,6436223,C[C@H]1C/C(=C/C=C/[C@@H]([C@H](OC(=O)/C(=C/C(=C/[C@H]([C@H]1O)C)/C)/OC)[C@@H](C)[C@H]([C@H](C)[C@]2(C[C@H]([C@@H]([C@H](O2)C(C)C)C)O)O)O)OC)/C,Unspecified,,,Potential missing data,Activity,ACTIVE
+13,103226686,446541,CC1=C2COC(=O)C2=C(C(=C1OC)C/C=C(\C)/CCC(=O)O)O,Unspecified,,,Potential missing data,Activity,ACTIVE
+14,103234890,5360696,CN1CC[C@@]23CCCC[C@@H]2[C@@H]1CC4=C3C=C(C=C4)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+15,103237360,10474335,COC1=CC=CC2=C1CCCC2CCCN3CCN(CC3)C4CCCCC4,Unspecified,,,Potential missing data,Activity,INACTIVE
+16,103252427,9829526,C1CN(CCC12C3=CC=CC=C3CO2)CCCCC4=CN(C5=CC=CC=C54)C6=CC=C(C=C6)F,Unspecified,,,Potential missing data,Activity,ACTIVE
+17,103261008,153241,COC1=C(C=CC(=C1)NC(=O)NC2=CC=CC(=C2)CNC(=O)O[C@H]3CCOC3)C4=CN=CO4,Unspecified,,,Potential missing data,Activity,"INCONCLUSIVE, TEST AT HIGHER DOSE"
+18,103266319,3957,CCOC(=O)N1CCC(=C2C3=C(CCC4=C2N=CC=C4)C=C(C=C3)Cl)CC1,Unspecified,,,Potential missing data,Activity,INACTIVE
+19,103272786,2562,CCN(CC)CCOCCOC(=O)C1(CCCC1)C2=CC=CC=C2,Unspecified,,,Potential missing data,Activity,INACTIVE
+20,103278185,29435,C1[C@@H]([C@H]([C@@H]([C@H](N1)CO)O)O)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+21,103321316,449241,C1=CC2=C(C=CN=C2)C(=C1)S(=O)(=O)NCCNC/C=C/C3=CC=C(C=C3)Br,Unspecified,,,Potential missing data,Activity,INACTIVE
+22,103378026,5362119,C1C[C@H](N(C1)C(=O)[C@H](CCCCN)N[C@@H](CCC2=CC=CC=C2)C(=O)O)C(=O)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+23,103477782,30323,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)C)O)N)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+24,103508547,4091,CN(C)C(=N)N=C(N)N,Unspecified,,,Potential missing data,Activity,RETEST AT HIGHER DOSE
+25,103511073,16726095,CC1=CC=C(C=C1)C2(CC2CN3CCC(CC3)(C4=CC=CC=C4)O)C(=O)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+26,103555944,2805,C1CCN(CC1)CCOC(C2=CC=CC=C2)C3=CC=C(C=C3)Cl,Unspecified,,,Potential missing data,Activity,INACTIVE
+27,103562286,6911989,C1=CC=C(C(=C1)C/C(=N/NC2=NC(=CS2)C3=CC(=C(C=C3)Cl)Cl)/C(=O)O)[N+](=O)[O-],Unspecified,,,Potential missing data,Activity,INACTIVE
+28,103581295,44093,C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+29,103605085,26987,C[C@@](C1=CC=CC=C1)(C2=CC=C(C=C2)Cl)OCC[C@H]3CCCN3C,Unspecified,,,Potential missing data,Activity,INCONCLUSIVE
+30,103605727,9589606,C/C(=N\NC(=O)C(C1=NNC(=O)C2=CC=CC=C21)NC(=O)C3=CC=CC=C3)/C4=CC(=CC=C4)Br,Unspecified,,,Potential missing data,Activity,INACTIVE
+31,103619997,37542,C1=NC(=NN1[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O)C(=O)N,Unspecified,,,Potential missing data,Activity,INACTIVE
+32,103623548,10113978,CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N,Unspecified,,,Potential missing data,Activity,"INACTIVE, MAY MAKE IT WORSE?"
+33,103724215,2536,CN(C)C(=O)COC(=O)CC1=CC=C(C=C1)OC(=O)C2=CC=C(C=C2)N=C(N)N,Unspecified,,,Potential missing data,Activity,INACTIVE
+34,103734272,9829523,C[C@@]12[C@@H]([C@@H](C[C@@H](O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=C53)CNC6=O)N(C)C(=O)C9=CC=CC=C9)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+35,103768137,24826799,CC1=C(C=C(C=C1)C(=O)NC2=CC(=C(C=C2)CN3CCN(CC3)C)C(F)(F)F)C#CC4=CN=C5N4N=CC=C5,Unspecified,,,Potential missing data,Activity,ACTIVE
+36,124960908,3689,CC(C(C1=CC=C(C=C1)O)O)N2CCC(CC2)CC3=CC=CC=C3,Unspecified,,,Potential missing data,Activity,INACTIVE
+37,131281803,6918328,CC[C@H](C)[C@H]1C(=O)N2CCCC[C@@H]2C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CC3=CN(C4=CC=CC=C43)OC)CCCCCC(=O)CC,Unspecified,,,Potential missing data,Activity,INCONCLUSIVE
+38,134449640,25126798,C1CCC(C1)[C@@H](CC#N)N2C=C(C=N2)C3=C4C=CNC4=NC=N3,Unspecified,,,Potential missing data,Activity,INACTIVE
+39,136942413,46907787,CC1=C(SC2=C1C(=N[C@H](C3=NN=C(N32)C)CC(=O)OC(C)(C)C)C4=CC=C(C=C4)Cl)C,Unspecified,,,Potential missing data,Activity,INACTIVE
+40,163334751,44247568,CC1=CC(=NN1C2=CC3=CC=CC=C3C=C2)OCCN4CCOCC4,Unspecified,,,Potential missing data,Activity,INACTIVE
+41,174496643,135564749,CC1=CC(=CC(=C1OCCO)C)C2=NC3=C(C(=CC(=C3)OC)OC)C(=O)N2,Unspecified,,,Potential missing data,Activity,INACTIVE
+42,242343441,2287238,C1=CC=C(C=C1)CN2C(=O)/C(=C\C3=CC=C(O3)C4=CC(=C(C=C4)Cl)C(=O)O)/SC2=S,Unspecified,,,Potential missing data,Activity,INACTIVE
+43,312467794,136662663,C1CC(NC1)C2=NC3=C(C(=O)N2)OC4=C3C=C(C=C4)Cl,Unspecified,,,Potential missing data,Activity,INACTIVE
+44,312467947,45375953,CC(C)N1C2=NC=NC(=C2C(=N1)C3=CC4=C(C=C3)OC(=N4)N)N,Unspecified,,,Potential missing data,Activity,"INACTIVE, MAYBE CYTOTOXIC"
+45,336874558,71549093,CC1=C(SC(=N1)NC(=O)C(C)(C)C)C2=CC(=C(C=C2)OC)S(=O)(=O)NC3=CC=C(C=C3)O,Unspecified,,,Potential missing data,Activity,INACTIVE
+46,336889861,49830258,COC1=CC=CC2=C1N=C(N=C2NCC3=CC=CC=C3)N4C5=CC=CC=C5N=C4N,Unspecified,,,Potential missing data,Activity,ACTIVE
+47,381851019,118598754,CC1=C2C(=O)NC3(N2C(=O)C(=C1)NC4=NC=NC(=C4)N)CCCCC3,Unspecified,,,Potential missing data,Activity,INACTIVE
+48,381854209,9817231,CCCN1CCC=C(C1)C2=CC(=NO2)C3=CC=C(C=C3)C,Unspecified,,,Potential missing data,Activity,INACTIVE
+49,381877252,86271238,C1C[C@H](CNC1)N(C2=C(C=CC=N2)Cl)C(=O)C3=CC=C(C=C3)N4C5=C(C=CC=N5)N=N4,Unspecified,,,Potential missing data,Activity,INACTIVE
+50,404668490,126961335,C[C@@H](C1CCCCC1)N2C3=C(C=C(C=C3)C(=O)NC4=CC=C(C=C4)C#N)N=C2C5=CC6=C(C=C5Br)OCO6,Unspecified,,,Potential missing data,Activity,ACTIVE
+51,404679228,122201421,CC1=C(SC2=C1C(=N[C@H](C3=NN=C(N32)C)CC(=O)NCCOCCOCCOCC(=O)N[C@H](C(=O)N4C[C@@H](C[C@H]4C(=O)NCC5=CC=C(C=C5)C6=C(N=CS6)C)O)C(C)(C)C)C7=CC=C(C=C7)Cl)C,Unspecified,,,Potential missing data,Activity,"INACTIVE, MAY MAKE IT WORSE?"
+52,404718853,132010322,CCNC(=O)C1=CC2=C(N1)C(=O)N(C=C2C3=C(C=CC(=C3)C(C)(C)O)OC4=C(C=C(C=C4C)F)C)C,Unspecified,,,Potential missing data,Activity,INACTIVE
+53,405270161,121427831,CC1=C(SC2=C1C(=N[C@H](C3=NN=C(N32)C)CC(=O)NCCCCCCCCNC(=O)COC4=CC=CC5=C4C(=O)N(C5=O)C6CCC(=O)NC6=O)C7=CC=C(C=C7)Cl)C,Unspecified,,,Potential missing data,Activity,"INACTIVE, MAY MAKE IT WORSE?"
+54,405270162,129138801,CN(C)C[C@@H]1[C@H]([C@]2([C@@]([C@@H]1O)(C3=C(N=C(C=C3O2)OC)OC)O)C4=CC=C(C=C4)C#N)C5=CC=CC=C5,Unspecified,,,Potential missing data,Activity,ACTIVE
+55,405270163,145944879,C[C@@H]1CC[C@H]2C[C@H](/C(=C\C=C/C=C\[C@H](C[C@H](C(=O)[C@@H]([C@H](/C(=C\[C@H](C(=O)C[C@H](OC(=O)[C@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@H]4CC[C@@H]([C@@H](C4)OC)OCCOCC5=CN(N=N5)CCOCCOCCOCCOCCOCCOCCOCCOCCC(=O)NCCCCN6C7=NC=NC(=C7C(=N6)C8=CC9=C(C=C8)OC(=N9)N)N)C)/C)O)OC)C)C)/C)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+56,405270164,146047983,CCC(C)C1C(=O)N(C(C(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)N2CCCCC2C(=O)NC(C(=O)N1)C(C(C)C)O)C)C)CC(C)C=C)CC(C)C)C)C)C,Unspecified,,,Potential missing data,Activity,"ACTIVE, MAYBE CYTOTOXIC"
+57,405270165,146047984,CC1C(=O)OC(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)N1C)CC(C)C)CC2=CN(C3=CC=CC=C32)CC4=CC=C(C=C4)Br)C)CC(C)C)CC(C)C)C)CC(C)C)CCC#N,Unspecified,,,Potential missing data,Activity,"INCONCLUSIVE, MAYBE CYTOTOXIC"
+58,405270170,146047985,CC1C(CC/C=C/C2=CC(=CC=C2)C(OC(=O)C3CCCN(N3)C(=O)C(NC(=O)C(NC1=O)C(C)C)C)CCNC(=O)OC(C)(C)C)OC,Unspecified,,,Potential missing data,Activity,INACTIVE
+59,405270590,57389999,CC1=NOC2=C1C3=CC=CC=C3C(=N[C@H]2CC(=O)N)C4=CC=C(C=C4)Cl,Unspecified,,,Potential missing data,Activity,INACTIVE

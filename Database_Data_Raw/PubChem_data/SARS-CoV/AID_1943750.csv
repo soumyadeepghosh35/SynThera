@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103623490,44578236,CN(C)C1=CC=C(C=C1)/C=C/C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C=O,Active,,,,0.5,IC50,=,500,nM
+2,103623723,44578386,C1CNC(=O)[C@@H]1C[C@@H](C=O)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)/C=C/C3=C(C=C(C=C3)Cl)F,Active,,,,0.2,IC50,=,200,nM
+3,312478858,118737648,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)O)NC(=O)OCC2=CC=CC=C2,Active,,,,0.92,EC50,=,920,nM
+4,469806281,141697527,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OCC2=CC=CC=C2,Active,,,,0.07,IC50,=,70,nM
+5,475985432,154699461,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OCC2CCC(CC2)(F)F,Active,,,,1.2,IC50,=,1200,nM
+6,482075494,146672919,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)/C=C/C2=CC=CC=C2,Active,,,,0.83,IC50,=,830,nM
+7,494395070,162533704,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OC2CCCCC2,Active,,,,3.9,IC50,=,3900,nM
+8,494398117,162533687,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C=O)NC(=O)OC2CCC(CC2)(F)F,Active,,,,2.3,IC50,=,2300,nM
+9,494399951,154699460,CCCCC1CCC(CC1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]2CCNC2=O)C=O,Active,,,,0.9,IC50,=,900,nM
+10,494416413,162533666,CCCC1CCC(CC1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]2CCNC2=O)C=O,Active,,,,1.7,IC50,=,1700,nM
+11,494420421,154732787,C1CNC(=O)[C@@H]1C[C@@H](C=O)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)/C=C/C3=CC(=CC=C3)Br,Active,,,,0.7,IC50,=,700,nM

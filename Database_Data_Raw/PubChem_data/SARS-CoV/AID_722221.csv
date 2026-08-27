@@ -1,0 +1,37 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103691292,45272306,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)OCC3=CC=CC=C3,Active,,,,2.2,Ki,=,2200,nM,
+2,164128317,71508438,CC1=CC=C(C=C1)C2=CN=C(S2)C(=O)[C@H](C[C@@H]3CCNC3=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)OC,Active,,,,1.46,Ki,=,1460,nM,
+3,164128343,71508836,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)C,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+4,164128344,71508222,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)O,Active,,,,0.011,Ki,=,11,nM,
+5,164128345,71508223,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)N(C)C,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+6,164131210,71508388,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC=CC=C3)NC(=O)[C@H](C(C)C)NC(=O)OCC4=CC=CC=C4,Active,,,,0.06,Ki,=,60,nM,
+7,164131211,71508439,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC=C(C=C3)OC)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)OC,Unspecified,,,,56,Ki,=,56000,nM,
+8,164131212,71508285,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CN=CC=C4,Active,,,,0.22,Ki,=,220,nM,
+9,164131213,71508286,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)CNC4=CC=CC=C4,Active,,,,0.22,Ki,=,220,nM,
+10,164131246,71508883,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=CC=C4,Active,,,,0.022,Ki,=,22,nM,
+11,164131247,71508884,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)OC,Active,,,,0.014,Ki,=,14,nM,
+12,164134018,71508389,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC=CC=C3)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)OC,Active,,,,0.27,Ki,=,270,nM,
+13,164134019,71508440,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC=C(C=C3)Cl)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)OC,Active,,,,1.3,Ki,=,1300,nM,
+14,164134020,71508491,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC=CC=C3)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=CC(=C4)N(C)C,Active,,,,0.17,Ki,=,170,nM,
+15,164134021,71508331,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)CNCC4=CC=CC=C4,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+16,164134057,71508838,CC1=C(SC(=N1)C(=O)[C@H](C[C@@H]2CCNC2=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C(C)C)NC(=O)OCC3=CC=CC=C3)C,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+17,164134058,71508882,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)OCC4=CC=CC=C4,Active,,,,0.0041,Ki,=,4.1,nM,
+18,164136835,71508441,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC4=CC=CC=C4C=C3)NC(=O)[C@H](C(C)C)NC(=O)COC5=CC=C(C=C5)OC,Unspecified,,,,22,Ki,=,22000,nM,
+19,164136836,71508490,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=C(S2)C3=CC=CC=C3OC)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)OC,Active,,,,0.47,Ki,=,470,nM,
+20,164136879,71508792,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)OCC3=CC=C(C=C3)[N+](=O)[O-],Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+21,164139652,71508793,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)OC3=CC=CC=C3,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+22,164139653,71508794,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)OCC(C)C,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+23,164142454,71508221,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=CC(=C4)OC,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+24,164142455,71508284,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)[N+](=O)[O-],Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+25,164145263,71508224,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=CC(=C4)N(C)C,Active,,,,0.003,Ki,=,3,nM,
+26,164145264,71508283,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=C(C=C4)C(=O)O,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+27,164148016,71508492,CC1=CN=C(S1)C(=O)[C@H](C[C@@H]2CCNC2=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C(C)C)NC(=O)COC3=CC=CC(=C3)N(C)C,Active,,,,0.33,Ki,=,330,nM,
+28,164148058,71508834,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)OCC(C)(C)C,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+29,164148059,71508835,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)CCC3=CC=CC=C3,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+30,164148060,71508837,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC=CS2)NC(=O)[C@H](C(C)C)NC(=O)COC3=CC=CC=C3,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined
+31,164148061,71508885,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)C2=NC3=CC=CC=C3S2)NC(=O)[C@H](C(C)C)NC(=O)COC4=CC=CC=C4OC,Inconclusive,,,Potential missing data,,Ki,,,,Not Determined

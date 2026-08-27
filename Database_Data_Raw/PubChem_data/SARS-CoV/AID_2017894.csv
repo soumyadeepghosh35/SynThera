@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,504794692,172439611,CC1=C(C=C(C=C1)S(=O)(=O)N(C)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=C(C4=C(N=CN=C43)N)C#CC5=CC6=CC=CC=C6N=C5)O)O)Cl,Unspecified,,,,Activity,=,50,%,
+2,504794958,172439805,CN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=C(C3=C(N=CN=C32)N)C#CC4=CC=CC=C4)O)O)S(=O)(=O)C5=CC(=C(C=C5)OC)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,,,,Not Active
+3,504796132,172440633,CN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=C(C3=C(N=CN=C32)N)C#CC4=CC=CC=C4)O)O)S(=O)(=O)C5=CC(=C(C=C5)OC)C#N,Inactive,,,Potential missing data,Activity,,,,Not Active
+4,504798983,172442617,CN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=C(C3=C(N=CN=C32)N)C#CC4=CC5=CC=CC=C5N=C4)O)O)S(=O)(=O)C6=CC(=C(C=C6)OC)C#N,Unspecified,,,,Activity,=,50,%,
+5,504808162,172448988,CN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=C(C3=C(N=CN=C32)N)C#CC4=CC5=CC=CC=C5N=C4)O)O)S(=O)(=O)C6=CC(=C(C=C6)OC)[N+](=O)[O-],Unspecified,,,,Activity,=,50,%,
+6,504809207,172449703,CC1=C(C=C(C=C1)S(=O)(=O)N(C)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=C(C4=C(N=CN=C43)N)C#CC5=CC=CC=C5)O)O)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,,,,Not Active
+7,504814854,172453615,CN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=C(C3=C(N=CN=C32)N)C#CC4=CC=CC=C4)O)O)S(=O)(=O)C5=CC(=C(C=C5)Br)[N+](=O)[O-],Inactive,,,Potential missing data,Activity,,,,Not Active
+8,504819412,172456773,CN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=C(C3=C(N=CN=C32)N)C#CC4=CC5=CC=CC=C5N=C4)O)O)S(=O)(=O)C6=CC(=C(C=C6)Br)[N+](=O)[O-],Unspecified,,,,Activity,=,50,%,
+9,504828247,172462883,CC1=C(C=C(C=C1)S(=O)(=O)N(C)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=C(C4=C(N=CN=C43)N)C#CC5=CC=CC=C5)O)O)Cl,Inactive,,,Potential missing data,Activity,,,,Not Active
+10,504828550,172463075,CC1=C(C=C(C=C1)S(=O)(=O)N(C)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=C(C4=C(N=CN=C43)N)C#CC5=CC6=CC=CC=C6N=C5)O)O)[N+](=O)[O-],Unspecified,,,,Activity,=,50,%,

@@ -1,0 +1,14 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103210418,439155,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CSCC[C@@H](C(=O)O)N)O)O)N,Unspecified,,,,Delta Tm,=,6.5,degrees C
+2,104240365,65482,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)C[C@H](CC[C@@H](C(=O)O)N)N)O)O)N,Unspecified,,,,Delta Tm,=,4.4,degrees C
+3,461515664,162643799,C1=CC=C(C=C1)CCCN(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Unspecified,,,,Delta Tm,=,4.6,degrees C
+4,461544192,162663830,COC1=CC(=C(C=C1)S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,4.6,degrees C
+5,461544969,162664400,C1=CC(=CC=C1S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)Cl,Unspecified,,,,Delta Tm,=,4.6,degrees C
+6,461548187,162666627,C1=CC(=CC=C1CN(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)Cl,Unspecified,,,,Delta Tm,=,4.6,degrees C
+7,461556966,162672832,C1=CC(=C(C=C1S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)[N+](=O)[O-])Cl,Unspecified,,,,Delta Tm,=,10.8,degrees C
+8,461556990,162672848,C1=CC(=C(C=C1CN(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)[N+](=O)[O-])Cl,Unspecified,,,,Delta Tm,=,4.6,degrees C
+9,461558341,162673787,COC1=C(C=CC(=C1)[N+](=O)[O-])S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Unspecified,,,,Delta Tm,=,4.6,degrees C
+10,461558918,162674174,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Unspecified,,,,Delta Tm,=,4.6,degrees C
+11,461561508,162676033,C1=CC(=C(C=C1C(F)(F)F)[N+](=O)[O-])S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Unspecified,,,,Delta Tm,=,4.6,degrees C

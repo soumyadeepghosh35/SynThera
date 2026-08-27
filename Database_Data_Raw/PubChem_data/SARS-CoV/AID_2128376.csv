@@ -1,0 +1,10 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,520056010,171750960,C1=CC(=CC=C1C(=O)NC2=NC=NN3C2=CC=C3[C@]4([C@@H]([C@@H]([C@H](O4)CO)O)O)C#N)N=C(N)N,Active,,,,0.0017,IC50,=,1.7,nM,
+2,520056010,171750960,C1=CC(=CC=C1C(=O)NC2=NC=NN3C2=CC=C3[C@]4([C@@H]([C@@H]([C@H](O4)CO)O)O)C#N)N=C(N)N,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-Dependent Effect
+3,520056708,171750968,CC(C)C1=CC(=O)OC2=C1C=C(C=C2)OC(=O)C3=CC=C(C=C3)N=C(N)N,Active,,,,0.0042,IC50,=,4.2,nM,
+4,520056708,171750968,CC(C)C1=CC(=O)OC2=C1C=C(C=C2)OC(=O)C3=CC=C(C=C3)N=C(N)N,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-Dependent Effect

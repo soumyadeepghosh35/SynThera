@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103689870,24941262,CC1=C(C=C(C=C1)N)C(=O)N[C@H](C)C2=CC=CC3=CC=CC=C32,Unspecified,,,,IC50,=,1.113,ug.mL-1,
+2,504794711,172439627,COC1=CC2=C(C=C1)NC3=C2C[C@@]4(CC[C@H]5C6=CNC7=CC=CC(=C76)CCN5[C@@H]4C3)OC,Unspecified,,,,IC50,=,13.95,ug.mL-1,
+3,504796947,172441196,C1C[C@@]2(CC/C(=N\NC3=CC=C(C=C3)OC(F)(F)F)/C=C2)C4=C5[C@H]1NCCC6=C5C(=CC=C6)N4,Unspecified,,,,IC50,=,12.83,ug.mL-1,
+4,504806869,172448086,CC1=C(N2C(=N[C@H]3[C@@H](C2(C)C)COC4=C3C5=CC=CC=C5C=C4)S1)C6=C7C(=CC=C6)OCO7,Unspecified,,,,IC50,=,33.22,ug.mL-1,
+5,504807468,172448497,CC(C)(C)NC(=O)[C@H]1C2=CC=CC=C2OC[C@H]([C@H](C(=O)N1CCC3=CNC4=C3C=C(C=C4)OC)C5=NN=C(O5)C6=CC(=CC=C6)C(F)(F)F)CC(=O)O,Unspecified,,,,IC50,=,0.852,ug.mL-1,
+6,504811036,172450979,CC1=CC(=C(C=C1)O)C2=N[C@H](C(=O)N(C2)[C@@H](CC3=CC(=C(C=C3)OC)OC)C(=O)OC)CC4=CC(=C(C=C4)OC)OC,Unspecified,,,,IC50,=,27.58,ug.mL-1,
+7,504814847,159415148,CC1=C(N2C(=C3C4=C(C5=C6C(=C4)CCCN6CCC5)OCC([N+]3=C2S1)CC(=O)OC)NC(C)(C)C)C7=CC=C(C=C7)F.C(F)(F)(F)S(=O)(=O)[O-],Unspecified,,,,IC50,=,4.117,ug.mL-1,
+8,504824257,161360324,CC(C)(C)NC1=C2C3=C(C4=C5C(=C3)CCCN5CCC4)OCC([N+]2=C6N1C(=C(S6)C7=CC=CC=C7)C8=CC=CC=C8)CC(=O)OC.C(F)(F)(F)S(=O)(=O)[O-],Inconclusive,,,Potential missing data,IC50,,,,Not Determined
+9,504826236,172461500,CC(C)(C)NC1=C2CC[C@@]3(C=CC(=O)C[C@@H]3N2C4=[N+]1C(=C(S4)C5=CC=CC=C5)C6=CC=CC=C6)OC.C(F)(F)(F)S(=O)(=O)[O-],Inconclusive,,,Potential missing data,IC50,,,,Not Determined
+10,504829161,172463494,COC(=O)[C@@H]1CC2(C3N1[C@@H]4CC(=O)C=C[C@@]4(CC3)OC)C5=CC=CC=C5NC2=O,Unspecified,,,,IC50,=,4.094,ug.mL-1,
+11,504829205,168355637,COC1=CC2=C(C=C1)NC3=C2C[C@@]4(CC[C@H]5C6=C(CCN5[C@@H]4C3)C7=CC=CC=C7N6)OC,Unspecified,,,,IC50,=,0.039,ug.mL-1,
+12,504830331,139527441,CC1([C@H]2COC3=C([C@H]2N=C4N1C(=CS4)C5=CC=C(C=C5)S(=O)(=O)N6CCOCC6)C7=CC=CC=C7C=C3)C,Unspecified,,,,IC50,=,0.066,ug.mL-1,
+13,504830674,172464576,CC(C)(C)NC(=O)[C@H]1C2=CC=CC=C2OC[C@H]([C@H](C(=O)N1CCC3=CNC4=C3C=C(C=C4)OC)C5=NN=C(O5)C6=CC(=CC=C6)C(F)(F)F)CC(=O)OC,Inconclusive,,,Potential missing data,IC50,,,,Not Determined
+14,504840430,172471419,C[C@]12C=CC(=O)C[C@H]1N3CCC4=C5C(=CC=C4)NC=C5C3CO2,Unspecified,,,,IC50,=,6.073,ug.mL-1,

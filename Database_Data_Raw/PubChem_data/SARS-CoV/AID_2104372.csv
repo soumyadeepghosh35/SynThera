@@ -1,0 +1,8 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,104247215,445794,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)O)O)O)O)O)N,Unspecified,,,,Delta Tm,=,2,degrees C
+2,242166817,1011051,COC(=O)C1=C(SC2=C1CCCC2)NC(=O)C3=CC=CC=C3C(=O)O,Unspecified,,,,Delta Tm,=,0.7,degrees C
+3,242216898,4073193,COC(=O)C1=C(SC2=C1CCCCC2)NC(=O)CCC(=O)O,Unspecified,,,,Delta Tm,=,0.3,degrees C
+4,242290281,2932515,COC(=O)C1=C(SC2=C1CCCCC2)NC(=O)C3CC=CCC3C(=O)O,Unspecified,,,,Delta Tm,=,1.3,degrees C
+5,520053381,1358501,COC(=O)C1=C(SC2=C1CCCCCC2)NC(=O)[C@@H]3CCCC[C@H]3C(=O)O,Unspecified,,,,Delta Tm,=,3.2,degrees C

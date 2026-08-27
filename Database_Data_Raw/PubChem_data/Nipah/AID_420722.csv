@@ -1,0 +1,6 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,103496025,1544506,C1=CC=C(C=C1)CC2=NC3=C(O2)C=CC(=C3)N,Unspecified,,,Potential missing data,Activity,Dose-dependent effect
+2,103683976,44191024,CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CCC(CC3)C(=O)OCC)F)C(=O)NCC4=C(C=C(C=C4)Cl)Cl,Unspecified,,,Potential missing data,Activity,Dose-dependent effect
+3,103692797,44191023,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCC(CC4)C(=O)N)F)C(=O)NCC5=C(C=C(C=C5)Cl)Cl,Unspecified,,,Potential missing data,Activity,Dose-dependent effect

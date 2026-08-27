@@ -1,0 +1,140 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103171247,3598,C1=C(C(=C(C(=C1Cl)Cl)CC2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+2,103171718,95783,C1=CC(=C(C=C1NC(=O)NC2=CC(=C(C=C2)Cl)Cl)Cl)Cl,Active,,,,5.12,IC50 relative,=,5.12,uM,Active
+3,103174096,5289501,C/C(=C\C1=CC=C(C=C1)C(=O)O)/C2=CC3=C(C=C2)C(CCC3(C)C)(C)C,Inactive,,,,54.13,IC50 relative,=,54.13,uM,Inactive
+4,103178857,3394,CC(C1=CC(=C(C=C1)C2=CC=CC=C2)F)C(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+5,103179043,2256,CCNC1=NC(=NC(=N1)Cl)NC(C)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+6,103181342,5583,CC1=C(C=CC2=C1C(=NC(=N2)N)N)CNC3=CC(=C(C(=C3)OC)OC)OC,Active,,,,0.3486,IC50 relative,=,0.3486,uM,Active
+7,103185681,3671,CC(C)C1=NN2C=CC=CC2=C1C(=O)C(C)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+8,103194727,57363,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2C(=O)NC(C)(C)C)CC[C@@H]4[C@@]3(C=CC(=O)N4)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+9,103198077,92727,CC1=C(C(=CC=C1)C)OCC(=O)N[C@@H](CC2=CC=CC=C2)[C@H](C[C@H](CC3=CC=CC=C3)NC(=O)[C@H](C(C)C)N4CCCNC4=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+10,103199497,4306515,COC1=CC=C(C=C1)N2C(=CC(=N2)C(F)(F)F)C3=CC=C(C=C3)Cl,Inactive,,,,275,IC50 relative,=,275,uM,Inactive
+11,103200288,4705,COC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=CC=C3)Br)OC,Inactive,,,,13.33,IC50 relative,=,13.33,uM,Inactive
+12,103206701,2406,C1=C(C=C(C(=C1SC2=C(C(=CC(=C2)Cl)Cl)O)O)Cl)Cl,Inactive,,,,17.67,IC50 relative,=,17.67,uM,Inactive
+13,103207558,14710,CC[N+]1=C2C=C(C=CC2=C3C=CC(=CC3=C1C4=CC=CC=C4)N)N.[Br-],Inactive,,,,96.27,IC50 relative,=,96.27,uM,Inactive
+14,103226686,446541,CC1=C2COC(=O)C2=C(C(=C1OC)C/C=C(\C)/CCC(=O)O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+15,103234529,73651,C1C[C@H]([C@H]([C@@H]1N2C=NC3=C(N=CN=C32)N)O)O,Active,,,,3.698,IC50 relative,=,3.698,uM,Active
+16,103255347,16100296,CC(C)(C)C1CCC(CC1)N(CC2=CC=C(C=C2)C(=O)NCCC(=O)O)C(=O)NC3=CC=C(C=C3)OC(F)(F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+17,103255895,462382,CC(C)C[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)OCC1=CC=CC=C1,Active,,,,4.466,IC50 relative,=,4.466,uM,Active
+18,103277645,5614,CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)C=C(C#N)C#N,Active,,,,0.8215,IC50 relative,=,0.8215,uM,Active
+19,103278662,6918386,CC(C)N1C=NC2=C(N=C(N=C21)N(CCO)CCO)NCC3=CC=C(C=C3)OC,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+20,103283166,27924,CCCCCCCCCCCCCC(=O)O[C@@H]1[C@H]([C@]2([C@@H](C=C(C[C@]3([C@H]2C=C(C3=O)C)O)CO)[C@H]4[C@@]1(C4(C)C)OC(=O)C)O)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+21,103288972,16850,C1=CC=C2C(=C1)C(=O)OC23C4=C(C=C(C=C4)O)OC5=C3C=CC(=C5)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+22,103290984,17534,C1=CC=C2C(=C1)C=CC3=C2C=C(C4=CC=CC=C34)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+23,103318474,1367,C1=CC=C2C(=C1)N=NN2N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+24,103348651,6197,C[C@H]1C[C@@H](C(=O)[C@@H](C1)[C@@H](CC2CC(=O)NC(=O)C2)O)C,Active,,,,2.421,IC50 relative,=,2.421,uM,Active
+25,103361523,2766326,C1CCN(CC1)CCCOC2=CC=C(C=C2)CN3CCCCC3,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+26,103422516,6199,C1=CC(=O)OC2=CC3=C(C=CO3)C=C21,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+27,103438050,9929799,COC(=O)C1=CC=CC=C1C2=C3C=CC(=N)C=C3OC4=C2C=CC(=C4)N.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+28,103456869,6918788,COC1=C(C=CC(=C1)/C=C(\C#N)/C(=O)NC2=NN=C(S2)C(F)(F)F)OCC3=C(C=C(C=C3)C(F)(F)F)C(F)(F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+29,103456957,11327430,C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC5=C4SC6=CC=CC=C56,Inactive,,,,145.96,IC50 relative,=,145.96,uM,Inactive
+30,103475263,468595,CC[C@@H]([C@H](C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OC[C@H]5C[C@](OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+31,103497492,94381,CCN(CC)C1=CC2=C(C=C1)C=C(C(=O)O2)C3=NC4=CC=CC=C4N3,Active,,,,0.3531,IC50 relative,=,0.3531,uM,Active
+32,103503953,135403646,C12=NNN=C1N=C(NC2=O)N,Active,,,,3.896,IC50 relative,=,3.896,uM,Active
+33,103512013,5149739,C1=NC2=C(N1)C(=C(C(=C2Br)Br)Br)Br,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+34,103512892,169371,C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=NC(=N3)N)N,Active,,,,0.3554,IC50 relative,=,0.3554,uM,Active
+35,103516894,4477,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+36,103556527,135539077,CCNC(=O)C1=NOC(=C1C2=CC=C(C=C2)CN3CCOCC3)C4=CC(=C(C=C4O)O)C(C)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+37,103565692,27020,C1=CC=C2C(=C1)C(=O)OC23C4=CC(=C(C(=C4OC5=C(C(=C(C=C35)Br)O)Br)Br)O)Br,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+38,103566428,448949,C1=CC=C2C(=C1)C(=C(N2)C3=C(NC4=C3C=CC(=C4)Br)O)N=O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+39,103566754,9543539,C1=CC=C(C=C1)NC(=O)CCCCCC(=O)NC2=CC=CC=C2N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+40,103567181,135398521,CC(=O)O/N=C/1\C2=CC=CC=C2N=C1C3=C(NC4=C3C=CC(=C4)Br)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+41,103577996,24800541,B([C@H](CC(C)C)NC(=O)[C@H]([C@@H](C)O)NC(=O)C1=CC=CC(=N1)C2=CC=CC=C2)(O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+42,103578954,16070041,C1=CC=C2C(=C1)C3=C(C=CC(=C3)Cl)C4=C2N=C(N4)C5=C(C=CC=C5C#N)C#N,Inactive,,,,15.41,IC50 relative,=,15.41,uM,Inactive
+43,103588836,11598628,CN(C1=CC=CC=C1CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(C=C3)NC(=O)C4)S(=O)(=O)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+44,103593440,135449332,CC1=C(C=C(C=C1)N2C(=O)C(=C(N2)C)N=NC3=CC=CC(=C3O)C4=CC(=CC=C4)C(=O)O)C,Inactive,,,,56.98,IC50 relative,=,56.98,uM,Inactive
+45,103606247,9799888,CCC(CC)C(C1=CC=C(C=C1)NC2=NC3=CC=CC=C3S2)N4C=NC=N4,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+46,103616587,2775,COC1=CC2=C(C=CC(=O)O2)C(=C1)OC,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+47,103616625,124052,CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)O)O)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+48,103629377,16736529,CC1=CN=C(C(=C1OC)C)CN2C=NC3=C2N=C(N=C3Cl)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+49,103631624,449093,C/C(=C\CNC1=NC=NC2=C1NC=N2)/CO,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+50,103674735,11079,C1CN=C(N1)CC2=CC=CC3=CC=CC=C32.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+51,103675054,71420,CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+52,103694307,11656518,CN1C2=C(C=C(C=C2)OC3=CC(=NC=C3)C4=NC=C(N4)C(F)(F)F)N=C1NC5=CC=C(C=C5)C(F)(F)F,Inactive,,,,10.77,IC50 relative,=,10.77,uM,Inactive
+53,103700867,11634725,CC1=CN=C(N=C1C2=CNC(=C2)C(=O)N[C@H](CO)C3=CC(=CC=C3)Cl)NC4=C(C=C(C=C4)F)Cl,Active,,,,9.113,IC50 relative,=,9.113,uM,Active
+54,103714763,68050,CN(C)C1=CC=C(C=C1)C(C2=CC=C(C=C2)N(C)C)(C3=CC=C(C=C3)N(C)C)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+55,103737810,7547,C1=CC(=CC=C1NC(=O)NC2=CC(=C(C=C2)Cl)Cl)Cl,Active,,,,8.287,IC50 relative,=,8.287,uM,Active
+56,103738349,753704,C1=CC(=CC=C1C2=CSC(=N2)NC3=CC=C(C=C3)O)Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+57,103742055,24905142,C1CCC(C1)N2C3=NC=NC(=C3C(=N2)C4=CN=C5C(=C4)C=CN5)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+58,103755818,44469321,C[C@H]1CC2=C([C@]3(N1)C4=C(C=CC(=C4)Cl)NC3=O)NC5=CC(=C(C=C25)F)Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+59,103770959,636362,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=CC=CC=C5C4=O)O)(C(=O)C)O)N)O.Cl,Inactive,,,,28.57,IC50 relative,=,28.57,uM,Inactive
+60,103771482,148121,C#CCC(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,Active,,,,0.0052,IC50 relative,=,0.0052,uM,Active
+61,104234169,126941,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,Active,,,,0.0551,IC50 relative,=,0.0551,uM,Active
+62,104234246,2162,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+63,104240319,11478363,CC1=C(C=C(C=C1)NC(=O)C2=CC(=CC=C2)C(F)(F)F)N3CC4=CN=C(N=C4N(C3=O)C)NC5=CN=C(C=C5)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+64,104243079,6604176,CC1=C(C2=C3N1[C@@H](COC3=CC=C2)CN4CCOCC4)C(=O)C5=CC=CC6=CC=CC=C65.CS(=O)(=O)O,Inactive,,,,11.93,IC50 relative,=,11.93,uM,Inactive
+65,104250512,25033539,CC1=C2C=C(C(=O)N(C2=NC(=N1)N)C3CCC(CC3)OCCO)C4=CN=C(C=C4)OC,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+66,123085234,11620908,CC(C)(CC(=O)NCCN1C=CC2=C1C(=NC=N2)NC3=CC(=C(C=C3)OC4=CC=CC(=C4)C(F)(F)F)Cl)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+67,123092542,135565635,CC(C)N1C2=NC=NC(=C2C(=N1)C3=CC4=C(N3)C=CC(=C4)O)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+68,123096680,5702285,CC(C)(C)NCC(C1=CC=CC=C1Cl)O.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+69,124971513,123985,CC(C)C[C@@H](C(=O)NCCCCN=C(N)N)NC(=O)[C@@H]1[C@H](O1)C(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+70,124973641,46916268,COC1=C(C=CC(=C1)/C=C\2/C(=O)NC(=O)S2)OC3=C(C=C(C=C3)C#N)C(F)(F)F,Inactive,,,,49.44,IC50 relative,=,49.44,uM,Inactive
+71,134448064,25262965,C[C@H]1COCCN1C2=NC(=NC3=C2C=CC(=N3)C4=CC(=C(C=C4)OC)CO)N5CCOC[C@@H]5C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+72,134448961,53315882,CC(C)N1CCCN(CC1)C2=NC3=CC(=C(C=C3C(=N2)NC4CCN(CC4)C5CCCCC5)OC)OCCCN6CCCCC6,Inactive,,,,17.22,IC50 relative,=,17.22,uM,Inactive
+73,136936437,25254071,CC1=C(SC2=C1N=C(N=C2N3CCOCC3)C4=CN=C(N=C4)N)CN5CCN(CC5)C(=O)[C@H](C)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+74,136937804,11167602,CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F,Inactive,,,,16.46,IC50 relative,=,16.46,uM,Inactive
+75,136943198,9798923,CN(C)C1=CC(=C(C(=C1)OC)O)CN(C)CCC2=CC=C(C=C2)[N+](=O)[O-],Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+76,160696153,57522038,CC1=CC=C(C=C1)C2=C(C=C(C=C2)F)COC3=CC=C(C=C3)CCC(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+77,160699241,49836058,CC1=CC(=C2C(=C1)[C@H](CCCN2CC3CCC(CC3)C(=O)O)N(CC4=CC(=CC(=C4)C(F)(F)F)C(F)(F)F)C5=NN(N=N5)C)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+78,160704080,65047,CC(=O)OC1=CC2=C(C=C1)C3(C4=C(O2)C=C(C=C4)OC(=O)C)C5=CC=CC=C5C(=O)O3,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+79,163314795,56645356,CC1=CC=CC=C1C(C(=O)NC2CCCCC2)N(C3=CC(=CC=C3)F)C(=O)CN4C=CN=C4C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+80,163315791,11285792,CCCCOCCOC1=CC=C(C=C1)C2=CC/3=C(C=C2)N(CCC/C(=C3)/C(=O)NC4=CC=C(C=C4)[S@@](=O)CC5=CN=CN5CCC)CC(C)C,Inactive,,,,52.78,IC50 relative,=,52.78,uM,Inactive
+81,163333111,712934,C1CN(CC2=CC=CC=C21)S(=O)(=O)C3=CC=CC(=C3)C(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+82,163336445,2044,CC(C)(C)C1=C(C(=CC(=C1)C=C(C#N)C#N)Br)O,Active,,,,7.205,IC50 relative,=,7.205,uM,Active
+83,164132155,11510579,CC(C)(C)C1=CC=CC=C1OC2=C(C=CC=N2)NC(=O)NC3=CC=C(C=C3)OC(F)(F)F,Active,,,,9.583,IC50 relative,=,9.583,uM,Active
+84,174522973,57379345,CC1=CC(=C(C=C1C2CCNCC2)OC(C)C)NC3=NC=C(C(=N3)NC4=CC=CC=C4S(=O)(=O)C(C)C)Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+85,242084471,3938248,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=S)N,Inactive,,,,16.23,IC50 relative,=,16.23,uM,Inactive
+86,242169005,64646,CCN(CC)CC1=C(C=CC(=C1)NC2=C3C=CC(=CC3=NC=C2)Cl)O.O.O.Cl.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+87,242186163,3040551,C[C@H]([C@H](C1=CC=C(C=C1)O)O)NCCC2=CC=C(C=C2)O.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+88,242211435,659069,C1CCN(CC1)CCN2C(=C(C3=NC4=CC=CC=C4N=C32)C(=O)NCC5=CC=CO5)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+89,242262932,5715188,CC(C)(C)C(=O)/C(=C/C1=CC(=CC=C1)[N+](=O)[O-])/N2C=NC=N2,Active,,,,4.963,IC50 relative,=,4.963,uM,Active
+90,242321775,23663967,CCCC(=O)NC1=C2C(=NC=N1)N(C=N2)[C@H]3[C@@H]([C@H]4[C@H](O3)COP(=O)(O4)[O-])OC(=O)CCC.[Na+],Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+91,242516379,14998470,CCN1C(=O)C2=CC(=C(N=C2N(C1=O)C3CC3)N)C(=O)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+92,242572155,32343,C1=C2C(=C3C=C(C(=O)C(=C3OC2=C(C(=C1I)[O-])I)I)I)C4=C(C(=C(C(=C4Cl)Cl)Cl)Cl)C(=O)[O-].[Na+].[Na+],Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+93,242613556,2360837,C1=CSC(=C1)S(=O)(=O)NC2=CC=C(C=C2)C(C(F)(F)F)(C(F)(F)F)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+94,242624678,23642227,C[C@@H](C(=O)N[C@@H](CC1=CC=C(C=C1)OC)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)[C@]3(CO3)C)NC(=O)CN4CCOCC4,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+95,312361157,91754554,CC1=C(C=C(C=N1)C2=CC=C(C=C2)N3CCNCC3)C4=CC(=C(C(=C4)OC)OC)OC,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+96,312376377,71299339,C1CC1NS(=O)(=O)C2=CC(=C(C=C2)C3=CSC=C3)NC(=O)NC4=CC=CC(=C4)C(F)(F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+97,312376538,91383855,C1=CC=C(C=C1)C2=CC3=C(S2)C(=CNC3=O)N,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+98,312383858,71528744,CC1=C(SC2=C1C(=O)N(C(=O)N2C[C@@H](C3=CC=CC=C3OC)OC4CCOCC4)C(C)(C)C(=O)O)C5=NC=CO5,Active,,,,0.1223,IC50 relative,=,0.1223,uM,Active
+99,312385273,58486178,C[C@@H]1CN(C[C@@H](O1)C)CC2=CC=C(C=C2)/C=C/C3=NNC4=C3C=CC(=C4)[C@@H]5C[C@]56C7=C(C=CC(=C7)OC)NC6=O,Inactive,,,,14.72,IC50 relative,=,14.72,uM,Inactive
+100,312390964,72716071,CN1CCN(CC1)C2=CC(=C(C=C2)NC3=NC=CC(=N3)C4=CN(C5=C4C=CN=C5)C)OC,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+101,312468263,46848036,CC1=C(C=C(C=N1)NC(=O)C2=CC(=C(C=C2)CN3CCN(CC3)C)C(F)(F)F)NC4=NC=CC(=N4)C5=CN=CC=C5,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+102,318386097,71285927,CCS(=O)(=O)C1=CC=C(C=C1)CC(=O)NC2=CC(=C(C(=C2)Cl)C3=CC=CC=C3OC(F)(F)F)Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+103,318391872,72709209,C[C@@H]1COCCN1C2=CC(=O)N3CC[C@H](N(C3=N2)CC4=CC(=CN=C4)Cl)C(F)(F)F,Inactive,,,,19.88,IC50 relative,=,19.88,uM,Inactive
+104,318405220,67376285,C1CN(C[C@@H]1CC2=NNC(=O)N2C3=CC=C(C=C3)C4=CC5=C(C=C4)OC=C5)C(=O)C6CC6,Inactive,,,,32.56,IC50 relative,=,32.56,uM,Inactive
+105,318425428,67041274,C[C@@H]([C@@H](C1=CC2=C(C=C1)OCCO2)OC3=CC4=C(C=C3)N(N=C4)C5=CC=CC(=C5)C(=O)N[C@@H]6CCOC6)NC(=O)C(C)(F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+106,318464568,10311306,C[C@H](C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)OC[C@]2(CC[C@]3(CCC(=O)N3)CN2)C4=CC=CC=C4,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+107,318464588,91933867,CC1=CC(=CC(=C1C2=CC=C(C=C2)C(C)(C)C)C)O[C@@H](CCC(F)(F)F)C3=CC=C(C=C3)C(=O)NCCC(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+108,336878584,67983123,C1CC1CC2=NC(=NC=C2C3=NC(=NC=C3)NC4=CC=NC=C4)N,Inactive,,,,12.58,IC50 relative,=,12.58,uM,Inactive
+109,336897384,46215462,C1CCN(C1)[C@H]2CCC3=C(CC2)C=C(C=C3)NC4=NN(C(=N4)N)C5=NN=C6C(=C5)CCCC7=CC=CC=C76,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+110,336905565,121271792,C[C@@H]1CC(=O)NC2=CC=CC(=C2N1)C3=CC4=C(C=C3)N(N=C4C5=CN(N=C5)C)C,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+111,374263637,59472121,CC(C)S(=O)(=O)C1=CC=C(C=C1)C2=CN=C(C(=N2)C3=CC(=NO3)C4=CC=C(C=C4)CNC)N,Inactive,,,,33.67,IC50 relative,=,33.67,uM,Inactive
+112,374263680,25212148,COCCNCC1=CN=C(C=C1)C2=CC3=NC=CC(=C3S2)OC4=C(C=C(C=C4)NC(=O)C5(CC5)C(=O)NC6=CC=C(C=C6)F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+113,374274628,121372887,CC(=O)N1CCC2=C(C1)C(=NN2[C@H]3CCOC3)NC4=C(C=C(C=C4)C5=CN(N=C5)C)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+114,374306993,57404276,CC(C)(CNC1=NC=C(C(=N1)CC2CC2)C3=NC(=NC=C3)NC4=CC(=NC=C4)Cl)O,Inactive,,,,793.92,IC50 relative,=,793.92,uM,Inactive
+115,374333838,2308652,CCCCN1C(=C(C2=NC3=CC=CC=C3N=C21)C#N)NC(=O)C4=CC=CS4,Inactive,,,,13.33,IC50 relative,=,13.33,uM,Inactive
+116,374339168,66598080,CC(C)(C1CCC(CC1)NC2=NN3C(=NC=C3C4=CC(=CC=C4)C(F)(F)F)C=C2)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+117,381841538,16078973,C1=CC=C(C=C1)C(CN(CCCOC2=CC=CC(=C2)CC(=O)O)CC3=C(C(=CC=C3)C(F)(F)F)Cl)C4=CC=CC=C4.Cl,Inactive,,,,16.34,IC50 relative,=,16.34,uM,Inactive
+118,381860772,45256689,CC1=C(C=C(C=C1)OC2=NC3=C(N2)C=C(C(=C3)C4=CC=C(C=C4)C5=CC=CC=C5)Cl)C(=O)O,Inactive,,,,351.98,IC50 relative,=,351.98,uM,Inactive
+119,381864504,122531786,CCC1=C(C(=NC=C1C2=CC3=C(C=C2)NN=C3)N)C4=CC=C(C=C4)O,Inactive,,,,51.06,IC50 relative,=,51.06,uM,Inactive
+120,381887017,135905416,C[C@@H]1CN(C[C@@H](N1)C)C2=NC=C(C(=C2)C)C3=CC=C(C=C3)C4=NC5=C(C=CN5C)C(=O)N4,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+121,405270216,58496428,CN1C(=O)C=C2C(=C1C3=CC(=CC=C3)N(C)C)C(=O)N(N2)C4=CC=CC=C4Cl,Inactive,,,,73.6,IC50 relative,=,73.6,uM,Inactive
+122,440135655,53475435,CC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)N3C(=CC(=N3)C(F)(F)F)C(F)(F)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+123,440180400,74766530,COC1=CC(=C(C=C1)C2=CNC3=NC=CC(=C23)C4=CSC=C4)OC,Inactive,,,,28.26,IC50 relative,=,28.26,uM,Inactive
+124,440194787,58525066,CC1=C(C=CC(=C1)N2C(=O)C=CC3=CN=C4C(=C32)C=CN4)F,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+125,440218242,78357788,C1=CC=C(C=C1)C2=C/C(=C/C3=CC=C(O3)C4=CC=C(C=C4)[N+](=O)[O-])/C(=O)N2C5=CC=C(C=C5)C(=O)O,Inactive,,,,651.7,IC50 relative,=,651.7,uM,Inactive
+126,440228623,71664305,C1CC(CCC1N)N[C@@H]2C[C@H]2C3=CC=CC=C3.Cl.Cl,Inactive,,,,65.21,IC50 relative,=,65.21,uM,Inactive
+127,440234145,4035069,C1COCCN1C2=NC(=C(S2)C=NNC3=C(C=C(C=C3)[N+](=O)[O-])S(=O)(=O)NC4=CC=CC=C4Cl)C5=CC=CC=C5,Active,,,,6.417,IC50 relative,=,6.417,uM,Active
+128,440234146,5388992,CC[C@@]1(C[C@H]2C[C@@](C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)[C@]78CCN9[C@H]7[C@@](C=CC9)([C@H]([C@@]([C@@H]8N6C=O)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O.OS(=O)(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+129,494414713,91885507,COC1=C(C=CC2=C1CC[C@H](CC2)N3CCOCC3)NC4=NC=C(C(=N4)N[C@@H]5[C@@H]6C[C@H]([C@@H]5C(=O)N)C=C6)Cl.CS(=O)(=O)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+130,494420618,122412737,CN1C=C(C(=N1)C2=CC=C(C=C2)OCC3=NC4=CC=CC=C4C=C3)C5=CC=NC=C5.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+131,494421694,21873152,CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O.CS(=O)(=O)O,Inactive,,,,15.14,IC50 relative,=,15.14,uM,Inactive
+132,494421988,56972185,C1CNCC2=C1C(=C(S2)NC(=O)C(=O)O)C(=O)O.Cl,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive
+133,494422122,23589188,C1C[C@H](CN(C1)C2CCN(CC2)C(=O)C3=C4C=CC=CC4=CC5=CC=CC=C53)C(=O)N6CCOCC6.Cl,Active,,,,4.163,IC50 relative,=,4.163,uM,Active
+134,494422538,71576691,CC1=CC(=CC2=C(C(=CN=C12)C(=O)N)NC3=CC(=CC=C3)OC)S(=O)(=O)C4=CC=CC(=C4)C(=O)N(C)C.C(=O)(C(F)(F)F)O,Inactive,,,Potential missing data,,IC50 relative,,,,Inactive

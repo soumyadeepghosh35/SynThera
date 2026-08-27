@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103165163,5904,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,Unspecified,,,,MIC,=,64,ug.mL-1
+2,103228261,14969,C[C@H]1[C@H]([C@@](C[C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)[C@H]([C@H](C(=O)N[C@H](C(=O)N[C@H]5C(=O)N[C@@H]7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)[C@H](NC(=O)[C@H]([C@@H](C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)[C@@H](CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,Unspecified,,,,MIC,=,0.5,ug.mL-1
+3,103585755,485597,CSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1
+4,103585756,25001880,CCSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,16,ug.mL-1
+5,103585757,25001881,CC(C)SSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,MIC,<,0.125,ug.mL-1
+6,103585758,25001882,CCC(C)SSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,1,ug.mL-1
+7,103585759,25001883,CCCSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,16,ug.mL-1
+8,103585760,12336449,CCCCSSC1=CC=C(C=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1
+9,103585761,485622,CSSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,64,ug.mL-1
+10,103585762,25001888,CCSSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,64,ug.mL-1
+11,103585826,24997132,CC(C)SSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,16,ug.mL-1
+12,103585827,24997133,CCC(C)SSC1=CC=CC(=C1)[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1
+13,103585828,485592,CSSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1
+14,103585829,24997134,CCSSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1
+15,103585830,24997135,CC(C)SSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1
+16,103585831,24997136,CCC(C)SSC1=CC=CC=C1[N+](=O)[O-],Unspecified,,,,MIC,=,32,ug.mL-1

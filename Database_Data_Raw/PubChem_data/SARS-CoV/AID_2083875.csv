@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,520015744,177646966,CC(C)C[C@@H](C(=O)NC(CC1=CC=NC=C1)C=O)NC(=O)[C@H](CC2=CC=C(C=C2)F)NC(=O)OCC3=CC=CC=C3,Inconclusive,,,Potential missing data,t1/2,,,,Not Determined
+2,520015861,177647014,CC(C)C[C@@H](C(=O)NC(C[C@@H]1CCNC1=O)C=O)NC(=O)[C@H](CC2=CC=C(C=C2)F)NC(=O)OCC3=CC=CC=C3,Unspecified,,,,T1/2,=,14,hr,
+3,520018129,177648031,CC(C)C[C@@H](C(=O)N[C@H](C[C@@H]1CCCO1)/C=C/2\CCOC2=O)NC(=O)[C@H](CC3=CC=C(C=C3)F)NC(=O)OCC4=CC=CC=C4,Inconclusive,,,Potential missing data,t1/2,,,,Not Determined
+4,520018297,177648115,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)/C=C/2\CCOC2=O)NC(=O)[C@H](CC3=CC=C(C=C3)F)NC(=O)OCC4=CC=CC=C4,Unspecified,,,,T1/2,=,7.8,hr,
+5,520019326,177648594,CC(C)C[C@@H](C(=O)NC(CC1=CC=CC=C1F)C=O)NC(=O)[C@H](CC2=CC=C(C=C2)F)NC(=O)OCC3=CC=CC=C3,Unspecified,,,,T1/2,=,6.9,hr,
+6,520022012,177649832,CC(C)C[C@@H](C(=O)NC(CC1CCCO1)C=O)NC(=O)[C@H](CC2=CC=C(C=C2)F)NC(=O)OCC3=CC=CC=C3,Unspecified,,,,T1/2,=,11,hr,
+7,520022435,177650003,CC(C)C[C@@H](C(=O)N[C@@H](CCS(=O)C)C=O)NC(=O)[C@H](CC1=CC=C(C=C1)F)NC(=O)OCC2=CC=CC=C2,Unspecified,,,,T1/2,=,11,hr,
+8,520022824,177650187,CC(C)C[C@@H](C(=O)NC(CC1=CN=CS1)C=O)NC(=O)[C@H](CC2=CC=C(C=C2)F)NC(=O)OCC3=CC=CC=C3,Inconclusive,,,Potential missing data,t1/2,,,,Not Determined
+9,520023346,177650438,CC(C)C[C@@H](C(=O)NC(CC1=CN=CC=C1)C=O)NC(=O)[C@H](CC2=CC=C(C=C2)F)NC(=O)OCC3=CC=CC=C3,Inconclusive,,,Potential missing data,t1/2,,,,Not Determined
+10,520023517,177650513,CC(C)C[C@@H](C(=O)N[C@H](C[C@H]1CCCO1)/C=C/2\CCOC2=O)NC(=O)[C@H](CC3=CC=C(C=C3)F)NC(=O)OCC4=CC=CC=C4,Inconclusive,,,Potential missing data,t1/2,,,,Not Determined
+11,520050917,177656558,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCCO1)/C=C/2\CCOC2=O)NC(=O)[C@H](CC3=CC=C(C=C3)F)NC(=O)OCC4=CC=CC=C4,Unspecified,,,,T1/2,=,11,hr,
+12,520056811,177658627,CC(C)C[C@@H](C(=O)NC(CC(F)(F)F)C=O)NC(=O)[C@H](CC1=CC=C(C=C1)F)NC(=O)OCC2=CC=CC=C2,Inconclusive,,,Potential missing data,t1/2,,,,Not Determined

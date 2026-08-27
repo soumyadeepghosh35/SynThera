@@ -1,0 +1,22 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103192484,1820,C1=CC2=C(C=C1F)C=C(N2)C(=O)O,Unspecified,,,,234,Kd,=,234000,nM
+2,103211071,72,C1=CC(=C(C=C1C(=O)O)O)O,Unspecified,,,,274,Kd,=,274000,nM
+3,103249701,73742,C1=CC=C2C(=C1)C=CN=C2N,Unspecified,,,,301,Kd,=,301000,nM
+4,104246424,18909,C1=C(C(=CC(=C1Cl)Cl)O)O,Unspecified,,,,103,Kd,=,103000,nM
+5,336880344,893488,CCOC1=C(C=C(C(=C1)CO)Br)OC,Unspecified,,,,157,Kd,=,157000,nM
+6,336883201,17190902,CC1=CN=C(S1)NC(=O)C2=C(OC=C2)C,Unspecified,,,,20.3,Kd,=,20300,nM
+7,336883202,4797200,CC1=CC(=NO1)C(=O)NC2=CC(=CC=C2)F,Unspecified,,,,79.8,Kd,=,79800,nM
+8,336883203,23009451,CC1=CC=C(C=C1)C(C2=CC=NC=C2)N,Unspecified,,,,707,Kd,=,707000,nM
+9,336883204,970600,CCOC1=CC=CC=C1C(=S)N2CCOCC2,Unspecified,,,,73,Kd,=,73000,nM
+10,336883227,127036208,CC1=CC=C(C=C1)C(=S)C2=NN=NS2,Unspecified,,,,60.8,Kd,=,60800,nM
+11,336883228,914984,C1CN(C2=CC=CC=C21)C(=S)N,Unspecified,,,,35.3,Kd,=,35300,nM
+12,336883229,14023166,C1=CC=C(C=C1)C2=NN=C3N2N=C(S3)N,Unspecified,,,,121,Kd,=,121000,nM
+13,336883230,25220799,C1=CC=C(C(=C1)C2=CC(=NO2)CN)Cl,Unspecified,,,,444,Kd,=,444000,nM
+14,336883711,17217990,CCC1=CC=C(S1)C(=O)NC2=NN=CS2,Unspecified,,,,13.5,Kd,=,13500,nM
+15,336884122,2756469,COC1=CC=C(C=C1)C2=CC(=NN2)N,Unspecified,,,,149,Kd,=,149000,nM
+16,336886467,599939,COC1=CC2=CC(=CN=C2C=C1)N,Unspecified,,,,261,Kd,=,261000,nM

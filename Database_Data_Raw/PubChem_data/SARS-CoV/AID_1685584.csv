@@ -1,0 +1,11 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+1,461520196,162647045,C1=CC=C(C=C1)NC(=O)NC2=CN=C3C=CC(=CC3=N2)[N+](=O)[O-],Unspecified,,,,Inhibition,=,0.77,%,
+2,461524802,162650247,C1CCC(CC1)C(=O)N/N=C/C2=CN=CN2,Unspecified,,,,Inhibition,=,-16.29,%,Outside typical range
+3,461526956,162651707,CC1=CSC(=C1N)C(=O)N/N=C/C2=CN=CC=C2,Unspecified,,,,Inhibition,=,-6.32,%,
+4,461535950,825581,CN1C2=CC=CC=C2C(=C1O)N=NC(=O)C3=CC4=C(C=C3)OCO4,Unspecified,,,,Inhibition,=,-12.83,%,Outside typical range
+5,461536333,162658331,CC1=NN(C(=C1NS(=O)(=O)C)NC2=CC=CC(=C2)C(F)(F)F)C3=CC=CC=C3,Unspecified,,,,Inhibition,=,-10.63,%,Outside typical range
+6,461540512,156907151,CCCC1=CC2=C(C=C1S(=O)(=O)N3CCN(CC3)C4=CC=CC=C4)OCO2,Unspecified,,,,Inhibition,=,68.26,%,
+7,461542614,162662709,C1=CC=C(C=C1)C2=C(N3C=CC=CC3=N2)NCC(=O)N/N=C/C4=CC=CC5=CC=CC=C54,Unspecified,,,,Inhibition,=,7.53,%,
+8,461545027,162664441,CC1=C(C2=CC=CC=C2N1)/C=N/N(C)C(=O)C3=CC4=C(C=C3)OCO4,Unspecified,,,,Inhibition,=,-6.66,%,

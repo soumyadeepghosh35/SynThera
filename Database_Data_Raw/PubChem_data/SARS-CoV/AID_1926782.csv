@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103168278,135565816,CC(=CC[C@H](C1=CC(=C2C(=O)C=CC(=O)C2=C1O)O)OC(=O)C)C,Unspecified,,,,100,CC50,>,100000,nM
+2,103481933,15479638,CC1=C[C@@H]([C@@H]([C@H](C1)C2=C(C=C(C=C2)O)O)C(=O)C3=C(C=C(C=C3)O)O)C4=C(C5=C(C=C4O)O[C@@]6(C7=C(C=C(C=C7)O)O[C@@]6(C5=O)O)CC=C(C)C)O,Unspecified,,,,23.6,CC50,=,23600,nM
+3,103481959,184877,CC1=C[C@@H]([C@H]([C@@H](C1)C2=C(C=C(C=C2)O)O)C(=O)C3=C(C=C(C=C3)O)O)C4=C(C=CC(=C4O)[C@@H]5CC(=O)C6=C(C=C(C=C6O5)O)O)O,Unspecified,,,,97.7,CC50,=,97700,nM
+4,103581035,5281671,CC(=CCC1=C(OC2=C(C1=O)C(=CC3=C2C=CC(O3)(C)C)O)C4=C(C=C(C=C4)O)O)C,Unspecified,,,,25.2,CC50,=,25200,nM
+5,103582924,15479637,CC1=C[C@@H]([C@@H]([C@H](C1)C2=C(C=C(C=C2)O)O)C(=O)C3=C(C=C(C=C3)O)O)C4=C(C5=C(C=C4O)O[C@]6(C7=C(C=C(C=C7)O)O[C@]6(C5=O)O)CC=C(C)C)O,Unspecified,,,,24.9,CC50,=,24900,nM
+6,131277485,44258296,CC(=CCC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=C4C(=C(C=C3)O)C=CC(O4)(C)C)C,Unspecified,,,,47.7,CC50,=,47700,nM
+7,381837655,,,Unspecified,,,,0.1,CC50,>,100,nM
+8,494395317,3519902,CC1=CC(C(C(C1)C2=C(C=C(C=C2)O)O)C(=O)C3=C(C=C(C=C3)O)O)C4=C(C5=C(C=C4O)OC6(C7=C(C=C(C=C7)O)OC6(C5=O)O)CC=C(C)C)O,Unspecified,,,,46.2,CC50,=,46200,nM
+9,494417211,101420350,CC(=CCCC1=C[C@@H]([C@H]([C@@H](C1)C2=C(C=C(C=C2)O)O)C(=O)C3=C(C=C(C=C3)O)O)C4=C(C5=C(C=C4O)O[C@@H](CC5=O)C6=C(C=C(C=C6)O)O)O)C,Unspecified,,,,49.1,CC50,=,49100,nM

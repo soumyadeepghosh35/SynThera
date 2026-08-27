@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103192851,378,C1=CC(=CC=C1[N+](=O)[O-])OP(=O)(O)O,Unspecified,,,,600,Km,=,600000,nM,
+2,131271997,52952288,C1=CC(=C(C=C1CON)[N+](=O)[O-])OP(=O)(O)O,Unspecified,,,,1130,Km,=,1.13e+06,nM,
+3,131271998,52952291,CC1=C(C=CC(=C1)[N+](=O)[O-])OP(=O)(O)O,Unspecified,,,,650,Km,=,650000,nM,
+4,131276011,52952287,CC(C)(C)C1=C(C=CC(=C1)OP(=O)(O)O)[N+](=O)[O-],Unspecified,,,,1140,Km,=,1.14e+06,nM,
+5,131277981,52952289,C1=CC(=C(C=C1OP(=O)(O)O)CON)[N+](=O)[O-],Unspecified,,,,410,Km,=,410000,nM,
+6,131277982,52952292,CC1=C(C(=CC=C1)[N+](=O)[O-])OP(=O)(O)O,Inactive,,,Potential missing data,,Km,,,,Not Active
+7,131280056,52952401,C1=CC=C(C=C1)C2=C(C=CC(=C2)OP(=O)(O)O)[N+](=O)[O-],Unspecified,,,,80,Km,=,80000,nM,
+8,131282048,52952290,C/C=N/OCC1=C(C=CC(=C1)OP(=O)(O)O)[N+](=O)[O-],Unspecified,,,,170,Km,=,170000,nM,
+9,131284024,52952286,CC(C)(C)C1=CC(=C(C=C1)OP(=O)(O)O)[N+](=O)[O-],Unspecified,,,,470,Km,=,470000,nM,
+10,131286023,52952398,C1CCC(CC1)C2=C(C=CC(=C2)[N+](=O)[O-])OP(=O)(O)O,Unspecified,,,,260,Km,=,260000,nM,
+11,131286024,52952399,C1CCC(CC1)C2=C(C(=CC=C2)[N+](=O)[O-])OP(=O)(O)O,Inactive,,,Potential missing data,,Km,,,,Not Active
+12,131286025,52952400,C1=CC=C(C=C1)C2=CC(=C(C=C2)OP(=O)(O)O)[N+](=O)[O-],Unspecified,,,,150,Km,=,150000,nM,

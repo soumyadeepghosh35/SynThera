@@ -1,0 +1,20 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103466522,6032,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)N)O)N,Unspecified,,,,MIC,>,128,ug.mL-1
+2,103703382,36294,C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H](C[C@@H]([C@H](O3)CN)O)N)N,Unspecified,,,,MIC,>,128,ug.mL-1
+3,104234226,37768,C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1NC(=O)[C@H](CCN)O)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CN)O)O)O)N,Unspecified,,,,MIC,=,16,ug.mL-1
+4,104234256,441306,CCN[C@@H]1C[C@@H]([C@H]([C@@H]([C@H]1O[C@@H]2[C@@H]([C@H]([C@@](CO2)(C)O)NC)O)O)O[C@@H]3[C@@H](CC=C(O3)CN)N)N,Unspecified,,,,MIC,<=,0.25,ug.mL-1
+5,136939962,36119,C[C@@]1(CO[C@@H]([C@@H]([C@H]1NC)O)O[C@H]2[C@@H](C[C@@H]([C@H]([C@@H]2O)O[C@@H]3[C@@H](CC=C(O3)CN)N)N)N)O,Unspecified,,,,MIC,<=,0.25,ug.mL-1
+6,336868699,102307372,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CNC(=O)[C@H](CCN)O)O)O)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)N)O)N,Unspecified,,,,MIC,=,4,ug.mL-1
+7,336868700,10745033,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CNC(=O)CN)O)O)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)N)O)N,Unspecified,,,,MIC,=,2,ug.mL-1
+8,336882868,127036070,C[C@@]1(CO[C@@H]([C@@H]([C@H]1NC)O)O[C@H]2[C@@H](C[C@@H]([C@H]([C@@H]2O)O[C@@H]3[C@@H](CC=C(O3)CNC(=O)CN)N)N)N)O,Unspecified,,,,MIC,<=,0.25,ug.mL-1
+9,336882869,53466829,C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H](C[C@@H]([C@H](O3)CNC(=O)CN)O)N)N,Unspecified,,,,MIC,=,0.5,ug.mL-1
+10,336885850,101693087,CCN[C@@H]1C[C@@H]([C@H]([C@@H]([C@H]1O[C@@H]2[C@@H]([C@H]([C@@](CO2)(C)O)NC)O)O)O[C@@H]3[C@@H](CC=C(O3)CNC(=O)CN)N)N,Unspecified,,,,MIC,=,0.5,ug.mL-1
+11,336885882,53467057,C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H](C[C@@H]([C@H](O3)CNC(=O)[C@H](CCN)O)O)N)N,Unspecified,,,,MIC,=,2,ug.mL-1
+12,404651187,145948754,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1NC(=O)[C@H](CCN)O)O[C@H]2[C@H]([C@@H]([C@H]([C@@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CNC(=O)[C@@H](CCN)O)O)O)O)N,Unspecified,,,,MIC,>,128,ug.mL-1
+13,404651225,145948790,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1NC(=O)[C@H](CCNC(=O)CN)O)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CNC(=O)CN)O)O)O)N,Unspecified,,,,MIC,>,128,ug.mL-1
+14,404651418,145948979,C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1N)O[C@H]2[C@H]([C@@H]([C@H]([C@@H](O2)CO)O)N)O)O)O[C@H]3[C@H](C[C@H]([C@@H](O3)CNC(=O)OCC4=CC=CC=C4)O)N)N,Unspecified,,,,MIC,=,64,ug.mL-1
+15,336880748,,,Unspecified,,,,MIC,>,128,ug.mL-1
+16,336880749,,,Unspecified,,,,MIC,>,128,ug.mL-1
+17,336885883,,,Unspecified,,,,MIC,=,64,ug.mL-1

@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,519999395,177639624,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCOCCOCCOCCN4C(=C(N=N4)COC5=CC=C(C=C5)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]6CCNC6=O)C(O)S(=O)(=O)[O-])C)O.[Na+],Active,,,,0.21,EC50,=,210,nM
+2,520015863,177647015,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCOCCOCCOCCN4C(=C(N=N4)COC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]5CCNC5=O)C=O)C)O,Active,,,,0.95,EC50,=,950,nM
+3,520016675,177647354,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCOCCOCCOCCN4C(=C(N=N4)COC5=CC=C(C=C5)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]6CCNC6=O)C=O)C)O,Active,,,,0.08,EC50,=,80,nM
+4,520016937,177647475,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCOCCOCCOCCN4C(=C(N=N4)COC5=CC=C(C=C5)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]6CCNC6=O)CO)C)O,Active,,,,0.75,EC50,=,750,nM
+5,520022013,177649833,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCC(=O)NCCOCCN4C(=C(N=N4)COC5=CC=C(C=C5)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]6CCNC6=O)C=O)C)O,Active,,,,0.12,EC50,=,120,nM
+6,520023179,177650364,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CC3C(=O)[C@H](C(C)(C)C)NC(=O)CCC(=O)NCCOCCN4C(=C(N=N4)COC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]5CCNC5=O)C(O)S(=O)(=O)[O-])C)O.[Na+],Unspecified,,,,10.12,EC50,=,10120,nM
+7,520059925,177659468,CC1=C(SC=N1)C2=CC=C(C=C2)CNC(=O)[C@@H]3C[C@H](CN3C(=O)[C@H](C(C)(C)C)NC(=O)CCOCCOCCOCCN4C(=C(N=N4)COC5CCC(CC5)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@@H]6CCNC6=O)C=O)C)O,Active,,,,0.35,EC50,=,350,nM

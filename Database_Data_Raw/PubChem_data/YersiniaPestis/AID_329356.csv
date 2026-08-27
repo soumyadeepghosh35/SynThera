@@ -1,0 +1,35 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM
+1,103563490,136036599,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)N)C3=CC=C(C=C3)O,Unspecified,,,,Selectivity index,=,50
+2,103563537,44448786,C1[C@H](N(N=C1C2=CC=CC=C2)C(=S)NC3=CC=CC=C3)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,0.06
+3,103563540,44448789,C1[C@H](N(N=C1C2=CC=CC=C2)C(=S)NC3=CC=CC=C3)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,=,0.8
+4,103563543,136036600,C1[C@H](N(N=C1C2=CC=C(C=C2)O)C(=S)NC3=CC=CC=C3)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,3
+5,103563584,136036603,COC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=C(C=C(C=C3)O)O)C4=CC(=C(C=C4)O)OC,Unspecified,,,,Selectivity index,=,0.2
+6,103563587,136036604,COC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=C(C=C(C=C3)O)O)C4=CC(=C(C=C4)O)OC,Unspecified,,,,Selectivity index,=,0.5
+7,103563636,136036609,COC1=C(C=CC(=C1)[C@@H]2CC(=NN2C(=S)NC3=CC=CC=C3)C4=C(C=C(C=C4)O)O)O,Unspecified,,,,Selectivity index,=,0.4
+8,103563687,136036610,COC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=C(C=C(C=C3)O)O)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,0.3
+9,103563688,136036611,COC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=C(C=C(C=C3)O)O)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,1
+10,103563689,136036612,CC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC(=C(C=C4)O)OC,Unspecified,,,,Selectivity index,<,0.03
+11,103563690,136036613,C1[C@H](N(N=C1C2=C(C=C(C=C2)O)O)C(=S)NC3=CC=CC=C3)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,0.4
+12,103563744,136036614,COC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC(=C(C=C4)O)OC,Unspecified,,,,Selectivity index,<,0.05
+13,103563745,136036615,CC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC(=C(C=C4)O)OC,Unspecified,,,,Selectivity index,=,0.1
+14,103563747,136036616,COC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC(=C(C=C4)O)OC,Unspecified,,,,Selectivity index,=,0.02
+15,103563788,136036617,COC1=C(C=CC(=C1)[C@@H]2CC(=NN2C(=S)NC3=CC=CC=C3)C4=CC=CC=C4O)O,Unspecified,,,,Selectivity index,<,0.03
+16,103563791,136036618,CC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,0.7
+17,103563792,136036619,CC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,0.007
+18,103563843,136036620,COC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,<,0.008
+19,103563846,136036621,COC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,0.002
+20,103563890,135869605,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=C(C=C4)O,Unspecified,,,,Selectivity index,=,14
+21,103563891,136036622,CC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,=,0.6
+22,103563892,136036623,CC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,=,0.4
+23,103563894,136036624,COC1=CC=C(C=C1)NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,=,0.04
+24,103563939,136036625,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,=,0.1
+25,103563940,136036626,COC1=CC=CC=C1NC(=S)N2[C@@H](CC(=N2)C3=CC=CC=C3O)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,<,0.03
+26,103563984,136036627,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=CO4,Unspecified,,,,Selectivity index,=,0.04
+27,103563986,136036628,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=CS4,Unspecified,,,,Selectivity index,=,0.01
+28,103564034,136036629,COC1=CC=C(C=C1)[C@@H]2CC(=NN2C(=S)NC3=CC=CC=C3)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,<,0.01
+29,103564036,136036630,COC1=CC=CC=C1[C@@H]2CC(=NN2C(=S)NC3=CC=CC=C3)C4=CC=CC=C4O,Unspecified,,,,Selectivity index,<,0.02
+30,103564071,136036631,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=C(C=C4)Cl,Unspecified,,,,Selectivity index,<,0.01
+31,103564074,136036632,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=CC=C4Cl,Unspecified,,,,Selectivity index,<,0.01
+32,103564119,136036633,C1[C@H](N(N=C1C2=CC=CC=C2O)C(=S)NC3=CC=CC=C3)C4=CC=CC=C4,Unspecified,,,,Selectivity index,<,0.006

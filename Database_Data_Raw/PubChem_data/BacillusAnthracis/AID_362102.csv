@@ -1,0 +1,29 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103533639,9878324,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=CC=C2Cl,Unspecified,,,,IZ,=,0,mm
+2,103585890,11948613,CCC(C)SN1[C@H]([C@H](C1=O)OC)C2=CC=CC=C2Cl,Unspecified,,,,IZ,=,0,mm
+3,103642462,44586750,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=CC=C2I,Unspecified,,,,IZ,=,0,mm
+4,103642463,44586751,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC(=CC=C2)I,Unspecified,,,,IZ,=,0,mm
+5,103642464,44586752,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=C(C=C2)I,Unspecified,,,,IZ,=,0,mm
+6,103642465,44586753,CO[C@@H]1[C@@H](N(C1=O)SC)C2=C(C(=CC(=C2)F)F)F,Unspecified,,,,IZ,=,0,mm
+7,103642466,44586754,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC(=C(C(=C2)F)F)F,Unspecified,,,,IZ,=,0,mm
+8,103642467,44586755,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC(=C(C=C2F)F)F,Unspecified,,,,IZ,=,0,mm
+9,103642468,44586756,CO[C@@H]1[C@@H](N(C1=O)SC)C2=C(C=C(C=C2)Cl)Cl,Unspecified,,,,IZ,=,0,mm
+10,103642469,44586757,CO[C@@H]1[C@@H](N(C1=O)SC)C2=C(C(=CC(=C2)Cl)Cl)Cl,Unspecified,,,,IZ,=,0,mm
+11,103642542,44586788,CO[C@@H]1[C@@H](N(C1=O)SC)/C=C/C2=CC=CC=C2,Unspecified,,,,IZ,=,0,mm
+12,103642608,44586811,CC(=O)O[C@@H]1[C@@H](N(C1=O)SC)/C=C/C2=CC=CC=C2,Unspecified,,,,IZ,=,0,mm
+13,103642609,44586812,CSN1[C@H]([C@H](C1=O)OC2=CC=CC=C2)/C=C/C3=CC=CC=C3,Unspecified,,,,IZ,=,0,mm
+14,103642610,9899737,CO[C@@H]1[C@@H](N(C1=O)SC)CCC2=CC=CC=C2,Unspecified,,,,IZ,=,0,mm
+15,103642611,44586813,CC(=O)O[C@@H]1[C@@H](N(C1=O)SC)CCC2=CC=CC=C2,Unspecified,,,,IZ,=,0,mm
+16,103642612,44586814,CSN1[C@H]([C@H](C1=O)OC2=CC=CC=C2)CCC3=CC=CC=C3,Unspecified,,,,IZ,=,0,mm
+17,103642613,44586815,CC(=O)O[C@@H]1[C@@H](N(C1=O)SC)C2=CC=CC=C2,Unspecified,,,,IZ,=,0,mm
+18,103642697,44586851,CC(=O)O[C@H]1[C@H](N(C1=O)SC)C2=CC=CC=C2,Unspecified,,,,IZ,=,0,mm
+19,103643458,44587288,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=CC=C2F,Unspecified,,,,IZ,=,0,mm
+20,103643517,44587308,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC(=CC=C2)F,Unspecified,,,,IZ,=,0,mm
+21,103643518,44587309,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=C(C=C2)F,Unspecified,,,,IZ,=,0,mm
+22,103643519,9965022,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC(=CC=C2)Cl,Unspecified,,,,IZ,=,0,mm
+23,103643520,9965023,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=C(C=C2)Cl,Unspecified,,,,IZ,=,0,mm
+24,103643521,44587310,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=CC=C2Br,Unspecified,,,,IZ,=,0,mm
+25,103643522,44587311,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC(=CC=C2)Br,Unspecified,,,,IZ,=,0,mm
+26,103643523,44587312,CO[C@@H]1[C@@H](N(C1=O)SC)C2=CC=C(C=C2)Br,Unspecified,,,,IZ,=,0,mm

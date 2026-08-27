@@ -1,0 +1,14 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,104234342,,,Unspecified,,,,IZ,=,18,mm
+2,440135795,3735277,C1=CC(=CC=C1C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N)[N+](=O)[O-],Unspecified,,,,IZ,=,4,mm
+3,494395373,4632044,C1=CC(=CC(=C1)O)C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N,Unspecified,,,,IZ,=,15,mm
+4,494399680,3411700,COC1=CC=CC=C1C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N,Unspecified,,,,IZ,=,15,mm
+5,494406334,2837625,C1=CC=C(C=C1)C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N,Unspecified,,,,IZ,=,8,mm
+6,494407825,4631551,COC1=CC=C(C=C1)C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N,Unspecified,,,,IZ,=,14,mm
+7,494413755,137742319,C1=CC(=CC=C1C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N)O,Unspecified,,,,IZ,=,15,mm
+8,494414060,3129399,C1=CC=C(C(=C1)C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N)[N+](=O)[O-],Unspecified,,,,IZ,=,5,mm
+9,494416185,5132532,COC1=C(C=C(C=C1)C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N)OC,Unspecified,,,,IZ,=,8,mm
+10,494421087,5181287,C1=CC(=CC=C1C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N)Br,Unspecified,,,,IZ,=,12,mm
+11,494423594,2837622,C1=CC(=CC(=C1)[N+](=O)[O-])C2C(=C(OC3=C2C(=O)NC(=O)N3)N)C#N,Unspecified,,,,IZ,=,7,mm

@@ -1,0 +1,23 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,134454606,54752934,CC(C)C[C@@H](C(=O)N[C@@H](CC1CCNC1=O)C=O)NC(=O)OCC2=CC=CC=C2,Active,,,,0.0446,IC50,=,44.6,nM,
+2,482046639,164946833,C1=CC=C2C(=C1)C=C(N2)C(=O)SC3=NC=CC=N3,Active,,,,0.06,IC50,=,60,nM,
+3,482055078,168274858,CC1=NN=C(S1)SC(=O)C2=CC3=C(C=C2)NC=C3,Active,,,,7.35,IC50,=,7350,nM,
+4,482055296,168275028,C1=CC=C(C=C1)C2=CC=C(O2)C(=O)SC3=NC=CC=N3,Unspecified,,,Potential missing data,,IC50,,,,ND
+5,482060784,168279031,CC1=NN=C(S1)SC(=O)C2=CC3=C(C=C2)C=CN3,Unspecified,,,Potential missing data,,IC50,,,,ND
+6,482065589,168282541,C1=CC=C2C(=C1)C=CC(=N2)C(=O)SC3=NC=CC=N3,Active,,,,0.253,IC50,=,253,nM,
+7,482065971,168282841,CC1=NN=C(S1)SC(=O)C2=C3C=CNC3=CC=C2,Unspecified,,,Potential missing data,,IC50,,,,ND
+8,482069928,168285688,CC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3C=C2,Active,,,,1.65,IC50,=,1650,nM,
+9,482075123,168289470,C1=CC=C2C(=C1)C=C(N2)C(=O)SC3=NC4=CC=CC=C4S3,Unspecified,,,Potential missing data,,IC50,,,,ND
+10,482078139,168291665,CC1=NN=C(S1)SC(=O)C2=CC=CC3=C2NC=C3,Active,,,,2.15,IC50,=,2150,nM,
+11,482078691,168292064,CC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2C,Unspecified,,,Potential missing data,,IC50,,,,ND
+12,482080819,168293590,CSC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,Potential missing data,,IC50,,,,ND
+13,482081119,168293814,COC1=NN=C(S1)SC(=O)C2=CC3=CC=CC=C3N2,Unspecified,,,Potential missing data,,IC50,,,,ND
+14,482081261,168293909,C1=CC=C2C(=C1)C=C(N2)C(=O)SC3=NN=CS3,Active,,,,3.21,IC50,=,3210,nM,
+15,482083474,168295193,CC1=NN=C(S1)SC(=O)C2=CC=C(O2)C#CC3=CC=CC=C3,Active,,,,2.76,IC50,=,2760,nM,
+16,482084330,168295680,CC1=NC(=NC=C1)SC(=O)C2=CC3=CC=CC=C3N2,Active,,,,1.52,IC50,=,1520,nM,
+17,482087886,168297735,C1=CN=C(N=C1)SC(=O)C2=CC=C(S2)C3=CC=C(C=C3)Br,Unspecified,,,Potential missing data,,IC50,,,,ND

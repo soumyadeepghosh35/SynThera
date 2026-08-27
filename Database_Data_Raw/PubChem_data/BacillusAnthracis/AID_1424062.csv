@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,134445513,11143436,C[C@@H]1CCCCCCCCC[C@@H](C(=O)/C=C/C(=O)O1)OC(=O)CCC(=O)O,Unspecified,,,,125,MIC,=,125000,nM
+2,404699092,132967551,C[C@@H]1[C@H](CCCCCCCC[C@@H](C(=O)/C=C/C(=O)O1)OC(=O)CCC(=O)O)O,Unspecified,,,,64,MIC,=,64000,nM
+3,404699200,145981428,C1CCCC[C@H](OC(=O)/C=C/[C@H]([C@H](CCCC1)OC(=O)OCCC(=O)O)O)CO,Unspecified,,,,250,MIC,>,250000,nM
+4,404699425,132967554,C[C@@H]1[C@H](CCCCCCCC[C@@H]([C@@H](/C=C/C(=O)O1)O)O)O,Unspecified,,,,1000,MIC,>,1e+06,nM
+5,404707759,145987305,C[C@@H]1[C@H](CCCCCCCC[C@@H]([C@@H](/C=C/C(=O)O1)O)OC(=O)OCCC(=O)O)O,Unspecified,,,,125,MIC,>,125000,nM
+6,404707969,145987442,C[C@@H]1CCCCCCCCC[C@@H]([C@@H](/C=C/C(=O)O1)O)OC(=O)OCCC(=O)O,Unspecified,,,,250,MIC,>,250000,nM
+7,404708185,135337991,C[C@@H]1CC(CCCCCCC[C@@H](C(=O)/C=C/C(=O)O1)OC(=O)CCC(=O)O)O,Unspecified,,,,1000,MIC,>,1e+06,nM
+8,404715455,132967550,C[C@@H]1CCCCCCCCC[C@@H](C(=O)C[C@H](C(=O)O1)SC[C@H](C(=O)O)O)OC(=O)CCC(=O)O,Unspecified,,,,64,MIC,=,64000,nM
+9,404717652,132967549,C[C@@H]1CCCCCCCCC[C@@H](C(=O)C[C@H](C(=O)O1)SC[C@H](C(=O)O)O)O,Unspecified,,,,16,MIC,=,16000,nM

@@ -1,0 +1,17 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,164136648,71481119,CC(C)C[C@@H](C(=O)N[C@@H](CC1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC2=CC=CC=C2.[Na+],Unspecified,,,Potential missing data,,EC50,,,,ND
+2,482049916,168271178,CCCC1CCC(CC1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@H]2CCNC2=O)C(O)S(=O)(=O)[O-].[Na+],Unspecified,,,Potential missing data,,EC50,,,,ND
+3,482054642,168274537,CC(C)C[C@@H](C(=O)N[C@@H](C[C@H]1CCNC1=O)C=O)NC(=O)OCC2CCC(CC2)(F)F,Active,,,,0.19,EC50,=,190,nM,
+4,482055579,168275257,CC(C)C[C@@H](C(=O)N[C@@H](C[C@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC2CCC(CC2)(F)F.[Na+],Unspecified,,,Potential missing data,,EC50,,,,ND
+5,482058932,168277673,CC(C)C[C@@H](C(=O)N[C@@H](C[C@H]1CCNC1=O)C=O)NC(=O)OC2CCC(CC2)(F)F,Active,,,,0.11,EC50,=,110,nM,
+6,482059166,168277851,CCCCC1CCC(CC1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@H]2CCNC2=O)C=O,Active,,,,0.1,EC50,=,100,nM,
+7,482061326,168279440,CCCCC1CCC(CC1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@H]2CCNC2=O)C(O)S(=O)(=O)[O-].[Na+],Unspecified,,,Potential missing data,,EC50,,,,ND
+8,482061913,168279857,CC(C)C[C@@H](C(=O)N[C@@H](C[C@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OC2CCC(CC2)(F)F.[Na+],Unspecified,,,Potential missing data,,EC50,,,,ND
+9,482067700,168284079,CC(C)C[C@@H](C(=O)N[C@@H](C[C@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OC2CCCCC2.[Na+],Unspecified,,,Potential missing data,,EC50,,,,ND
+10,482069618,168285459,CC(C)C[C@@H](C(=O)N[C@@H](C[C@H]1CCNC1=O)C=O)NC(=O)OC2CCCCC2,Unspecified,,,Potential missing data,,EC50,,,,ND
+11,482070142,168285842,CCCC1CCC(CC1)OC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C[C@H]2CCNC2=O)C=O,Active,,,,0.1,EC50,=,100,nM,

@@ -1,0 +1,21 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM
+1,103164817,5578,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Unspecified,,,,Ratio Ki,=,1.8
+2,103508777,16110337,CC1=C(C(=NC(=N1)N)N)C#CCC2=CC(=C(C(=C2)OC)OC)OC,Unspecified,,,,Ratio Ki,=,1.1
+3,103508787,16110326,CC1=C(C(=NC(=N1)N)N)C#CC(C)C2=CC(=C(C(=C2)OC)OC)OC,Unspecified,,,,Ratio Ki,=,-3.3
+4,103508802,16110328,CC1=C(C(=NC(=N1)N)N)C#CC(C2=CC(=C(C(=C2)OC)OC)OC)O,Unspecified,,,,Ratio Ki,=,1.1
+5,103508820,16110341,CC1=C(C(=NC(=N1)N)N)C#CC(C2=CC(=C(C(=C2)OC)OC)OC)OC,Unspecified,,,,Ratio Ki,=,1.5
+6,103647012,25093361,CC1=C(C(=NC(=N1)N)N)C#CC(C)C2=CC(=CC(=C2)C3=CC=CC=C3)OC,Unspecified,,,,Ratio Ki,=,-2.4
+7,103647076,25093365,CC1=C(C(=NC(=N1)N)N)C#CC(C)C2=CC(=C(C=C2)C3=CC=CC=C3)OC,Unspecified,,,,Ratio Ki,=,1.6
+8,103648036,25138223,CC1=C(C(=NC(=N1)N)N)C#CCC2=C(C=CC(=C2)OC)OC,Unspecified,,,,Ratio Ki,=,-12.5
+9,103648037,25058133,CCC1=C(C(=NC(=N1)N)N)C#CCC2=C(C=CC(=C2)OC)OC,Unspecified,,,,Ratio Ki,=,-68.3
+10,103648039,25138225,CCC1=C(C(=NC(=N1)N)N)C#CCC2=CC(=C(C(=C2)OC)OC)OC,Unspecified,,,,Ratio Ki,=,-3.7
+11,103695194,25187895,CCC(C#CC1=C(N=C(N=C1N)N)C)C2=CC(=C(C(=C2)OC)OC)OC,Unspecified,,,,Ratio Ki,=,-1.2
+12,104246558,25187896,CC1=C(C(=NC(=N1)N)N)C#CC(C)(C)C2=CC(=C(C(=C2)OC)OC)OC,Unspecified,,,,Ratio Ki,=,-1.1
+13,123084061,49788717,CCC1=C(C(=NC(=N1)N)N)C#CCC2=C(C=CC(=C2)OC)C3=CC=CC=C3,Unspecified,,,,Ratio Ki,=,2.5
+14,123088460,52943277,CC1=C(C(=NC(=N1)N)N)C#CC(C)C2=C(C=C(C=C2)C3=CC=CC=C3)OC,Unspecified,,,,Ratio Ki,=,1.1
+15,123090756,52944456,CC1=C(C(=NC(=N1)N)N)C#CC(C)C2=C(C=C(C(=C2)OC)C3=CC=CC=C3)OC,Unspecified,,,,Ratio Ki,=,-1.5
+16,123090878,49788718,CCC1=C(C(=NC(=N1)N)N)C#CCC2=CC(=CC(=C2)OC)C3=CC=CC=C3,Unspecified,,,,Ratio Ki,=,-1.5
+17,123097764,52948202,CCC1=C(C(=NC(=N1)N)N)C#CCC2=CC(=CC=C2)C3=CC=CC=C3,Unspecified,,,,Ratio Ki,=,-3.5
+18,123100173,52949513,CCC1=C(C(=NC(=N1)N)N)C#CCC2=C(C=CC(=C2)C3=CC=CC=C3)OC,Unspecified,,,,Ratio Ki,=,-1.4

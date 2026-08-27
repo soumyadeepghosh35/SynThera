@@ -1,0 +1,16 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103305811,73364,CCCC[C@@H](C=O)NC(=O)[C@H](CC(C)C)NC(=O)OCC1=CC=CC=C1,Active,,,,2.43,IC50,=,2430,nM,
+2,494396155,171343212,CC(=O)NCC(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC2=CN=CN2)C=O,Unspecified,,,,213,IC50,>,213000,nM,Outside typical range
+3,494399566,171345428,CC(=O)NCC(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C=O,Unspecified,,,,425,IC50,>,425000,nM,Outside typical range
+4,494402964,171347503,CC(=O)NCC(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CN=CN2)C=O,Active,,,,2.51,IC50,=,2510,nM,
+5,494404459,171348396,CCCCCCCC(=O)NCC(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CN=CN2)C=O,Active,,,,2.37,IC50,=,2370,nM,
+6,494410142,171351785,CC(=O)NCC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](CC2=CN=CN2)C=O,Unspecified,,,,197.73,IC50,=,197730,nM,Outside typical range
+7,494410667,171352116,CC(C)C[C@@H](C=O)NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)[C@@H]2CC3=CC=CC=C3CN2,Unspecified,,,,425,IC50,>,425000,nM,Outside typical range
+8,494415804,171354909,C1[C@H](NCC2=CC=CC=C21)C(=O)N[C@@H](CC3=CN=CN3)C(=O)N[C@@H](CC4=CN=CN4)C=O,Unspecified,,,,37.84,IC50,=,37840,nM,
+9,494416851,171355484,CC(C)(C)O[C@@H]1C[C@H](NC1)C(=O)N[C@@H](CC2=CN=CN2)C(=O)N[C@@H](CC3=CN=CN3)C=O,Unspecified,,,,170,IC50,>,170000,nM,Outside typical range
+10,494423655,171358301,CC(C)(C)OC(=O)NCC(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CN=CN2)C=O,Active,,,,6.49,IC50,=,6490,nM,

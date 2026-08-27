@@ -1,0 +1,38 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,104240365,65482,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)C[C@H](CC[C@@H](C(=O)O)N)N)O)O)N,Active,,,,0.278,IC50,=,278,nM,
+2,504794674,172439597,CCN(CCNS(=O)(=O)C1=CC=C(C=C1)[N+](=O)[O-])C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+3,504795525,172440183,CCN(CC1=CN(N=N1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)C5=CC=C(C=C5)C(F)(F)F,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+4,504796176,172440665,CCN(CCNS(=O)(=O)C1=CC=C(C=C1)C#N)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+5,504799116,172442702,C1=CC(=CC=C1S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+6,504799668,172443079,C1=CC(=CC=C1C#N)S(=O)(=O)NCCS(=O)(=O)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,52.4,IC50,=,52400,nM,
+7,504801421,172444308,CC1=CC=C(C=C1)S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+8,504802618,172445116,C1=CC(=CC=C1C(F)(F)F)S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,7.3,IC50,=,7300,nM,
+9,504808037,172448900,C1=CC(=C(C=C1Cl)[N+](=O)[O-])S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,0.9,IC50,=,900,nM,
+10,504810490,172450580,CCN(CCNS(=O)(=O)C1=CC=C(C=C1)C(F)(F)F)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+11,504811206,172451111,CCN(CC1=CN(N=N1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)C5=CC=C(C=C5)OC,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+12,504811744,172451472,C1=CC(=CC=C1C#N)S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,15.6,IC50,=,15600,nM,
+13,504812432,172451933,CC1=CC=C(C=C1)S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,2.2,IC50,=,2200,nM,
+14,504814141,172453121,CC1=CC=C(C=C1)S(=O)(=O)NCCS(=O)(=O)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,49,IC50,=,49000,nM,
+15,504817596,172455517,COC1=CC(=C(C=C1)S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Active,,,,0.9,IC50,=,900,nM,
+16,504819331,172456722,C1=CC(=CC=C1F)S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+17,504819857,172457082,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,4.7,IC50,=,4700,nM,
+18,504820754,172457711,CCN(CCNS(=O)(=O)C1=CC=CC=C1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+19,504824012,172459971,C1=CC=C(C(=C1)[N+](=O)[O-])S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,2.04,IC50,=,2040,nM,
+20,504825307,172460847,C1=CC=C(C=C1)S(=O)(=O)NCCS(=O)(=O)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,23.3,IC50,=,23300,nM,
+21,504829255,172463560,COC1=CC=C(C=C1)S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+22,504829506,172463748,CCN(CC1=CN(N=N1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)C5=CC=C(C=C5)F,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+23,504829771,172463947,CCN(CC1=CN(N=N1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)C5=CC=C(C=C5)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+24,504832642,172465940,CCN(CCNS(=O)(=O)C1=CC=C(C=C1)C)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+25,504833938,172466895,CCN(CC1=CN(N=N1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)C5=CC=C(C=C5)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+26,504835039,172467673,C1=CC(=CC=C1C(F)(F)F)S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+27,504836125,172468421,CCN(CC1=CN(N=N1)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)S(=O)(=O)C5=CC=CC=C5,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+28,504836761,172468886,C1=CC(=CC=C1C(F)(F)F)S(=O)(=O)NCCS(=O)(=O)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,38.4,IC50,=,38400,nM,
+29,504837032,172469079,C1=CC=C(C=C1)S(=O)(=O)NCCSC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,4.6,IC50,=,4600,nM,
+30,504838283,172469958,CC1=CC(=CC=C1)S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined
+31,504838773,172470291,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NCCS(=O)(=O)C[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,27.4,IC50,=,27400,nM,
+32,504839367,172470686,C1=CC=C(C=C1)S(=O)(=O)NCC2=CN(N=N2)C[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined

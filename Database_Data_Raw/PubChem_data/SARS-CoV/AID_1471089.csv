@@ -1,0 +1,16 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,,
+1,381842007,137635040,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)OCC4=CC=CC=C4,Inactive,,,Potential missing data,,IC50,,,,Not Active,
+2,381847306,137638573,COC1=CC(=CC(=C1OC)OC)/C=C/C(=O)O[C@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)C(=O)NC4CCCCC4,Unspecified,,,,250,IC50,=,250000,nM,,Outside typical range
+3,381859664,137646922,COC1=CC(=CC(=C1)/C=C/C(=O)O[C@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)C(=O)NC4CCCCC4)OC,Unspecified,,,,125,IC50,=,125000,nM,,Outside typical range
+4,381861168,137647961,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)OC(=O)CCC4=CC=CC=C4,Unspecified,,,,65,IC50,=,65000,nM,,
+5,381864842,137650431,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)OC(=O)/C=C/C4=CC(=CC=C4)O,Unspecified,,,,500,IC50,>,500000,nM,,Outside typical range
+6,381871553,132917759,COC1=CC=CC(=C1)/C=C/C(=O)O[C@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)C(=O)NC4CCCCC4,Unspecified,,,,65,IC50,=,65000,nM,,
+7,381881781,122403823,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)OC(=O)/C=C/C4=CC=CC=C4,Unspecified,,,,85,IC50,=,85000,nM,,
+8,381883798,137659548,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)O,Unspecified,,,,500,IC50,>,500000,nM,,Outside typical range
+9,381885995,137661026,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)OCC3=CC=CC=C3)OC(=O)/C=C/C4=CC=CC=C4,Unspecified,,,,75,IC50,=,75000,nM,,
+10,381887686,132501222,C1CCC(CC1)NC(=O)[C@@H]([C@H](C2=CC=CC=C2)NC(=O)/C=C/C3=CC=CC=C3)OC(=O)C4=CC=CC=C4,Unspecified,,,,43,IC50,>=,43000,nM,,

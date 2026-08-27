@@ -1,0 +1,41 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,504793841,172439038,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CCCCC4)C(=O)C1)C,Unspecified,,,,Delta Tm,=,4.64,degrees C
+2,504794152,172439251,CC1=CC=C(C=C1)C2C3=C(CCCC3=O)NC4=C(N2C(=O)CCl)C=CC(=C4)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,4.44,degrees C
+3,504794358,172439385,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)C(F)(F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,4.02,degrees C
+4,504794985,172439827,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CCCCC4)C(=O)C1,Unspecified,,,,Delta Tm,=,2.57,degrees C
+5,504795880,172440436,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)C)C(=O)C1,Unspecified,,,,Delta Tm,=,1.62,degrees C
+6,504796196,172440680,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C)C(=O)C1,Unspecified,,,,Delta Tm,=,3.21,degrees C
+7,504796904,172441172,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CCCC4)C(=O)C1,Unspecified,,,,Delta Tm,=,3.01,degrees C
+8,504801621,172444444,C1CC2=C(C(N(C3=C(N2)C=C(C=C3)C#N)C(=O)CCl)C4=CC=C(C=C4)C(F)(F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,6.02,degrees C
+9,504803496,172445745,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CCC4)C(=O)C1,Unspecified,,,,Delta Tm,=,2.74,degrees C
+10,504805111,172446841,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=C(C=C(C=C4)F)F)C(=O)C1)C,Unspecified,,,,Delta Tm,=,2.94,degrees C
+11,504805258,172446944,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)OC)C(=O)C1,Unspecified,,,,Delta Tm,=,3.13,degrees C
+12,504808141,172448975,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CCCC4)C(=O)C1)C,Unspecified,,,,Delta Tm,=,3.53,degrees C
+13,504808780,172449399,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)OC(F)(F)F)C(=O)C1)C,Unspecified,,,,Delta Tm,=,-1.64,degrees C
+14,504809661,172450022,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)OC)C(=O)C1)C,Unspecified,,,,Delta Tm,=,-2.76,degrees C
+15,504809774,172450096,CC1(CC2=C(CN(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C(=O)C1)C,Unspecified,,,,Delta Tm,=,1.85,degrees C
+16,504810158,172450357,C1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=CC=C4)C(=O)C1,Unspecified,,,,Delta Tm,=,5.71,degrees C
+17,504811612,172451378,C1CCC(CC1)C2C3=C(CCCC3=O)NC4=C(N2C(=O)CCl)C=CC(=C4)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,7.14,degrees C
+18,504812164,172451759,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=CC=C4)C(=O)C1)C,Unspecified,,,,Delta Tm,=,4.74,degrees C
+19,504814174,172453144,CC1C2=C(CC(CC2=O)(C)C)NC3=C(N1C(=O)CCl)C=CC(=C3)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,1.32,degrees C
+20,504816603,172454817,C1CC2=C(CN(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C(=O)C1,Unspecified,,,,Delta Tm,=,4.1,degrees C
+21,504816910,172455026,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CCC4)C(=O)C1)C,Unspecified,,,,Delta Tm,=,2.72,degrees C
+22,504817319,172455330,C1CCC(C1)C2C3=C(CCCC3=O)NC4=C(N2C(=O)CCl)C=CC(=C4)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,6.27,degrees C
+23,504819434,172456792,COC1=CC=C(C=C1)C2C3=C(CCCC3=O)NC4=C(N2C(=O)CCl)C=CC(=C4)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,4.55,degrees C
+24,504820868,172457787,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)C(F)(F)F)C(=O)C1)C,Unspecified,,,,Delta Tm,=,-0.54,degrees C
+25,504821264,172458057,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CC4)C(=O)C1,Unspecified,,,,Delta Tm,=,4.66,degrees C
+26,504824490,172460289,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)OC(F)(F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,0.13,degrees C
+27,504824769,172460484,CC1=CC=C(C=C1)C2C3=C(CC(CC3=O)(C)C)NC4=C(N2C(=O)CCl)C=CC(=C4)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,3.27,degrees C
+28,504827345,172462268,C1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)C(F)(F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,6.6,degrees C
+29,504828539,172463068,C1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=C(C=C(C=C4)F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,2.95,degrees C
+30,504829014,172463398,C1CC(C1)C2C3=C(CCCC3=O)NC4=C(N2C(=O)CCl)C=CC(=C4)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,5.83,degrees C
+31,504829623,172463830,CC1CC2=C(CN(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C(=O)C1,Unspecified,,,,Delta Tm,=,2.79,degrees C
+32,504831290,172464993,COC(=O)C1=CC2=C(C=C1)N(C(C3=C(N2)CCCC3=O)C4=CC=C(C=C4)C(F)(F)F)C(=O)CCl,Unspecified,,,,Delta Tm,=,8.45,degrees C
+33,504831995,172465477,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=C(C=C(C=C4)F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,3.25,degrees C
+34,504834803,172467502,C1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=C(C=C4)OC(F)(F)F)C(=O)C1,Unspecified,,,,Delta Tm,=,3.65,degrees C
+35,504836335,172468561,C1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CC4)C(=O)C1,Unspecified,,,,Delta Tm,=,4.77,degrees C
+36,504837078,172469115,CC1(CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4CC4)C(=O)C1)C,Unspecified,,,,Delta Tm,=,2.01,degrees C
+37,504837965,172469728,CC1C2=C(CCCC2=O)NC3=C(N1C(=O)CCl)C=CC(=C3)[N+](=O)[O-],Unspecified,,,,Delta Tm,=,4.5,degrees C
+38,504839475,172470759,CC1CC2=C(C(N(C3=C(N2)C=C(C=C3)[N+](=O)[O-])C(=O)CCl)C4=CC=CC=C4)C(=O)C1,Unspecified,,,,Delta Tm,=,3.16,degrees C

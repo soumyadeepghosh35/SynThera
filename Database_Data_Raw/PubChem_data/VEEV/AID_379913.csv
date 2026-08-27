@@ -1,0 +1,10 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,103598268,44566427,C[C@@H]1CC2[C@H](CO[C@]3(CC[C@H]([C@@H](CC4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)C)OC)C)C,Inactive,,,Potential missing data,Activity,Not Active
+2,103598270,44566429,C[C@@H]1CC2[C@H](CO[C@]3(CC[C@H](/C(=C\C4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)/C)O)C)C,Inactive,,,Potential missing data,Activity,Not Active
+3,103598271,44566430,C[C@@H]1CC2[C@H](CO[C@]3(CCCC(=O)CC4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)C)C,Inactive,,,Potential missing data,Activity,Not Active
+4,103598305,44566450,C[C@@H]1CC2[C@H](CO[C@]3(CCC(=O)C(=C)CC4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)C)C,Inactive,,,Potential missing data,Activity,Not Active
+5,103598306,44566451,C[C@@H]1CC2[C@H](CO[C@]3(CC[C@H](C(=C)CC4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)O)C)C,Inactive,,,Potential missing data,Activity,Not Active
+6,103598307,44566452,C[C@@H]1CC2[C@H](CO[C@]3(CC[C@@H](C(=C)CC4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)O)C)C,Inactive,,,Potential missing data,Activity,Not Active
+7,103598308,44566453,C[C@@H]1CC2[C@H](CO[C@]3(CC[C@H](C(=C)CC4[C@H]([C@@H]1OC(=O)C)[C@H]2C3O4)OO)C)C,Inactive,,,Potential missing data,Activity,Not Active

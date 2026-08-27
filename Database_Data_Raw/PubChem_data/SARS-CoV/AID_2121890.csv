@@ -1,0 +1,23 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103510943,16204324,COC1=CC=CC(=C1)C(=O)OC2=CC(=CN=C2)Cl,Active,,,Potential missing data,,Inhibition,,,%,Active
+2,103510943,16204324,COC1=CC=CC(=C1)C(=O)OC2=CC(=CN=C2)Cl,Active,,,,0.0051,IC50,=,5.1,nM,
+3,103621400,16202861,COC1=CC=CC=C1C(=O)OC2=CC(=CN=C2)Cl,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+4,103621469,16202857,C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)OC3=CC(=CN=C3)Cl,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+5,103621658,16204013,COC1=CC=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+6,520003122,177378865,C1=CC(=C(C=C1Cl)Cl)C(=O)OC2=CC(=CN=C2)Cl,Active,,,Potential missing data,,Inhibition,,,%,Active
+7,520003812,177378859,C1=CC(=CC=C1C(=O)OC2=CC(=CN=C2)Cl)I,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+8,520004944,177378870,C1=CC(=C(C=C1I)F)C(=O)OC2=CC(=CN=C2)Cl,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+9,520005031,177378873,C1=CC=C(C=C1)COC2=CC(=C(C=C2)C(=O)OC3=CC(=CN=C3)Cl)F,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+10,520005509,5016983,C1=CC=C(C(=C1)C(=O)OC2=CC(=CN=C2)Cl)F,Active,,,Potential missing data,,Inhibition,,,%,Active
+11,520005531,177378863,C1=CC(=C(C(=C1)Cl)Cl)C(=O)OC2=CC(=CN=C2)Cl,Active,,,Potential missing data,,Inhibition,,,%,Active
+12,520005567,177378878,COC1=CC=CC(=C1OC)C(=O)OC2=CC(=CN=C2)Cl,Active,,,Potential missing data,,Inhibition,,,%,Active
+13,520006133,177378872,CCOC1=CC(=C(C=C1)C(=O)OC2=CC(=CN=C2)Cl)F,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+14,520007204,177378864,C1=CC(=C(C=C1C(=O)OC2=CC(=CN=C2)Cl)Cl)Cl,Active,,,Potential missing data,,Inhibition,,,%,Active
+15,520007893,177378867,C1=CC(=C(C=C1Cl)F)C(=O)OC2=CC(=CN=C2)Cl,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+16,520010786,177378881,C1=CC(=C(C(=C1)F)C(=O)OC2=CC(=CN=C2)Cl)F,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active
+17,520012516,177378869,C1=CC(=C(C=C1Br)F)C(=O)OC2=CC(=CN=C2)Cl,Inactive,,,Potential missing data,,Inhibition,,,%,Not Active

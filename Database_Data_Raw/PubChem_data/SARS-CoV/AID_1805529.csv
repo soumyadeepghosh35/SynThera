@@ -1,0 +1,9 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,PubChem Standard Value,EC50 Qualifier,EC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","Qualifier (e.g. >, <, =) for PubChem Standard Value","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.","Qualifier (e.g. >, <, =) for EC50",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,TRUE,,,,,,
+1,172097425,24941262,CC1=C(C=C(C=C1)N)C(=O)N[C@H](C)C2=CC=CC3=CC=CC=C32,Inactive,,,,EC50,>,20,>,20000,Q9BYF1,BDBM31524,Angiotensin-converting enzyme 2
+2,447115289,156907317,CC1=C(C=C(C=C1)NC2CNC2)C(=O)N[C@H](C)C3=CC=CC(=C3)C4=CC=C(S4)CNC5CCCC5,Active,,,,EC50,,1.4,,1400,Q9BYF1,BDBM496842,Angiotensin-converting enzyme 2
+3,447115290,155801618,CC1=C(C=C(C=C1)NC2CNC2)C(=O)N[C@H](C)C3=CC=CC(=C3)C4=CC=C(S4)CN5CCCC5,Active,,,,EC50,,1.2,,1200,Q9BYF1,BDBM496843,Angiotensin-converting enzyme 2

@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103555488,44444703,C1CCN(CC1)C2=CC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,>,200,ug.mL-1
+2,163312939,71449273,CN1CCN(C(=O)C1)C2=C(C=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-])F,Unspecified,,,,MIC,=,25,ug.mL-1
+3,163312940,71449274,C1COCC(=O)N1C2=C(C=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-])F,Unspecified,,,,MIC,=,25,ug.mL-1
+4,163323238,71454660,C1COCCN1C2=NC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,25,ug.mL-1
+5,163323239,71454661,C1COCC(=O)N1C2=CC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,25,ug.mL-1
+6,163326633,57325398,C1COCCN1C2=CC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,12.5,ug.mL-1
+7,163326634,71456394,C1CS(=O)CCN1C2=CC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,12.5,ug.mL-1
+8,163330066,71458231,CN1CCN(C(=O)C1)C2=CC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,12.5,ug.mL-1
+9,163330067,71458232,CN1CCN(C(=O)C1)C2=NC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,25,ug.mL-1
+10,163333632,71460090,C1COCCN1C2=C(C=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-])F,Unspecified,,,,MIC,=,12.5,ug.mL-1
+11,163333633,71460091,C1CSCCN1C2=CC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,12.5,ug.mL-1
+12,163337053,71461814,C1COCC(=O)N1C2=NC=C(C=C2)C3CC(=NO3)C4=CC=C(O4)[N+](=O)[O-],Unspecified,,,,MIC,=,25,ug.mL-1

@@ -1,0 +1,11 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,PubChem Standard Value,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,MICROMOLAR,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,
+1,46518166,126941,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,Active,,,,IC50,0.0151,15.1,,BDBM18050,Dihydrofolate reductase
+2,46518166,126941,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,Active,,,,IC50,0.0243,24.3,P00374,BDBM18050,Dihydrofolate reductase
+3,46518166,126941,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,Active,,,,IC50,0.0051,5.1,,BDBM18050,Dihydrofolate reductase
+4,46518184,5578,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Inactive,,,,IC50,77.3,77300,,BDBM18069,Dihydrofolate reductase
+5,46518184,5578,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Inactive,,,,IC50,1620,1.62e+06,P00374,BDBM18069,Dihydrofolate reductase
+6,46518184,5578,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Active,,,,IC50,5.75,5750,,BDBM18069,Dihydrofolate reductase

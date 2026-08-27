@@ -1,0 +1,7 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Additional comments
+1,103628891,3005573,CN(C)CCOC1=CC=C(C=C1)/C(=C(/CCCl)\C2=CC=CC=C2)/C3=CC=CC=C3,Unspecified,,,,Ratio IC50,=,10,
+2,461523659,153939546,CC1=C([C@@H](OC2=CC=CC=C12)C3=CC=C(C=C3)OCCN4CCCCC4)C5=CC=C(C=C5)O,Unspecified,,,,Ratio IC50,=,10,
+3,461531627,162655017,CC/C(=C(/C1=CC=C(C=C1)NC(=O)C2CCN(CC2)C)\C3=CC=C(C=C3)OCCN4CCCC4)/C5=CC=CC=C5,Inactive,,,Potential missing data,Activity,,,Not Active
+4,461544360,162663958,CC/C(=C(/C1=CC=C(C=C1)NC(=O)C2CCN(C2)C)\C3=CC=C(C=C3)OCCN4CCCC4)/C5=CC=CC=C5,Inactive,,,Potential missing data,Activity,,,Not Active

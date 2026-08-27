@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,PubChem Standard Value,Ki,IC50 Qualifier,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","Qualifier (e.g. >, <, =) for PubChem Standard Value","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,"Qualifier (e.g. >, <, =) for IC50",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,NANOMOLAR,,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,TRUE,,,,,,,
+1,46509357,15959316,CC1=CC(=NO1)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](C(C)O)C(=O)N[C@@H](CC3=CC=CC=C3)C(=O)NC4=C(C=C(C=C4)[N+](=O)[O-])Cl,Active,,,,Ki,,1.61,1610,,5000,P0C6X7,BDBM11239,Replicase polyprotein 1ab
+2,46511511,15959317,CC(C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](C(C)O)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl)NC(=O)OCC4=CC=CC=C4,Active,,,,Ki,,1.51,1510,,6000,P0C6X7,BDBM11240,Replicase polyprotein 1ab
+3,46511786,11317290,CN(C)C1=CC=C(C=C1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl,Active,,,,Ki,,0.03,30,,60,P0C6X7,BDBM11234,Replicase polyprotein 1ab
+4,46511787,11262151,CC(C)C[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C,Inactive,,,,IC50,>,10,,>,10000,P0C6X7,BDBM11235,Replicase polyprotein 1ab
+5,46511788,11467858,CC(C)C[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)NC(=O)[C@H](C(C)C)NC(=O)C3=CC=CS3,Active,,,,Ki,,2.29,2290,,5000,P0C6X7,BDBM11236,Replicase polyprotein 1ab
+6,46511789,85426836,CC1=CC(=NO1)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CC3=CC=CC=C3)C(=O)NC4=C(C=C(C=C4)[N+](=O)[O-])Cl,Active,,,,Ki,,2.9,2900,,7000,P0C6X7,BDBM11237,Replicase polyprotein 1ab
+7,46511790,11227702,CC(C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)NC3=C(C=C(C=C3)[N+](=O)[O-])Cl)NC(=O)C4=CC=CS4,Active,,,,Ki,,4.3,4300,,5000,P0C6X7,BDBM11238,Replicase polyprotein 1ab
+8,46511792,11491101,C1=CC=C(C=C1)C[C@@H](C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])Cl)NC(=O)C[C@@H](C(=O)N[C@@H](CC3=CC=CC=C3)C(=O)NC4=C(C=C(C=C4)[N+](=O)[O-])Cl)O,Active,,,,Ki,,3.1,3100,,4000,P0C6X7,BDBM11241,Replicase polyprotein 1ab
+9,46511793,4477,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,Inactive,,,,IC50,>,50,,>,50000,P0C6X7,BDBM11242,Replicase polyprotein 1ab

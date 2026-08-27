@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,PubChem Standard Value,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,MICROMOLAR,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,
+1,46511864,3220,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O,Inactive,,,,IC50,29.7,29700,B1JQH1,BDBM11318,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ [1-175]
+2,46511864,3220,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O,Inactive,,,,IC50,43.1,43100,,BDBM11318,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+3,56269728,3806,C1=CC2=C(C(=O)C=CC2=O)C(=C1)O,Active,,,,IC50,5.3,5300,B1JQH1,BDBM24777,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ [1-175]
+4,56269728,3806,C1=CC2=C(C(=O)C=CC2=O)C(=C1)O,Active,,,,IC50,5.4,5400,,BDBM24777,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+5,103953052,73677,CC1=CC(=C(C2=C1C(=O)OC3=C(O2)C4=C(C(=C3C)O)C(=O)OC4O)C=O)OC,Inactive,,,,IC50,13,13000,B1JQH1,BDBM50056922,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ [1-175]
+6,103953052,73677,CC1=CC(=C(C2=C1C(=O)OC3=C(O2)C4=C(C(=C3C)O)C(=O)OC4O)C=O)OC,Inactive,,,,IC50,27.8,27800,,BDBM50056922,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+7,104089789,5281650,CC(=CCC1=C(C2=C(C=C1O)OC3=C(C2=O)C(=C(C(=C3)O)OC)CC=C(C)C)O)C,Active,,,,IC50,6.1,6100,B1JQH1,BDBM50214969,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ [1-175]
+8,104089789,5281650,CC(=CCC1=C(C2=C(C=C1O)OC3=C(C2=O)C(=C(C(=C3)O)OC)CC=C(C)C)O)C,Active,,,,IC50,7.7,7700,,BDBM50214969,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ

@@ -1,0 +1,22 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+1,103163904,2764,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Unspecified,,,,IZ,=,42,mm,
+2,103695885,3684314,CC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,89,mm,Outside typical range
+3,103695902,13340181,CCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,86,mm,Outside typical range
+4,103695907,13340182,CCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,86,mm,Outside typical range
+5,103695909,45337827,CCCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,80,mm,Outside typical range
+6,103695914,45482297,CC(C)(C)C(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,80,mm,Outside typical range
+7,103695922,45482303,CCCCCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,71,mm,Outside typical range
+8,103695923,45482304,CCCCCCCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,55,mm,Outside typical range
+9,103695930,25205744,CCCCCCCCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,6,mm,
+10,163313226,71449442,CCC(CC)C(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,81,mm,Outside typical range
+11,163316595,45337828,CCCCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,77,mm,Outside typical range
+12,163316607,71451236,CCC(C)(C)C(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,57,mm,Outside typical range
+13,163323495,71454798,CCCC(CCC)C(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,72,mm,Outside typical range
+14,163323496,71454799,CC(CC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F)CC(C)(C)C,Unspecified,,,,IZ,=,80,mm,Outside typical range
+15,163323497,13340183,CC(C)CC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,70,mm,Outside typical range
+16,163326938,71456575,CCCCC(CC)C(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,65,mm,Outside typical range
+17,163337343,71461968,CCCCCCCC(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,65,mm,Outside typical range
+18,163337358,71461975,CCCC(C)C(=O)N1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,Unspecified,,,,IZ,=,67,mm,Outside typical range
+19,163337359,13340185,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCN(CC4)C(=O)C5=CC=CC=C5)F)C(=O)O,Unspecified,,,,IZ,=,49,mm,

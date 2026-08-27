@@ -1,0 +1,9 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103415244,,,Unspecified,,,,Viral titer,=,1.2e+06,PFU.mL-1
+2,103415244,,,Unspecified,,,,Viral titer,=,1.3e+06,PFU.mL-1
+3,103415244,,,Unspecified,,,,Viral titer,=,1.4e+06,PFU.mL-1
+4,103676439,6240,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl.Cl,Unspecified,,,,Viral titer,=,1.3e+06,PFU.mL-1
+5,103676439,6240,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl.Cl,Unspecified,,,,Viral titer,=,1.1e+06,PFU.mL-1
+6,103676439,6240,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl.Cl,Unspecified,,,,Viral titer,=,1.05e+06,PFU.mL-1

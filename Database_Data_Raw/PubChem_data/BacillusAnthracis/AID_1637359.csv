@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,,
+1,103164100,1868,COC1=CC2=C(C=C1)NC3=C2CCNC3,Unspecified,,,,675,Kd,=,675000,nM,,Outside typical range
+2,194173966,29147548,CC(=O)N1CCC2=C(C1)C3=C(N2)C=CC(=C3)OC,Unspecified,,,,215,Kd,=,215000,nM,,Outside typical range
+3,242317528,702220,CCC(=O)NC1=CC(=CC(=C1)OC)OC,Unspecified,,,,281,Kd,=,281000,nM,,Outside typical range
+4,242397212,699704,CCC(=O)NC1=C(C=C(C=C1)OC)OC,Unspecified,,,,170,Kd,=,170000,nM,,Outside typical range
+5,440166061,195658,COC1=CC2=C(C=C1)NC(=C2)CN,Inconclusive,,,Potential missing data,,Kd,,,,Not Determined,
+6,440172451,6462759,CCS(=O)(=O)N(C)C1=CC=C(C=C1)C(=O)N2CCCC2,Active,,,Potential missing data,,Activity,,,,Active,
+7,440201639,25239626,CSC1(C2=C(CCN1)C3=C(N2)C=CC(=C3)F)NC#N,Unspecified,,,,1000,Kd,>,1e+06,nM,,Outside typical range
+8,440207845,25252030,COC1=CC2=C(C=C1)NC3=C2CCNC3(NC#N)SC,Unspecified,,,,144,Kd,=,144000,nM,,Outside typical range
+9,440216890,16459997,COC1=CC2=C(C=C1)NC3=C2CCNC34CCOCC4,Unspecified,,,,314,Kd,=,314000,nM,,Outside typical range
+10,440220083,3159598,CCC1C2=CC=CN2CCN1,Active,,,Potential missing data,,Activity,,,,Active,
+11,440220653,17608739,CN1C=CC2=C(C=CC=C21)CO,Active,,,Potential missing data,,Activity,,,,Active,
+12,440227658,4777777,CC1=CC2=C(C=C1)NC3=C2CCNC3,Inactive,,,Potential missing data,,Kd,,,,Not Active,

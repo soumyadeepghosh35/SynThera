@@ -1,0 +1,11 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,103572349,44454032,CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCCN=C(N)N)C(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C1=CC=C(C=C1)N=NC2=CC=C(C=C2)N(C)C,Active,,,Potential missing data,Activity,Active
+2,103572588,44454195,CC[C@H](C)[C@@H](C(=O)NCCNC1=CC=CC2=C1C=CC=C2S(=O)(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C3=CC=C(C=C3)N=NC4=CC=C(C=C4)N(C)C,Active,,,Potential missing data,Activity,Active
+3,103572631,44454220,CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)NCCNC1=CC=CC2=C1C=CC=C2S(=O)(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C3=CC=C(C=C3)N=NC4=CC=C(C=C4)N(C)C,Active,,,Potential missing data,Activity,Active
+4,103572675,44454249,CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](CCC(=O)O)C(=O)NCCNC1=CC=CC2=C1C=CC=C2S(=O)(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C3=CC=C(C=C3)N=NC4=CC=C(C=C4)N(C)C,Active,,,Potential missing data,Activity,Active
+5,103572717,44454277,CN(C)C1=CC=C(C=C1)N=NC2=CC=C(C=C2)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](CCCN=C(N)N)C(=O)O,Inactive,,,Potential missing data,Activity,Not Active
+6,103572903,44454404,CC[C@H](C)[C@@H](C(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C1=CC=C(C=C1)N=NC2=CC=C(C=C2)N(C)C,Active,,,Potential missing data,Activity,Active
+7,103572949,44454435,CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(=O)N)C(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C1=CC=C(C=C1)N=NC2=CC=C(C=C2)N(C)C,Active,,,Potential missing data,Activity,Active
+8,103574553,44455481,CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](CCC(=O)NCCNC1=CC=CC2=C1C=CC=C2S(=O)(=O)O)C(=O)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)C3=CC=C(C=C3)N=NC4=CC=C(C=C4)N(C)C,Active,,,Potential missing data,Activity,Active

@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103163904,2764,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Unspecified,,,,MIC,=,0.04,ug.mL-1,
+2,103188044,441401,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,Inconclusive,,,Potential missing data,MIC,,,,Not Determined
+3,103680237,9547899,C1=NC(=C(N1[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O)N)[N+](=O)[O-],Inconclusive,,,Potential missing data,MIC,,,,Not Determined
+4,312382572,118729347,CC1=C(C(=NC2=CC=CC=C12)C3=CC=CC=C3)C(=O)NC4=NN=C(O4)C5=C(C=CC(=C5)Cl)Cl,Unspecified,,,,MIC,>,12.5,ug.mL-1,
+5,312382573,7244081,CC1=CC(=C(C=C1)C)C2=NN=C(O2)NC(=O)C3=CC(=CC=C3)Cl,Unspecified,,,,MIC,>,12.5,ug.mL-1,
+6,312382574,16821838,CC1=CC(=C(C=C1)C)C2=NN=C(O2)NC(=O)C3=C(SC(=C3)Cl)Cl,Unspecified,,,,MIC,=,3.1,ug.mL-1,
+7,312382575,118729348,COC1=CC(=C(C=C1)Cl)C(=O)NC2=NN=C(O2)C3=CC=C(C=C3)Br,Unspecified,,,,MIC,=,3.1,ug.mL-1,
+8,312382576,3289884,C1=CC=C(C=C1)OC(=O)N(C2=CC(=C(C=C2)OC(=O)OC3=CC=CC=C3)Br)S(=O)(=O)C4=CC5=CC=CC=C5C=C4,Inconclusive,,,Potential missing data,MIC,,,,Not Determined
+9,312382577,25862623,C1=CSC(=C1)CNC(=O)CC2=CC=C(C=C2)NC(=O)C3=C(C=C(C=C3)F)Cl,Unspecified,,,,MIC,>,12.5,ug.mL-1,
+10,312382578,18562200,COC1=CC=CC(=C1OC)C(=O)NC2=CC=C(C=C2)C3=CN4C=CSC4=N3,Unspecified,,,,MIC,>,12.5,ug.mL-1,
+11,312382579,46784025,CC1=[N+](C2=C(S1)C=CS2)CC(=O)O.[Br-],Unspecified,,,,MIC,>,12.5,ug.mL-1,
+12,312382580,25854674,C1CN(CCN1C2=NN3C=NN=C3C=C2)C(=O)NC4=CC=CC(=C4)C(F)(F)F,Unspecified,,,,MIC,>,12.5,ug.mL-1,
+13,312382581,2243305,C1=CC=C(C=C1)C2=NN=C(O2)SCC(=O)NC3=CC=C(C=C3)S(=O)(=O)N,Inconclusive,,,Potential missing data,MIC,,,,Not Determined
+14,312382582,44826916,C1CSC2=NC(=C(N21)CNC(=O)C3=CC=CS3)C4=CC=C(C=C4)Cl,Unspecified,,,,MIC,>,12.5,ug.mL-1,
+15,312382583,16805184,CCCCC(CC)CNC1=NC2=C(N1CC(COC3=CC(=C(C=C3)C)C)O)C(=O)NC(=O)N2C,Inconclusive,,,Potential missing data,MIC,,,,Not Determined
+16,312382584,49660181,CC1=C(N=C(O1)C2=C(C(=CC=C2)OC)OC)CN3C(=C(N=N3)C(=O)NCC4=CC=C(C=C4)Cl)N,Inconclusive,,,Potential missing data,MIC,,,,Not Determined

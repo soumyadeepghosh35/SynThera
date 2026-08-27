@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,461515664,162643799,C1=CC=C(C=C1)CCCN(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Inactive,,,Potential missing data,Inhibition,%,Not Active
+2,461516374,162644307,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CN(CC[C@@H](C(=O)O)N)CCO[C@@H]4[C@@H]([C@H](O[C@H]4N5C=NC6=C(N=CN=C65)N)CO)O)O)O)N,Inactive,,,Potential missing data,Inhibition,%,Not Active
+3,461516479,162644381,COC(=O)CCCN(CCO[C@@H]1[C@@H]([C@H](O[C@H]1N2C=NC3=C(N=CN=C32)N)CO)O)C[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=NC6=C(N=CN=C65)N)O)O,Inactive,,,Potential missing data,Inhibition,%,Not Active
+4,461544192,162663830,COC1=CC(=C(C=C1)S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)[N+](=O)[O-],Inactive,,,Potential missing data,Inhibition,%,Not Active
+5,461544969,162664400,C1=CC(=CC=C1S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+6,461547516,162666147,COC(=O)[C@H](CCN(CCO[C@@H]1[C@@H]([C@H](O[C@H]1N2C=NC3=C(N=CN=C32)N)CO)O)C[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=NC6=C(N=CN=C65)N)O)O)N,Inactive,,,Potential missing data,Inhibition,%,Not Active
+7,461548187,162666627,C1=CC(=CC=C1CN(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+8,461550306,162668095,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CN(CCCC(=O)O)CCO[C@@H]4[C@@H]([C@H](O[C@H]4N5C=NC6=C(N=CN=C65)N)CO)O)O)O)N,Inactive,,,Potential missing data,Inhibition,%,Not Active
+9,461550530,162668246,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CN(CC[C@@H](C(=O)N)N)CCO[C@@H]4[C@@H]([C@H](O[C@H]4N5C=NC6=C(N=CN=C65)N)CO)O)O)O)N,Inactive,,,Potential missing data,Inhibition,%,Not Active
+10,461552861,162669910,CCCCN(CCO[C@@H]1[C@@H]([C@H](O[C@H]1N2C=NC3=C(N=CN=C32)N)CO)O)C[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=NC6=C(N=CN=C65)N)O)O,Inactive,,,Potential missing data,Inhibition,%,Not Active
+11,461556966,162672832,C1=CC(=C(C=C1S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)[N+](=O)[O-])Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+12,461556990,162672848,C1=CC(=C(C=C1CN(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O)[N+](=O)[O-])Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+13,461558341,162673787,COC1=C(C=CC(=C1)[N+](=O)[O-])S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Inactive,,,Potential missing data,Inhibition,%,Not Active
+14,461558918,162674174,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Inactive,,,Potential missing data,Inhibition,%,Not Active
+15,461561508,162676033,C1=CC(=C(C=C1C(F)(F)F)[N+](=O)[O-])S(=O)(=O)N(CCO[C@@H]2[C@@H]([C@H](O[C@H]2N3C=NC4=C(N=CN=C43)N)CO)O)C[C@@H]5[C@H]([C@H]([C@@H](O5)N6C=NC7=C(N=CN=C76)N)O)O,Inactive,,,Potential missing data,Inhibition,%,Not Active
+16,461563260,162677263,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CNCCO[C@@H]4[C@@H]([C@H](O[C@H]4N5C=NC6=C(N=CN=C65)N)CO)O)O)O)N,Inactive,,,Potential missing data,Inhibition,%,Not Active

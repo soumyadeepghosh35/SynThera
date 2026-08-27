@@ -1,0 +1,12 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103233114,3194,C1=CC=C(C=C1)N2C(=O)C3=CC=CC=C3[Se]2,Unspecified,,,,Inhibition,=,0.2,%
+2,312394094,118737647,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(O)S(=O)(=O)[O-])NC(=O)OCC2=CC=CC=C2.[Na+],Unspecified,,,,Inhibition,=,100.2,%
+3,504797953,172441921,CC[C@H](C)[C@H]1C(=O)C(=O)N[C@H](C2=NC(=CS2)/C=C/C(=O)N[C@H](C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N1)CC(C)C)NC(=O)[C@H](C)N)CS(=O)(=O)[O-])CC3=CC=C(C=C3)O.[Na+],Unspecified,,,,Inhibition,=,6.6,%
+4,504801509,172444368,CC[C@H]1C(=O)N[C@H](C(=O)C(=O)N[C@H](C2=NC(=CS2)/C=C/C(=O)N[C@H](C(=O)NC[C@@H](C(=O)N1)N3C(=O)[C@@H](NC3=O)C)CS(=O)(=O)[O-])CC4=CC=C(C=C4)O)[C@@H](C)CC.[Na+],Unspecified,,,,Inhibition,=,2.6,%
+5,504810961,172450928,CCC[C@H]1C(=O)N[C@H](C(=O)C(=O)N[C@H](C2=NC(=CS2)/C=C/C(=O)N[C@H](C(=O)NC[C@@H](C(=O)N1)N3C(=O)[C@@H](NC3=O)C)CS(=O)(=O)[O-])CC4=CC=C(C=C4)O)[C@@H](C)CC.[Na+],Unspecified,,,,Inhibition,=,3.5,%
+6,504811321,162967937,CC(C)C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)NCCCC[C@H](C(=O)N1)NC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)CC3=CC=CC=C3)CC4=CNC5=CC(=C(C=C54)O)Cl)C)CC(C)C,Unspecified,,,,Inhibition,=,10.5,%
+7,504823986,172459950,CCC[C@H]1C(=O)N[C@H](C(=O)C(=O)N[C@H](C2=NC(=CS2)/C=C/C(=O)N[C@H](C(=O)NC[C@@H](C(=O)N1)NC(=O)[C@H](C)N)CS(=O)(=O)[O-])CC3=CC=C(C=C3)O)[C@@H](C)CC.[Na+],Unspecified,,,,Inhibition,=,1.3,%
+8,504827349,146162779,CC(C)C[C@H]1C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)NCCCC[C@H](C(=O)N1)NC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)CC3=CC=CC=C3)CC4=CNC5=C4C=CC(=C5)Cl)C)CC(C)C,Unspecified,,,,Inhibition,=,5.6,%
+9,504832186,172465620,CC[C@H](C)[C@H]1C(=O)C(=O)N[C@H](C2=NC(=CS2)/C=C/C(=O)N[C@H](C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N1)CC(C)C)N3C(=O)[C@@H](NC3=O)C)CS(=O)(=O)[O-])CC4=CC=C(C=C4)O.[Na+],Unspecified,,,,Inhibition,=,4.5,%

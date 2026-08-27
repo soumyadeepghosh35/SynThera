@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103165163,5904,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,Unspecified,,,,MIC,<=,0.125,ug.mL-1
+2,103543159,44436687,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)CC4=CC=CC=C4)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+3,103543160,44436688,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=C(C=CC=C4OC)OC)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+4,103543161,44436689,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=NC=C4)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+5,103543162,44436690,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CN=CC=C4)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+6,103543163,44436691,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=CC=N4)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+7,103543164,44436692,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=CS4)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+8,103543165,44436693,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=CC=C4)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+9,103543166,44436694,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C(C4=CC=CC=C4)O)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+10,103543168,44436695,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=C(C=C4)C5=CC=CC=C5)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+11,103543169,44436696,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=CC(=C4)C5=CC=CC=C5)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+12,103543170,44436699,CC1[C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC5=C(C=C4)C=C(C=C5)OC)C(=O)O,Unspecified,,,,MIC,>,8,ug.mL-1
+13,103543171,44436700,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=C(C=C4)C5=CC=NC=C5)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+14,103762140,44436698,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C4=CC=CC=C4C5=CC=CC=C5)C(=O)O)C,Unspecified,,,,MIC,>,8,ug.mL-1
+15,104234163,43672,CCN1CCN(C(=O)C1=O)C(=O)N[C@H](C2=CC=CC=C2)C(=O)N[C@H]3[C@@H]4N(C3=O)[C@H](C(S4)(C)C)C(=O)O,Unspecified,,,,MIC,=,1,ug.mL-1
+16,124975658,24873455,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)N3C=C(N=N3)C(C4=CC=C(C=C4)C5=CC=NC=C5)O)C(=O)[O-])C.[Na+],Unspecified,,,,MIC,>=,8,ug.mL-1

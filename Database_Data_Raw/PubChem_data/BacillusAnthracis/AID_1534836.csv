@@ -1,0 +1,11 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,103606457,25128766,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)N)O[C@H]3[C@@H]([C@@H]([C@H](O3)CNC(=O)CCCC4=C5C=CC6=CC=CC7=C6C5=C(C=C7)C=C4)O[C@@H]8[C@@H]([C@H]([C@@H]([C@@H](O8)CN)O)O)N)O)O)N,Unspecified,,,,12.5,MIC,=,12500,nM
+2,123097006,8378,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)N)O[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O[C@@H]4[C@@H]([C@H]([C@@H]([C@@H](O4)CN)O)O)N)O)O)N,Active,,,,1.56,MIC,=,1560,nM
+3,440118021,155515978,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)N)O[C@H]3[C@@H]([C@@H]([C@H](O3)CSCCNC(=O)CC4=C5C=CC6=CC=CC7=C6C5=C(C=C7)C=C4)O[C@@H]8[C@@H]([C@H]([C@@H]([C@@H](O8)CN)O)O)N)O)O)N,Active,,,,6.25,MIC,=,6250,nM
+4,440134071,155526404,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)N)O[C@H]3[C@@H]([C@@H]([C@H](O3)CSCCNC(=S)NCCCCCCNC(=O)CCCC4=C5C=CC6=CC=CC7=C6C5=C(C=C7)C=C4)O[C@@H]8[C@@H]([C@H]([C@@H]([C@@H](O8)CN)O)O)N)O)O)N,Active,,,,3.13,MIC,=,3130,nM
+5,440176715,102021958,C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)N)O[C@H]3[C@@H]([C@@H]([C@H](O3)CSCCNC(=O)CCCC4=C5C=CC6=CC=CC7=C6C5=C(C=C7)C=C4)O[C@@H]8[C@@H]([C@H]([C@@H]([C@@H](O8)CN)O)O)N)O)O)N,Active,,,,6.25,MIC,=,6250,nM

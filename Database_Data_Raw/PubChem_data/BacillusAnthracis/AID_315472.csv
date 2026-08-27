@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Additional comments
+1,103577347,54693616,CC(C)C[C@H]1C(=C(C(=O)N1CCC(C)CCC=C(C)C)C(=O)C)O,Unspecified,,,,Ratio,=,18.3,
+2,103577349,54693615,CC(C)C[C@H]1C(=C(C(=O)N1CC2=CC=C(C=C2)C3=CC=CC=C3)C(=O)C)O,Unspecified,,,,Ratio,=,98.5,
+3,103577350,54732503,CC(C)C[C@H]1C(=C(C(=O)N1CC2=CCC3CC2C3(C)C)C(=O)C)O,Unspecified,,,,Ratio,=,22.1,
+4,103577390,54693635,CCCCN1[C@H](C(=C(C1=O)C(=O)C)O)CC(C)C,Unspecified,,,,Ratio,=,81.4,
+5,103577392,54693613,CCN1[C@H](C(=C(C1=O)C(=O)C)O)CC2=CC=CC=C2,Inconclusive,,,Potential missing data,Ratio,,,Not Determined
+6,103577393,54693614,CCCCCCCCCCN1[C@H](C(=C(C1=O)C(=O)C)O)C(C)C,Unspecified,,,,Ratio,=,8.8,
+7,103577431,54693633,CC(C)C[C@H]1C(=C(C(=O)N1CC2=CC=C(C=C2)F)C(=O)C)O,Unspecified,,,,Ratio,=,2.2,
+8,103577433,54693641,CC(C)C[C@H]1C(=C(C(=O)N1CC2=CC(=CC=C2)OC)C(=O)C)O,Unspecified,,,,Ratio,=,3.2,
+9,103577435,54693632,CC(=O)C1=C([C@@H](N(C1=O)CC2=CC=CC=C2)CC3=CC=CC=C3)O,Unspecified,,,,Ratio,=,6.1,
+10,103577468,54693640,CCCCCCCCCCN1[C@H](C(=C(C1=O)C(=O)C)O)CC(C)C,Unspecified,,,,Ratio,=,36.8,
+11,103577471,136153001,CCC(C)[C@H]1C(=O)/C(=C(\C)/O)/C(=O)N1CC2=CC=CC=C2,Unspecified,,,,Ratio,=,4.2,
+12,103577821,54693642,CC(C)C[C@@H]1C(=C(C(=O)N1CC2=CC=C(C=C2)F)C(=O)C)O,Unspecified,,,,Ratio,=,2.8,
+13,103577822,54693634,CC(=O)C1=C([C@H](N(C1=O)CC2=CC=CC=C2)CC3=CC=CC=C3)O,Unspecified,,,,Ratio,=,3.2,
+14,103577823,54693617,CCCCCCCCCCN1[C@@H](C(=C(C1=O)C(=O)C)O)CC(C)C,Unspecified,,,,Ratio,=,15.8,
+15,103577936,54693628,CCCCCCCCCCN1[C@H](C(=C(C1=O)C(=O)C)O)CC2=CC=CC=C2,Unspecified,,,,Ratio,=,105.5,

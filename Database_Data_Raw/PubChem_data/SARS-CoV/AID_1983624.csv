@@ -1,0 +1,7 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103167026,5281605,C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O,Unspecified,,,,Papp,=,6.07,10^-6 cm/s
+2,504808388,172449133,CC(C)CC1=NC2=CC(=C(C(=C2C(=O)N1C3=CC=CC=C3)O)O)O,Unspecified,,,,Papp,=,7.45,10^-6 cm/s
+3,504813100,169447977,CC1=C(C=CC(=C1)N2C(=NC3=CC(=C(C(=C3C2=O)O)O)O)CC(C)C)F,Unspecified,,,,Papp,=,6.07,10^-6 cm/s
+4,504834225,168476162,C1=CC=C(C=C1)C2=NC3=CC(=C(C(=C3C(=O)N2C4=CC=CC=C4)O)O)O,Unspecified,,,,Papp,=,9.67,10^-6 cm/s

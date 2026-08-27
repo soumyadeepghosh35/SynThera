@@ -1,0 +1,46 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,104240365,65482,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)C[C@H](CC[C@@H](C(=O)O)N)N)O)O)N,Active,,,,0.278,IC50,=,278,nM,
+2,482047002,168269191,C1=CC(=C(C=C1[N+](=O)[O-])Cl)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,,IC50,,,,ND
+3,482047323,166596228,CC1=C(C=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)Cl,Active,,,,0.344,IC50,=,344,nM,
+4,482047458,166595910,C1=CC(=C(C=C1C(F)(F)F)[N+](=O)[O-])S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,3.5,IC50,=,3500,nM,
+5,482047561,163358780,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)OC)C#N,Active,,,,0.019,IC50,=,19,nM,
+6,482050298,166595754,CC1=C(C=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Active,,,,0.342,IC50,=,342,nM,
+7,482050797,166595654,COC1=CC(=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Active,,,,1.4,IC50,=,1400,nM,
+8,482051398,166596329,C1=CC(=C(C=C1S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)C#N)Cl,Active,,,,1.01,IC50,=,1010,nM,
+9,482053915,166596361,C1=CC(=C(C=C1S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-])F,Active,,,,4.4,IC50,=,4400,nM,
+10,482055111,166596246,COC1=C(C=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Active,,,,0.146,IC50,=,146,nM,
+11,482056037,168275599,C1=CC=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,,IC50,,,,ND
+12,482056255,168275756,C1=CC(=C(C=C1C(F)(F)F)[N+](=O)[O-])C(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,,IC50,,,,ND
+13,482056899,166595737,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)Cl)Cl,Active,,,,0.1,IC50,=,100,nM,
+14,482057029,166596059,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC=CC(=C4)[N+](=O)[O-],Active,,,,0.516,IC50,=,516,nM,
+15,482058173,166595994,C1=CC(=CC(=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Active,,,,3.589,IC50,=,3589,nM,
+16,482059120,168277813,COC1=C(C=C(C=C1)S(=O)(=O)N(CCCCNC2=CC=CC3=CC=CC=C32)C[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=NC6=C(N=CN=C65)N)O)O)[N+](=O)[O-],Active,,,,0.03,IC50,=,30,nM,
+17,482059344,168277985,CC1=C(C=C(C=C1)C(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Unspecified,,,Potential missing data,,IC50,,,,ND
+18,482059854,166595617,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)C)[N+](=O)[O-],Active,,,,0.038,IC50,=,38,nM,
+19,482060345,166595839,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)OC)[N+](=O)[O-],Active,,,,0.044,IC50,=,44,nM,
+20,482060981,166595734,CC(=O)OCCCCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)OC)[N+](=O)[O-],Active,,,,0.08,IC50,=,80,nM,
+21,482062970,166596029,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)C)Cl,Active,,,,0.056,IC50,=,56,nM,
+22,482063045,166596530,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=C(C=C(C=C4)C(F)(F)F)[N+](=O)[O-],Active,,,,5,IC50,=,5000,nM,
+23,482063102,166595685,COC1=C(C=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)C#N,Active,,,,0.514,IC50,=,514,nM,
+24,482063273,168280839,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC=CC=C4,Unspecified,,,Potential missing data,,IC50,,,,ND
+25,482063743,168281191,C1=CC=C(C=C1)C(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,,IC50,,,,ND
+26,482063977,166595953,C1=CC(=CC=C1S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)Cl,Unspecified,,,,13.02,IC50,=,13020,nM,
+27,482065173,166596392,C1=CC(=C(C=C1S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)Cl)Cl,Active,,,,0.482,IC50,=,482,nM,
+28,482065907,166596032,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)Br)[N+](=O)[O-],Active,,,,0.08,IC50,=,80,nM,
+29,482066462,166595781,C1=CC(=C(C=C1S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)C#N)F,Active,,,,0.899,IC50,=,899,nM,
+30,482070670,166596205,CCC1=C(C=C(C=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-],Active,,,,0.244,IC50,=,244,nM,
+31,482071054,166596469,C1=CC(=CC(=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)C#N,Active,,,,5.3,IC50,=,5300,nM,
+32,482071374,168286725,C1=CC(=C(C(=C1)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)Cl)[N+](=O)[O-],Active,,,,2.1,IC50,=,2100,nM,
+33,482076335,168290336,C1=CC(=CC(=C1)Cl)S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,Potential missing data,,IC50,,,,ND
+34,482076810,166596378,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC=CC(=C4)C#N,Active,,,,0.96,IC50,=,960,nM,
+35,482077150,166595638,COC1=C(C=CC(=C1)[N+](=O)[O-])S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Active,,,,5.1,IC50,=,5100,nM,
+36,482079743,166595614,CCOC(=O)CCCCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=C(C=C4)OC)[N+](=O)[O-],Active,,,,0.114,IC50,=,114,nM,
+37,482084162,166595801,CCN(C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)O)S(=O)(=O)C4=CC(=CC=C4)Cl,Active,,,,0.442,IC50,=,442,nM,
+38,482086766,168297082,C1=CC(=C(C=C1C(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-])Cl,Unspecified,,,Potential missing data,,IC50,,,,ND
+39,482087342,166596542,C1=CC(=C(C=C1S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O)[N+](=O)[O-])Br,Active,,,,2.9,IC50,=,2900,nM,
+40,482087521,166595574,C1=CC(=CC=C1[N+](=O)[O-])S(=O)(=O)NC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)O,Unspecified,,,,14.1,IC50,=,14100,nM,

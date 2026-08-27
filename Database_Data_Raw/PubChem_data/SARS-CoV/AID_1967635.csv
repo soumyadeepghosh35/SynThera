@@ -1,0 +1,16 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,440153949,73425534,COCCCCCCCCCN1C[C@@H]([C@H]([C@@H]([C@H]1CO)O)O)O.Cl,Active,,,,3.32,EC50,=,3320,nM
+2,504794720,166625073,CC1=NC(=NO1)C2=CC(=C(C=C2)NCCCCCCN3C[C@@H]([C@H]([C@@H]([C@H]3CO)O)O)O)[N+](=O)[O-],Active,,,,0.44,EC50,=,440,nM
+3,504796358,166625075,C1CC(C1)C2=NC(=NO2)C3=CC(=C(C=C3)NCCCCCCN4C[C@@H]([C@H]([C@@H]([C@H]4CO)O)O)O)[N+](=O)[O-],Active,,,,0.72,EC50,=,720,nM
+4,504797462,172441570,C1CC2COCC1N2C3=CC(=C(C=C3)NCCCCCCN4C[C@@H]([C@H]([C@@H]([C@H]4CO)O)O)O)[N+](=O)[O-],Active,,,,1.61,EC50,=,1610,nM
+5,504798435,162439333,C1CC1C2=CC(=CC(=C2)C3=NN=CC=C3)NCCCCCCN4C[C@@H]([C@H]([C@@H]([C@H]4CO)O)O)O,Active,,,,7.86,EC50,=,7860,nM
+6,504798777,166625088,CC1=NC2=C(N1CCCCCCN3C[C@@H]([C@H]([C@@H]([C@H]3CO)O)O)O)C=CC(=C2)C4=NC=CC=N4,Unspecified,,,,12.23,EC50,=,12230,nM
+7,504801337,135334698,C1[C@@H]([C@H]([C@@H]([C@H](N1CCCCCCCCC2=CC=CO2)CO)O)O)O,Active,,,,3.36,EC50,=,3360,nM
+8,504816812,172454970,C1[C@@H]([C@H]([C@@H]([C@H](N1CCCCCCNC2=C(C=C(C=C2)C3=CC=CC=C3)[N+](=O)[O-])CO)O)O)O,Active,,,,0.42,EC50,=,420,nM
+9,504825625,23582363,C1[C@@H]([C@H]([C@@H]([C@H](N1CCCCCCNC2=C(C=C(C=C2)N=[N+]=[N-])[N+](=O)[O-])CO)O)O)O,Active,,,,0.58,EC50,=,580,nM
+10,504836702,164607191,CC1=C(C=CC(=C1)C2=CC=CO2)NCC3=CC=C(C=C3)CN4C[C@@H]([C@H]([C@@H]([C@H]4CO)O)O)O,Unspecified,,,,25,EC50,>,25000,nM

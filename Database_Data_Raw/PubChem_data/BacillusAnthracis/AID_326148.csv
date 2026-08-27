@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,103535485,877450,C1=CC=C(C=C1)NCCC(=O)C2=CC(=CC=C2)[N+](=O)[O-],Unspecified,,,,Inhibition,=,66,%
+2,103535492,723918,C1COCCN1CCC(=O)C2=CC=C(C=C2)Cl,Unspecified,,,,Inhibition,=,84.4,%
+3,103568373,4448737,CN(C)CCC(=O)C1=CC=C(C=C1)S(=O)(=O)C,Unspecified,,,,Inhibition,=,69.8,%
+4,103568445,2978553,CC1CCCN(C1)CCC(=O)C2=CC=C(C=C2)Br,Unspecified,,,,Inhibition,=,56.9,%
+5,103568448,420859,CC1=CC=C(C=C1)C(=O)CCN2CCOCC2,Unspecified,,,,Inhibition,=,56.9,%
+6,103568485,408257,CN(C)CCC(=O)C1=CC=CS1,Unspecified,,,,Inhibition,=,54.8,%
+7,103568486,432139,CN(C)CCC(=O)C1=CC(=C(C=C1)Cl)Cl,Unspecified,,,,Inhibition,=,89.6,%
+8,103568702,5045939,CCOC(=O)N1CCN(CC1)CCC(=O)C2=CC=C(C=C2)Br,Unspecified,,,,Inhibition,=,80.2,%
+9,103568737,200802,C1COCCN1CCC(=O)C2=CC=C(C=C2)F,Unspecified,,,,Inhibition,=,47.2,%
+10,103568739,223143,CN(C)CCC(=O)C1=CC(=CC=C1)[N+](=O)[O-],Unspecified,,,,Inhibition,=,54.3,%

@@ -1,0 +1,25 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103551068,135403829,CC1=C([C@@](SC1=O)(C)/C=C(\C)/C=C)O,Unspecified,,,,MIC90,=,8,ug.mL-1,
+2,103551073,135488223,C/C(=C\[C@@]1(C(=CC(=O)S1)O)C)/C=C,Unspecified,,,,MIC90,=,250,ug.mL-1,
+3,440112081,136624743,CCCC(=O)C1=C([C@@](SC1=O)(C)/C=C(\C)/C=C)O,Unspecified,,,,MIC90,>,250,ug.mL-1,
+4,440112389,135566668,CCCC1=C([C@@](SC1=O)(C)/C=C(\C)/C=C)O,Unspecified,,,,MIC90,>,250,ug.mL-1,
+5,440119364,136996815,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCN=[N+]=[N-])O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+6,440130334,135566671,C/C(=C\[C@@]1(C(=O)/C(=C(\C(F)(F)F)/O)/C(=O)S1)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+7,440132711,155525537,C/C(=C\[C@@]1(C(=C(C(=O)S1)C(=O)CCCCCN=[N+]=[N-])O)C)/C=C,Inconclusive,,,Potential missing data,MIC90,,,,Not Determined
+8,440134258,155526529,C/C(=C\[C@@]1(C(=C(C(=O)S1)C(=O)CCCCCC2=CC=C(C=C2)C3=CC=CC=C3)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+9,440134616,136624741,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCC2=CC=C(C=C2)Br)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+10,440138676,136624739,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCC2=CC=C(C=C2)Cl)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+11,440149977,136624745,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCC2=CC=C(C=C2)Cl)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+12,440152383,136624740,CC1=CC=C(C=C1)CCC2=C([C@@](SC2=O)(C)/C=C(\C)/C=C)O,Unspecified,,,,MIC90,>,250,ug.mL-1,
+13,440163680,136624744,C/C(=C\[C@@]1(C(=C(C(=O)S1)C(=O)OC)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+14,440174051,136624748,CCCCCCCCCCCCCCCC(=O)C1=C([C@@](SC1=O)(C)/C=C(\C)/C=C)O,Unspecified,,,,MIC90,>,250,ug.mL-1,
+15,440179955,136996827,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCN2C=C(N=N2)CNC(=O)C3=CC=C(C=C3)NS(=O)(=O)C4=CC=C(C=C4)F)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+16,440182740,136624758,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCC2=CC=C(C=C2)C3=CC=CC=C3)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+17,440188844,135566667,CCC1=C([C@@](SC1=O)(C)/C=C(\C)/C=C)O,Unspecified,,,,MIC90,=,145,ug.mL-1,
+18,440193573,136624736,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCC2=CC=C(C=C2)F)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+19,440194238,136996829,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCN2C=C(N=N2)CNC(=O)[C@@H](C(C)(C)CO)O)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+20,440197443,136446118,C/C(=C\[C@@]1(C(=C(C(=O)S1)CCCCN=[N+]=[N-])O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+21,440209293,136624742,C/C(=C\[C@@]1(C(=O)/C(=C(\C2=CC=CC=C2C(=O)O)/O)/C(=O)S1)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,
+22,440218665,135566670,C/C(=C\[C@@]1(C(=C(C(=O)S1)C(=O)C)O)C)/C=C,Unspecified,,,,MIC90,>,250,ug.mL-1,

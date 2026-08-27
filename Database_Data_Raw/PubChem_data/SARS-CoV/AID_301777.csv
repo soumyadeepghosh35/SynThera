@@ -1,0 +1,13 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103470548,11642725,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC2=CC=CC=C2)CC(=O)[C@H](C(C)C)NC(=O)C3=NOC(=C3)C,Unspecified,,,,870,IC50,=,870000,nM,Outside typical range
+2,103470549,10062715,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC=C(C)C)CC(=O)[C@H](C(C)C)NC(=O)C2=NOC(=C2)C,Unspecified,,,,800,IC50,=,800000,nM,Outside typical range
+3,103537251,44433696,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC=C(C)C)CC(=O)[C@H](C(C)C)NC(=O)[C@H](CO)NC(=O)OC(C)(C)C,Unspecified,,,,80,IC50,=,80000,nM,
+4,103537252,44433697,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CO)NC(=O)OC(C)(C)C,Active,,,,10,IC50,=,10000,nM,
+5,103537253,44433698,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CO)NC(=O)OC(C)(C)C,Unspecified,,,,15,IC50,=,15000,nM,
+6,103537254,15956553,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](C(C)C)NC(=O)C3=NOC(=C3)C,Unspecified,,,,300,IC50,=,300000,nM,Outside typical range
+7,103537255,44433699,CCOC(=O)/C=C/[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C(C)C)NC(=O)C2=NOC(=C2)C,Unspecified,,,,200,IC50,=,200000,nM,Outside typical range

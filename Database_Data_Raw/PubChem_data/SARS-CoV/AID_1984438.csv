@@ -1,0 +1,19 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+1,461563615,155903259,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)[C@H](C(C)(C)C)NC(=O)C(F)(F)F)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C#N)C,Unspecified,,,,CL,=,1.92,mL.min-1.kg-1
+2,504794469,166170482,CC(C)C[C@H](C(=O)N1C[C@@H](C[C@H]1C(=O)N[C@@H](C[C@@H]2CCNC2=O)C(=O)COC(F)(F)F)C(F)(F)F)O,Unspecified,,,,CL,=,23.7,mL.min-1.kg-1
+3,504800141,166170539,C1CNC(=O)[C@@H]1C[C@@H](C(=O)COC(F)(F)F)NC(=O)[C@@H]2CC3(CC3)CN2C(=O)C(=O)NC4=CC=CC=C4F,Unspecified,,,,CL,=,28.7,mL.min-1.kg-1
+4,504803784,166170732,CC(C)(C)NC(=O)C(=O)N1C[C@@H]2CCC[C@@H]2[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,CL,=,38.8,mL.min-1.kg-1
+5,504810046,166170507,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C(=O)NCC(F)(F)F,Unspecified,,,,CL,=,51.8,mL.min-1.kg-1
+6,504811954,166170540,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)[C@H]2CCCO2,Unspecified,,,,CL,=,18.4,mL.min-1.kg-1
+7,504818862,166169794,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)CO)NC(=O)C(=O)NC2=CC=CC=C2F,Unspecified,,,,CL,=,23.3,mL.min-1.kg-1
+8,504824103,166169868,CC1(CC(C1)(C(=O)N2CC3(CC3)C[C@H]2C(=O)N[C@@H](C[C@@H]4CCNC4=O)C(=O)COC(F)(F)F)O)C,Unspecified,,,,CL,=,40.3,mL.min-1.kg-1
+9,504826636,166170518,CC(C)C[C@H](C(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F)O,Unspecified,,,,CL,=,23,mL.min-1.kg-1
+10,504827801,166170209,CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)C(=O)NC(C)(C)C)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F)C,Unspecified,,,,CL,=,36.9,mL.min-1.kg-1
+11,504829194,166170592,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC2=C(C(=CC(=C2F)F)F)F)NC(=O)C(=O)NC3=CC=CC=C3F,Unspecified,,,,CL,=,50.3,mL.min-1.kg-1
+12,504835529,166169818,CC(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,CL,=,11.7,mL.min-1.kg-1
+13,504835833,166170593,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C(=O)NC23CC(C2)(C3)F,Unspecified,,,,CL,=,56.9,mL.min-1.kg-1
+14,504835997,166170138,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C(=O)NC2=CC=CC=C2F,Unspecified,,,,CL,=,53.4,mL.min-1.kg-1
+15,504838474,166170432,CC(C)CC(=O)C(=O)N1CC2(CC2)C[C@H]1C(=O)N[C@@H](C[C@@H]3CCNC3=O)C(=O)COC(F)(F)F,Unspecified,,,,CL,=,36.2,mL.min-1.kg-1
+16,504840236,166170007,CC(C)C[C@@H](C(=O)N[C@@H](C[C@@H]1CCNC1=O)C(=O)COC(F)(F)F)NC(=O)C2=NOC(=C2)C(C)(C)F,Unspecified,,,,CL,=,15,mL.min-1.kg-1

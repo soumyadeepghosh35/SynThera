@@ -1,0 +1,15 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,123084427,52941137,CC(=O)NC1=CC=C(C=C1)/C=C\2/C(=NN(C2=O)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+2,123086685,5367170,C1=CC=C(C=C1)/C=C\2/C(=NN(C2=O)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+3,123088936,52943505,CC(C)(C)C1=CC=C(C=C1)N2C(=O)/C(=C\C3=CC=C(C=C3)C(=O)O)/C(=N2)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+4,123089040,15263288,COC1=CC=CC(=C1)/C=C\2/C(=NN(C2=O)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+5,123091295,5759731,CN(C)C1=CC=C(C=C1)/C=C\2/C(=NN(C2=O)C3=CC=CC=C3)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+6,123093599,52945968,COC1=CC=C(C=C1)/C=C\2/C(=NN(C2=O)C3=CC=C(C=C3)Cl)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+7,123093648,52945981,C1=CC=C(C=C1)C\2=NN(C(=O)/C2=C\C3=CC(=CC=C3)[N+](=O)[O-])C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+8,123095738,136203765,C1=CC=C(C=C1)C\2=NN(C(=O)/C2=C\C3=CC=C(C=C3)O)C4=CC=C(C=C4)Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+9,123095881,52947189,CC(=O)NC1=CC=C(C=C1)/C=C\2/C(=NN(C2=O)C3=CC=C(C=C3)Cl)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+10,123095949,52947217,C1=CC=C(C=C1)/C=C\2/C(=NN(C2=O)C3=CC=C(C=C3)Cl)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+11,123098165,52948374,CC(C)C1=CC=C(C=C1)N2C(=O)/C(=C\C3=CC=C(C=C3)C(=O)O)/C(=N2)C4=CC=CC=C4,Inactive,,,Potential missing data,Inhibition,%,Not Active
+12,123101635,52950199,C1=CC=C(C=C1)C\2=NN(C(=O)/C2=C\C3=CC=C(C=C3)Cl)C4=CC=C(C=C4)Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active

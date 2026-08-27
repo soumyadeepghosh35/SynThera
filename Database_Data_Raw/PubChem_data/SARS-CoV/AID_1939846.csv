@@ -1,0 +1,16 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+1,103199241,31404,CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C,Unspecified,,,,IC50,=,65.33,ug.mL-1,Outside typical range
+2,103468589,604603,C1=CC=C(C=C1)C2C3=C(C=C(C=C3)O)OC(=C2C#N)N,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+3,123093429,3113335,COC1=CC=C(C=C1)C2C3=C(C=C(C=C3)O)OC(=C2C#N)N,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+4,494395131,171342564,C1OC2=C(O1)C=C(C=C2)C3C4=C(C=C(C=C4)O)OC5=NC=NC(=C35)N,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+5,494395477,171342781,C1=CC(=CC=C1C2C3=C(C=C(C=C3)O)OC4=NC=NC(=C24)N)[N+](=O)[O-],Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+6,494400801,129882840,C1=CC(=CC=C1C2C3=C(C=C(C=C3)O)OC4=NC=NC(=C24)N)Cl,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+7,494401163,16446168,CCOC1=CC=C(C=C1)C2C3=C(C=C(C=C3)O)OC(=C2C#N)N,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+8,494402150,171347003,C1=CC=C(C(=C1)C2C3=C(C=C(C=C3)O)OC4=NC=NC(=C24)N)O,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+9,494411684,129882843,C1=CC(=CC=C1C2C3=C(C=C(C=C3)O)OC4=NC=NC(=C24)N)Br,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+10,494411897,57149825,C1=COC(=C1)C2C3=C(C=C(C=C3)O)OC(=C2C#N)N,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+11,494413205,171353498,COC1=C(C=C(C=C1)C2C3=C(C=C(C=C3)O)OC4=NC=NC(=C24)N)OC,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+12,494413386,171353536,C1=CC2=C(C=C1O)OC3=NC=NC(=C3C2C4=C(C=CC(=C4)Cl)O)N,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range
+13,494423648,171358297,COC1=C(C=CC(=C1)C2C3=C(C=C(C=C3)O)OC(=C2C#N)N)O,Unspecified,,,,IC50,=,53.54,ug.mL-1,Outside typical range

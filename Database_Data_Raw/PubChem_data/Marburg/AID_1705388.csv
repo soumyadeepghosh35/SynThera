@@ -1,0 +1,58 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,,
+1,103213015,68617,CN[C@H]1CC[C@H](C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined,
+2,404696043,145979369,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCCCC3,Unspecified,,,,93,IC50,=,93000,nM,,
+3,404697565,145980373,CC1CCN(CC1)CC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,35,IC50,=,35000,nM,,
+4,404698161,145980753,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCN(CC3)C,Unspecified,,,,484.7,IC50,=,484700,nM,,Outside typical range
+5,404699559,145981663,CCN1CCN(CC1)CCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,80.5,IC50,=,80500,nM,,
+6,404701165,145982699,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCOCC3,Unspecified,,,,319.8,IC50,=,319800,nM,,Outside typical range
+7,404702162,1551170,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCOCC3,Unspecified,,,,290.7,IC50,=,290700,nM,,Outside typical range
+8,404704960,145985404,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCN(CC3)C,Unspecified,,,,173.2,IC50,=,173200,nM,,Outside typical range
+9,404710722,145989185,CCOC(=O)N1CCN(CC1)CCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined,
+10,404711160,92325485,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCCCC3,Unspecified,,,,122.5,IC50,=,122500,nM,,Outside typical range
+11,404712068,145990056,CCOC(=O)N1CCN(CC1)CC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,112.9,IC50,=,112900,nM,,Outside typical range
+12,404712411,145990267,CC1CCN(CC1)CCC(=O)N[C@@H]2C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,93.6,IC50,=,93600,nM,,
+13,404712812,145990523,CC1CCN(CC1)CCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,289.7,IC50,=,289700,nM,,Outside typical range
+14,404715839,145992466,CCN1CCN(CC1)CC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,263.6,IC50,=,263600,nM,,Outside typical range
+15,440139260,142772675,CC1CCN(CC1)CC(=O)N[C@@H]2C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,78,IC50,=,78000,nM,,
+16,461516625,162644461,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCOCC3,Unspecified,,,,287.7,IC50,=,287700,nM,,Outside typical range
+17,461516680,162644501,CCN1CCN(CC1)CC(=O)N[C@@H]2C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,660.2,IC50,=,660200,nM,,Outside typical range
+18,461518253,162645625,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN(C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined,
+19,461522092,162648366,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCN(CC3)CCO,Unspecified,,,,394.2,IC50,=,394200,nM,,Outside typical range
+20,461522755,162648817,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCCCCC3,Unspecified,,,,191.2,IC50,=,191200,nM,,Outside typical range
+21,461523317,162649203,CC1CCN(CC1)CCCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,276.4,IC50,=,276400,nM,,Outside typical range
+22,461524317,162649895,CCOC(=O)N1CCN(CC1)CCCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,49.1,IC50,=,49100,nM,,
+23,461524970,93233667,C[C@@]12CC[C@@H](C1(C)C)C[C@H]2NC(=O)CN3CCN(CC3)C,Unspecified,,,,853.3,IC50,=,853300,nM,,Outside typical range
+24,461525352,162650631,CCN(CC)CCC(=O)O[C@@H]1C[C@@H]2CC[C@]1(C2(C)C)C,Unspecified,,,,411.4,IC50,=,411400,nM,,Outside typical range
+25,461526146,162651160,CCN1CCN(CC1)CCCC(=O)N[C@@H]2C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,268.2,IC50,=,268200,nM,,Outside typical range
+26,461527177,162651863,CC1CCN(CC1)CCCC(=O)N[C@@H]2C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,141.6,IC50,=,141600,nM,,Outside typical range
+27,461528993,916253,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCCCCC3,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined,
+28,461529400,162653459,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCCCCC3,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined,
+29,461529571,162653585,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCN(CC3)CC4=CC=CC=C4,Unspecified,,,,39.8,IC50,=,39800,nM,,
+30,461530719,929233,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN(C)C,Unspecified,,,,522.6,IC50,=,522600,nM,,Outside typical range
+31,461532526,162655638,CCN1CCN(CC1)CCC(=O)N[C@@H]2C[C@H]3CC[C@@]2(C3(C)C)C,Unspecified,,,,564.9,IC50,=,564900,nM,,Outside typical range
+32,461533113,162656042,CC1CCN(CC1)CCCCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,83.5,IC50,=,83500,nM,,
+33,461534680,162657160,C[C@@]12CC[C@@H](C1(C)C)C[C@H]2NC(=O)CN3CCOCC3,Unspecified,,,,838.1,IC50,=,838100,nM,,Outside typical range
+34,461534701,162657174,C[C@@]12CC[C@@H](C1(C)C)C[C@H]2NC(=O)CCCN3CCOCC3,Unspecified,,,,171.8,IC50,=,171800,nM,,Outside typical range
+35,461535563,162657777,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCN(CC3)CCN,Unspecified,,,,50.4,IC50,=,50400,nM,,
+36,461536651,162658565,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCN(CC3)C,Unspecified,,,,97.3,IC50,=,97300,nM,,
+37,461536676,162658580,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCCCC3.Cl,Unspecified,,,,89.4,IC50,=,89400,nM,,
+38,461537491,162659140,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCCCC3,Unspecified,,,,50.1,IC50,=,50100,nM,,
+39,461537555,162659188,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCCN3CCCCC3,Unspecified,,,,105.4,IC50,=,105400,nM,,Outside typical range
+40,461539010,162660244,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCN(CC3)CCO,Unspecified,,,,192,IC50,=,192000,nM,,Outside typical range
+41,461540665,162661366,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCN(CC3)CC4=CC=CC=C4,Unspecified,,,,27,IC50,=,27000,nM,,
+42,461542016,162662311,C[C@@]12CC[C@@H](C1(C)C)C[C@H]2NC(=O)CCCN3CCN(CC3)C,Unspecified,,,,474.7,IC50,=,474700,nM,,Outside typical range
+43,461542646,162662735,CCN(CC)CCCC(=O)O[C@@H]1C[C@@H]2CC[C@]1(C2(C)C)C,Unspecified,,,,195.4,IC50,=,195400,nM,,Outside typical range
+44,461542926,917469,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN(C)C,Inconclusive,,,Potential missing data,,IC50,,,,Not Determined,
+45,461544682,162664197,C[C@@]12CC[C@@H](C1(C)C)C[C@H]2NC(=O)CCN3CCN(CC3)C,Unspecified,,,,485.6,IC50,=,485600,nM,,Outside typical range
+46,461547864,162666404,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CN3CCN(CC3)CCN,Unspecified,,,,24.1,IC50,=,24100,nM,,
+47,461553383,162670260,CCN1CCN(CC1)CCCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C,Unspecified,,,,165.3,IC50,=,165300,nM,,Outside typical range
+48,461555771,162671952,CC1CCN(CC1)CCC(=O)O[C@@H]2C[C@@H]3CC[C@]2(C3(C)C)C.Cl,Unspecified,,,,71.5,IC50,=,71500,nM,,
+49,461557692,162673349,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCN3CCN(CC3)CCO,Unspecified,,,,258.9,IC50,=,258900,nM,,Outside typical range
+50,461558160,929702,CCN(CC)CC(=O)O[C@@H]1C[C@@H]2CC[C@]1(C2(C)C)C,Unspecified,,,,560.9,IC50,=,560900,nM,,Outside typical range
+51,461559940,6347575,C[C@@]12CC[C@@H](C1(C)C)C[C@H]2NC(=O)CCN3CCOCC3,Unspecified,,,,312.5,IC50,=,312500,nM,,Outside typical range
+52,461562679,162676862,C[C@]12CC[C@H](C1(C)C)C[C@H]2OC(=O)CCCN3CCN(CC3)CC4=CC=CC=C4,Unspecified,,,,26,IC50,=,26000,nM,,

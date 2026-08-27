@@ -1,0 +1,8 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,494405334,171348921,C1COCCN1C2=C(N=C3C(N(C(=O)C3=C2)CC4=CC=CO4)C5=CC=CO5)CC6=CC=CC=C6,Inactive,,,Potential missing data,Activity,,,,Not Active
+2,494409754,171351542,C1CC(OC1)C2C3=NC(=C(C=C3C(=O)N2CC4=CC=CO4)N5CCOCC5)CC6=CC=CC=C6,Active,,,Potential missing data,Activity,,,,Active
+3,494410112,171351765,C1COCCN1C2=C(N=C3C(N(C(=O)C3=C2)CC4=CC=CO4)C5=CC=CO5)CC6=CC=C(C=C6)O,Inactive,,,Potential missing data,Activity,,,,Not Active
+4,494414754,171354268,C1COCCN1C2=C(N=C3C(N(C(=O)C3=C2)CC4=CC=CO4)C5=COC=C5)CC6=CC=CC=C6,Unspecified,,,,Inhibition,=,53,%,
+5,494421010,171357781,C1CC(OC1)CN2C(C3=NC(=C(C=C3C2=O)N4CCOCC4)CC5=CC=CC=C5)C6=COC=C6,Inactive,,,Potential missing data,Activity,,,,Not Active

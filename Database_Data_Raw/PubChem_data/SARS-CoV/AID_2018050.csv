@@ -1,0 +1,4 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,504810982,172450942,C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O[C@H]3[C@@H]([C@@H]([C@H]([C@@H](O3)C)O)O)O)O[C@H]4CC[C@@]5([C@H]6CC[C@@H]7[C@H]8[C@@H](CC[C@@]8(CC[C@]7([C@@]6(CC[C@H]5C4(C)C)C)C)C(=O)NC9=CC1=CC=CC=C1C=C9)C(=C)C)C)CO)O)O)O,Inactive,,,Potential missing data,Activity,Not Active

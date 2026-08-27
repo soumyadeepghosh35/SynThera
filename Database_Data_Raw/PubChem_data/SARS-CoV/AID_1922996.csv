@@ -1,0 +1,7 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Additional comments
+1,312355020,118711941,CCCCOC1=C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC(=C(C=C3)O)O,Unspecified,,,Potential missing data,Activity,Non-Toxic
+2,494399454,20159736,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OCCO)O)O,Unspecified,,,Potential missing data,Activity,Non-Toxic
+3,494403155,169245773,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OCCCO)O)O,Unspecified,,,Potential missing data,Activity,Non-Toxic
+4,494417717,169744508,CC(C1=CC(=C(C=C1)O)O)C2=CC(=O)C3=C(C=CC=C3O2)O,Unspecified,,,Potential missing data,Activity,Non-Toxic

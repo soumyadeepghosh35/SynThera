@@ -1,0 +1,18 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,STRING,STRING,STRING
+RESULT_DESCR,,,,,,,,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+1,103470788,5934221,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=CC=CC=C2,Inactive,,,Potential missing data,Inhibition,%,Not Active
+2,242594742,6862758,C1=CC=C(C=C1)NC(=O)N/N=C/C2=CC=C(C=C2)Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+3,242637640,77107854,CC1=CC(=C(C=C1)NC(=O)N/N=C/C2=CC=C(C=C2)Br)C,Inactive,,,Potential missing data,Inhibition,%,Not Active
+4,242637643,77107857,CC(C)(C)NC(=O)N/N=C/C1=CC=C(C=C1)Br,Inactive,,,Potential missing data,Inhibition,%,Not Active
+5,242637647,77107859,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=C(C(=CC=C2)C(F)(F)F)Cl,Inactive,,,Potential missing data,Inhibition,%,Not Active
+6,242637652,77108051,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=C(C(=CC=C2)OC)OC,Inactive,,,Potential missing data,Inhibition,%,Not Active
+7,242637653,77108052,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=C(C=C(C=C2OC)OC)OC,Inactive,,,Potential missing data,Inhibition,%,Not Active
+8,242637654,77108053,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=CC=CC=C2C,Inactive,,,Potential missing data,Inhibition,%,Not Active
+9,242637659,77105068,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=CC=C(C=C2)NS(=O)(=O)C,Inactive,,,Potential missing data,Inhibition,%,Not Active
+10,242637663,77105072,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=CC=NC=C2,Inactive,,,Potential missing data,Inhibition,%,Not Active
+11,242637664,11615835,CC1=C(C(=CC=C1)C)NC(=O)N/N=C/C2=CC=CO2,Inactive,,,Potential missing data,Inhibition,%,Not Active
+12,242637673,77105637,CC1=C(C(=CC=C1)C)NC(=O)N(CC#C)/N=C/C2=CC=C(C=C2)N=[N+]=[N-],Inactive,,,Potential missing data,Inhibition,%,Not Active
+13,242637677,77105449,CC1=C(C(=CC=C1)C)NC(=S)N/N=C/C2=C(C=C(C=C2)Br)F,Inactive,,,Potential missing data,Inhibition,%,Not Active
+14,242637678,77105450,CC1=C(C(=CC=C1)C)NC(=S)N/N=C/C2=C(C=C(C=C2F)Br)F,Inactive,,,Potential missing data,Inhibition,%,Not Active
+15,242637987,11506553,CC1=C(C(=CC=C1)C)NC(=O)NN,Inactive,,,Potential missing data,Inhibition,%,Not Active

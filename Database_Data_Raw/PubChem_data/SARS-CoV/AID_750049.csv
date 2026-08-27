@@ -1,0 +1,30 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Activity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Additional comments
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,103509987,5716903,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC=C(C=C3)O)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+2,103509987,5716903,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC=C(C=C3)O)O)/C)C,Unspecified,,,,14.4,IC50,=,14400,nM,
+3,103509988,639465,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C=C3)O)O)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+4,103509988,639465,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C=C3)O)O)O)/C)C,Unspecified,,,,10.4,IC50,=,10400,nM,
+5,103556398,14539951,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C=C3)O)OC)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+6,103556398,14539951,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C=C3)O)OC)O)/C)C,Unspecified,,,,13.2,IC50,=,13200,nM,
+7,103601919,24854123,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C(=C3)OC)O)OC)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+8,103601919,24854123,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C(=C3)OC)O)OC)O)/C)C,Unspecified,,,,13.9,IC50,=,13900,nM,
+9,103601932,21607150,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H]([C@H](C2=O)O)C3=CC(=C(C=C3)O)OC)O)/C)C,Active,,,,9.5,IC50,=,9500,nM,
+10,103601932,21607150,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H]([C@H](C2=O)O)C3=CC(=C(C=C3)O)OC)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+11,160677408,24854124,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H]([C@H](C2=O)O)C3=CC(=C(C=C3)OC)O)O)/C)C,Active,,,,9.2,IC50,=,9200,nM,
+12,160677408,24854124,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H]([C@H](C2=O)O)C3=CC(=C(C=C3)OC)O)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+13,160693548,24854122,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C=C3)OC)O)O)/C)C,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+14,160693548,24854122,CC(=CCC/C(=C/CC1=C(C2=C(C=C1O)O[C@@H](CC2=O)C3=CC(=C(C=C3)OC)O)O)/C)C,Unspecified,,,,12.7,IC50,=,12700,nM,
+15,174491301,71659627,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C=C4)O)O)O)CCCC(C)(C)O,Active,,,,6.2,IC50,=,6200,nM,
+16,174491301,71659627,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C=C4)O)O)O)CCCC(C)(C)O,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+17,174491302,71659765,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C(=C4)OC)OC)O)O)CCCC(C)(C)O,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+18,174491302,71659765,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C(=C4)OC)OC)O)O)CCCC(C)(C)O,Unspecified,,,,11.6,IC50,=,11600,nM,
+19,174506802,71659628,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C=C4)OC)O)O)CCCC(C)(C)O,Active,,,,6.1,IC50,=,6100,nM,
+20,174506802,71659628,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C=C4)OC)O)O)CCCC(C)(C)O,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+21,174511936,71659766,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C(=C4)OC)O)OC)O)CCCC(C)(C)O,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect
+22,174511936,71659766,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H](CC3=O)C4=CC(=C(C(=C4)OC)O)OC)O)CCCC(C)(C)O,Unspecified,,,,12.5,IC50,=,12500,nM,
+23,174516998,71659767,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H]([C@H](C3=O)O)C4=CC(=C(C=C4)O)OC)O)CCCC(C)(C)O,Active,,,,5,IC50,=,5000,nM,
+24,174516998,71659767,CC1(CCC2=C(C3=C(C=C2O1)O[C@@H]([C@H](C3=O)O)C4=CC(=C(C=C4)O)OC)O)CCCC(C)(C)O,Unspecified,,,Potential missing data,,Inhibition,,,%,Dose-dependent effect

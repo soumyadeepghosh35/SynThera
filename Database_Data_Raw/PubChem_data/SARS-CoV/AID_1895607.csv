@@ -1,0 +1,14 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units,Data Validity Comment
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM,Comment reflecting whether the values for this activity measurement are likely to be correct
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,,
+1,482046884,168269103,CC(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)CCCCN=C(N)N,Active,,,,0.0025,Ki,=,2.5,nM,
+2,482054051,132281929,CC(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)N,Active,,,,3.37e-05,Ki,=,0.0337,nM,
+3,482061241,168279378,CC(C)(C)[C@@H](C(=O)N[C@@H](CCCON=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)[C@H](CCCON=C(N)N)NC(=O)CC2=CC=C(C=C2)CN=C(N)N,Active,,,,1.01e-05,Ki,=,0.0101,nM,
+4,482064759,168281951,CC(C)(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)CCCCN=C(N)N,Active,,,,0.00126,Ki,=,1.26,nM,
+5,482067697,168284077,CC(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)N=C(N)N,Active,,,,6.2e-06,Ki,=,0.0062,nM,Outside typical range
+6,482074201,168288796,CC(C)(C)[C@@H](C(=O)N[C@@H](CCCON=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)CC2=CC=C(C=C2)CN=C(N)N,Active,,,,1.31e-05,Ki,=,0.0131,nM,
+7,482080766,168293551,CC(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@@H](CCCN=C(N)N)N,Active,,,,2.83e-05,Ki,=,0.0283,nM,
+8,482086177,168296718,CC(C)[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC1=CC=C(C=C1)C(=N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCCN=C(N)N)NC(=O)CC2=CC=CC=C2,Active,,,,1.38e-05,Ki,=,0.0138,nM,
