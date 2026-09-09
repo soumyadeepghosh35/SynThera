@@ -1,0 +1,6 @@
+CPU affinity pinned to cores: [0, 1, 2, 3, 4, 5, 6, 7]
+max_cores=8, useMultiprocessing=True
+Scoring all 4 DORA-XGB rules: ['rule1', 'rule2', 'rule3', 'rule4']
+Done in 1658.6s | 47.1 rows/s
+Saved: /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/doranet/scripts/Remdesivir_Pubchem/RemdesivirOnly_gen2/reactionDF_wDORAXGBfeasibility.csv
+Job completed.

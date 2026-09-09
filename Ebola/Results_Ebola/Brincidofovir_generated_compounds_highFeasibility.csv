@@ -1,0 +1,2 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore,feasibilityScore_rule3
+CCCCCCCCCCCCCCCCOCCCOP(=O)(O)CO[C@H](CO)Cn1ccc(N)nc1=O,CCOP(=O)(O)COCCn1ccc(N)nc1=O,2,0.5077,0.2222,0.7031561

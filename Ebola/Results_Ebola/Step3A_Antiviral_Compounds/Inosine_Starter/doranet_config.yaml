@@ -1,0 +1,26 @@
+# DORAnet job configuration.
+# Edit this file only; runDORAnet.py is reusable across starters.
+
+# Path to the local DORAnet checkout (added to sys.path at runtime).
+doranetPath: /users/sghosh6/DTRA_project/MACAW/doranet
+
+# Prefix for all output files (molecule CSV and pathway files).
+jobName: InosineOnly_gen3
+
+# Starter molecule(s), as SMILES. Provide one or several.
+starters:
+  - "C1=NC2=C(C(=O)N1)N=CN2[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O"
+
+# Network generation settings.
+generations: 3
+direction: forward
+ruleset: JN3604IMT
+maxAtoms: {C: 15, N: 6, O: 8, S: 3}
+
+# Pathway generation depth. Defaults to 'generations' if omitted.
+totalGenerations: 3
+
+# Cofactor / helper molecules. Optional: remove to use the default set in runDORAnet.py.
+helpers: ["O", "O=O", "[H][H]", "O=C=O", "C=O", "[C-]#[O+]", "Br", "[Br][Br]", "CO",
+          "C=C", "O=S(O)O", "N", "O=S(=O)(O)O", "O=NO", "N#N", "O=[N+]([O-])O", "NO",
+          "C#N", "S", "O=S=O", "N#CO"]

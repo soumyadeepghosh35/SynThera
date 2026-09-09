@@ -1,0 +1,6 @@
+CPU affinity pinned to cores: [0, 1, 2, 3, 4, 5, 6, 7]
+max_cores=8, useMultiprocessing=True
+Scoring all 4 DORA-XGB rules: ['rule1', 'rule2', 'rule3', 'rule4']
+Done in 7853.8s | 86.9 rows/s
+Saved: /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/doranet/scripts/Brincidofovir_Pubchem/BrincidofovirOnly_gen2/reactionDF_wDORAXGBfeasibility.csv
+Job completed.
