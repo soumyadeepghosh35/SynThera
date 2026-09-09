@@ -1,0 +1,62 @@
+# ART run settings
+# run as (inside art environment): python runART.py art_config.yaml > art.out
+
+# Input data
+baseDataDir: ".."
+modelBuildingDataSubdir: ".."
+
+# Output folder
+outputDir: "ART_results"
+
+# Job label
+jobName: "combinedEbolaVirusData_allDB"
+
+# Default file names
+trainingCsvSuffix: "_wchemberta_ARTready.csv"
+artReadyCsvSuffix: "_wchemberta_ARTready.csv"
+artModelFileName: "art_chembarta.cpkl"
+
+# Optional path overrides
+# Use these if your ART-ready CSV filename does not match jobName + artReadyCsvSuffix
+inputTrainingCsv: null
+artReadyCsv: null
+artModelFile: null
+
+# ART inputs
+inputFeatureColumnPrefix: "ARTfeat_"
+responseColumns:
+  - "pPotency"
+
+# PCA dimensionality reduction
+# -----------------------------------------------------------------------
+# ART's cross-validation forks one joblib worker per CV fold.  Each worker
+# receives a full copy of the feature matrix in memory.  At 768 ChemBERTa
+# dimensions × 4,082 designs, the per-worker footprint causes the OS to
+# kill workers with SIGABRT(-6) even when artMaxMcmcCores is reduced
+# (that parameter controls MCMC, not CV).
+#
+# Setting pcaComponents projects the embeddings to a lower-dimensional
+# space before ART sees them.  50–100 components typically retain >95% of
+# the variance that is predictive of pPotency while reducing per-worker
+# memory by ~8–15×.  Set to null to skip (only safe for small feature sets).
+# -----------------------------------------------------------------------
+pcaComponents: 192
+
+# Run options
+useExistingArtModel: false
+saveTrainedArtModel: true
+limitTrainingRows: null
+
+# ART parameters
+artObjective: "maximize"
+artThreshold: 0.2
+artAlpha: 0.25
+artNumRecommendations: 10
+artMaxMcmcCores: 36
+artGenerateRecommendations: false
+artRunCrossValidation: true
+artNumTpotModels: 2
+randomSeed: 42
+
+# CV parallelism 
+cvMaxWorkers: 8

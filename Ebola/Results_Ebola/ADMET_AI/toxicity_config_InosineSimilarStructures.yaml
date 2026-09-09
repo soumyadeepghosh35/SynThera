@@ -1,0 +1,22 @@
+inputFile: ../../InosineSimilarStructures_DORAnetGenerated.csv
+outputDir: .
+
+SMILES_Column: Canonical_SMILES
+
+selectSMILES: null
+
+batchSize: 500
+saveEveryBatch: true
+resumeFromCheckpoint: true
+deduplicateSmiles: true
+
+enableDiversityFilter: true
+similarityThreshold: 0.75
+fingerprintRadius: 2
+fingerprintBits: 2048
+diversityChunkSize: 1000
+saveDiversityFilteredInput: true
+diversityOutputSuffix: _diverseInput
+useCanonicalFiltering: true
+
+outputSuffix: _wADMET
