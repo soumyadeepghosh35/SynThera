@@ -1,0 +1,1 @@
+python runADMET.py ADMET_config_DORAnetMol.yaml > ADMET.out

@@ -1,0 +1,17 @@
+inputFile: /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/SynThera/Ebola/Results_Ebola/Step4_ADMET/Ebola_generatedCompounds_wART.csv
+outputDir: /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/SynThera/Ebola/Results_Ebola
+SMILES_Column: Canonical_SMILES
+selectSMILES: null
+batchSize: 500
+saveEveryBatch: true
+resumeFromCheckpoint: true
+deduplicateSmiles: true
+enableDiversityFilter: true
+similarityThreshold: 1.0
+fingerprintRadius: 2
+fingerprintBits: 2048
+diversityChunkSize: 1000
+saveDiversityFilteredInput: true
+diversityOutputSuffix: _diverseInput
+useCanonicalFiltering: true
+outputSuffix: _wADMET

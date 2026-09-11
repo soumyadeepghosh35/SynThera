@@ -1,0 +1,21 @@
+Rank,Starter_Name_x,starter_Canonical_SMILES,Canonical_SMILES,pPotency_prediction,pPotency_std,IC50 (µM),Starter_Name_y
+1,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,CC(=O)OP(=O)(O)OC(C)=O,5.758,0.47959085753439495,1.7472285447658378,Adenosine
+2,Guanosine,Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1,CC(=O)OP(=O)(O)OP(=O)(O)O,5.693,0.4789084103097144,2.0267848606269547,Guanosine
+3,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,Nc1ncnc2c1ncn2[C@@H]1OC(C(O)O)=C[C@H]1O,5.692,0.4732519205872829,2.0306222300371335,Adenosine
+4,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,CC(Cl)[C@H]1O[C@@H](n2cnc3c(NC=O)ncnc32)[C@H](O)[C@@H]1O,5.683,0.4710670640250807,2.074770237280328,Adenosine
+5,Guanosine,Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1,O=C(O)CC(=O)OP(=O)(O)O,5.679,0.47601729130312703,2.0940512699641567,Guanosine
+6,Guanosine,Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1,C[C@H]1O[C@@H](n2cnc3c(=O)[nH]c(NC=O)nc32)[C@H](O)[C@@H]1O,5.677,0.47141162563537964,2.1040814069046934,Guanosine
+7,Inosine,O=c1[nH]cnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,O=C1N=C2NC=Nc3c2ncn3[C@@H]2O[C@H]1[C@@H](O)[C@H]2O,5.67,0.471980250134134,2.1367304135259135,Inosine
+8,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,NC1=Nc2ncnc3c2ncn3[C@@H]2O[C@H]1[C@@H](O)[C@H]2O,5.669,0.470421401434035,2.140884261614182,Adenosine
+9,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,C[C@H]1O[C@@H](n2cnc3c(NC=O)ncnc32)[C@H](O)[C@@H]1O,5.667,0.4700708874567662,2.1550648945751094,Adenosine
+10,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,NC(=O)OP(=O)(O)O,5.664,0.478858515334192,2.166036005083209,Adenosine
+11,Guanosine,Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1,O=C(O)CC(=O)O,5.651,0.47552979988789396,2.23383151563723,Guanosine
+12,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,O=CNc1ncnc2c1ncn2[C@@H]1O[C@H](C=O)[C@@H](O)[C@H]1O,5.645,0.4721122901580117,2.2623524483465043,Adenosine
+13,Guanosine,Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1,Nc1nc2c(ncn2[C@@H]2OC(C(O)O)=C[C@H]2O)c(=O)[nH]1,5.629,0.47570285972407717,2.348605290807148,Guanosine
+14,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,NC(=O)O,5.627,0.4778164170800386,2.3607113070515946,Adenosine
+15,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,Nc1nc2nc3c1nc(C(O)O)n3[C@@H]1OC[C@@H](O)[C@H]1O2,5.626,0.4734121731248699,2.367721827792262,Adenosine
+16,Inosine,O=c1[nH]cnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,O=c1[nH]cnc2c1ncn2[C@@H]1OC(C(O)O)=C[C@H]1O,5.625,0.4749494608260135,2.3690564159353906,Inosine
+17,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,O=CNc1ncnc2c1ncn2[C@@H]1OC[C@@H](O)[C@H]1O,5.624,0.47036280710505773,2.374857616432553,Adenosine
+18,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,O=C1Nc2ncnc3c2ncn3[C@@H]2O[C@H]1[C@@H](O)[C@H]2O,5.618,0.4708529600472844,2.410605783863802,Adenosine
+19,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,CC1(C)O[C@@H](n2cnc3c(NC=O)ncnc32)[C@H](O)[C@@H]1O,5.616,0.47095563859804496,2.421166634536341,Adenosine
+20,Adenosine,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,OC1=Nc2ncnc3c2ncn3[C@@H]2O[C@H]1[C@@H](O)[C@H]2O,5.615,0.4713800435394702,2.4277919460196387,Adenosine
