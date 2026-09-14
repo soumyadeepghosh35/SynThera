@@ -1,0 +1,1 @@
+python runART.py art_config.yaml > art.out
