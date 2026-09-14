@@ -1,0 +1,2 @@
+SMILES='C=CC[C@@H](C(=O)O)C(=O)C(O)=CC(C)CC>>C=C1C[C@@H](C(O)O)C(=O)C(=CC(C)CC)O1'
+SMILES='C=CC[C@H]1C(=O)OC(=CC(C)CC)C1=O>>C=CC[C@@H](C(=O)O)C(=O)C(O)=CC(C)CC'

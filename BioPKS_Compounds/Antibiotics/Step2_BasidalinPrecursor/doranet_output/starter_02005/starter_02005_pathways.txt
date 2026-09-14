@@ -1,0 +1,147 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)CN
+rule0126_2
+No_Thermo
+
+pathway number 2
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0043_12
+No_Thermo
+
+pathway number 3
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](N)C(=O)NCCC=C1OC(=O)[C@H](O)[C@@H]1O
+rule0126_2
+No_Thermo
+
+pathway number 4
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(=C1OC(=O)[C@H](O)[C@@H]1O)[C@@H](C)CNC(=O)[C@H](C)N>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC(=C1OC(=O)[C@H](O)[C@@H]1O)[C@@H](C)CNC(=O)[C@H](C)N.C[C@H](N)C(=O)NCCC=C1OC(=O)[C@H](O)[C@@H]1O
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+pathway number 5
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(=C1OC(=O)[C@H](O)[C@@H]1O)[C@@H](C)CNC(=O)[C@H](C)N>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CC(=C1OC(=O)[C@H](O)[C@@H]1O)[C@@H](C)CNC(=O)[C@H](C)N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0028_51
+rule0043_12
+No_Thermo
+No_Thermo
+
+pathway number 6
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(=C1OC(=O)[C@H](O)[C@@H]1O)[C@@H](C)CNC(=O)[C@H](C)N>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC(=C1OC(=O)[C@H](O)[C@@H]1O)[C@@H](C)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)CN
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+pathway number 7
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC[C@H](N)C(=O)NC[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC[C@H](N)C(=O)NC[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O.C[C@H](N)C(=O)NCCC=C1OC(=O)[C@H](O)[C@@H]1O
+rule0028_48
+rule0126_2
+No_Thermo
+No_Thermo
+
+pathway number 8
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC[C@H](N)C(=O)NC[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC[C@H](N)C(=O)NC[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)CN
+rule0028_48
+rule0126_2
+No_Thermo
+No_Thermo
+
+pathway number 9
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC[C@H](N)C(=O)NC[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CC[C@H](N)C(=O)NC[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0028_48
+rule0043_12
+No_Thermo
+No_Thermo
+
+pathway number 10
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(NC(=O)[C@H](C)N)[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC(NC(=O)[C@H](C)N)[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O.C[C@H](N)C(=O)NCCC=C1OC(=O)[C@H](O)[C@@H]1O
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+pathway number 11
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(NC(=O)[C@H](C)N)[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N>>CC(NC(=O)[C@H](C)N)[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O.C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)CN
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+pathway number 12
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(NC(=O)[C@H](C)N)[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O>>CC[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N
+C[C@H](C=C1OC(=O)[C@H](O)[C@@H]1O)CNC(=O)[C@H](C)N.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CC(NC(=O)[C@H](C)N)[C@H](C)C=C1OC(=O)[C@H](O)[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0028_51
+rule0043_12
+No_Thermo
+No_Thermo
+

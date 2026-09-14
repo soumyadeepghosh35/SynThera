@@ -1,0 +1,52 @@
+ranking 1
+final score 7.0
+atomic economy 0.5512873955572334
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC1=CC(=C[C@@H](CC)C(N)=O)OC1=O.N.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1>>CCC1=CC(=C[C@@H](CC)C(N)N)OC1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CC[C@H](C=C1C=CC(=O)O1)C(N)=O.CC[C@H](C=C1C=CC(=O)O1)C(N)=O>>CCC1=CC(=C[C@@H](CC)C(N)=O)OC1=O.NC(=O)CC=C1C=CC(=O)O1
+rule0166_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.733984712521785
+atomic economy 0.5250676694733268
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CC[C@H](C=C1C=CC(=O)O1)C(N)=O.N.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1>>CC[C@H](C=C1C=CC(=O)O1)C(N)N.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CC[C@H](C=C1C=CC(=O)O1)C(N)N.CC[C@H](C=C1C=CC(=O)O1)C(N)N>>CCC1=CC(=C[C@@H](CC)C(N)N)OC1=O.NC(N)CC=C1C=CC(=O)O1
+rule0166_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 3
+final score 6.567107056709077
+atomic economy 0.5086194176964737
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC1=CC(=C[C@@H](CC)C(N)=O)OC1=O.N.OO>>CCC1=CC(=C[C@@H](CC)C(N)N)OC1=O.O.O=O
+CC[C@H](C=C1C=CC(=O)O1)C(N)=O.CC[C@H](C=C1C=CC(=O)O1)C(N)=O>>CCC1=CC(=C[C@@H](CC)C(N)=O)OC1=O.NC(=O)CC=C1C=CC(=O)O1
+rule0091_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 4
+final score 6.0
+atomic economy 0.4527226614306137
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CC[C@H](C=C1C=CC(=O)O1)C(N)=O.N.OO>>CC[C@H](C=C1C=CC(=O)O1)C(N)N.O.O=O
+CC[C@H](C=C1C=CC(=O)O1)C(N)N.CC[C@H](C=C1C=CC(=O)O1)C(N)N>>CCC1=CC(=C[C@@H](CC)C(N)N)OC1=O.NC(N)CC=C1C=CC(=O)O1
+rule0091_12
+rule0126_2
+No_Thermo
+No_Thermo
+

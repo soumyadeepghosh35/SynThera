@@ -1,0 +1,136 @@
+Starter: C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N
+Job name: AdenosineOnly
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-02-23 13:51:55.080155
+Number of generations: 3
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 5304
+Number of reactions: 10264
+Time used for network generation: 458.95 minutes
+
+
+Generated 5304 new molecules + 1 starters
+Using 5294 generated molecules as targets for pathway finding
+
+Saved molecules to AdenosineOnly_molecules.csv
+Job name: AdenosineOnly
+Job type: post-processing pretreat networks
+Job started on: 2026-02-23 21:30:57.205894
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 10264
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 10141
+Time used for network pretreatment: 0.01 minutes
+
+Job name: AdenosineOnly
+Job type: pathway search
+Job started on: 2026-02-23 21:30:57.625013
+Pathway finder started, total number of reactions in network 10141
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.08 minutes
+2 pathways found!
+5 reactions found in all pathways
+Min number of reactions in a pathway: 3
+Max number of reactions in a pathway: 3
+Pruning parameters for this search:
+search_depth: 3
+max_num_rxns: 3
+min_rxn_atom_economy: 0.3
+
+Job name: AdenosineOnly
+Job type: pathway ranking
+Job started on: 2026-02-23 21:31:02.503367
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.5226767157480875
+Max_eco 0.5226767157480875
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.5226767157480875
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)ncnc32)O[C@@H]1CO>>CC(O)O[C@H]1[C@H]2O[C@@]1(CO)O[C@H]2n1cnc2c(N)ncnc21
+CC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O>>CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)ncnc32)O[C@@H]1CO.CC(C)(COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCS
+CC(O)O[C@H]1[C@H]2O[C@@]1(CO)O[C@H]2n1cnc2c(N)ncnc21.CC(O)O[C@H]1[C@H]2O[C@@]1(CO)O[C@H]2n1cnc2c(N)ncnc21>>Cc1nc(N)c2ncn([C@@H]3O[C@]4(CO)O[C@@H]3[C@@H]4OC(C)O)c2n1.Nc1ncnc2c1ncn2[C@@H]1O[C@]2(CO)O[C@@H]1[C@@H]2OCO
+rule0169_1
+rule0062_19
+rule0126_2
+No_Thermo
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.5226767157480875
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)nc(C)nc32)O[C@@H]1CO>>Cc1nc(N)c2ncn([C@@H]3O[C@]4(CO)O[C@@H]3[C@@H]4OC(C)O)c2n1
+CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)ncnc32)O[C@@H]1CO.CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)ncnc32)O[C@@H]1CO>>CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)nc(C)nc32)O[C@@H]1CO.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](OC=O)[C@H]1O
+CC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O>>CC(=O)O[C@H]1[C@@H](O)[C@H](n2cnc3c(N)ncnc32)O[C@@H]1CO.CC(C)(COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCS
+rule0169_1
+rule0126_2
+rule0062_19
+No_Thermo
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.00 minutes
+
+Job name: AdenosineOnly
+Job type: pathway visualization
+Job started on: 2026-02-23 21:31:02.623466
+pygraphviz is NOT installed.
+A custom node layout will be used for pathway visualization
+Number of pathways:  2
+Number of reactions in reaxys:  0
+Working on creating pages
+You can adjust multi-processing number to speed up PDF generation
+page done: 1
+page done: 2
+Finished with pages, writing to pdf
+Time used for pathway visualization: 0.03 minutes
+
+A custom node layout was used for pathway visualization
+For a better layout, please install pygraphviz and Graphviz with the following command:
+conda install conda-forge::pygraphviz
+which should install both packages together
+
+
+Pathway files generated with prefix: AdenosineOnly
+Time: 27549.13 s

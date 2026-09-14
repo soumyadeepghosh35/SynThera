@@ -1,0 +1,18 @@
+input:
+  SMILESfile: generated_molecules_diverseStarterSecondExtensionSMILES.csv
+  smiles_column: Canonical_SMILES
+  start_index: 0
+  num_smiles: null
+output:
+  directory: doranet_output
+parallel:
+  num_workers: 64
+network:
+  generations: 2
+  ruleset: JN3604IMT
+  direction: forward
+max_atoms:
+  C: 12
+  N: 3
+  O: 5
+  S: 3

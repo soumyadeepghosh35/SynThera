@@ -1,0 +1,39 @@
+ranking 1
+final score 7.0
+atomic economy 0.9256411208935448
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C=C(C)C[C@H]1C(=O)OC(=CCCC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CCCC=C1OC(=O)[C@H](CC2(C)CO2)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+C=CC[C@H]1C(=O)OC(=CCCC)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CCCC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0077_4
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.091055297926887
+atomic economy 0.5308160975586663
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C=C(C)C[C@H]1C(=O)OC(=CCCC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CCCC=C1OC(=O)[C@H](CC2(C)CO2)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+C=CC[C@H]1C(=O)OC(=CCCC)C1=O.C=CC[C@H]1C(=O)OC(=CCCC)C1=O>>C=C(C)C[C@H]1C(=O)OC(=CCCC)C1=O.C=CC[C@H]1C(=O)OC(=CCC)C1=O
+rule0077_4
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 3
+final score 6.0
+atomic economy 0.49126373530081835
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C=CC[C@H]1C(=O)OC(=CCCC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CCCC=C1OC(=O)[C@H](CC2CO2)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CCCC=C1OC(=O)[C@H](CC2CO2)C1=O.CCCC=C1OC(=O)[C@H](CC2CO2)C1=O>>CCC=C1OC(=O)[C@H](CC2CO2)C1=O.CCCC=C1OC(=O)[C@H](CC2(C)CO2)C1=O
+rule0077_4
+rule0126_2
+No_Thermo
+No_Thermo
+

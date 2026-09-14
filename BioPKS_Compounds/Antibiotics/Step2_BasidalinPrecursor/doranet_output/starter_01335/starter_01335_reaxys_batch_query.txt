@@ -1,0 +1,2 @@
+SMILES='O=C(O)[C@@H](O)[C@H](O)C(O)=CC1=CNC(Cl)=C1Cl>>O=C(O)[C@@H](O)[C@H](Cl)C(O)=CC1=CNC(Cl)=C1Cl'
+SMILES='O=C1OC(=CC2=CNC(Cl)=C2Cl)[C@@H](O)[C@@H]1O>>O=C(O)[C@@H](O)[C@H](O)C(O)=CC1=CNC(Cl)=C1Cl'

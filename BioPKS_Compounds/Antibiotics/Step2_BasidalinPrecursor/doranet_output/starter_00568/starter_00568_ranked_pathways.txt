@@ -1,0 +1,234 @@
+ranking 1
+final score 7.0
+atomic economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O>>CCC(C)C=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O
+rule0043_12
+rule0010_65
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 7.0
+atomic economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0010_65
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 3
+final score 6.757243938963589
+atomic economy 0.8608442630070355
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.O>>CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CO
+rule0043_12
+rule0007_203
+No_Thermo
+No_Thermo
+
+ranking 4
+final score 6.757243938963589
+atomic economy 0.8608442630070355
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.CO
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0007_203
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 5
+final score 6.659678886461923
+atomic economy 0.804916774615344
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0043_12
+rule0491_2
+No_Thermo
+No_Thermo
+
+ranking 6
+final score 6.659678886461923
+atomic economy 0.804916774615344
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=O.CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0491_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 7
+final score 6.194179613003747
+atomic economy 0.5380773219104082
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.CCCC=C1OC(=O)[C@@H](O)C1=O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O>>CCC(C)C=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O
+rule0126_2
+rule0010_65
+No_Thermo
+No_Thermo
+
+ranking 8
+final score 6.194179613003747
+atomic economy 0.5380773219104082
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O>>CC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O>>CCC(C)C=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O
+rule0126_2
+rule0010_65
+No_Thermo
+No_Thermo
+
+ranking 9
+final score 6.159748556678495
+atomic economy 0.5183403110282446
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.CCC(C)C=C1OC(=O)[C@@H](OC)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.CO[C@@H]1C(=O)OC(=CC(C)C)C1=O
+rule0010_65
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 10
+final score 6.159748556678495
+atomic economy 0.5183403110282446
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.CCC(C)C=C1OC(=O)[C@@H](OC)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.CCCC=C1OC(=O)[C@@H](OC)C1=O
+rule0010_65
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 11
+final score 6.089839993621979
+atomic economy 0.4782664295658594
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.CO
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.CCC(C)C=C1OC(=O)[C@@H](OC)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.CO[C@@H]1C(=O)OC(=CC(C)C)C1=O
+rule0007_203
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 12
+final score 6.089839993621979
+atomic economy 0.4782664295658594
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.CO
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.CCC(C)C=C1OC(=O)[C@@H](OC)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.CCCC=C1OC(=O)[C@@H](OC)C1=O
+rule0007_203
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 13
+final score 6.058829477783932
+atomic economy 0.4604901846904403
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=O.CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.CCC(C)C=C1OC(=O)[C@@H](OC)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.CO[C@@H]1C(=O)OC(=CC(C)C)C1=O
+rule0491_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 14
+final score 6.058829477783932
+atomic economy 0.4604901846904403
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=O.CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.CCC(C)C=C1OC(=O)[C@@H](OC)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](OC)C1=O.CCCC=C1OC(=O)[C@@H](OC)C1=O
+rule0491_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 15
+final score 6.055084684042349
+atomic economy 0.4583435460822353
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.CCCC=C1OC(=O)[C@@H](O)C1=O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.O>>CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CO
+rule0126_2
+rule0007_203
+No_Thermo
+No_Thermo
+
+ranking 16
+final score 6.055084684042349
+atomic economy 0.4583435460822353
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O>>CC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.O>>CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CO
+rule0126_2
+rule0007_203
+No_Thermo
+No_Thermo
+
+ranking 17
+final score 6.0
+atomic economy 0.4267671983189225
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O>>CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O.CCCC=C1OC(=O)[C@@H](O)C1=O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0126_2
+rule0491_2
+No_Thermo
+No_Thermo
+
+ranking 18
+final score 6.0
+atomic economy 0.4267671983189225
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O>>CC(C)C=C1OC(=O)[C@@H](O)C1=O.CCC(C)C(C)=C1OC(=O)[C@@H](O)C1=O
+CCC(C)C=C1OC(=O)[C@@H](OC)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=O.CCC(C)C=C1OC(=O)[C@@H](O)C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0126_2
+rule0491_2
+No_Thermo
+No_Thermo
+

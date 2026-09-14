@@ -1,0 +1,26 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1, 1)', '(1,)$(1,)']
+reaction SMILES, name, and enthalpy:
+CO[C@@H]1C(=O)OC(=C[C@@H](C)CNC(=O)[C@H](C)N)C1=O>>CO[C@@H]1C(=O)OC(=C[C@@H](C)CNC2=[NH+][C@H]2C)C1=O.O
+CO[C@@H]1C(=O)OC(=C[C@@H](C)CNC2=[NH+][C@H]2C)C1=O>>CO[C@@H]1C(=O)OC(=CCCCNC2=[NH+][C@H]2C)C1=O
+rule0339_1
+rule0028_51
+No_Thermo
+No_Thermo
+
+pathway number 2
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1, 1)', '(1,)$(1,)']
+reaction SMILES, name, and enthalpy:
+CO[C@@H]1C(=O)OC(=CCCCNC(=O)[C@H](C)N)C1=O>>CO[C@@H]1C(=O)OC(=CCCCNC2=[NH+][C@H]2C)C1=O.O
+CO[C@@H]1C(=O)OC(=C[C@@H](C)CNC(=O)[C@H](C)N)C1=O>>CO[C@@H]1C(=O)OC(=CCCCNC(=O)[C@H](C)N)C1=O
+rule0339_1
+rule0028_51
+No_Thermo
+No_Thermo
+

@@ -1,0 +1,13 @@
+ranking 1
+final score 6.0
+atomic economy 0.6617803493135916
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CC=C1C=C(OC)C(=O)O1.O=C=O>>COC1=CC(=CCC(=O)O)OC1=O
+COC1=CC(=CCc2ccccc2)OC1=O.O>>CC=C1C=C(OC)C(=O)O1.Oc1ccccc1
+rule0023_20
+rule0085_1
+No_Thermo
+No_Thermo
+

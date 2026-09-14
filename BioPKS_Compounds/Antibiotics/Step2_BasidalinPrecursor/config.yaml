@@ -1,0 +1,57 @@
+# =============================================================================
+# DORAnet Parallel Processing Configuration
+# RUN as:  python parallel_doranet.py -c config.yaml
+#          python parallel_doranet_NP.py -c config.yaml
+# =============================================================================
+
+# Input Settings
+# -----------------------------------------------------------------------------
+input:
+  # Path to CSV file containing starter SMILES molecules
+  SMILESfile: "generated_molecules_diverseStarterSecondExtensionSMILES.csv"
+  
+  # Column name in CSV file that contains SMILES strings
+  smiles_column: "Canonical_SMILES"
+  
+  # Row index to start processing from (0 = first row)
+  start_index: 0
+  
+  # Number of SMILES to process (null = process all)
+  num_smiles: null
+
+# Output Settings
+# -----------------------------------------------------------------------------
+output:
+  # Directory where all results will be saved
+  # Each starter molecule gets its own subdirectory
+  directory: "doranet_output"
+
+# Parallel Processing Settings
+# -----------------------------------------------------------------------------
+parallel:
+  # Number of parallel workers (CPU cores) to use
+  # Will be capped at available CPU cores if set higher
+  num_workers: 64
+
+# Network Generation Settings
+# -----------------------------------------------------------------------------
+network:
+  # Number of generations for network expansion
+  # Higher values = larger networks but longer processing time
+  generations: 2
+  
+  # DORAnet ruleset to use for enzymatic reactions
+  ruleset: "JN3604IMT"
+  
+  # Direction of network expansion (forward or backward)
+  direction: "forward"
+
+# Maximum Atom Constraints
+# -----------------------------------------------------------------------------
+# Limits the size of generated molecules
+# Molecules exceeding these limits will be excluded
+max_atoms:
+  C: 12   # Carbon
+  N: 3    # Nitrogen
+  O: 5    # Oxygen
+  S: 3    # Sulfur

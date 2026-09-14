@@ -1,0 +1,65 @@
+ranking 1
+final score 7.0
+atomic economy 0.5761364561565392
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O.CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O>>CCC(C)C=C1OC(=O)[C@](C)(CC)[C@@H]1O.CCC=C1OC(=O)[C@H](C)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@](C)(CC)[C@@H]1O>>CCC=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O
+rule0126_2
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 7.0
+atomic economy 0.5761364561565392
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C(C)C=C1OC(=O)[C@H](C)[C@@H]1O>>CCC=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O.CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O>>CCC(C)C(C)C=C1OC(=O)[C@H](C)[C@@H]1O.CCC=C1OC(=O)[C@H](C)[C@@H]1O
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 3
+final score 7.0
+atomic economy 0.5761364561565392
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(=C1OC(=O)[C@H](C)[C@@H]1O)C(C)CC>>CCC=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O.CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O>>CCC(=C1OC(=O)[C@H](C)[C@@H]1O)C(C)CC.CCC=C1OC(=O)[C@H](C)[C@@H]1O
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 4
+final score 6.0
+atomic economy 0.5761364561565391
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O>>CCC=C1OC(=O)[C@](C)(CC)[C@@H]1O
+CCC=C1OC(=O)[C@](C)(CC)[C@@H]1O.CCC=C1OC(=O)[C@](C)(CC)[C@@H]1O>>C=C1OC(=O)[C@](C)(CC)[C@@H]1O.CCC=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O
+rule0028_51
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 5
+final score 6.0
+atomic economy 0.5761364561565391
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O.C=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O>>C=C1OC(=O)[C@](C)(CC)[C@@H]1O.CCC=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O
+CCC(C)C=C1OC(=O)[C@H](C)[C@@H]1O>>C=C1OC(=O)[C@](C)(C(C)CC)[C@@H]1O
+rule0126_2
+rule0028_51
+No_Thermo
+No_Thermo
+
