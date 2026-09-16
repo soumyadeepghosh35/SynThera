@@ -14,6 +14,17 @@ directories at the repository root never enter the context. The image contains:
 2. The `SynThera` (Steps 1 to 4) and `SynThera_ExptDesigns` (Step 5)
    environments, built from the pinned specs by the project's own `setup.py`.
 3. Both kernels, registered so a single JupyterLab serves them.
+4. RetroTide (JBEI Biosynthetic Cluster Simulator), installed into
+   `SynThera_ExptDesigns`.
+
+## Bundled tools versus ART
+
+Every tool the pipeline needs is bundled in the image except ART. RetroTide is
+open source, so it is installed into `SynThera_ExptDesigns` at build time with
+`mapchiral` (its one otherwise-missing import) and no user action is required;
+`import retrotide` and `import bcs` work on that kernel out of the box. Only ART
+is licensed separately and left out (see below). To pin RetroTide for a
+reproducible rebuild, pass `--build-arg RETROTIDE_REF="git+https://github.com/JBEI/RetroTide.git@<commit>"`.
 
 At runtime, `docker-compose.yml` mounts the repository root at `/opt/synthera`,
 so every notebook, `executables/` script, `external/ergochemics`, and any data

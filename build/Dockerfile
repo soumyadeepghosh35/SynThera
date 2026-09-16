@@ -9,14 +9,20 @@
 # which keeps notebooks, executables, external/ergochemics, and any mounted data
 # live inside the container with edits saved back to the host.
 #
-# ART (Automated Recommendation Tool) is intentionally NOT installed. ART is
-# free for non-commercial academic, non-profit, and U.S. government use but
-# licensed separately. Obtain a license and the source first (see ART.md), then
-# add it with the ART_SOURCE build argument below or with installArt.sh against a
-# running container. Only Step2_BuildModel needs ART.
+# RetroTide (JBEI Biosynthetic Cluster Simulator) is open source and is baked
+# into the image, so users install nothing for it. ART (Automated Recommendation
+# Tool) is the one exception: it is licensed separately and is NOT installed.
+# Obtain an ART license and source first (see ART.md), then add it with the
+# ART_SOURCE build argument below or with installArt.sh against a running
+# container. Only Step2_BuildModel needs ART.
 
 # Pin this tag to a specific release on Docker Hub for reproducible rebuilds.
 FROM condaforge/miniforge3:latest
+
+# git is needed for the git+ pip installs below (RetroTide, and ART when
+# licensed). Installing it at system level keeps it on PATH under any conda env.
+RUN apt-get update && apt-get install -y --no-install-recommends git \
+ && rm -rf /var/lib/apt/lists/*
 
 # JupyterLab lives in the base environment and serves both kernels.
 RUN mamba install -n base -y jupyterlab && mamba clean -a -y
@@ -47,6 +53,18 @@ RUN for env in SynThera SynThera_ExptDesigns; do \
       conda run -n "$env" python -m ipykernel install \
         --prefix /opt/conda --name "$env" --display-name "$env"; \
     done && mamba clean -a -y
+
+# RetroTide is installed into SynThera_ExptDesigns, which already provides its
+# dependencies (cobra, rdkit, numpy, scipy, typing_extensions). mapchiral is a
+# required top-level import that ships no dependencies of its own. Both are
+# installed with --no-deps so the build-pinned environment is left untouched,
+# and the import is verified so a broken install fails the build early. Pin
+# RETROTIDE_REF to a commit (append @<sha>) for reproducible rebuilds.
+ARG RETROTIDE_ENV="SynThera_ExptDesigns"
+ARG RETROTIDE_REF="git+https://github.com/JBEI/RetroTide.git"
+RUN conda run -n "$RETROTIDE_ENV" pip install --no-deps mapchiral \
+ && conda run -n "$RETROTIDE_ENV" pip install --no-deps "$RETROTIDE_REF" \
+ && conda run -n "$RETROTIDE_ENV" python -c "import retrotide, bcs; print('RetroTide import OK')"
 
 # Optional ART install once you are licensed. ART_SOURCE may be a git URL, a
 # PyPI-style spec, or a wheel reachable during the build, for example:
