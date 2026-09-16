@@ -2,8 +2,8 @@ Canonical_SMILES
 COC(=C1CCC(=O)O1)c1ccc([N+](=O)[O-])cc1
 COc1cc([N+](=O)[O-])ccc1C=C1CCC(=O)O1
 CCCCCC=C1C=C(OC(C)=O)C(=O)O1
-CC[C@]1(OC)CC(=O)OC1=Cc1c[nH]c(Cl)c1Cl
 CC[C@@]1(OC)CC(=O)OC1=Cc1c[nH]c(Cl)c1Cl
+CC[C@]1(OC)CC(=O)OC1=Cc1c[nH]c(Cl)c1Cl
 CCCCNC(=O)[C@@](C)(N)C=C1C=C(O)C(=O)O1
 CCCCC1=CC(=CC(C)(O)C(=O)O)OC1=O
 COC1=CC(=C[C@](C)(N)C(=O)NCCCO)OC1=O
