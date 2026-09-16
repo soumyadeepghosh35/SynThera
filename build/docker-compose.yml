@@ -1,0 +1,27 @@
+# Run from inside this build/ directory:  docker compose up --build
+services:
+  synthera:
+    build:
+      context: .              # the build context is build/ only
+      # Once licensed, uncomment to install ART into SynThera (see ART.md).
+      # args:
+      #   ART_SOURCE: "git+https://github.com/JBEI/AutomatedRecommendationTool.git"
+    image: synthera:latest
+    container_name: synthera
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount the whole project (the parent of build/) into the container so
+      # notebooks, executables, external/ergochemics, and data are all live and
+      # edits save back to the host.
+      - ..:/opt/synthera
+    # Uncomment to run on a GPU host with the NVIDIA container runtime. The
+    # SynThera spec pins CUDA builds of torch and tensorflow, so a GPU host is
+    # needed to use them; on CPU they install but fall back to CPU execution.
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
