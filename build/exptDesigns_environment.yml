@@ -1,4 +1,4 @@
-name: doranet_env
+name: SynThera_ExptDesigns
 channels:
   - conda-forge
   - defaults
@@ -349,4 +349,4 @@ dependencies:
       - xgboost==1.6.2
       - xmltodict==1.0.4
       - zopfli==0.4.2
-prefix: /users/sghosh6/.conda/envs/doranet_env
+prefix: /opt/conda/envs/SynThera_ExptDesigns
