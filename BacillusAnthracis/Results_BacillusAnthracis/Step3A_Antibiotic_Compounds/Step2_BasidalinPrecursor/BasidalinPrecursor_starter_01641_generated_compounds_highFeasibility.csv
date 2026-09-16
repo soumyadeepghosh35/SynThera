@@ -1,0 +1,7 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore,feasibilityScore_rule3
+O=C1CCC(=CC2=CC[C@@H](O)[C@H](O)C2)O1,COC1C=C(C=C2CCC(=O)O2)C[C@@H](O)[C@@H]1O,2,0.5682,,0.60822356
+O=C1CCC(=CC2=CC[C@@H](O)[C@H](O)C2)O1,O=C(O)CCC(O)CC1=CC[C@@H](O)[C@H](O)C1,2,0.2745,,0.9719616
+O=C1CCC(=CC2=CC[C@@H](O)[C@H](O)C2)O1,O=C(O)CCC(O)=CC1=CC[C@@H](O)[C@H](O)C1,1,0.4,,0.68549186
+O=C1CCC(=CC2=CC[C@@H](O)[C@H](O)C2)O1,CCC(O)=C(C(=O)O)C1=CC[C@@H](O)[C@H](O)C1,2,0.2857,,0.6258261
+O=C1CCC(=CC2=CC[C@@H](O)[C@H](O)C2)O1,O=C1CCC(=CC2=CC(O)[C@@H](O)[C@H](O)C2)O1,1,0.625,,0.66739815
+O=C1CCC(=CC2=CC[C@@H](O)[C@H](O)C2)O1,O=C1CCC(=CC2=CC(=O)[C@@H](O)[C@H](O)C2)O1,2,0.641,,0.59492147

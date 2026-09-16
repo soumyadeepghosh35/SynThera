@@ -1,0 +1,64 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C/C(C=O)=C1\OC(=O)C=C1N.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CC/C(C=O)=C1\OC(=O)C=C1N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CC/C(C=O)=C1\OC(=O)C=C1N>>NC1=CC(=O)OC1=CCCC=O
+C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O.NC1=CC(=O)O/C1=C/C=O>>C/C(C=O)=C1\OC(=O)C=C1N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0043_12
+rule0028_51
+rule0043_12
+No_Thermo
+No_Thermo
+No_Thermo
+
+pathway number 2
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C/C(C=O)=C1\OC(=O)C=C1N.C/C(C=O)=C1\OC(=O)C=C1N>>CC/C(C=O)=C1\OC(=O)C=C1N.NC1=CC(=O)O/C1=C/C=O
+CC/C(C=O)=C1\OC(=O)C=C1N>>NC1=CC(=O)OC1=CCCC=O
+C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O.NC1=CC(=O)O/C1=C/C=O>>C/C(C=O)=C1\OC(=O)C=C1N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0028_51
+rule0043_12
+No_Thermo
+No_Thermo
+No_Thermo
+
+pathway number 3
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(=O)/C=C1/OC(=O)C=C1N.CC(=O)/C=C1/OC(=O)C=C1N>>CCC(=O)/C=C1/OC(=O)C=C1N.NC1=CC(=O)O/C1=C/C=O
+CCC(=O)/C=C1/OC(=O)C=C1N>>NC1=CC(=O)OC1=CCCC=O
+C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O.NC1=CC(=O)O/C1=C/C=O>>CC(=O)/C=C1/OC(=O)C=C1N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0028_51
+rule0043_12
+No_Thermo
+No_Thermo
+No_Thermo
+
+pathway number 4
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1,)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+CC(=O)/C=C1/OC(=O)C=C1N.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCC(=O)/C=C1/OC(=O)C=C1N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCC(=O)/C=C1/OC(=O)C=C1N>>NC1=CC(=O)OC1=CCCC=O
+C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O.NC1=CC(=O)O/C1=C/C=O>>CC(=O)/C=C1/OC(=O)C=C1N.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0043_12
+rule0028_51
+rule0043_12
+No_Thermo
+No_Thermo
+No_Thermo
+

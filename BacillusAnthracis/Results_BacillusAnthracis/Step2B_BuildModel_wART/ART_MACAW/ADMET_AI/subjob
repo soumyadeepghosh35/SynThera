@@ -1,3 +1,0 @@
-python runADMET.py toxicity_config_buyable.yaml > toxicity_buyable.out
-python runADMET.py toxicity_config_DORAnetMol.yaml > toxicity_DORAnetMol.out
-python runADMET.py toxicity_config_InosineDerrivatives.yaml > toxicity_InosineDerrivatives.out

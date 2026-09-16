@@ -1,0 +1,2055 @@
+dir,status,n_reactions,time_seconds,error
+starter_00000,success,1666,136.99,
+starter_00001,success,846,74.18,
+starter_00002,success,1071,77.33,
+starter_00003,success,3574,241.65,
+starter_00004,success,3758,307.68,
+starter_00005,success,1493,113.11,
+starter_00006,success,4587,382.18,
+starter_00007,success,1409,100.86,
+starter_00008,failed,-1,0.0,No columns to parse from file
+starter_00009,success,3758,256.53,
+starter_00010,success,1493,112.7,
+starter_00011,success,4587,383.23,
+starter_00012,failed,-1,0.0,No columns to parse from file
+starter_00013,success,3437,227.3,
+starter_00014,success,1295,103.96,
+starter_00015,success,1190,100.07,
+starter_00016,success,3268,263.44,
+starter_00017,failed,-1,0.0,No columns to parse from file
+starter_00018,success,5477,367.03,
+starter_00019,failed,-1,0.0,No columns to parse from file
+starter_00020,failed,-1,0.0,No columns to parse from file
+starter_00021,success,846,63.33,
+starter_00022,success,5647,380.97,
+starter_00023,success,3437,285.88,
+starter_00024,success,1675,157.18,
+starter_00025,failed,-1,0.0,No columns to parse from file
+starter_00026,failed,-1,0.0,No columns to parse from file
+starter_00027,success,3676,269.62,
+starter_00028,success,1559,99.77,
+starter_00029,success,5647,432.0,
+starter_00030,success,1098,78.79,
+starter_00031,success,3758,280.33,
+starter_00032,success,1367,116.48,
+starter_00033,success,1295,92.45,
+starter_00034,failed,-1,0.0,No columns to parse from file
+starter_00035,success,1409,98.36,
+starter_00036,success,1493,111.49,
+starter_00037,success,1666,135.33,
+starter_00038,success,3268,212.41,
+starter_00039,failed,-1,0.0,No columns to parse from file
+starter_00040,failed,-1,0.0,No columns to parse from file
+starter_00041,success,3676,233.61,
+starter_00042,success,4587,378.77,
+starter_00043,success,1190,102.24,
+starter_00044,success,4248,348.7,
+starter_00045,success,3887,259.88,
+starter_00046,failed,-1,0.0,No columns to parse from file
+starter_00047,failed,-1,0.0,No columns to parse from file
+starter_00048,success,5647,330.64,
+starter_00049,success,1493,133.92,
+starter_00050,success,1297,86.29,
+starter_00051,success,5477,418.74,
+starter_00052,success,3691,209.81,
+starter_00053,failed,-1,0.0,No columns to parse from file
+starter_00054,success,1666,130.16,
+starter_00055,success,4248,305.37,
+starter_00056,success,1098,98.31,
+starter_00057,success,5647,367.25,
+starter_00058,failed,-1,0.0,No columns to parse from file
+starter_00059,failed,-1,0.0,No columns to parse from file
+starter_00060,success,867,74.95,
+starter_00061,success,1392,117.58,
+starter_00062,success,4587,356.24,
+starter_00063,failed,-1,0.0,No columns to parse from file
+starter_00064,success,1353,107.58,
+starter_00065,success,3113,256.72,
+starter_00066,success,1097,85.07,
+starter_00067,success,4524,294.99,
+starter_00068,success,3676,303.87,
+starter_00069,success,1275,96.73,
+starter_00070,success,3758,297.78,
+starter_00071,success,1097,82.88,
+starter_00072,success,3056,206.3,
+starter_00073,success,4912,341.14,
+starter_00074,success,1666,130.26,
+starter_00075,failed,-1,0.01,'reactionString' column not found
+starter_00076,success,5787,438.44,
+starter_00077,success,3676,223.25,
+starter_00078,success,1027,83.76,
+starter_00079,success,582,43.79,
+starter_00080,success,297,23.64,
+starter_00081,success,373,27.23,
+starter_00082,success,1597,118.58,
+starter_00083,success,1949,145.08,
+starter_00084,success,519,25.06,
+starter_00085,success,2525,201.27,
+starter_00086,success,483,43.24,
+starter_00087,failed,-1,0.0,'reactionString' column not found
+starter_00088,success,1949,150.29,
+starter_00089,success,519,44.35,
+starter_00090,success,2525,195.97,
+starter_00091,failed,-1,0.0,'reactionString' column not found
+starter_00092,success,1718,133.83,
+starter_00093,success,459,34.88,
+starter_00094,success,400,27.27,
+starter_00095,success,1477,93.56,
+starter_00096,failed,-1,0.0,'reactionString' column not found
+starter_00097,success,4424,316.38,
+starter_00098,failed,-1,0.0,'reactionString' column not found
+starter_00099,success,3431,221.15,
+starter_00100,success,297,21.47,
+starter_00101,success,4800,347.93,
+starter_00102,success,1718,89.33,
+starter_00103,success,572,48.38,
+starter_00104,failed,-1,0.0,'reactionString' column not found
+starter_00105,success,3425,237.5,
+starter_00106,success,1677,95.0,
+starter_00107,success,517,40.43,
+starter_00108,success,4800,327.18,
+starter_00109,success,398,33.37,
+starter_00110,success,1949,121.51,
+starter_00111,success,499,37.62,
+starter_00112,success,459,38.46,
+starter_00113,success,3425,238.53,
+starter_00114,success,483,33.42,
+starter_00115,success,519,44.48,
+starter_00116,success,582,37.46,
+starter_00117,success,1477,90.04,
+starter_00118,success,2832,203.66,
+starter_00119,success,3668,256.99,
+starter_00120,success,1677,106.0,
+starter_00121,success,2525,155.84,
+starter_00122,success,400,31.85,
+starter_00123,success,2244,154.31,
+starter_00124,success,2109,160.61,
+starter_00125,failed,-1,0.01,'reactionString' column not found
+starter_00126,failed,-1,0.0,'reactionString' column not found
+starter_00127,success,4800,325.81,
+starter_00128,success,519,43.31,
+starter_00129,success,461,40.11,
+starter_00130,success,4424,295.21,
+starter_00131,success,1848,143.06,
+starter_00132,success,3668,235.49,
+starter_00133,success,582,47.09,
+starter_00134,success,2244,153.15,
+starter_00135,success,398,25.54,
+starter_00136,success,4800,349.16,
+starter_00137,failed,-1,0.0,'reactionString' column not found
+starter_00138,success,3425,219.38,
+starter_00139,success,315,25.43,
+starter_00140,success,598,47.42,
+starter_00141,success,2525,193.52,
+starter_00142,failed,-1,0.0,'reactionString' column not found
+starter_00143,success,589,46.29,
+starter_00144,success,1592,103.81,
+starter_00145,success,397,35.27,
+starter_00146,success,2418,168.89,
+starter_00147,success,1677,129.13,
+starter_00148,success,453,30.54,
+starter_00149,success,1949,138.63,
+starter_00150,success,397,31.78,
+starter_00151,success,1384,94.84,
+starter_00152,success,3979,228.12,
+starter_00153,success,582,27.89,
+starter_00154,success,3425,250.16,
+starter_00155,success,4757,301.58,
+starter_00156,success,1677,85.6,
+starter_00157,success,400,29.47,
+starter_00158,success,727,62.72,
+starter_00159,success,132,7.25,
+starter_00160,success,474,34.06,
+starter_00161,success,2552,200.5,
+starter_00162,success,2306,169.35,
+starter_00163,success,253,21.51,
+starter_00164,success,2721,215.12,
+starter_00165,success,585,50.74,
+starter_00166,failed,-1,0.0,'reactionString' column not found
+starter_00167,success,2306,177.04,
+starter_00168,success,253,17.09,
+starter_00169,success,2721,212.68,
+starter_00170,failed,-1,0.0,'reactionString' column not found
+starter_00171,success,1931,129.95,
+starter_00172,success,598,53.25,
+starter_00173,success,180,11.29,
+starter_00174,success,1687,114.74,
+starter_00175,failed,-1,0.0,'reactionString' column not found
+starter_00176,success,4610,330.15,
+starter_00177,failed,-1,0.0,'reactionString' column not found
+starter_00178,success,4390,315.89,
+starter_00179,success,132,9.46,
+starter_00180,success,5245,397.1,
+starter_00181,success,1931,120.6,
+starter_00182,success,734,59.26,
+starter_00183,failed,-1,0.0,'reactionString' column not found
+starter_00184,success,4030,281.64,
+starter_00185,success,2030,160.84,
+starter_00186,success,897,75.57,
+starter_00187,success,5245,406.0,
+starter_00188,success,187,15.65,
+starter_00189,success,2306,171.62,
+starter_00190,success,650,55.77,
+starter_00191,success,598,53.11,
+starter_00192,success,4030,281.71,
+starter_00193,success,585,50.72,
+starter_00194,success,253,18.27,
+starter_00195,success,727,59.32,
+starter_00196,success,1687,100.73,
+starter_00197,success,3719,267.38,
+starter_00198,success,3953,279.81,
+starter_00199,success,2030,142.99,
+starter_00200,success,2721,226.76,
+starter_00201,success,180,9.76,
+starter_00202,success,2341,181.03,
+starter_00203,success,3005,229.54,
+starter_00204,failed,-1,0.0,'reactionString' column not found
+starter_00205,failed,-1,0.0,'reactionString' column not found
+starter_00206,success,5245,404.87,
+starter_00207,success,253,18.26,
+starter_00208,success,595,40.63,
+starter_00209,success,4610,330.44,
+starter_00210,success,2855,220.88,
+starter_00211,success,3953,283.67,
+starter_00212,success,727,52.1,
+starter_00213,success,2341,165.29,
+starter_00214,success,187,18.06,
+starter_00215,success,5245,381.59,
+starter_00216,failed,-1,0.0,'reactionString' column not found
+starter_00217,success,4030,267.85,
+starter_00218,success,151,10.07,
+starter_00219,success,926,75.67,
+starter_00220,success,2721,206.89,
+starter_00221,failed,-1,0.0,'reactionString' column not found
+starter_00222,success,932,76.24,
+starter_00223,success,2453,192.81,
+starter_00224,success,187,10.59,
+starter_00225,success,3399,268.49,
+starter_00226,success,2030,138.12,
+starter_00227,success,802,71.23,
+starter_00228,success,2306,168.34,
+starter_00229,success,187,13.05,
+starter_00230,success,2208,130.57,
+starter_00231,success,5459,378.68,
+starter_00232,success,727,44.55,
+starter_00233,success,4030,241.57,
+starter_00234,success,6466,464.3,
+starter_00235,success,2030,151.98,
+starter_00236,success,525,38.57,
+starter_00237,success,2859,221.79,
+starter_00238,success,2278,173.6,
+starter_00239,success,2808,215.64,
+starter_00240,success,5108,358.29,
+starter_00241,success,3062,216.79,
+starter_00242,success,2538,205.78,
+starter_00243,success,3305,258.28,
+starter_00244,success,2666,186.89,
+starter_00245,failed,-1,0.0,'reactionString' column not found
+starter_00246,success,3062,216.8,
+starter_00247,success,2538,212.91,
+starter_00248,success,3305,236.51,
+starter_00249,failed,-1,0.0,'reactionString' column not found
+starter_00250,success,3233,236.96,
+starter_00251,success,3078,209.16,
+starter_00252,success,2284,189.9,
+starter_00253,success,4892,373.32,
+starter_00254,failed,-1,0.0,'reactionString' column not found
+starter_00255,success,64,5.11,
+starter_00256,failed,-1,0.01,'reactionString' column not found
+starter_00257,failed,-1,0.0,'reactionString' column not found
+starter_00258,success,2278,184.37,
+starter_00259,success,63,3.59,
+starter_00260,success,3233,234.78,
+starter_00261,success,2933,227.03,
+starter_00262,failed,-1,0.0,'reactionString' column not found
+starter_00263,failed,-1,0.0,'reactionString' column not found
+starter_00264,success,5018,384.72,
+starter_00265,success,2769,198.91,
+starter_00266,success,63,5.02,
+starter_00267,success,2591,200.26,
+starter_00268,success,3062,227.94,
+starter_00269,success,2529,208.84,
+starter_00270,success,3078,199.69,
+starter_00271,failed,-1,0.0,'reactionString' column not found
+starter_00272,success,2666,201.24,
+starter_00273,success,2538,209.93,
+starter_00274,success,2859,226.46,
+starter_00275,success,4892,323.39,
+starter_00276,failed,-1,0.0,'reactionString' column not found
+starter_00277,failed,-1,0.0,'reactionString' column not found
+starter_00278,success,5018,341.83,
+starter_00279,success,3305,245.18,
+starter_00280,success,2284,185.89,
+starter_00281,success,3494,251.26,
+starter_00282,success,2937,219.53,
+starter_00283,failed,-1,0.0,'reactionString' column not found
+starter_00284,failed,-1,0.0,'reactionString' column not found
+starter_00285,success,63,4.82,
+starter_00286,success,2538,205.03,
+starter_00287,success,3071,248.64,
+starter_00288,success,64,4.61,
+starter_00289,success,3059,223.8,
+starter_00290,failed,-1,0.0,'reactionString' column not found
+starter_00291,success,2859,204.33,
+starter_00292,success,3494,215.97,
+starter_00293,success,2591,213.68,
+starter_00294,success,63,5.25,
+starter_00295,failed,-1,0.0,'reactionString' column not found
+starter_00296,failed,-1,0.0,'reactionString' column not found
+starter_00297,success,2303,174.71,
+starter_00298,success,3004,222.55,
+starter_00299,success,3305,253.09,
+starter_00300,failed,-1,0.0,'reactionString' column not found
+starter_00301,success,2962,218.18,
+starter_00302,success,2672,188.02,
+starter_00303,success,2590,206.77,
+starter_00304,success,3299,242.31,
+starter_00305,success,5018,386.35,
+starter_00306,success,2393,157.5,
+starter_00307,success,3062,195.2,
+starter_00308,success,2590,211.43,
+starter_00309,success,4492,267.39,
+starter_00310,success,58,3.48,
+starter_00311,success,2859,187.85,
+starter_00312,failed,-1,0.0,'reactionString' column not found
+starter_00313,success,63,4.64,
+starter_00314,success,5018,329.22,
+starter_00315,success,2588,217.91,
+starter_00316,success,3051,211.38,
+starter_00317,success,1783,136.57,
+starter_00318,success,2270,165.03,
+starter_00319,success,5063,372.15,
+starter_00320,success,4255,287.47,
+starter_00321,success,2716,215.88,
+starter_00322,success,4427,323.91,
+starter_00323,success,2708,216.0,
+starter_00324,failed,-1,0.0,'reactionString' column not found
+starter_00325,success,4255,263.76,
+starter_00326,success,2716,181.09,
+starter_00327,success,4427,278.77,
+starter_00328,failed,-1,0.0,'reactionString' column not found
+starter_00329,success,4118,262.21,
+starter_00330,success,2659,195.04,
+starter_00331,success,2291,185.84,
+starter_00332,success,4730,304.82,
+starter_00333,failed,-1,0.0,'reactionString' column not found
+starter_00334,success,4407,263.48,
+starter_00335,failed,-1,0.0,'reactionString' column not found
+starter_00336,failed,-1,0.0,'reactionString' column not found
+starter_00337,success,1783,146.39,
+starter_00338,success,4146,239.34,
+starter_00339,success,4118,268.61,
+starter_00340,success,3130,251.82,
+starter_00341,failed,-1,0.0,'reactionString' column not found
+starter_00342,failed,-1,0.0,'reactionString' column not found
+starter_00343,success,5112,279.13,
+starter_00344,success,2953,172.83,
+starter_00345,success,4146,204.84,
+starter_00346,success,2218,158.12,
+starter_00347,success,4255,287.17,
+starter_00348,success,2524,192.3,
+starter_00349,success,2659,190.8,
+starter_00350,failed,-1,0.0,'reactionString' column not found
+starter_00351,success,2708,152.86,
+starter_00352,success,2716,209.88,
+starter_00353,success,3051,172.87,
+starter_00354,success,4730,257.85,
+starter_00355,failed,-1,0.0,'reactionString' column not found
+starter_00356,failed,-1,0.0,'reactionString' column not found
+starter_00357,success,5112,379.16,
+starter_00358,success,4427,317.57,
+starter_00359,success,2291,154.96,
+starter_00360,success,4309,330.33,
+starter_00361,success,3940,294.64,
+starter_00362,failed,-1,0.0,'reactionString' column not found
+starter_00363,failed,-1,0.0,'reactionString' column not found
+starter_00364,success,4146,225.26,
+starter_00365,success,2716,217.58,
+starter_00366,success,2653,197.03,
+starter_00367,success,4407,205.49,
+starter_00368,success,4352,327.3,
+starter_00369,failed,-1,0.0,'reactionString' column not found
+starter_00370,success,3051,162.66,
+starter_00371,success,4309,249.31,
+starter_00372,success,2218,175.09,
+starter_00373,success,4146,244.48,
+starter_00374,failed,-1,0.0,'reactionString' column not found
+starter_00375,failed,-1,0.0,'reactionString' column not found
+starter_00376,success,1807,115.5,
+starter_00377,success,2586,168.75,
+starter_00378,success,4427,263.39,
+starter_00379,failed,-1,0.0,'reactionString' column not found
+starter_00380,success,2527,170.1,
+starter_00381,success,3711,235.53,
+starter_00382,success,2217,147.86,
+starter_00383,success,4526,346.62,
+starter_00384,success,5112,294.97,
+starter_00385,success,2388,173.45,
+starter_00386,success,4255,271.65,
+starter_00387,success,2217,176.27,
+starter_00388,success,4323,199.17,
+starter_00389,success,3487,188.87,
+starter_00390,success,3051,181.4,
+starter_00391,failed,-1,0.0,'reactionString' column not found
+starter_00392,success,4157,231.34,
+starter_00393,success,5112,270.61,
+starter_00394,success,2073,129.42,
+starter_00395,success,653,58.37,
+starter_00396,success,91,5.69,
+starter_00397,success,413,38.92,
+starter_00398,success,2581,205.82,
+starter_00399,success,2246,178.24,
+starter_00400,success,178,14.74,
+starter_00401,success,2466,192.46,
+starter_00402,success,507,41.2,
+starter_00403,failed,-1,0.0,'reactionString' column not found
+starter_00404,success,2246,180.59,
+starter_00405,success,178,13.64,
+starter_00406,success,2466,184.03,
+starter_00407,failed,-1,0.0,'reactionString' column not found
+starter_00408,success,1921,140.65,
+starter_00409,success,538,45.44,
+starter_00410,success,116,9.12,
+starter_00411,success,1758,114.94,
+starter_00412,failed,-1,0.0,'reactionString' column not found
+starter_00413,success,3419,254.49,
+starter_00414,failed,-1,0.0,'reactionString' column not found
+starter_00415,success,145,4.97,
+starter_00416,success,91,8.23,
+starter_00417,success,3687,264.67,
+starter_00418,success,1921,149.79,
+starter_00419,success,610,43.71,
+starter_00420,failed,-1,0.0,'reactionString' column not found
+starter_00421,success,153,0.55,
+starter_00422,success,2143,156.69,
+starter_00423,success,829,76.67,
+starter_00424,success,3687,269.4,
+starter_00425,success,141,13.34,
+starter_00426,success,2246,183.5,
+starter_00427,success,541,45.44,
+starter_00428,success,538,47.2,
+starter_00429,success,153,11.62,
+starter_00430,success,507,40.87,
+starter_00431,success,178,14.47,
+starter_00432,success,653,52.19,
+starter_00433,success,1758,93.03,
+starter_00434,success,133,5.67,
+starter_00435,success,147,5.99,
+starter_00436,success,2143,144.44,
+starter_00437,success,2466,195.46,
+starter_00438,success,116,11.31,
+starter_00439,success,2163,178.23,
+starter_00440,success,2727,224.27,
+starter_00441,failed,-1,0.01,'reactionString' column not found
+starter_00442,failed,-1,0.0,'reactionString' column not found
+starter_00443,success,3687,266.48,
+starter_00444,success,178,13.19,
+starter_00445,success,534,38.77,
+starter_00446,success,3419,265.27,
+starter_00447,success,2767,188.91,
+starter_00448,success,147,5.95,
+starter_00449,success,653,55.34,
+starter_00450,success,2163,169.66,
+starter_00451,success,141,12.04,
+starter_00452,success,3687,233.68,
+starter_00453,failed,-1,0.0,'reactionString' column not found
+starter_00454,success,153,0.37,
+starter_00455,success,93,8.3,
+starter_00456,success,750,69.29,
+starter_00457,success,2466,169.52,
+starter_00458,failed,-1,0.0,'reactionString' column not found
+starter_00459,success,759,68.31,
+starter_00460,success,2406,191.18,
+starter_00461,success,141,8.46,
+starter_00462,success,3054,232.38,
+starter_00463,success,2143,159.95,
+starter_00464,success,744,64.25,
+starter_00465,success,2246,171.86,
+starter_00466,success,141,11.9,
+starter_00467,success,2253,143.91,
+starter_00468,success,3818,305.77,
+starter_00469,success,653,49.24,
+starter_00470,success,153,11.79,
+starter_00471,success,4397,316.58,
+starter_00472,success,2143,168.64,
+starter_00473,success,473,31.04,
+starter_00474,success,1663,99.71,
+starter_00475,success,972,60.83,
+starter_00476,success,1216,76.21,
+starter_00477,success,3153,187.21,
+starter_00478,success,3009,233.91,
+starter_00479,success,1509,127.48,
+starter_00480,success,3155,239.77,
+starter_00481,success,1463,107.79,
+starter_00482,failed,-1,0.0,'reactionString' column not found
+starter_00483,success,3009,225.45,
+starter_00484,success,1509,128.8,
+starter_00485,success,3155,191.77,
+starter_00486,failed,-1,0.0,'reactionString' column not found
+starter_00487,success,2899,220.7,
+starter_00488,success,1442,102.18,
+starter_00489,success,1264,96.12,
+starter_00490,success,2952,189.32,
+starter_00491,failed,-1,0.0,'reactionString' column not found
+starter_00492,success,3221,199.84,
+starter_00493,failed,-1,0.0,'reactionString' column not found
+starter_00494,failed,-1,0.0,'reactionString' column not found
+starter_00495,success,972,64.64,
+starter_00496,success,3030,217.69,
+starter_00497,success,2899,201.98,
+starter_00498,success,1700,139.74,
+starter_00499,failed,-1,0.0,'reactionString' column not found
+starter_00500,failed,-1,0.0,'reactionString' column not found
+starter_00501,success,3223,250.2,
+starter_00502,success,1570,116.79,
+starter_00503,success,3030,181.31,
+starter_00504,success,1222,93.65,
+starter_00505,success,3009,223.2,
+starter_00506,success,1404,115.52,
+starter_00507,success,1442,91.36,
+starter_00508,failed,-1,0.0,'reactionString' column not found
+starter_00509,success,1463,94.36,
+starter_00510,success,1509,124.45,
+starter_00511,success,1663,109.93,
+starter_00512,success,2952,191.36,
+starter_00513,failed,-1,0.0,'reactionString' column not found
+starter_00514,failed,-1,0.0,'reactionString' column not found
+starter_00515,success,3223,204.51,
+starter_00516,success,3155,235.25,
+starter_00517,success,1264,101.23,
+starter_00518,success,3064,234.51,
+starter_00519,success,2823,175.66,
+starter_00520,failed,-1,0.0,'reactionString' column not found
+starter_00521,failed,-1,0.0,'reactionString' column not found
+starter_00522,success,3030,207.69,
+starter_00523,success,1509,122.74,
+starter_00524,success,1437,111.46,
+starter_00525,success,3221,227.62,
+starter_00526,success,3067,212.15,
+starter_00527,failed,-1,0.0,'reactionString' column not found
+starter_00528,success,1663,99.28,
+starter_00529,success,3064,241.38,
+starter_00530,success,1222,102.17,
+starter_00531,success,3030,205.71,
+starter_00532,failed,-1,0.0,'reactionString' column not found
+starter_00533,failed,-1,0.0,'reactionString' column not found
+starter_00534,success,993,60.45,
+starter_00535,success,1373,96.71,
+starter_00536,success,3155,231.31,
+starter_00537,failed,-1,0.0,'reactionString' column not found
+starter_00538,success,1347,99.07,
+starter_00539,success,2648,154.49,
+starter_00540,success,1221,73.25,
+starter_00541,success,3215,232.95,
+starter_00542,success,3223,199.72,
+starter_00543,success,1300,93.48,
+starter_00544,success,3009,240.26,
+starter_00545,success,1221,90.7,
+starter_00546,success,2706,197.86,
+starter_00547,success,2558,175.4,
+starter_00548,success,1663,91.12,
+starter_00549,failed,-1,0.0,'reactionString' column not found
+starter_00550,success,3034,216.11,
+starter_00551,success,3223,198.59,
+starter_00552,success,1150,94.14,
+starter_00553,success,3762,230.02,
+starter_00554,success,2353,140.17,
+starter_00555,success,3004,187.37,
+starter_00556,success,5958,399.56,
+starter_00557,success,3026,196.41,
+starter_00558,success,3291,262.0,
+starter_00559,success,3601,238.1,
+starter_00560,success,3470,225.17,
+starter_00561,failed,-1,0.0,'reactionString' column not found
+starter_00562,success,3026,200.61,
+starter_00563,success,3291,254.63,
+starter_00564,success,3601,197.81,
+starter_00565,failed,-1,0.0,'reactionString' column not found
+starter_00566,success,3227,187.48,
+starter_00567,success,3399,226.29,
+starter_00568,success,2915,215.6,
+starter_00569,success,5680,357.95,
+starter_00570,failed,-1,0.0,'reactionString' column not found
+starter_00571,failed,-1,0.0,'reactionString' column not found
+starter_00572,failed,-1,0.0,'reactionString' column not found
+starter_00573,failed,-1,0.0,'reactionString' column not found
+starter_00574,success,2353,192.83,
+starter_00575,failed,-1,0.0,'reactionString' column not found
+starter_00576,success,3227,212.32,
+starter_00577,success,3871,279.65,
+starter_00578,failed,-1,0.0,'reactionString' column not found
+starter_00579,failed,-1,0.0,'reactionString' column not found
+starter_00580,success,5817,371.01,
+starter_00581,success,3684,211.84,
+starter_00582,failed,-1,0.0,'reactionString' column not found
+starter_00583,success,2799,207.42,
+starter_00584,success,3026,198.2,
+starter_00585,success,3173,197.87,
+starter_00586,success,3399,265.28,
+starter_00587,failed,-1,0.0,'reactionString' column not found
+starter_00588,success,3470,199.28,
+starter_00589,success,3291,240.02,
+starter_00590,success,3762,221.81,
+starter_00591,success,5680,313.14,
+starter_00592,failed,-1,0.0,'reactionString' column not found
+starter_00593,failed,-1,0.0,'reactionString' column not found
+starter_00594,success,5817,385.02,
+starter_00595,success,3601,227.83,
+starter_00596,success,2915,237.13,
+starter_00597,success,3822,254.97,
+starter_00598,success,3108,224.61,
+starter_00599,failed,-1,0.0,'reactionString' column not found
+starter_00600,failed,-1,0.0,'reactionString' column not found
+starter_00601,failed,-1,0.0,'reactionString' column not found
+starter_00602,success,3291,266.97,
+starter_00603,success,3392,256.4,
+starter_00604,failed,-1,0.0,'reactionString' column not found
+starter_00605,success,3033,190.57,
+starter_00606,failed,-1,0.0,'reactionString' column not found
+starter_00607,success,3762,239.96,
+starter_00608,success,3822,275.09,
+starter_00609,success,2799,182.17,
+starter_00610,failed,-1,0.0,'reactionString' column not found
+starter_00611,failed,-1,0.0,'reactionString' column not found
+starter_00612,failed,-1,0.0,'reactionString' column not found
+starter_00613,success,2380,185.75,
+starter_00614,success,3323,257.39,
+starter_00615,success,3601,260.31,
+starter_00616,failed,-1,0.0,'reactionString' column not found
+starter_00617,success,3243,221.64,
+starter_00618,success,2559,144.33,
+starter_00619,success,2798,226.15,
+starter_00620,success,3605,244.81,
+starter_00621,success,5817,341.92,
+starter_00622,success,3042,193.84,
+starter_00623,success,3026,172.25,
+starter_00624,success,2798,190.81,
+starter_00625,success,5125,271.91,
+starter_00626,failed,-1,0.01,'reactionString' column not found
+starter_00627,success,3762,263.03,
+starter_00628,failed,-1,0.0,'reactionString' column not found
+starter_00629,failed,-1,0.0,'reactionString' column not found
+starter_00630,success,5817,324.38,
+starter_00631,success,2696,165.93,
+starter_00632,success,138,11.76,
+starter_00633,success,129,9.08,
+starter_00634,success,131,12.18,
+starter_00635,failed,-1,0.0,'reactionString' column not found
+starter_00636,failed,-1,0.0,'reactionString' column not found
+starter_00637,success,133,10.82,
+starter_00638,failed,-1,0.0,'reactionString' column not found
+starter_00639,success,140,12.94,
+starter_00640,failed,-1,0.0,'reactionString' column not found
+starter_00641,failed,-1,0.0,'reactionString' column not found
+starter_00642,success,133,10.99,
+starter_00643,failed,-1,0.0,'reactionString' column not found
+starter_00644,failed,-1,0.0,'reactionString' column not found
+starter_00645,failed,-1,0.0,'reactionString' column not found
+starter_00646,success,144,14.98,
+starter_00647,success,125,10.36,
+starter_00648,failed,-1,0.0,'reactionString' column not found
+starter_00649,failed,-1,0.0,'reactionString' column not found
+starter_00650,failed,-1,0.0,'reactionString' column not found
+starter_00651,failed,-1,0.0,'reactionString' column not found
+starter_00652,failed,-1,0.0,'reactionString' column not found
+starter_00653,success,129,8.53,
+starter_00654,failed,-1,0.0,'reactionString' column not found
+starter_00655,failed,-1,0.01,'reactionString' column not found
+starter_00656,success,144,13.94,
+starter_00657,failed,-1,0.0,'reactionString' column not found
+starter_00658,failed,-1,0.0,'reactionString' column not found
+starter_00659,failed,-1,0.0,'reactionString' column not found
+starter_00660,success,115,10.93,
+starter_00661,failed,-1,0.0,'reactionString' column not found
+starter_00662,success,141,12.21,
+starter_00663,failed,-1,0.0,'reactionString' column not found
+starter_00664,success,159,14.5,
+starter_00665,success,144,14.53,
+starter_00666,failed,-1,0.0,'reactionString' column not found
+starter_00667,success,140,11.77,
+starter_00668,success,133,9.82,
+starter_00669,success,138,12.14,
+starter_00670,failed,-1,0.0,'reactionString' column not found
+starter_00671,failed,-1,0.0,'reactionString' column not found
+starter_00672,failed,-1,0.0,'reactionString' column not found
+starter_00673,failed,-1,0.0,'reactionString' column not found
+starter_00674,failed,-1,0.0,'reactionString' column not found
+starter_00675,success,125,8.16,
+starter_00676,failed,-1,0.0,'reactionString' column not found
+starter_00677,failed,-1,0.0,'reactionString' column not found
+starter_00678,failed,-1,0.0,'reactionString' column not found
+starter_00679,failed,-1,0.0,'reactionString' column not found
+starter_00680,failed,-1,0.0,'reactionString' column not found
+starter_00681,success,133,10.13,
+starter_00682,success,135,12.55,
+starter_00683,failed,-1,0.0,'reactionString' column not found
+starter_00684,failed,-1,0.0,'reactionString' column not found
+starter_00685,failed,-1,0.0,'reactionString' column not found
+starter_00686,success,138,12.37,
+starter_00687,failed,-1,0.0,'reactionString' column not found
+starter_00688,success,141,11.05,
+starter_00689,failed,-1,0.0,'reactionString' column not found
+starter_00690,failed,-1,0.0,'reactionString' column not found
+starter_00691,failed,-1,0.0,'reactionString' column not found
+starter_00692,success,140,11.53,
+starter_00693,success,118,11.22,
+starter_00694,failed,-1,0.0,'reactionString' column not found
+starter_00695,failed,-1,0.0,'reactionString' column not found
+starter_00696,success,137,11.29,
+starter_00697,failed,-1,0.0,'reactionString' column not found
+starter_00698,success,140,10.04,
+starter_00699,failed,-1,0.0,'reactionString' column not found
+starter_00700,failed,-1,0.0,'reactionString' column not found
+starter_00701,success,133,10.82,
+starter_00702,failed,-1,0.0,'reactionString' column not found
+starter_00703,success,140,9.81,
+starter_00704,failed,-1,0.0,'reactionString' column not found
+starter_00705,failed,-1,0.0,'reactionString' column not found
+starter_00706,success,138,12.0,
+starter_00707,failed,-1,0.0,'reactionString' column not found
+starter_00708,failed,-1,0.0,'reactionString' column not found
+starter_00709,failed,-1,0.0,'reactionString' column not found
+starter_00710,success,153,14.13,
+starter_00711,success,418,32.88,
+starter_00712,success,43,3.86,
+starter_00713,success,232,17.74,
+starter_00714,success,17,1.12,
+starter_00715,failed,-1,0.0,'reactionString' column not found
+starter_00716,success,54,4.51,
+starter_00717,failed,-1,0.0,'reactionString' column not found
+starter_00718,success,218,18.65,
+starter_00719,failed,-1,0.0,'reactionString' column not found
+starter_00720,failed,-1,0.0,'reactionString' column not found
+starter_00721,success,54,5.47,
+starter_00722,failed,-1,0.0,'reactionString' column not found
+starter_00723,failed,-1,0.0,'reactionString' column not found
+starter_00724,failed,-1,0.0,'reactionString' column not found
+starter_00725,success,464,39.95,
+starter_00726,success,36,3.06,
+starter_00727,success,17,0.94,
+starter_00728,failed,-1,0.0,'reactionString' column not found
+starter_00729,failed,-1,0.0,'reactionString' column not found
+starter_00730,failed,-1,0.0,'reactionString' column not found
+starter_00731,failed,-1,0.0,'reactionString' column not found
+starter_00732,success,43,3.73,
+starter_00733,failed,-1,0.01,'reactionString' column not found
+starter_00734,failed,-1,0.0,'reactionString' column not found
+starter_00735,success,359,29.91,
+starter_00736,failed,-1,0.0,'reactionString' column not found
+starter_00737,failed,-1,0.0,'reactionString' column not found
+starter_00738,success,17,1.3,
+starter_00739,success,414,31.63,
+starter_00740,failed,-1,0.0,'reactionString' column not found
+starter_00741,success,64,5.39,
+starter_00742,failed,-1,0.0,'reactionString' column not found
+starter_00743,success,312,27.02,
+starter_00744,success,464,38.83,
+starter_00745,failed,-1,0.0,'reactionString' column not found
+starter_00746,success,218,17.23,
+starter_00747,success,54,4.9,
+starter_00748,success,418,34.24,
+starter_00749,success,17,1.43,
+starter_00750,failed,-1,0.0,'reactionString' column not found
+starter_00751,failed,-1,0.0,'reactionString' column not found
+starter_00752,success,17,0.96,
+starter_00753,failed,-1,0.0,'reactionString' column not found
+starter_00754,success,36,3.13,
+starter_00755,failed,-1,0.0,'reactionString' column not found
+starter_00756,failed,-1,0.0,'reactionString' column not found
+starter_00757,failed,-1,0.0,'reactionString' column not found
+starter_00758,failed,-1,0.0,'reactionString' column not found
+starter_00759,failed,-1,0.0,'reactionString' column not found
+starter_00760,success,54,4.82,
+starter_00761,success,464,33.0,
+starter_00762,failed,-1,0.0,'reactionString' column not found
+starter_00763,failed,-1,0.0,'reactionString' column not found
+starter_00764,failed,-1,0.0,'reactionString' column not found
+starter_00765,success,418,31.61,
+starter_00766,failed,-1,0.0,'reactionString' column not found
+starter_00767,success,64,5.14,
+starter_00768,failed,-1,0.0,'reactionString' column not found
+starter_00769,failed,-1,0.0,'reactionString' column not found
+starter_00770,failed,-1,0.0,'reactionString' column not found
+starter_00771,success,43,3.74,
+starter_00772,success,414,34.54,
+starter_00773,failed,-1,0.0,'reactionString' column not found
+starter_00774,failed,-1,0.0,'reactionString' column not found
+starter_00775,success,423,32.98,
+starter_00776,failed,-1,0.0,'reactionString' column not found
+starter_00777,success,64,5.14,
+starter_00778,failed,-1,0.0,'reactionString' column not found
+starter_00779,success,17,1.27,
+starter_00780,success,380,25.67,
+starter_00781,failed,-1,0.0,'reactionString' column not found
+starter_00782,success,64,5.21,
+starter_00783,success,16,1.28,
+starter_00784,failed,-1,0.0,'reactionString' column not found
+starter_00785,success,418,33.38,
+starter_00786,failed,-1,0.0,'reactionString' column not found
+starter_00787,failed,-1,0.0,'reactionString' column not found
+starter_00788,success,17,1.35,
+starter_00789,success,404,34.78,
+starter_00790,success,109,7.73,
+starter_00791,success,8,0.74,
+starter_00792,success,80,5.99,
+starter_00793,success,414,32.71,
+starter_00794,failed,-1,0.0,'reactionString' column not found
+starter_00795,success,27,2.26,
+starter_00796,success,3,0.36,
+starter_00797,success,101,8.06,
+starter_00798,failed,-1,0.0,'reactionString' column not found
+starter_00799,failed,-1,0.0,'reactionString' column not found
+starter_00800,success,27,2.15,
+starter_00801,success,3,0.36,
+starter_00802,failed,-1,0.0,'reactionString' column not found
+starter_00803,failed,-1,0.0,'reactionString' column not found
+starter_00804,success,103,9.1,
+starter_00805,success,15,1.15,
+starter_00806,success,398,26.78,
+starter_00807,failed,-1,0.0,'reactionString' column not found
+starter_00808,failed,-1,0.0,'reactionString' column not found
+starter_00809,failed,-1,0.0,'reactionString' column not found
+starter_00810,failed,-1,0.0,'reactionString' column not found
+starter_00811,success,8,0.84,
+starter_00812,failed,-1,0.0,'reactionString' column not found
+starter_00813,failed,-1,0.0,'reactionString' column not found
+starter_00814,success,88,7.31,
+starter_00815,failed,-1,0.0,'reactionString' column not found
+starter_00816,failed,-1,0.0,'reactionString' column not found
+starter_00817,success,388,28.57,
+starter_00818,success,90,7.49,
+starter_00819,failed,-1,0.0,'reactionString' column not found
+starter_00820,success,18,1.92,
+starter_00821,failed,-1,0.0,'reactionString' column not found
+starter_00822,success,97,7.57,
+starter_00823,success,103,9.04,
+starter_00824,failed,-1,0.0,'reactionString' column not found
+starter_00825,success,101,7.45,
+starter_00826,success,27,1.97,
+starter_00827,success,109,8.93,
+starter_00828,success,398,31.22,
+starter_00829,failed,-1,0.0,'reactionString' column not found
+starter_00830,failed,-1,0.0,'reactionString' column not found
+starter_00831,success,388,26.38,
+starter_00832,success,3,0.42,
+starter_00833,success,15,0.45,
+starter_00834,success,3,0.35,
+starter_00835,success,3,0.29,
+starter_00836,failed,-1,0.0,'reactionString' column not found
+starter_00837,failed,-1,0.0,'reactionString' column not found
+starter_00838,failed,-1,0.0,'reactionString' column not found
+starter_00839,success,27,1.6,
+starter_00840,success,95,8.59,
+starter_00841,failed,-1,0.0,'reactionString' column not found
+starter_00842,failed,-1,0.0,'reactionString' column not found
+starter_00843,failed,-1,0.0,'reactionString' column not found
+starter_00844,success,109,8.17,
+starter_00845,success,3,0.31,
+starter_00846,success,18,2.4,
+starter_00847,failed,-1,0.0,'reactionString' column not found
+starter_00848,failed,-1,0.0,'reactionString' column not found
+starter_00849,failed,-1,0.0,'reactionString' column not found
+starter_00850,success,9,1.15,
+starter_00851,success,69,5.69,
+starter_00852,success,3,0.32,
+starter_00853,failed,-1,0.0,'reactionString' column not found
+starter_00854,success,91,7.32,
+starter_00855,failed,-1,0.0,'reactionString' column not found
+starter_00856,success,18,1.99,
+starter_00857,success,3,0.32,
+starter_00858,success,388,29.14,
+starter_00859,success,109,8.18,
+starter_00860,failed,-1,0.0,'reactionString' column not found
+starter_00861,success,18,1.77,
+starter_00862,success,419,30.09,
+starter_00863,failed,-1,0.0,'reactionString' column not found
+starter_00864,success,109,8.75,
+starter_00865,failed,-1,0.0,'reactionString' column not found
+starter_00866,failed,-1,0.0,'reactionString' column not found
+starter_00867,success,388,28.63,
+starter_00868,success,108,8.5,
+starter_00869,success,135,11.26,
+starter_00870,success,118,9.71,
+starter_00871,success,84,6.18,
+starter_00872,success,709,50.64,
+starter_00873,success,455,34.1,
+starter_00874,success,139,11.68,
+starter_00875,success,390,30.91,
+starter_00876,success,108,7.59,
+starter_00877,failed,-1,0.0,'reactionString' column not found
+starter_00878,success,455,35.36,
+starter_00879,success,139,11.99,
+starter_00880,success,390,30.52,
+starter_00881,failed,-1,0.0,'reactionString' column not found
+starter_00882,success,479,36.69,
+starter_00883,success,118,9.07,
+starter_00884,success,99,7.58,
+starter_00885,success,705,52.62,
+starter_00886,failed,-1,0.0,'reactionString' column not found
+starter_00887,failed,-1,0.0,'reactionString' column not found
+starter_00888,failed,-1,0.0,'reactionString' column not found
+starter_00889,failed,-1,0.0,'reactionString' column not found
+starter_00890,success,118,7.92,
+starter_00891,failed,-1,0.0,'reactionString' column not found
+starter_00892,success,479,36.2,
+starter_00893,success,89,8.39,
+starter_00894,failed,-1,0.0,'reactionString' column not found
+starter_00895,failed,-1,0.01,'reactionString' column not found
+starter_00896,success,746,48.18,
+starter_00897,success,97,7.86,
+starter_00898,failed,-1,0.0,'reactionString' column not found
+starter_00899,success,168,15.5,
+starter_00900,success,455,33.14,
+starter_00901,success,99,7.78,
+starter_00902,success,118,9.01,
+starter_00903,failed,-1,0.0,'reactionString' column not found
+starter_00904,success,108,7.75,
+starter_00905,success,139,10.86,
+starter_00906,success,135,10.23,
+starter_00907,success,705,59.68,
+starter_00908,failed,-1,0.0,'reactionString' column not found
+starter_00909,failed,-1,0.0,'reactionString' column not found
+starter_00910,success,746,57.96,
+starter_00911,success,390,23.48,
+starter_00912,success,99,7.14,
+starter_00913,success,421,29.84,
+starter_00914,success,371,28.82,
+starter_00915,failed,-1,0.0,'reactionString' column not found
+starter_00916,failed,-1,0.0,'reactionString' column not found
+starter_00917,failed,-1,0.0,'reactionString' column not found
+starter_00918,success,139,11.87,
+starter_00919,success,110,10.49,
+starter_00920,failed,-1,0.0,'reactionString' column not found
+starter_00921,success,434,33.54,
+starter_00922,failed,-1,0.0,'reactionString' column not found
+starter_00923,success,135,9.51,
+starter_00924,success,421,35.11,
+starter_00925,success,168,13.85,
+starter_00926,failed,-1,0.0,'reactionString' column not found
+starter_00927,failed,-1,0.0,'reactionString' column not found
+starter_00928,failed,-1,0.0,'reactionString' column not found
+starter_00929,success,130,9.07,
+starter_00930,success,84,6.11,
+starter_00931,success,390,29.37,
+starter_00932,failed,-1,0.0,'reactionString' column not found
+starter_00933,success,95,6.6,
+starter_00934,success,413,30.96,
+starter_00935,success,167,14.54,
+starter_00936,success,366,30.35,
+starter_00937,success,746,55.71,
+starter_00938,success,110,7.83,
+starter_00939,success,455,34.37,
+starter_00940,success,167,14.57,
+starter_00941,success,673,49.99,
+starter_00942,failed,-1,0.0,'reactionString' column not found
+starter_00943,success,135,12.46,
+starter_00944,failed,-1,0.0,'reactionString' column not found
+starter_00945,failed,-1,0.0,'reactionString' column not found
+starter_00946,success,746,47.5,
+starter_00947,success,123,9.64,
+starter_00948,success,55,4.88,
+starter_00949,success,51,4.9,
+starter_00950,success,51,1.73,
+starter_00951,success,79,3.09,
+starter_00952,success,82,4.22,
+starter_00953,success,58,2.85,
+starter_00954,success,87,4.15,
+starter_00955,success,53,1.88,
+starter_00956,failed,-1,0.0,'reactionString' column not found
+starter_00957,success,82,4.01,
+starter_00958,success,58,2.14,
+starter_00959,success,87,7.74,
+starter_00960,failed,-1,0.0,'reactionString' column not found
+starter_00961,success,79,3.72,
+starter_00962,success,53,2.18,
+starter_00963,success,55,2.19,
+starter_00964,success,78,3.25,
+starter_00965,failed,-1,0.0,'reactionString' column not found
+starter_00966,success,96,5.91,
+starter_00967,failed,-1,0.0,'reactionString' column not found
+starter_00968,failed,-1,0.0,'reactionString' column not found
+starter_00969,success,51,2.09,
+starter_00970,success,97,5.18,
+starter_00971,success,79,4.47,
+starter_00972,success,57,2.67,
+starter_00973,failed,-1,0.0,'reactionString' column not found
+starter_00974,failed,-1,0.0,'reactionString' column not found
+starter_00975,success,81,3.7,
+starter_00976,success,53,1.74,
+starter_00977,success,97,4.6,
+starter_00978,success,53,2.27,
+starter_00979,success,82,3.99,
+starter_00980,success,55,2.26,
+starter_00981,success,53,4.82,
+starter_00982,failed,-1,0.0,'reactionString' column not found
+starter_00983,success,53,1.86,
+starter_00984,success,58,2.6,
+starter_00985,success,55,2.17,
+starter_00986,success,78,3.7,
+starter_00987,failed,-1,0.0,'reactionString' column not found
+starter_00988,failed,-1,0.0,'reactionString' column not found
+starter_00989,success,81,4.07,
+starter_00990,success,87,4.05,
+starter_00991,success,55,2.45,
+starter_00992,success,84,4.64,
+starter_00993,success,81,4.55,
+starter_00994,failed,-1,0.0,'reactionString' column not found
+starter_00995,failed,-1,0.0,'reactionString' column not found
+starter_00996,success,97,5.12,
+starter_00997,success,58,2.58,
+starter_00998,success,53,2.13,
+starter_00999,success,96,4.86,
+starter_01000,success,80,4.13,
+starter_01001,failed,-1,0.0,'reactionString' column not found
+starter_01002,success,55,2.28,
+starter_01003,success,84,4.55,
+starter_01004,success,53,2.12,
+starter_01005,success,97,5.35,
+starter_01006,failed,-1,0.0,'reactionString' column not found
+starter_01007,failed,-1,0.0,'reactionString' column not found
+starter_01008,success,51,1.63,
+starter_01009,success,56,2.14,
+starter_01010,success,87,4.97,
+starter_01011,failed,-1,0.0,'reactionString' column not found
+starter_01012,success,56,1.99,
+starter_01013,success,76,4.25,
+starter_01014,success,53,1.9,
+starter_01015,success,85,4.11,
+starter_01016,success,81,3.76,
+starter_01017,success,51,1.67,
+starter_01018,success,82,4.07,
+starter_01019,success,53,1.95,
+starter_01020,success,75,3.31,
+starter_01021,success,91,4.51,
+starter_01022,success,55,2.29,
+starter_01023,failed,-1,0.0,'reactionString' column not found
+starter_01024,success,96,4.89,
+starter_01025,success,81,3.71,
+starter_01026,success,51,1.75,
+starter_01027,success,244,19.86,
+starter_01028,success,112,11.5,
+starter_01029,success,386,36.42,
+starter_01030,success,55,4.88,
+starter_01031,success,53,1.64,
+starter_01032,success,97,6.85,
+starter_01033,success,56,0.09,
+starter_01034,success,284,19.79,
+starter_01035,failed,-1,0.0,'reactionString' column not found
+starter_01036,success,53,1.9,
+starter_01037,success,97,7.26,
+starter_01038,success,56,1.79,
+starter_01039,failed,-1,0.0,'reactionString' column not found
+starter_01040,success,50,0.07,
+starter_01041,success,384,34.2,
+starter_01042,success,113,9.24,
+starter_01043,success,49,0.07,
+starter_01044,failed,-1,0.0,'reactionString' column not found
+starter_01045,success,79,2.9,
+starter_01046,failed,-1,0.0,'reactionString' column not found
+starter_01047,success,88,4.07,
+starter_01048,success,112,8.62,
+starter_01049,success,84,4.08,
+starter_01050,success,50,1.64,
+starter_01051,success,301,26.11,
+starter_01052,failed,-1,0.0,'reactionString' column not found
+starter_01053,success,89,4.26,
+starter_01054,success,52,0.09,
+starter_01055,success,619,45.66,
+starter_01056,success,84,3.88,
+starter_01057,success,104,8.2,
+starter_01058,success,53,1.64,
+starter_01059,success,305,25.07,
+starter_01060,success,384,34.77,
+starter_01061,success,89,4.19,
+starter_01062,success,284,22.21,
+starter_01063,success,97,6.83,
+starter_01064,success,244,17.39,
+starter_01065,success,49,0.08,
+starter_01066,success,82,3.83,
+starter_01067,success,87,4.54,
+starter_01068,success,52,2.0,
+starter_01069,success,56,0.1,
+starter_01070,success,113,8.86,
+starter_01071,success,53,0.07,
+starter_01072,success,52,1.6,
+starter_01073,failed,-1,0.0,'reactionString' column not found
+starter_01074,failed,-1,0.0,'reactionString' column not found
+starter_01075,success,84,3.57,
+starter_01076,success,97,6.16,
+starter_01077,success,375,32.11,
+starter_01078,success,79,3.77,
+starter_01079,success,51,1.47,
+starter_01080,success,87,4.17,
+starter_01081,success,244,18.54,
+starter_01082,success,53,0.07,
+starter_01083,success,104,6.84,
+starter_01084,success,84,3.94,
+starter_01085,failed,-1,0.0,'reactionString' column not found
+starter_01086,success,89,3.85,
+starter_01087,success,113,8.82,
+starter_01088,success,935,79.75,
+starter_01089,success,56,2.17,
+starter_01090,failed,-1,0.0,'reactionString' column not found
+starter_01091,success,953,74.22,
+starter_01092,success,49,1.46,
+starter_01093,success,104,6.54,
+starter_01094,success,54,0.08,
+starter_01095,success,52,1.81,
+starter_01096,success,605,48.54,
+starter_01097,success,53,1.68,
+starter_01098,success,104,6.55,
+starter_01099,success,52,1.73,
+starter_01100,success,76,0.09,
+starter_01101,success,244,19.09,
+starter_01102,success,89,4.62,
+starter_01103,success,82,0.09,
+starter_01104,success,52,1.57,
+starter_01105,success,383,29.22,
+starter_01106,success,2233,168.15,
+starter_01107,success,1557,122.99,
+starter_01108,success,1965,148.79,
+starter_01109,success,4391,239.36,
+starter_01110,success,2266,131.22,
+starter_01111,success,1928,157.06,
+starter_01112,success,2680,154.63,
+starter_01113,success,2031,122.83,
+starter_01114,failed,-1,0.0,'reactionString' column not found
+starter_01115,success,2266,150.49,
+starter_01116,success,1928,160.11,
+starter_01117,success,2680,188.69,
+starter_01118,failed,-1,0.0,'reactionString' column not found
+starter_01119,success,2414,169.19,
+starter_01120,success,2215,142.33,
+starter_01121,success,1680,91.35,
+starter_01122,success,4169,237.7,
+starter_01123,failed,-1,0.0,'reactionString' column not found
+starter_01124,failed,-1,0.0,'reactionString' column not found
+starter_01125,failed,-1,0.0,'reactionString' column not found
+starter_01126,failed,-1,0.0,'reactionString' column not found
+starter_01127,success,1557,107.09,
+starter_01128,failed,-1,0.0,'reactionString' column not found
+starter_01129,success,2414,174.06,
+starter_01130,success,2279,138.69,
+starter_01131,failed,-1,0.0,'reactionString' column not found
+starter_01132,failed,-1,0.0,'reactionString' column not found
+starter_01133,success,4296,268.0,
+starter_01134,success,2150,154.44,
+starter_01135,failed,-1,0.0,'reactionString' column not found
+starter_01136,success,1848,147.46,
+starter_01137,success,2266,141.12,
+starter_01138,success,1896,142.59,
+starter_01139,success,2215,136.47,
+starter_01140,failed,-1,0.0,'reactionString' column not found
+starter_01141,success,2031,148.72,
+starter_01142,success,1928,146.43,
+starter_01143,success,2233,141.81,
+starter_01144,success,4169,240.92,
+starter_01145,failed,-1,0.0,'reactionString' column not found
+starter_01146,failed,-1,0.0,'reactionString' column not found
+starter_01147,success,4296,226.51,
+starter_01148,success,2680,192.71,
+starter_01149,success,1680,124.6,
+starter_01150,success,2843,179.72,
+starter_01151,success,2321,135.33,
+starter_01152,failed,-1,0.0,'reactionString' column not found
+starter_01153,failed,-1,0.0,'reactionString' column not found
+starter_01154,failed,-1,0.0,'reactionString' column not found
+starter_01155,success,1928,105.65,
+starter_01156,success,2209,162.15,
+starter_01157,failed,-1,0.0,'reactionString' column not found
+starter_01158,success,2267,145.21,
+starter_01159,failed,-1,0.0,'reactionString' column not found
+starter_01160,success,2233,179.79,
+starter_01161,success,2843,209.33,
+starter_01162,success,1848,146.5,
+starter_01163,failed,-1,0.0,'reactionString' column not found
+starter_01164,failed,-1,0.0,'reactionString' column not found
+starter_01165,failed,-1,0.0,'reactionString' column not found
+starter_01166,success,1581,108.94,
+starter_01167,success,2151,131.72,
+starter_01168,success,2680,165.13,
+starter_01169,failed,-1,0.0,'reactionString' column not found
+starter_01170,success,2103,147.33,
+starter_01171,success,1935,128.09,
+starter_01172,success,1847,102.81,
+starter_01173,success,2678,189.24,
+starter_01174,success,4296,238.62,
+starter_01175,success,1804,107.37,
+starter_01176,success,2266,147.14,
+starter_01177,success,1847,145.46,
+starter_01178,success,3769,217.89,
+starter_01179,failed,-1,0.0,'reactionString' column not found
+starter_01180,success,2233,105.94,
+starter_01181,failed,-1,0.0,'reactionString' column not found
+starter_01182,failed,-1,0.0,'reactionString' column not found
+starter_01183,success,4296,186.23,
+starter_01184,success,1775,130.95,
+starter_01185,success,245,23.91,
+starter_01186,success,241,21.25,
+starter_01187,success,373,33.06,
+starter_01188,success,54,0.07,
+starter_01189,success,52,2.01,
+starter_01190,success,220,18.04,
+starter_01191,success,55,4.92,
+starter_01192,success,262,23.9,
+starter_01193,failed,-1,0.0,'reactionString' column not found
+starter_01194,success,52,0.14,
+starter_01195,success,220,16.68,
+starter_01196,success,55,2.22,
+starter_01197,failed,-1,0.0,'reactionString' column not found
+starter_01198,success,49,1.56,
+starter_01199,success,404,35.51,
+starter_01200,success,237,18.85,
+starter_01201,success,48,1.52,
+starter_01202,failed,-1,0.0,'reactionString' column not found
+starter_01203,success,78,3.45,
+starter_01204,failed,-1,0.0,'reactionString' column not found
+starter_01205,success,87,0.13,
+starter_01206,success,241,19.56,
+starter_01207,success,83,2.83,
+starter_01208,success,49,1.28,
+starter_01209,success,301,25.32,
+starter_01210,failed,-1,0.0,'reactionString' column not found
+starter_01211,success,88,4.28,
+starter_01212,success,51,1.66,
+starter_01213,success,254,20.82,
+starter_01214,success,83,3.95,
+starter_01215,success,245,19.38,
+starter_01216,success,52,0.08,
+starter_01217,success,307,26.18,
+starter_01218,success,404,33.19,
+starter_01219,success,88,0.09,
+starter_01220,success,262,20.01,
+starter_01221,success,220,15.69,
+starter_01222,success,245,19.17,
+starter_01223,success,48,1.39,
+starter_01224,success,81,3.61,
+starter_01225,success,86,0.08,
+starter_01226,success,51,0.11,
+starter_01227,success,55,1.95,
+starter_01228,success,237,19.25,
+starter_01229,success,52,1.94,
+starter_01230,success,51,1.64,
+starter_01231,failed,-1,0.0,'reactionString' column not found
+starter_01232,failed,-1,0.0,'reactionString' column not found
+starter_01233,success,83,3.93,
+starter_01234,success,220,17.46,
+starter_01235,success,397,35.28,
+starter_01236,success,78,3.35,
+starter_01237,success,50,1.36,
+starter_01238,success,86,3.57,
+starter_01239,success,245,17.39,
+starter_01240,success,52,1.65,
+starter_01241,success,245,20.44,
+starter_01242,success,83,0.11,
+starter_01243,failed,-1,0.0,'reactionString' column not found
+starter_01244,success,88,4.03,
+starter_01245,success,252,20.02,
+starter_01246,success,437,36.44,
+starter_01247,success,55,0.11,
+starter_01248,failed,-1,0.0,'reactionString' column not found
+starter_01249,success,450,38.14,
+starter_01250,success,48,1.33,
+starter_01251,success,244,19.74,
+starter_01252,success,53,0.1,
+starter_01253,success,51,0.08,
+starter_01254,success,262,21.68,
+starter_01255,success,52,1.89,
+starter_01256,success,244,20.79,
+starter_01257,success,51,0.09,
+starter_01258,success,75,0.13,
+starter_01259,success,245,20.07,
+starter_01260,success,88,4.33,
+starter_01261,success,81,3.43,
+starter_01262,success,51,0.11,
+starter_01263,success,401,36.12,
+starter_01264,success,115,8.53,
+starter_01265,success,96,8.74,
+starter_01266,success,70,5.23,
+starter_01267,success,509,42.0,
+starter_01268,success,313,22.65,
+starter_01269,success,121,10.59,
+starter_01270,success,294,25.33,
+starter_01271,success,90,7.15,
+starter_01272,failed,-1,0.0,'reactionString' column not found
+starter_01273,success,313,23.1,
+starter_01274,success,121,10.48,
+starter_01275,success,294,25.29,
+starter_01276,failed,-1,0.0,'reactionString' column not found
+starter_01277,success,335,25.86,
+starter_01278,success,100,8.58,
+starter_01279,success,85,6.83,
+starter_01280,success,503,42.34,
+starter_01281,failed,-1,0.0,'reactionString' column not found
+starter_01282,failed,-1,0.0,'reactionString' column not found
+starter_01283,failed,-1,0.0,'reactionString' column not found
+starter_01284,failed,-1,0.0,'reactionString' column not found
+starter_01285,success,96,7.63,
+starter_01286,failed,-1,0.0,'reactionString' column not found
+starter_01287,success,335,24.12,
+starter_01288,success,79,6.8,
+starter_01289,failed,-1,0.01,'reactionString' column not found
+starter_01290,failed,-1,0.0,'reactionString' column not found
+starter_01291,success,532,43.79,
+starter_01292,success,81,5.96,
+starter_01293,failed,-1,0.0,'reactionString' column not found
+starter_01294,success,140,13.08,
+starter_01295,success,313,20.17,
+starter_01296,success,89,7.14,
+starter_01297,success,100,9.71,
+starter_01298,failed,-1,0.01,'reactionString' column not found
+starter_01299,success,90,6.47,
+starter_01300,success,121,10.44,
+starter_01301,success,115,9.21,
+starter_01302,success,503,41.73,
+starter_01303,failed,-1,0.0,'reactionString' column not found
+starter_01304,failed,-1,0.0,'reactionString' column not found
+starter_01305,success,532,32.76,
+starter_01306,success,294,25.69,
+starter_01307,success,85,5.64,
+starter_01308,success,321,28.56,
+starter_01309,success,279,22.81,
+starter_01310,failed,-1,0.01,'reactionString' column not found
+starter_01311,failed,-1,0.0,'reactionString' column not found
+starter_01312,failed,-1,0.0,'reactionString' column not found
+starter_01313,success,121,10.82,
+starter_01314,success,94,8.05,
+starter_01315,failed,-1,0.0,'reactionString' column not found
+starter_01316,success,296,21.02,
+starter_01317,failed,-1,0.0,'reactionString' column not found
+starter_01318,success,115,9.23,
+starter_01319,success,321,24.28,
+starter_01320,success,140,12.02,
+starter_01321,failed,-1,0.0,'reactionString' column not found
+starter_01322,failed,-1,0.0,'reactionString' column not found
+starter_01323,failed,-1,0.0,'reactionString' column not found
+starter_01324,success,108,9.87,
+starter_01325,success,68,4.71,
+starter_01326,success,294,23.68,
+starter_01327,failed,-1,0.0,'reactionString' column not found
+starter_01328,success,81,6.15,
+starter_01329,success,281,20.36,
+starter_01330,success,139,13.44,
+starter_01331,success,274,22.9,
+starter_01332,success,532,43.19,
+starter_01333,success,94,6.25,
+starter_01334,success,313,24.35,
+starter_01335,success,139,12.67,
+starter_01336,success,479,39.97,
+starter_01337,failed,-1,0.0,'reactionString' column not found
+starter_01338,success,115,9.19,
+starter_01339,failed,-1,0.0,'reactionString' column not found
+starter_01340,failed,-1,0.0,'reactionString' column not found
+starter_01341,success,532,45.97,
+starter_01342,success,105,8.82,
+starter_01343,success,725,54.65,
+starter_01344,success,475,42.13,
+starter_01345,success,593,48.79,
+starter_01346,success,1965,158.69,
+starter_01347,success,2267,183.68,
+starter_01348,success,630,50.53,
+starter_01349,success,2495,205.69,
+starter_01350,success,665,54.19,
+starter_01351,failed,-1,0.0,'reactionString' column not found
+starter_01352,success,2267,172.89,
+starter_01353,success,630,56.79,
+starter_01354,success,2495,206.12,
+starter_01355,failed,-1,0.0,'reactionString' column not found
+starter_01356,success,2168,177.76,
+starter_01357,success,645,57.37,
+starter_01358,success,569,50.11,
+starter_01359,success,1961,138.8,
+starter_01360,failed,-1,0.0,'reactionString' column not found
+starter_01361,success,3878,303.72,
+starter_01362,failed,-1,0.0,'reactionString' column not found
+starter_01363,success,77,5.92,
+starter_01364,success,475,41.45,
+starter_01365,success,3828,291.08,
+starter_01366,success,2168,142.49,
+starter_01367,success,710,67.2,
+starter_01368,failed,-1,0.0,'reactionString' column not found
+starter_01369,success,85,5.84,
+starter_01370,success,2072,170.73,
+starter_01371,success,629,53.17,
+starter_01372,success,3828,270.56,
+starter_01373,success,531,48.06,
+starter_01374,success,2267,187.71,
+starter_01375,success,668,61.25,
+starter_01376,success,645,57.77,
+starter_01377,success,85,5.17,
+starter_01378,success,665,56.71,
+starter_01379,success,630,54.93,
+starter_01380,success,725,62.55,
+starter_01381,success,1961,163.03,
+starter_01382,success,71,0.16,
+starter_01383,success,78,0.14,
+starter_01384,success,2072,158.26,
+starter_01385,success,2495,212.29,
+starter_01386,success,569,47.71,
+starter_01387,success,2456,188.57,
+starter_01388,success,2182,184.73,
+starter_01389,failed,-1,0.0,'reactionString' column not found
+starter_01390,failed,-1,0.0,'reactionString' column not found
+starter_01391,success,3828,287.1,
+starter_01392,success,630,59.28,
+starter_01393,success,642,53.7,
+starter_01394,success,3878,307.83,
+starter_01395,success,2173,170.65,
+starter_01396,success,78,0.12,
+starter_01397,success,725,59.4,
+starter_01398,success,2456,181.52,
+starter_01399,success,531,45.5,
+starter_01400,success,3828,300.43,
+starter_01401,failed,-1,0.0,'reactionString' column not found
+starter_01402,success,85,6.69,
+starter_01403,success,493,43.86,
+starter_01404,success,672,57.82,
+starter_01405,success,2495,194.23,
+starter_01406,failed,-1,0.0,'reactionString' column not found
+starter_01407,success,669,54.4,
+starter_01408,success,1913,158.77,
+starter_01409,success,530,43.65,
+starter_01410,success,2402,194.64,
+starter_01411,success,2072,143.6,
+starter_01412,success,589,50.05,
+starter_01413,success,2267,171.15,
+starter_01414,success,530,47.06,
+starter_01415,success,1753,114.26,
+starter_01416,success,3380,271.54,
+starter_01417,success,725,61.17,
+starter_01418,success,85,5.96,
+starter_01419,success,3919,300.48,
+starter_01420,success,2072,140.22,
+starter_01421,success,602,49.95,
+starter_01422,success,125,11.21,
+starter_01423,success,107,9.19,
+starter_01424,success,77,6.32,
+starter_01425,success,660,50.33,
+starter_01426,success,407,29.32,
+starter_01427,success,130,11.16,
+starter_01428,success,369,28.07,
+starter_01429,success,99,7.78,
+starter_01430,failed,-1,0.0,'reactionString' column not found
+starter_01431,success,407,32.06,
+starter_01432,success,130,10.32,
+starter_01433,success,369,31.53,
+starter_01434,failed,-1,0.0,'reactionString' column not found
+starter_01435,success,430,28.96,
+starter_01436,success,109,10.01,
+starter_01437,success,92,7.49,
+starter_01438,success,654,53.69,
+starter_01439,failed,-1,0.0,'reactionString' column not found
+starter_01440,failed,-1,0.0,'reactionString' column not found
+starter_01441,failed,-1,0.0,'reactionString' column not found
+starter_01442,failed,-1,0.0,'reactionString' column not found
+starter_01443,success,107,8.04,
+starter_01444,failed,-1,0.0,'reactionString' column not found
+starter_01445,success,430,34.39,
+starter_01446,success,84,7.27,
+starter_01447,failed,-1,0.0,'reactionString' column not found
+starter_01448,failed,-1,0.0,'reactionString' column not found
+starter_01449,success,690,51.14,
+starter_01450,success,89,6.62,
+starter_01451,failed,-1,0.0,'reactionString' column not found
+starter_01452,success,154,13.63,
+starter_01453,success,407,29.18,
+starter_01454,success,95,7.34,
+starter_01455,success,109,9.91,
+starter_01456,failed,-1,0.0,'reactionString' column not found
+starter_01457,success,99,6.84,
+starter_01458,success,130,10.32,
+starter_01459,success,125,10.99,
+starter_01460,success,654,55.57,
+starter_01461,failed,-1,0.0,'reactionString' column not found
+starter_01462,failed,-1,0.0,'reactionString' column not found
+starter_01463,success,690,43.33,
+starter_01464,success,369,29.89,
+starter_01465,success,92,6.24,
+starter_01466,success,398,31.07,
+starter_01467,success,351,28.82,
+starter_01468,failed,-1,0.0,'reactionString' column not found
+starter_01469,failed,-1,0.0,'reactionString' column not found
+starter_01470,failed,-1,0.0,'reactionString' column not found
+starter_01471,success,130,10.56,
+starter_01472,success,102,7.63,
+starter_01473,failed,-1,0.0,'reactionString' column not found
+starter_01474,success,388,28.56,
+starter_01475,failed,-1,0.0,'reactionString' column not found
+starter_01476,success,125,10.66,
+starter_01477,success,398,30.84,
+starter_01478,success,154,12.88,
+starter_01479,failed,-1,0.0,'reactionString' column not found
+starter_01480,failed,-1,0.0,'reactionString' column not found
+starter_01481,failed,-1,0.0,'reactionString' column not found
+starter_01482,success,119,10.11,
+starter_01483,success,76,6.41,
+starter_01484,success,369,31.43,
+starter_01485,failed,-1,0.0,'reactionString' column not found
+starter_01486,success,89,6.44,
+starter_01487,success,369,24.01,
+starter_01488,success,153,12.53,
+starter_01489,success,347,29.21,
+starter_01490,success,690,50.86,
+starter_01491,success,103,8.28,
+starter_01492,success,407,25.34,
+starter_01493,success,153,13.22,
+starter_01494,success,623,48.64,
+starter_01495,failed,-1,0.0,'reactionString' column not found
+starter_01496,success,125,10.62,
+starter_01497,failed,-1,0.0,'reactionString' column not found
+starter_01498,failed,-1,0.0,'reactionString' column not found
+starter_01499,success,690,42.65,
+starter_01500,success,115,9.49,
+starter_01501,success,17,2.34,
+starter_01502,success,9,1.08,
+starter_01503,success,29,3.56,
+starter_01504,failed,-1,0.0,'reactionString' column not found
+starter_01505,failed,-1,0.0,'reactionString' column not found
+starter_01506,success,11,1.37,
+starter_01507,failed,-1,0.0,'reactionString' column not found
+starter_01508,success,17,2.0,
+starter_01509,failed,-1,0.0,'reactionString' column not found
+starter_01510,failed,-1,0.0,'reactionString' column not found
+starter_01511,success,11,1.15,
+starter_01512,failed,-1,0.0,'reactionString' column not found
+starter_01513,failed,-1,0.0,'reactionString' column not found
+starter_01514,failed,-1,0.0,'reactionString' column not found
+starter_01515,success,37,4.31,
+starter_01516,success,11,1.16,
+starter_01517,failed,-1,0.0,'reactionString' column not found
+starter_01518,failed,-1,0.0,'reactionString' column not found
+starter_01519,failed,-1,0.0,'reactionString' column not found
+starter_01520,failed,-1,0.0,'reactionString' column not found
+starter_01521,failed,-1,0.0,'reactionString' column not found
+starter_01522,success,9,1.27,
+starter_01523,failed,-1,0.0,'reactionString' column not found
+starter_01524,failed,-1,0.0,'reactionString' column not found
+starter_01525,success,38,4.26,
+starter_01526,failed,-1,0.0,'reactionString' column not found
+starter_01527,failed,-1,0.0,'reactionString' column not found
+starter_01528,failed,-1,0.0,'reactionString' column not found
+starter_01529,success,145,11.29,
+starter_01530,failed,-1,0.0,'reactionString' column not found
+starter_01531,success,11,1.48,
+starter_01532,failed,-1,0.0,'reactionString' column not found
+starter_01533,success,38,4.72,
+starter_01534,success,37,4.6,
+starter_01535,failed,-1,0.0,'reactionString' column not found
+starter_01536,success,17,2.38,
+starter_01537,success,11,0.7,
+starter_01538,success,17,1.28,
+starter_01539,failed,-1,0.0,'reactionString' column not found
+starter_01540,failed,-1,0.0,'reactionString' column not found
+starter_01541,failed,-1,0.0,'reactionString' column not found
+starter_01542,failed,-1,0.0,'reactionString' column not found
+starter_01543,failed,-1,0.0,'reactionString' column not found
+starter_01544,success,11,1.26,
+starter_01545,failed,-1,0.0,'reactionString' column not found
+starter_01546,failed,-1,0.0,'reactionString' column not found
+starter_01547,failed,-1,0.0,'reactionString' column not found
+starter_01548,failed,-1,0.0,'reactionString' column not found
+starter_01549,failed,-1,0.0,'reactionString' column not found
+starter_01550,success,11,0.71,
+starter_01551,success,37,4.47,
+starter_01552,failed,-1,0.0,'reactionString' column not found
+starter_01553,failed,-1,0.0,'reactionString' column not found
+starter_01554,failed,-1,0.0,'reactionString' column not found
+starter_01555,success,17,1.23,
+starter_01556,failed,-1,0.0,'reactionString' column not found
+starter_01557,success,11,1.19,
+starter_01558,failed,-1,0.0,'reactionString' column not found
+starter_01559,failed,-1,0.0,'reactionString' column not found
+starter_01560,failed,-1,0.0,'reactionString' column not found
+starter_01561,success,9,0.89,
+starter_01562,success,179,17.32,
+starter_01563,failed,-1,0.0,'reactionString' column not found
+starter_01564,failed,-1,0.0,'reactionString' column not found
+starter_01565,success,208,15.92,
+starter_01566,failed,-1,0.0,'reactionString' column not found
+starter_01567,success,11,1.28,
+starter_01568,failed,-1,0.0,'reactionString' column not found
+starter_01569,failed,-1,0.0,'reactionString' column not found
+starter_01570,success,172,12.51,
+starter_01571,failed,-1,0.0,'reactionString' column not found
+starter_01572,success,11,1.27,
+starter_01573,failed,-1,0.0,'reactionString' column not found
+starter_01574,failed,-1,0.0,'reactionString' column not found
+starter_01575,success,17,1.37,
+starter_01576,failed,-1,0.0,'reactionString' column not found
+starter_01577,failed,-1,0.0,'reactionString' column not found
+starter_01578,failed,-1,0.0,'reactionString' column not found
+starter_01579,success,37,4.6,
+starter_01580,failed,-1,0.0,'reactionString' column not found
+starter_01581,failed,-1,0.0,'reactionString' column not found
+starter_01582,success,8,0.96,
+starter_01583,failed,-1,0.0,'reactionString' column not found
+starter_01584,failed,-1,0.0,'reactionString' column not found
+starter_01585,failed,-1,0.0,'reactionString' column not found
+starter_01586,failed,-1,0.0,'reactionString' column not found
+starter_01587,failed,-1,0.0,'reactionString' column not found
+starter_01588,failed,-1,0.0,'reactionString' column not found
+starter_01589,failed,-1,0.0,'reactionString' column not found
+starter_01590,failed,-1,0.0,'reactionString' column not found
+starter_01591,failed,-1,0.0,'reactionString' column not found
+starter_01592,failed,-1,0.0,'reactionString' column not found
+starter_01593,failed,-1,0.0,'reactionString' column not found
+starter_01594,success,12,1.41,
+starter_01595,failed,-1,0.0,'reactionString' column not found
+starter_01596,failed,-1,0.0,'reactionString' column not found
+starter_01597,failed,-1,0.0,'reactionString' column not found
+starter_01598,failed,-1,0.0,'reactionString' column not found
+starter_01599,failed,-1,0.0,'reactionString' column not found
+starter_01600,failed,-1,0.01,'reactionString' column not found
+starter_01601,failed,-1,0.0,'reactionString' column not found
+starter_01602,failed,-1,0.0,'reactionString' column not found
+starter_01603,failed,-1,0.0,'reactionString' column not found
+starter_01604,success,11,0.71,
+starter_01605,failed,-1,0.0,'reactionString' column not found
+starter_01606,failed,-1,0.0,'reactionString' column not found
+starter_01607,failed,-1,0.0,'reactionString' column not found
+starter_01608,success,95,7.57,
+starter_01609,failed,-1,0.0,'reactionString' column not found
+starter_01610,failed,-1,0.0,'reactionString' column not found
+starter_01611,failed,-1,0.0,'reactionString' column not found
+starter_01612,success,11,0.84,
+starter_01613,success,12,1.05,
+starter_01614,failed,-1,0.0,'reactionString' column not found
+starter_01615,failed,-1,0.0,'reactionString' column not found
+starter_01616,failed,-1,0.0,'reactionString' column not found
+starter_01617,failed,-1,0.0,'reactionString' column not found
+starter_01618,failed,-1,0.0,'reactionString' column not found
+starter_01619,failed,-1,0.0,'reactionString' column not found
+starter_01620,failed,-1,0.0,'reactionString' column not found
+starter_01621,failed,-1,0.0,'reactionString' column not found
+starter_01622,failed,-1,0.0,'reactionString' column not found
+starter_01623,failed,-1,0.0,'reactionString' column not found
+starter_01624,failed,-1,0.0,'reactionString' column not found
+starter_01625,failed,-1,0.0,'reactionString' column not found
+starter_01626,failed,-1,0.0,'reactionString' column not found
+starter_01627,failed,-1,0.0,'reactionString' column not found
+starter_01628,failed,-1,0.0,'reactionString' column not found
+starter_01629,failed,-1,0.0,'reactionString' column not found
+starter_01630,success,12,1.24,
+starter_01631,failed,-1,0.0,'reactionString' column not found
+starter_01632,failed,-1,0.0,'reactionString' column not found
+starter_01633,failed,-1,0.0,'reactionString' column not found
+starter_01634,failed,-1,0.0,'reactionString' column not found
+starter_01635,failed,-1,0.0,'reactionString' column not found
+starter_01636,failed,-1,0.0,'reactionString' column not found
+starter_01637,failed,-1,0.0,'reactionString' column not found
+starter_01638,failed,-1,0.0,'reactionString' column not found
+starter_01639,failed,-1,0.0,'reactionString' column not found
+starter_01640,failed,-1,0.0,'reactionString' column not found
+starter_01641,success,108,9.07,
+starter_01642,failed,-1,0.0,'reactionString' column not found
+starter_01643,failed,-1,0.0,'reactionString' column not found
+starter_01644,success,133,9.34,
+starter_01645,failed,-1,0.0,'reactionString' column not found
+starter_01646,failed,-1,0.0,'reactionString' column not found
+starter_01647,failed,-1,0.0,'reactionString' column not found
+starter_01648,failed,-1,0.0,'reactionString' column not found
+starter_01649,success,118,8.13,
+starter_01650,failed,-1,0.0,'reactionString' column not found
+starter_01651,failed,-1,0.0,'reactionString' column not found
+starter_01652,failed,-1,0.0,'reactionString' column not found
+starter_01653,failed,-1,0.0,'reactionString' column not found
+starter_01654,failed,-1,0.0,'reactionString' column not found
+starter_01655,failed,-1,0.0,'reactionString' column not found
+starter_01656,failed,-1,0.0,'reactionString' column not found
+starter_01657,failed,-1,0.0,'reactionString' column not found
+starter_01658,success,12,1.4,
+starter_01659,success,51,1.89,
+starter_01660,success,314,22.68,
+starter_01661,success,578,53.77,
+starter_01662,success,72,3.12,
+starter_01663,success,75,3.56,
+starter_01664,success,82,3.84,
+starter_01665,success,80,3.9,
+starter_01666,success,49,1.78,
+starter_01667,failed,-1,0.0,'reactionString' column not found
+starter_01668,success,75,2.84,
+starter_01669,success,82,4.73,
+starter_01670,success,80,3.67,
+starter_01671,failed,-1,0.0,'reactionString' column not found
+starter_01672,success,72,3.26,
+starter_01673,success,509,40.08,
+starter_01674,success,81,4.68,
+starter_01675,success,71,3.33,
+starter_01676,failed,-1,0.0,'reactionString' column not found
+starter_01677,success,102,1.83,
+starter_01678,failed,-1,0.0,'reactionString' column not found
+starter_01679,success,86,4.2,
+starter_01680,success,314,22.08,
+starter_01681,success,106,5.15,
+starter_01682,success,72,3.26,
+starter_01683,success,84,4.86,
+starter_01684,failed,-1,0.0,'reactionString' column not found
+starter_01685,success,86,4.35,
+starter_01686,success,74,3.61,
+starter_01687,success,49,1.56,
+starter_01688,success,106,5.27,
+starter_01689,success,295,19.88,
+starter_01690,success,75,3.57,
+starter_01691,success,82,5.09,
+starter_01692,success,509,43.73,
+starter_01693,success,86,4.33,
+starter_01694,success,49,1.84,
+starter_01695,success,82,4.9,
+starter_01696,success,51,1.49,
+starter_01697,success,71,3.4,
+starter_01698,success,80,3.57,
+starter_01699,success,87,3.74,
+starter_01700,success,74,3.37,
+starter_01701,success,80,4.39,
+starter_01702,success,81,2.75,
+starter_01703,success,77,3.49,
+starter_01704,success,74,3.67,
+starter_01705,failed,-1,0.0,'reactionString' column not found
+starter_01706,failed,-1,0.0,'reactionString' column not found
+starter_01707,success,106,5.97,
+starter_01708,success,82,2.6,
+starter_01709,success,502,42.46,
+starter_01710,success,102,5.18,
+starter_01711,success,73,2.95,
+starter_01712,success,87,3.6,
+starter_01713,success,51,1.78,
+starter_01714,success,77,3.55,
+starter_01715,success,295,19.22,
+starter_01716,success,106,5.43,
+starter_01717,failed,-1,0.0,'reactionString' column not found
+starter_01718,success,86,3.8,
+starter_01719,success,330,23.51,
+starter_01720,success,560,47.58,
+starter_01721,success,80,4.05,
+starter_01722,failed,-1,0.0,'reactionString' column not found
+starter_01723,success,567,49.54,
+starter_01724,success,69,2.86,
+starter_01725,success,294,20.95,
+starter_01726,success,78,3.73,
+starter_01727,success,74,2.72,
+starter_01728,success,47,0.07,
+starter_01729,success,75,2.85,
+starter_01730,success,294,18.36,
+starter_01731,success,68,3.14,
+starter_01732,success,97,4.62,
+starter_01733,success,51,0.11,
+starter_01734,success,86,3.55,
+starter_01735,success,104,5.09,
+starter_01736,success,74,3.6,
+starter_01737,success,501,41.83,
+starter_01738,success,249,21.16,
+starter_01739,success,189,12.39,
+starter_01740,success,354,31.87,
+starter_01741,success,54,1.7,
+starter_01742,success,52,1.8,
+starter_01743,success,209,14.63,
+starter_01744,success,55,2.04,
+starter_01745,success,247,20.99,
+starter_01746,failed,-1,0.0,'reactionString' column not found
+starter_01747,success,52,1.52,
+starter_01748,success,209,13.7,
+starter_01749,success,55,0.08,
+starter_01750,failed,-1,0.0,'reactionString' column not found
+starter_01751,success,49,1.44,
+starter_01752,success,420,36.08,
+starter_01753,success,197,15.15,
+starter_01754,success,48,1.43,
+starter_01755,failed,-1,0.0,'reactionString' column not found
+starter_01756,success,78,3.95,
+starter_01757,failed,-1,0.0,'reactionString' column not found
+starter_01758,success,87,3.44,
+starter_01759,success,189,13.04,
+starter_01760,success,83,0.1,
+starter_01761,success,49,1.18,
+starter_01762,success,307,24.33,
+starter_01763,failed,-1,0.0,'reactionString' column not found
+starter_01764,success,88,0.08,
+starter_01765,success,51,1.55,
+starter_01766,success,262,23.14,
+starter_01767,success,83,0.13,
+starter_01768,success,219,17.93,
+starter_01769,success,52,1.48,
+starter_01770,success,311,25.94,
+starter_01771,success,420,35.07,
+starter_01772,success,88,4.39,
+starter_01773,success,247,19.22,
+starter_01774,success,209,14.13,
+starter_01775,success,249,20.3,
+starter_01776,success,48,0.07,
+starter_01777,success,81,0.07,
+starter_01778,success,86,3.87,
+starter_01779,success,51,1.4,
+starter_01780,success,55,1.7,
+starter_01781,success,197,15.43,
+starter_01782,success,52,1.6,
+starter_01783,success,51,0.07,
+starter_01784,failed,-1,0.0,'reactionString' column not found
+starter_01785,failed,-1,0.0,'reactionString' column not found
+starter_01786,success,83,0.07,
+starter_01787,success,209,13.69,
+starter_01788,success,412,36.08,
+starter_01789,success,78,0.08,
+starter_01790,success,50,1.46,
+starter_01791,success,86,3.94,
+starter_01792,success,249,20.8,
+starter_01793,success,52,0.09,
+starter_01794,success,219,12.35,
+starter_01795,success,83,3.92,
+starter_01796,failed,-1,0.0,'reactionString' column not found
+starter_01797,success,88,4.32,
+starter_01798,success,200,13.65,
+starter_01799,success,471,39.05,
+starter_01800,success,55,1.94,
+starter_01801,failed,-1,0.0,'reactionString' column not found
+starter_01802,success,482,40.69,
+starter_01803,success,48,0.1,
+starter_01804,success,218,16.75,
+starter_01805,success,53,2.15,
+starter_01806,success,51,0.11,
+starter_01807,success,268,21.94,
+starter_01808,success,52,0.07,
+starter_01809,success,218,14.32,
+starter_01810,success,51,1.59,
+starter_01811,success,75,2.79,
+starter_01812,success,249,19.65,
+starter_01813,success,88,0.07,
+starter_01814,success,81,0.07,
+starter_01815,success,51,1.34,
+starter_01816,success,413,27.33,
+starter_01817,success,47,5.0,
+starter_01818,success,31,0.86,
+starter_01819,success,48,2.89,
+starter_01820,success,48,2.73,
+starter_01821,success,46,0.08,
+starter_01822,success,37,0.73,
+starter_01823,success,49,0.07,
+starter_01824,success,45,2.65,
+starter_01825,failed,-1,0.0,'reactionString' column not found
+starter_01826,success,46,0.08,
+starter_01827,success,37,0.63,
+starter_01828,success,49,0.09,
+starter_01829,failed,-1,0.0,'reactionString' column not found
+starter_01830,success,43,0.11,
+starter_01831,success,59,3.99,
+starter_01832,success,34,0.58,
+starter_01833,success,42,0.07,
+starter_01834,failed,-1,0.0,'reactionString' column not found
+starter_01835,success,72,0.08,
+starter_01836,failed,-1,0.0,'reactionString' column not found
+starter_01837,success,81,3.64,
+starter_01838,success,31,0.57,
+starter_01839,success,77,0.09,
+starter_01840,success,43,0.12,
+starter_01841,success,68,4.0,
+starter_01842,failed,-1,0.0,'reactionString' column not found
+starter_01843,success,82,0.09,
+starter_01844,success,45,1.4,
+starter_01845,success,163,14.31,
+starter_01846,success,77,0.07,
+starter_01847,success,34,0.55,
+starter_01848,success,46,0.07,
+starter_01849,success,68,3.78,
+starter_01850,success,59,4.09,
+starter_01851,success,82,4.61,
+starter_01852,success,45,2.67,
+starter_01853,success,37,0.61,
+starter_01854,success,47,2.19,
+starter_01855,success,42,0.07,
+starter_01856,success,75,0.1,
+starter_01857,success,80,0.08,
+starter_01858,success,45,0.07,
+starter_01859,success,49,1.95,
+starter_01860,success,34,4.0,
+starter_01861,success,46,1.89,
+starter_01862,success,45,0.11,
+starter_01863,failed,-1,0.0,'reactionString' column not found
+starter_01864,failed,-1,0.0,'reactionString' column not found
+starter_01865,success,77,0.12,
+starter_01866,success,37,0.68,
+starter_01867,success,59,3.87,
+starter_01868,success,72,0.11,
+starter_01869,success,44,0.07,
+starter_01870,success,80,0.12,
+starter_01871,success,47,2.13,
+starter_01872,success,46,0.1,
+starter_01873,success,34,0.71,
+starter_01874,success,77,3.65,
+starter_01875,failed,-1,0.0,'reactionString' column not found
+starter_01876,success,82,0.09,
+starter_01877,success,31,0.59,
+starter_01878,success,168,14.41,
+starter_01879,success,49,1.91,
+starter_01880,failed,-1,0.0,'reactionString' column not found
+starter_01881,success,173,14.15,
+starter_01882,success,42,0.11,
+starter_01883,success,34,1.02,
+starter_01884,success,47,0.1,
+starter_01885,success,45,0.14,
+starter_01886,success,165,12.34,
+starter_01887,success,46,1.48,
+starter_01888,success,34,0.68,
+starter_01889,success,45,0.07,
+starter_01890,success,69,0.11,
+starter_01891,success,47,2.09,
+starter_01892,success,82,0.07,
+starter_01893,success,75,0.08,
+starter_01894,success,45,0.07,
+starter_01895,success,59,3.43,
+starter_01896,success,5642,422.84,
+starter_01897,success,1499,118.72,
+starter_01898,success,3634,291.78,
+starter_01899,success,8844,687.08,
+starter_01900,success,4981,348.55,
+starter_01901,success,2717,204.82,
+starter_01902,success,5765,392.09,
+starter_01903,success,4292,345.16,
+starter_01904,failed,-1,0.0,'reactionString' column not found
+starter_01905,success,4981,360.2,
+starter_01906,success,2717,213.42,
+starter_01907,success,5765,397.87,
+starter_01908,failed,-1,0.0,'reactionString' column not found
+starter_01909,success,4147,298.05,
+starter_01910,success,4859,381.81,
+starter_01911,success,1739,135.57,
+starter_01912,success,6673,512.69,
+starter_01913,failed,-1,0.0,'reactionString' column not found
+starter_01914,success,85,4.96,
+starter_01915,failed,-1,0.0,'reactionString' column not found
+starter_01916,failed,-1,0.0,'reactionString' column not found
+starter_01917,success,1499,126.03,
+starter_01918,success,84,4.29,
+starter_01919,success,4147,281.44,
+starter_01920,success,5211,424.45,
+starter_01921,failed,-1,0.0,'reactionString' column not found
+starter_01922,failed,-1,0.0,'reactionString' column not found
+starter_01923,success,8314,640.0,
+starter_01924,success,5959,439.02,
+starter_01925,success,84,0.09,
+starter_01926,success,2376,181.91,
+starter_01927,success,4981,339.0,
+starter_01928,success,4296,346.18,
+starter_01929,success,4859,381.92,
+starter_01930,failed,-1,0.0,'reactionString' column not found
+starter_01931,success,4292,310.28,
+starter_01932,success,2717,210.47,
+starter_01933,success,5642,446.64,
+starter_01934,success,6673,490.45,
+starter_01935,failed,-1,0.0,'reactionString' column not found
+starter_01936,failed,-1,0.0,'reactionString' column not found
+starter_01937,success,8312,610.28,
+starter_01938,success,5765,417.79,
+starter_01939,success,1739,130.28,
+starter_01940,success,4767,341.7,
+starter_01941,success,4733,375.95,
+starter_01942,failed,-1,0.0,'reactionString' column not found
+starter_01943,failed,-1,0.0,'reactionString' column not found
+starter_01944,success,84,5.32,
+starter_01945,success,2717,206.57,
+starter_01946,success,4853,357.51,
+starter_01947,success,85,5.23,
+starter_01948,success,4699,357.73,
+starter_01949,failed,-1,0.0,'reactionString' column not found
+starter_01950,success,5642,441.36,
+starter_01951,success,4767,359.11,
+starter_01952,success,2376,171.01,
+starter_01953,success,84,0.1,
+starter_01954,failed,-1,0.0,'reactionString' column not found
+starter_01955,failed,-1,0.0,'reactionString' column not found
+starter_01956,success,1553,116.28,
+starter_01957,success,5304,390.71,
+starter_01958,success,5765,423.02,
+starter_01959,failed,-1,0.0,'reactionString' column not found
+starter_01960,success,5215,424.04,
+starter_01961,success,4074,314.3,
+starter_01962,success,2376,181.9,
+starter_01963,success,5380,375.17,
+starter_01964,success,8314,643.85,
+starter_01965,success,5008,392.28,
+starter_01966,success,4981,348.78,
+starter_01967,success,2376,166.24,
+starter_01968,success,7666,507.95,
+starter_01969,success,78,0.09,
+starter_01970,success,5642,422.46,
+starter_01971,failed,-1,0.0,'reactionString' column not found
+starter_01972,success,84,4.71,
+starter_01973,success,8312,584.07,
+starter_01974,success,3881,317.21,
+starter_01975,success,5404,404.71,
+starter_01976,success,3058,243.64,
+starter_01977,success,6409,531.12,
+starter_01978,success,419,30.69,
+starter_01979,success,384,18.16,
+starter_01980,success,2866,183.96,
+starter_01981,success,387,22.33,
+starter_01982,success,4756,355.92,
+starter_01983,failed,-1,0.0,'reactionString' column not found
+starter_01984,success,384,17.86,
+starter_01985,success,2866,202.29,
+starter_01986,success,387,16.8,
+starter_01987,failed,-1,0.0,'reactionString' column not found
+starter_01988,success,360,14.99,
+starter_01989,success,7428,550.19,
+starter_01990,success,1974,135.71,
+starter_01991,success,380,20.4,
+starter_01992,failed,-1,0.0,'reactionString' column not found
+starter_01993,success,289,11.41,
+starter_01994,failed,-1,0.0,'reactionString' column not found
+starter_01995,failed,-1,0.0,'reactionString' column not found
+starter_01996,success,3058,227.74,
+starter_01997,success,294,13.17,
+starter_01998,success,360,17.57,
+starter_01999,success,5056,381.55,
+starter_02000,failed,-1,0.0,'reactionString' column not found
+starter_02001,failed,-1,0.0,'reactionString' column not found
+starter_02002,success,409,21.35,
+starter_02003,success,5151,394.51,
+starter_02004,success,294,12.53,
+starter_02005,success,4447,339.59,
+starter_02006,success,384,19.2,
+starter_02007,success,4359,319.69,
+starter_02008,success,7428,595.35,
+starter_02009,failed,-1,0.0,'reactionString' column not found
+starter_02010,success,4756,338.15,
+starter_02011,success,2866,205.19,
+starter_02012,success,5404,368.23,
+starter_02013,success,380,18.95,
+starter_02014,failed,-1,0.0,'reactionString' column not found
+starter_02015,failed,-1,0.0,'reactionString' column not found
+starter_02016,success,409,23.91,
+starter_02017,success,387,19.17,
+starter_02018,success,1974,138.06,
+starter_02019,success,363,18.92,
+starter_02020,success,382,18.02,
+starter_02021,failed,-1,0.01,'reactionString' column not found
+starter_02022,failed,-1,0.0,'reactionString' column not found
+starter_02023,success,294,11.77,
+starter_02024,success,2866,187.52,
+starter_02025,success,7420,590.62,
+starter_02026,success,289,12.71,
+starter_02027,success,396,20.19,
+starter_02028,failed,-1,0.0,'reactionString' column not found
+starter_02029,success,5404,396.28,
+starter_02030,success,363,15.14,
+starter_02031,success,4447,318.03,
+starter_02032,success,294,11.87,
+starter_02033,failed,-1,0.0,'reactionString' column not found
+starter_02034,failed,-1,0.01,'reactionString' column not found
+starter_02035,success,3142,246.29,
+starter_02036,success,8017,603.54,
+starter_02037,success,387,20.29,
+starter_02038,failed,-1,0.0,'reactionString' column not found
+starter_02039,success,7953,596.19,
+starter_02040,success,377,19.8,
+starter_02041,success,4447,336.67,
+starter_02042,success,399,21.37,
+starter_02043,success,409,22.1,
+starter_02044,success,4510,349.44,
+starter_02045,success,384,17.12,
+starter_02046,success,4447,306.17,
+starter_02047,success,398,22.53,
+starter_02048,success,274,11.91,
+starter_02049,success,5404,310.29,
+starter_02050,failed,-1,0.0,'reactionString' column not found
+starter_02051,success,286,12.56,
+starter_02052,success,409,22.97,
+starter_02053,success,6347,378.47,

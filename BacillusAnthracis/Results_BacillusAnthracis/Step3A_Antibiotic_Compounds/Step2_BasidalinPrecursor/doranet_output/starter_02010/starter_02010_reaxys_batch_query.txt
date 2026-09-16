@@ -1,0 +1,2 @@
+SMILES='C[C@@H]1C(=O)OC(=C[C@@H](C)CNC(=O)[C@@H](N)CO)C1=O>>C[C@H](C=C1OC(=O)[C@@](C)(CO)C1=O)CNC(=O)CN'
+SMILES='C[C@@H]1C(=O)OC(=C[C@@H](C)CNC(=O)[C@H](C)N)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1>>C[C@@H]1C(=O)OC(=C[C@@H](C)CNC(=O)[C@@H](N)CO)C1=O.NC(=O)C1=CC=C[N+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)=C1'

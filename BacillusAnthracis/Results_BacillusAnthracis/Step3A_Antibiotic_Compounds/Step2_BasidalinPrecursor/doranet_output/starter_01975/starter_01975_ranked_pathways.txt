@@ -1,0 +1,52 @@
+ranking 1
+final score 7.0
+atomic economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1>>C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1
+rule0070_6
+rule0002_152
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 7.0
+atomic economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+*C1=C(*)C(=O)C(*)=C(*)C1=O.C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O>>*c1c(*)c(O)c(*)c(*)c1O.C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+rule0467_8
+rule0070_6
+No_Thermo
+No_Thermo
+
+ranking 3
+final score 6.77953512356729
+atomic economy 0.8889574457666127
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.O=O>>C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.OO
+rule0070_6
+rule0074_16
+No_Thermo
+No_Thermo
+
+ranking 4
+final score 6.0
+atomic economy 0.4963254191318802
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O>>C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.C[C@H](N)C(O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+rule0070_6
+rule0324_2
+No_Thermo
+No_Thermo
+

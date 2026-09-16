@@ -1,0 +1,13 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore,feasibilityScore_rule3
+Cc1nc(C=C2OC(=O)CC2=O)cs1,COC(=Cc1csc(C)n1)C(=O)CC(=O)O,2,0.34,,0.6738786
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc(C=C(O)C(O)CC(=O)O)cs1,2,0.3673,,0.7691542
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc(CC(O)C(=O)CC(=O)O)cs1,2,0.2453,,0.67962664
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc(C=C(O)C(=O)CC(=O)O)cs1,1,0.3542,,0.70026416
+Cc1nc(C=C2OC(=O)CC2=O)cs1,CC(=O)C(O)=Cc1csc(CC(=O)O)n1,2,0.25,,0.73876715
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc2cc(C(=O)CC(O)O)oc2s1,2,0.193,,0.88689923
+Cc1nc(C=C2OC(=O)CC2=O)cs1,CC(=O)C(O)=Cc1nc(C)sc1C(=O)O,2,0.1923,,0.68040895
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc2cc(C(O)CC(=O)O)oc2s1,2,0.1724,,0.84774065
+Cc1nc(C=C2OC(=O)CC2=O)cs1,CC(=O)C(O)=C(C(=O)O)c1csc(C)n1,2,0.2653,,0.9158609
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc(C=C(O)C(=O)CCO)cs1,2,0.375,,0.86190975
+Cc1nc(C=C2OC(=O)CC2=O)cs1,Cc1nc(C=C(O)C(=O)O)cs1,2,0.3953,,0.8245456
+Cc1nc(C=C2OC(=O)CC2=O)cs1,CC(=O)C(O)=Cc1csc(C)n1,2,0.3864,,0.9842328

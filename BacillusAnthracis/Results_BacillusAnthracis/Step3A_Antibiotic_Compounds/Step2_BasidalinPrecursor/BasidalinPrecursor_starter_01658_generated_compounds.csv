@@ -1,0 +1,4 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore
+O=C1OC(=CC2=CC[C@@H](O)[C@H](O)C2)C=C1O,COC1=CC(=CC2=CC[C@@H](O)[C@H](O)C2)OC1=O,1,0.6744,
+O=C1OC(=CC2=CC[C@@H](O)[C@H](O)C2)C=C1O,CO[C@@H]1CC(C=C2C=C(O)C(=O)O2)=CC[C@H]1O,1,0.7381,
+O=C1OC(=CC2=CC[C@@H](O)[C@H](O)C2)C=C1O,CO[C@@H]1CC=C(C=C2C=C(O)C(=O)O2)C[C@H]1O,1,0.7381,

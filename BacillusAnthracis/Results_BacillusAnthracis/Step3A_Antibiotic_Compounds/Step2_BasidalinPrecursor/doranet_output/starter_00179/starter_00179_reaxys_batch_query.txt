@@ -1,0 +1,8 @@
+SMILES='*C1=C(*)C(=O)C(*)=C(*)C1=O.CC(O)C=C1OC(=O)[C@@H](O)C1=O>>*C1=C(*)C(O)=C(*)C(*)=C1O.CC(=O)C=C1OC(=O)[C@@H](O)C1=O'
+SMILES='*C1=C(*)C(=O)C(*)=C(*)C1=O.O=C1OC(=CCO)C(=O)[C@@H]1O>>*C1=C(*)C(O)=C(*)C(*)=C1O.O=CC=C1OC(=O)[C@@H](O)C1=O'
+SMILES='CC(O)C=C1OC(=O)[C@@H](O)C1=O.NC(=O)C1=CC=C[N+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)=C1>>CC(=O)C=C1OC(=O)[C@@H](O)C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1'
+SMILES='CC(O)C=C1OC(=O)[C@@H](O)C1=O>>CC(=O)C=C1OC(=O)[C@@H](O)C1=O.OO'
+SMILES='C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](N2C=NC3=C(N)N=CN=C32)[C@H](O)[C@@H]1O.O=C1OC(=CCO)C(=O)[C@@H]1O>>CC(O)C=C1OC(=O)[C@@H](O)C1=O.NC1=NC=NC2=C1N=CN2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O'
+SMILES='C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](N2C=NC3=C(N)N=CN=C32)[C@H](O)[C@@H]1O.O=CC=C1OC(=O)[C@@H](O)C1=O>>CC(=O)C=C1OC(=O)[C@@H](O)C1=O.NC1=NC=NC2=C1N=CN2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O'
+SMILES='NC(=O)C1=CC=C[N+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)=C1.O=C1OC(=CCO)C(=O)[C@@H]1O>>NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=CC=C1OC(=O)[C@@H](O)C1=O'
+SMILES='O=C1OC(=CCO)C(=O)[C@@H]1O>>O=CC=C1OC(=O)[C@@H](O)C1=O.OO'

@@ -1,0 +1,26 @@
+ranking 1
+final score 6.0
+atomic economy 0.9323441267266049
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@H]1O.O>>CC[C@H](C(=O)O)[C@H](O)C(O)=CCNC(N)=[NH2+]
+CC[C@H](C(=O)O)[C@H](O)C(O)=CCNC(N)=[NH2+].NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CC[C@H](C(=O)O)[C@H](O)C1(O)OC1CNC(N)=[NH2+].NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0035_7
+rule0077_4
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+atomic economy 0.9323441267266049
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@H]1O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CC[C@@H]1C(=O)OC2(OC2CNC(N)=[NH2+])[C@H]1O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+CC[C@@H]1C(=O)OC2(OC2CNC(N)=[NH2+])[C@H]1O.O>>CC[C@H](C(=O)O)[C@H](O)C1(O)OC1CNC(N)=[NH2+]
+rule0077_4
+rule0035_7
+No_Thermo
+No_Thermo
+

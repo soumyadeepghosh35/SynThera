@@ -1,0 +1,7 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore
+CO[C@@H]1C(=O)OC(=CC2CC[C@@H](O)[C@H](O)C2)C1=O,CO[C@@H]1C(=O)OC(=CC2CCC[C@H](O)C2)C1=O,1,0.6977,
+CO[C@@H]1C(=O)OC(=CC2CC[C@@H](O)[C@H](O)C2)C1=O,CO[C@@H]1C(=O)OC(=CC2CCC(O)CC2)C1=O,1,0.725,
+CO[C@@H]1C(=O)OC(=CC2CC[C@@H](O)[C@H](O)C2)C1=O,CO[C@@H]1C(=O)OC(=CC2CCC(=O)CC2)C1=O,2,0.6341,
+CO[C@@H]1C(=O)OC(=CC2CC[C@@H](O)[C@H](O)C2)C1=O,O=C1OC(=CC2CCC[C@H](O)C2)C(=O)[C@@H]1O,2,0.4468,
+CO[C@@H]1C(=O)OC(=CC2CC[C@@H](O)[C@H](O)C2)C1=O,O=C1OC(=CC2CCC(O)CC2)C(=O)[C@@H]1O,2,0.4545,
+CO[C@@H]1C(=O)OC(=CC2CC[C@@H](O)[C@H](O)C2)C1=O,CO[C@@H]1C(=O)OC(=CC2CCCCC2)C1=O,2,0.6341,

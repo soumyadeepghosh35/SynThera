@@ -1,0 +1,25 @@
+input:
+  SMILESfile: BasidalinPrecursor_SMILES.csv
+  smiles_column: Canonical_SMILES
+  start_index: 0
+  num_smiles: null
+output:
+  directory: doranet_output
+parallel:
+  num_workers: 4
+network:
+  generations: 2
+  total_generations: 2
+  ruleset: JN3604IMT
+  direction: forward
+max_atoms:
+  C: 12
+  N: 3
+  O: 5
+  S: 3
+doranet:
+  path: /users/sghosh6/DTRA_project/MACAW/doranet
+execution:
+  run: false
+  python: python
+  timeout_seconds: 3600

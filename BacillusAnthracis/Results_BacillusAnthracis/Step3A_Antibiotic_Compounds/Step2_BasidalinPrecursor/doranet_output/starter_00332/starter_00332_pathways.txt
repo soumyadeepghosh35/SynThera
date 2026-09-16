@@ -1,0 +1,78 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1,)', '(1,)$(1,)']
+reaction SMILES, name, and enthalpy:
+CCCC=C1OC(=O)[C@H](CC)C1=O.O=C=O>>CCCC=C1OC(=O)[C@H](CCC(=O)O)C1=O
+CCCC=C1OC(=O)[C@H](CCC(=O)O)C1=O>>CCCC=C1OC(=O)[C@](CC)(C(=O)O)C1=O
+rule0023_20
+rule0028_50
+No_Thermo
+No_Thermo
+
+pathway number 2
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1,)', '(1,)$(1,)']
+reaction SMILES, name, and enthalpy:
+CCCC=C1OC(=O)[C@H](CC)C1=O.O=C=O>>CC[C@H]1C(=O)OC(=CCC(C)C(=O)O)C1=O
+CC[C@H]1C(=O)OC(=CCC(C)C(=O)O)C1=O>>CCCC=C1OC(=O)[C@](CC)(C(=O)O)C1=O
+rule0023_17
+rule0028_50
+No_Thermo
+No_Thermo
+
+pathway number 3
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1,)']
+reaction SMILES, name, and enthalpy:
+CCC(C=C1OC(=O)[C@H](CC)C1=O)C(=O)O>>CCCC=C1OC(=O)[C@](CC)(C(=O)O)C1=O
+CCCC=C1OC(=O)[C@H](CC)C1=O.O=C=O>>CCC(C=C1OC(=O)[C@H](CC)C1=O)C(=O)O
+rule0028_50
+rule0023_17
+No_Thermo
+No_Thermo
+
+pathway number 4
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1,)', '(1,)$(1,)']
+reaction SMILES, name, and enthalpy:
+CCCC=C1OC(=O)[C@H](CC)C1=O.O=C=O>>CC[C@H]1C(=O)OC(=CCCCC(=O)O)C1=O
+CC[C@H]1C(=O)OC(=CCCCC(=O)O)C1=O>>CCCC=C1OC(=O)[C@](CC)(C(=O)O)C1=O
+rule0023_17
+rule0028_50
+No_Thermo
+No_Thermo
+
+pathway number 5
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1,)']
+reaction SMILES, name, and enthalpy:
+CCCC=C1OC(=O)[C@H](C(C)C(=O)O)C1=O>>CCCC=C1OC(=O)[C@](CC)(C(=O)O)C1=O
+CCCC=C1OC(=O)[C@H](CC)C1=O.O=C=O>>CCCC=C1OC(=O)[C@H](C(C)C(=O)O)C1=O
+rule0028_50
+rule0023_20
+No_Thermo
+No_Thermo
+
+pathway number 6
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1,)']
+reaction SMILES, name, and enthalpy:
+CCCC(C(=O)O)=C1OC(=O)[C@H](CC)C1=O>>CCCC=C1OC(=O)[C@](CC)(C(=O)O)C1=O
+CCCC=C1OC(=O)[C@H](CC)C1=O.O=C=O>>CCCC(C(=O)O)=C1OC(=O)[C@H](CC)C1=O
+rule0028_50
+rule0023_17
+No_Thermo
+No_Thermo
+

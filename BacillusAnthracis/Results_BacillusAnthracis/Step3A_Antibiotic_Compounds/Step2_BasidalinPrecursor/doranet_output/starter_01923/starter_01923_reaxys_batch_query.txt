@@ -1,0 +1,4 @@
+SMILES='CCC(CC(N)=O)=C1OC(=O)[C@@H](CC)[C@@H]1O>>CCC(CC(=O)O)=C1OC(=O)[C@@H](CC)[C@@H]1O.CCC(CC(N)=O)=C1OC(=O)[C@@H](CC)[C@@H]1N'
+SMILES='CC[C@@H]1C(=O)OC(=C[C@@H](CC)C(N)=O)[C@H]1N>>CCC(CC(N)=O)=C1OC(=O)[C@@H](CC)[C@@H]1N'
+SMILES='CC[C@@H]1C(=O)OC(=C[C@@H](CC)C(N)=O)[C@H]1O>>CCC(CC(N)=O)=C1OC(=O)[C@@H](CC)[C@@H]1O'
+SMILES='CC[C@@H]1C(=O)OC(=C[C@@H](CC)C(N)=O)[C@H]1O>>CC[C@@H]1C(=O)OC(=C[C@@H](CC)C(=O)O)[C@H]1O.CC[C@@H]1C(=O)OC(=C[C@@H](CC)C(N)=O)[C@H]1N'

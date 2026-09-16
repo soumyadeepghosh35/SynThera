@@ -1,0 +1,52 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C=CC[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=CC[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0043_12
+rule0043_12
+No_Thermo
+No_Thermo
+
+pathway number 2
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C=C(C)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0043_12
+rule0043_12
+No_Thermo
+No_Thermo
+
+pathway number 3
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C=C(C)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.C=C(C)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O
+C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+pathway number 4
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C=CC[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.C=CC[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O>>C=C(C)C[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O
+C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])[C@@H]1O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=CC[C@H]1C(=O)OC(=CC(C)NC(N)=[NH2+])[C@@H]1O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+

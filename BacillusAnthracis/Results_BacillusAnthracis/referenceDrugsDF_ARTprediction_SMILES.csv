@@ -1,0 +1,8 @@
+Canonical_SMILES
+C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23
+O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O
+COc1c(N2CCNC(C)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12
+C[C@H]1c2cccc(O)c2C(=O)C2=C(O)[C@]3(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@@H]3[C@@H](O)[C@@H]21
+NC1=CC(=O)O/C1=C/C=O
+CCC=C1OC(=O)[C@@H](C)[C@H]1O
+CC1(C)S[C@@H]2[C@H](NC(=O)Cc3ccccc3)C(=O)N2[C@H]1C(=O)O

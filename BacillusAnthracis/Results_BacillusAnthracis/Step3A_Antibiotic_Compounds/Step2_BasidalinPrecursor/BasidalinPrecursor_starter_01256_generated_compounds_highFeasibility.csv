@@ -1,0 +1,12 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore,feasibilityScore_rule3
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,CO[C@@H]1C(=O)OC(=Cc2ccc(N)c(O)c2)[C@H]1O,2,0.5,,0.80571264
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,CO[C@@H]1C(=O)OC(=C(O)c2ccc(N)cc2)[C@H]1O,2,0.4,,0.82121164
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,Nc1ccc(CC(O)[C@@H](O)[C@H](O)C(=O)O)cc1,2,0.2174,,0.9239844
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,Nc1ccc(C(O)C2OC(=O)[C@@H](O)[C@@H]2O)cc1,1,0.3636,,0.9229255
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,Nc1ccc(C=C(O)[C@@H](O)[C@H](O)C(=O)O)cc1,1,0.3023,,0.86424744
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,Nc1ccc(C(=O)C2OC(=O)[C@@H](O)[C@@H]2O)cc1,2,0.3721,,0.6022483
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,CO[C@@H]1C(=O)OC(=Cc2ccc(N)cc2)[C@H]1O,1,0.7222,,0.6049868
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,Nc1ccc(C=C(O)[C@@H](O)[C@H](O)CO)cc1,2,0.2727,,0.80568033
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,Nc1ccc(CC2OC(=O)[C@@H](O)[C@@H]2O)cc1,2,0.3721,,0.72834444
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,CO[C@@H]1c2nc3ccc(cc3)cc(o2)[C@H]1O,2,0.1698,,0.9070298
+Nc1ccc(C=C2OC(=O)[C@@H](O)[C@@H]2O)cc1,O[C@@H]1c2cc3ccc(cc3)nc(o2)[C@H]1O,1,0.1667,,0.95250905

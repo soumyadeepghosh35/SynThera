@@ -1,0 +1,13 @@
+ranking 1
+final score 6.0
+atomic economy 0.9122135916652859
+pathway by-product 0
+intermediate by-product {None: 0}
+reaction SMILES, name, and enthalpy:
+NC(=[NH2+])NCC=C(O)[C@@H](O)CC(=O)O>>NC(=[NH2+])[N+]1=C(O)C[C@H](O)C(O)=CC1.O
+NC(=[NH2+])NCC=C1OC(=O)C[C@@H]1O.O>>NC(=[NH2+])NCC=C(O)[C@@H](O)CC(=O)O
+rule0339_1
+rule0035_7
+No_Thermo
+No_Thermo
+

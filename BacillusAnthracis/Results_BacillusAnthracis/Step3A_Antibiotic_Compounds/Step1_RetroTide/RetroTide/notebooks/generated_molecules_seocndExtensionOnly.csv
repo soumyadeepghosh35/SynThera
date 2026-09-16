@@ -1,0 +1,80 @@
+Canonical_SMILES,starter_mod,firstExtension_module,secondExtension_mod,release_mod,Molecular_Weight
+C[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",158.15
+CC[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",172.18
+CC(C)[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'isobutmal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",186.21
+CCCCCC[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",228.29
+CCCCCC[C@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",226.27
+CCCC[C@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",198.22
+O=C1OCC=C(O)C(=O)[C@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",158.11
+O=C1C[C@@H](C(O)=CCO)O1,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Malonyl-CoA'}"", ""KR{'type': 'B'}"", 'loading: False']","TE(cyclic, ring=1)",144.13
+CCCCC1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",182.22
+CC[C@@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", 'loading: False']","TE(cyclic, ring=1)",170.16
+C=CC[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",184.19
+CCCCCC[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",228.29
+CCCC[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",200.23
+CCCCCC[C@@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", 'loading: False']","TE(cyclic, ring=1)",226.27
+O=C1CCC(=CCO)O1,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Malonyl-CoA'}"", ""KR{'type': 'B'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",128.13
+CC(C)[C@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'isobutmal'}"", 'loading: False']","TE(cyclic, ring=1)",184.19
+C[C@@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'C2'}"", 'loading: False']","TE(cyclic, ring=1)",156.14
+CO[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",174.15
+CC(C)[C@@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'D-isobutmal'}"", 'loading: False']","TE(cyclic, ring=1)",184.19
+C=CC[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",184.19
+CO[C@H]1CC(O)=CCOC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",158.15
+CC1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",140.14
+CC(C)[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'isobutmal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",186.21
+O=C1O[C@@H](C(O)=CCO)[C@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",160.12
+O=C1C[C@H](C(O)=CCO)O1,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Malonyl-CoA'}"", ""KR{'type': 'A'}"", 'loading: False']","TE(cyclic, ring=1)",144.13
+CCCC[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",200.23
+CO[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",174.15
+O=C1OC(=CCO)C=C1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",142.11
+C=CC[C@H]1CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",168.19
+CC(C)C1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'isobutmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",168.19
+C[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",158.15
+COC1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",156.14
+C[C@H]1CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",142.15
+CC(C)[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'isobutmal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",186.21
+CO[C@H]1C(=O)OCC=C(O)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",172.14
+CCCCCC[C@H]1CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",212.29
+CCCC[C@@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'C2'}"", 'loading: False']","TE(cyclic, ring=1)",198.22
+C=CC[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",184.19
+CCCC[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",200.23
+CO[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",174.15
+O=C1OC(=CCO)C(=O)[C@@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'C2'}"", 'loading: False']","TE(cyclic, ring=1)",332.18
+O=C1OC(=CCO)C(=O)C1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", 'loading: False']","TE(cyclic, ring=1)",332.18
+O=C1O[C@H](C(O)=CCO)[C@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",334.2
+CC(C)[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'isobutmal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",186.21
+C[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",158.15
+CC[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",172.18
+CCCCCC[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",228.29
+CC[C@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",172.18
+O=C1O[C@H](C(O)=CCO)[C@@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",334.2
+C=CC[C@@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", 'loading: False']","TE(cyclic, ring=1)",182.17
+CO[C@@H]1C(=O)OCC=C(O)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", 'loading: False']","TE(cyclic, ring=1)",172.14
+O=C1OCC=C(O)C(=O)[C@@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'C2'}"", 'loading: False']","TE(cyclic, ring=1)",158.11
+C[C@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",156.14
+O=C1O[C@@H](C(O)=CCO)[C@@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",334.2
+O=C1O[C@H](C(O)=CCO)[C@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'B1'}"", 'loading: False']","TE(cyclic, ring=1)",160.12
+O=C1OCC=C(O)C(=O)C1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", 'loading: False']","TE(cyclic, ring=1)",158.11
+CO[C@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'mxmal'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",174.15
+O=C1OC(=CCO)C=C1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",316.18
+O=C1CC(=O)C(=CCO)O1,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Malonyl-CoA'}"", 'loading: False']","TE(cyclic, ring=1)",142.11
+O=C1C=CC(=CCO)O1,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Malonyl-CoA'}"", ""KR{'type': 'B'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",126.11
+C=CC[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",184.19
+C[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'Methylmalonyl-CoA'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",158.15
+CC[C@@H]1C(=O)O[C@@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",172.18
+O=C1O[C@H](C(O)=CCO)[C@@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'B2'}"", 'loading: False']","TE(cyclic, ring=1)",160.12
+O=C1OC(=CCO)C(=O)[C@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",332.18
+O=C1O[C@@H](C(O)=CCO)[C@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'A1'}"", 'loading: False']","TE(cyclic, ring=1)",334.2
+CC[C@H]1CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",156.18
+CC(C)[C@H]1CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'D-isobutmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",170.21
+O=C1OC(=CCO)C[C@@H]1CCCCc1c[nH]c(Cl)c1Cl,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'DCP'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",318.2
+O=C1O[C@@H](C(O)=CCO)[C@@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",160.12
+C=CC[C@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",182.17
+CCCC[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",200.23
+CCCCCC[C@@H]1C(=O)O[C@H]1C(O)=CCO,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'A2'}"", 'loading: False']","TE(cyclic, ring=1)",228.29
+O=C1OCC=C(O)C[C@@H]1O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",144.13
+CCC1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",154.16
+CCCC[C@H]1CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'butmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'ER{}', 'loading: False']","TE(cyclic, ring=1)",184.23
+C=CCC1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'allylmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",166.18
+CC[C@H]1C(=O)OC(=CCO)C1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'emal'}"", ""KR{'type': 'C1'}"", 'loading: False']","TE(cyclic, ring=1)",170.16
+CCCCCCC1=CC(=CCO)OC1=O,AT(Hydroxymalonyl-CoA),AT(hmal) + KR(B1) + DH,"[""AT{'substrate': 'hexmal'}"", ""KR{'type': 'B1'}"", 'DH{}', 'loading: False']","TE(cyclic, ring=1)",210.27

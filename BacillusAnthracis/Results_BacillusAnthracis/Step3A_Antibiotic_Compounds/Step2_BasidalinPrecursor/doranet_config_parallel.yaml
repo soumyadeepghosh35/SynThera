@@ -1,0 +1,40 @@
+# Parallel DORAnet configuration.
+# Run with: python runDORAnet_parallel.py doranet_config_parallel.yaml
+#
+# For every SMILES in the input CSV, runDORAnet_parallel.py creates
+# doranet_output/starter_XXXXX/, writes runDORAnet.py and doranet_config.yaml
+# into it, and runs `python runDORAnet.py doranet_config.yaml` there.
+
+input:
+  # CSV of precursor SMILES, one starter per row.
+  SMILESfile: BasidalinPrecursor_SMILES.csv
+  smiles_column: Canonical_SMILES
+  start_index: 0
+  num_smiles: null          # null processes every row; set an integer to cap it
+
+output:
+  directory: doranet_output
+
+parallel:
+  num_workers: 4            # capped at cpu_count() at runtime
+
+network:
+  generations: 2            # DORAnet network depth (top-level in each per-starter config)
+  total_generations: 2      # pathway search depth for post_processing.one_step
+  ruleset: JN3604IMT
+  direction: forward
+
+max_atoms:
+  C: 12
+  N: 3
+  O: 5
+  S: 3
+
+doranet:
+  # Local DORAnet checkout added to sys.path inside each per-starter run.
+  path: /users/sghosh6/DTRA_project/MACAW/doranet
+
+execution:
+  run: false                 # false scaffolds the directories and files without running
+  python: python            # interpreter used for each `python runDORAnet.py ...`
+  timeout_seconds: 3600      # per-starter subprocess timeout

@@ -1,0 +1,13 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1,)$(1,)', '(1, 1)$(1,)']
+reaction SMILES, name, and enthalpy:
+CC(=CC(=O)Cc1csc(C)n1)C(=O)O>>Cc1nc(CC(=O)C=CC(=O)O)c(C)s1
+CC1=CC(=Cc2csc(C)n2)OC1=O.O>>CC(=CC(=O)Cc1csc(C)n1)C(=O)O
+rule0028_47
+rule0189_1
+No_Thermo
+No_Thermo
+

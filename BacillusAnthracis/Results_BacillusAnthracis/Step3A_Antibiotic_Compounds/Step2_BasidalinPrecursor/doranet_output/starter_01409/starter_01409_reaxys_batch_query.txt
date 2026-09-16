@@ -1,0 +1,2 @@
+SMILES='NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.NC(=[NH2+])NCCC1(O)OC(=O)[C@H](O)[C@H]1O>>NC(=O)C1=CC=C[N+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](N4C=NC5=C(N)N=CN=C54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)=C1.NC(=[NH2+])NCCC(O)(O)[C@H](O)[C@@H](O)C=O'
+SMILES='NC(=[NH2+])NCC=C1OC(=O)[C@H](O)[C@H]1O>>NC(=[NH2+])NCCC1(O)OC(=O)[C@H](O)[C@H]1O'

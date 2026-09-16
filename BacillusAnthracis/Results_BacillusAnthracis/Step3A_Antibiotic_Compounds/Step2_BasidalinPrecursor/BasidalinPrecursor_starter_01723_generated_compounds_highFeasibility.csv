@@ -1,0 +1,3 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore,feasibilityScore_rule3
+O=C1C=CC(=CCc2ccccc2)O1,O=C1C=CC(=CCC2=CC=CC(O)C2O)O1,1,0.4419,,0.6835415
+O=C1C=CC(=CCc2ccccc2)O1,O=C1C=CC(=CCc2cccc(O)c2O)O1,2,0.5385,,0.7372677

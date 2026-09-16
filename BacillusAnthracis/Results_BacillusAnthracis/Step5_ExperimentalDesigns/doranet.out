@@ -1,0 +1,3232 @@
+Config          : /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/DrugDesignData/Results/BacillusAnthracis_bestMACAW_allDB_generative/DORAnet/BasidalinPrecursor/PATHWAY_reconstruction/config_doranet_multiGen.yaml
+Output dir      : /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/DrugDesignData/Results/BacillusAnthracis_bestMACAW_allDB_generative/DORAnet/BasidalinPrecursor/PATHWAY_reconstruction
+CSV             : /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/DrugDesignData/Results/BacillusAnthracis_bestMACAW_allDB_generative/DORAnet/BasidalinPrecursor/PATHWAY_reconstruction/BasidalinPrecursor_DORAnetGenerated_Antibiotic_wARTprediction_top20.csv
+Starter column  : starter_Canonical_SMILES
+Target column   : Canonical_SMILES
+Unique pairs    : 20
+Generations     : [1, 2]
+Atom multiplier : 1.5x (ceil)
+Total jobs      : 40 with nJobs=16
+
+maxAtoms preview per starter:
+  C=CCC1=CC(=CCNC(N)=[NH2+])OC1=O → {'C': 15, 'N': 5, 'O': 3, 'S': 1}
+  C=CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O → {'C': 15, 'N': 5, 'O': 5, 'S': 1}
+  C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O → {'C': 15, 'N': 5, 'O': 5, 'S': 1}
+  C=CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O → {'C': 15, 'N': 5, 'O': 3, 'S': 1}
+  CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O → {'C': 17, 'N': 5, 'O': 3, 'S': 1}
+  CCCC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O → {'C': 17, 'N': 5, 'O': 5, 'S': 1}
+  CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O → {'C': 17, 'N': 5, 'O': 3, 'S': 1}
+  CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O → {'C': 14, 'N': 5, 'O': 5, 'S': 1}
+  Nc1cc(O)cc(C=C2C=C(O)C(=O)O2)c1 → {'C': 17, 'N': 2, 'O': 6, 'S': 1}
+  Nc1cc(O)cc(C=C2C=CC(=O)O2)c1 → {'C': 17, 'N': 2, 'O': 5, 'S': 1}
+  Nc1ccc(C=C2C=C(O)C(=O)O2)cc1 → {'C': 17, 'N': 2, 'O': 5, 'S': 1}
+Job name: high_pPotency_molecule_pathway4_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.380820
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 90
+Number of reactions: 46
+Time used for network generation: 0.43 minutes
+
+Job name: high_pPotency_molecule_pathway4_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:53.588383
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 46
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 45
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway4_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:53.615783
+Pathway finder started, total number of reactions in network 45
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway4_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:53.626560
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway11_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:54.428069
+Checking for targets
+Target found for CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 110
+Number of reactions: 70
+Time used for network generation: 0.48 minutes
+
+Job name: high_pPotency_molecule_pathway11_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:23:26.772285
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 70
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 69
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway11_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:23:26.800409
+Pathway finder started, total number of reactions in network 69
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+1 pathways found!
+1 reactions found in all pathways
+Min number of reactions in a pathway: 1
+Max number of reactions in a pathway: 1
+Pruning parameters for this search:
+search_depth: 1
+max_num_rxns: 1
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway11_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:23:26.831171
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 1
+Max_eco 1.0
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway1_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.385040
+Checking for targets
+Target found for NC(=O)c1cc(C=C2C=C(O)C(=O)O2)ccc1N
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 524
+Number of reactions: 717
+Time used for network generation: 5.67 minutes
+
+Job name: high_pPotency_molecule_pathway1_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:28:08.338129
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 717
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 713
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway1_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:28:08.390986
+Pathway finder started, total number of reactions in network 713
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway1_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:28:08.593002
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9318225683761169
+Max_eco 0.9318225683761169
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway6_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.448929
+Checking for targets
+Target found for C=CC1(CC2=CC(=CCNC(N)=[NH2+])OC2=O)CO1
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1134
+Number of reactions: 1813
+Time used for network generation: 11.37 minutes
+
+Job name: high_pPotency_molecule_pathway6_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:33:50.550424
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 1813
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 1779
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway6_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:33:50.641685
+Pathway finder started, total number of reactions in network 1779
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway6_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:33:50.987394
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.5555609816735332
+Max_eco 0.5555609816735332
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway2_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.537876
+Checking for targets
+Target found for CC(CNC(N)=[NH2+])=C1C=C(CCCO)C(=O)O1
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1134
+Number of reactions: 1813
+Time used for network generation: 11.48 minutes
+
+Job name: high_pPotency_molecule_pathway2_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:33:56.992228
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 1813
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 1779
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway2_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:33:57.083120
+Pathway finder started, total number of reactions in network 1779
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+2 pathways found!
+4 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway2_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:33:57.429180
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 1
+Max_eco 1.0
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway4_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.387626
+Checking for targets
+Target found for C=CC1(C[C@H]2CC(=CCNC(N)=[NH2+])OC2=O)CO1
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1279
+Number of reactions: 2043
+Time used for network generation: 13.20 minutes
+
+Job name: high_pPotency_molecule_pathway4_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:35:40.549385
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2043
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2007
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway4_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:35:40.650752
+Pathway finder started, total number of reactions in network 2007
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway4_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:35:41.035317
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.5550681146156012
+Max_eco 0.5550681146156012
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway8_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.504757
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 123
+Number of reactions: 83
+Time used for network generation: 0.53 minutes
+
+Job name: high_pPotency_molecule_pathway8_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:59.743366
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 83
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 82
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway8_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:59.771802
+Pathway finder started, total number of reactions in network 82
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway8_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:59.787543
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway12_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:23:00.581510
+Checking for targets
+Target found for C=CC1C(=CCNC(N)=[NH2+])OC(=O)[C@H]1CCCO
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1279
+Number of reactions: 2043
+Time used for network generation: 12.64 minutes
+
+Job name: high_pPotency_molecule_pathway12_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:35:42.685561
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2043
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2007
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway12_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:35:42.786594
+Pathway finder started, total number of reactions in network 2007
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway12_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:35:43.165858
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.5799160374798474
+Max_eco 0.5799160374798474
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0028_51
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway14_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:23:30.629110
+Checking for targets
+Target found for Nc1cc(O)cc(C(CO)=C2C=CC(=O)O2)c1
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1114
+Number of reactions: 1518
+Time used for network generation: 13.09 minutes
+
+Job name: high_pPotency_molecule_pathway14_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:36:39.987750
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 1518
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 1516
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway14_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:36:40.072355
+Pathway finder started, total number of reactions in network 1516
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway14_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:36:40.461007
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9282950827502209
+Max_eco 0.9282950827502209
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway5_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.520289
+Checking for targets
+Target found for NC(=O)c1cc(N)cc(C=C2C=C(O)C(=O)O2)c1
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1234
+Number of reactions: 1723
+Time used for network generation: 15.27 minutes
+
+Job name: high_pPotency_molecule_pathway5_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:37:45.117060
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 1723
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 1719
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway5_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:37:45.212437
+Pathway finder started, total number of reactions in network 1719
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway5_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:37:45.667453
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.8311711985416982
+Max_eco 0.8311711985416982
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.5550681146156012
+pathway by-product 0
+intermediate by-product {None: 0}
+C=CC(=C)C[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=CC1(C[C@H]2CC(=CCNC(N)=[NH2+])OC2=O)CO1.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+C=CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.C=CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>C=CC(=C)C[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.C[C@H]1CC(=CCNC(N)=[NH2+])OC1=O
+rule0077_4
+rule0126_2
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.5799160374798474
+pathway by-product 0
+intermediate by-product {None: 0}
+C=CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1C=C.O>>C=CC1C(=CCNC(N)=[NH2+])OC(=O)[C@H]1CCCO
+C=CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.C=CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>C=CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1C=C.C[C@H]1CC(=CCNC(N)=[NH2+])OC1=O
+rule0020_19
+rule0126_2
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.448930
+Checking for targets
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1279
+Number of reactions: 2043
+Time used for network generation: 13.29 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:35:46.163721
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2043
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2007
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:35:46.263730
+Pathway finder started, total number of reactions in network 2007
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:35:46.626650
+Pathway file not found, exiting pathway ranking
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9282950827502209
+pathway by-product 0
+intermediate by-product {None: 0}
+NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.Nc1cc(O)cc(C(C(=O)O)=C2C=CC(=O)O2)c1>>NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.Nc1cc(O)cc(C(CO)=C2C=CC(=O)O2)c1.O
+Nc1cc(O)cc(C=C2C=CC(=O)O2)c1.O=C=O>>Nc1cc(O)cc(C(C(=O)O)=C2C=CC(=O)O2)c1
+rule0164_2
+rule0023_08
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.8311711985416982
+pathway by-product 0
+intermediate by-product {None: 0}
+N.Nc1cc(C=C2C=C(O)C(=O)O2)cc(C(=O)O)c1>>NC(=O)c1cc(N)cc(C=C2C=C(O)C(=O)O2)c1.O
+NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.Nc1cc(O)cc(C=C2C=C(O)C(=O)O2)c1.O.O=C=O>>NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.Nc1cc(C=C2C=C(O)C(=O)O2)cc(C(=O)O)c1.O=O
+rule0055_2
+rule0187_1
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway2_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.385126
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 87
+Number of reactions: 43
+Time used for network generation: 0.44 minutes
+
+Job name: high_pPotency_molecule_pathway2_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:54.607922
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 43
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 42
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway2_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:54.634934
+Pathway finder started, total number of reactions in network 42
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway2_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:54.644910
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway12_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:55.718098
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 90
+Number of reactions: 46
+Time used for network generation: 0.43 minutes
+
+Job name: high_pPotency_molecule_pathway12_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:23:25.946914
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 46
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 45
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway12_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:23:25.973672
+Pathway finder started, total number of reactions in network 45
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway12_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:23:25.984379
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway13_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:23:26.978832
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 110
+Number of reactions: 70
+Time used for network generation: 0.50 minutes
+
+Job name: high_pPotency_molecule_pathway13_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:24:01.287710
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 70
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 69
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway13_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:24:01.315149
+Pathway finder started, total number of reactions in network 69
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway13_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:24:01.328454
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway15_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:24:02.208429
+Checking for targets
+Target found for NC(=[NH2+])NCC=C1OC(=O)[C@H](CC2(O)CO2)C1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1828
+Number of reactions: 2906
+Time used for network generation: 18.80 minutes
+
+Job name: high_pPotency_molecule_pathway15_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:42:54.512971
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2906
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2865
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway15_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:42:54.649199
+Pathway finder started, total number of reactions in network 2865
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway15_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:42:55.211519
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.8767227339291336
+Max_eco 0.8767227339291336
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway1_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.385086
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 65
+Number of reactions: 24
+Time used for network generation: 0.36 minutes
+
+Job name: high_pPotency_molecule_pathway1_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:49.987765
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 24
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 24
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway1_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:50.014250
+Pathway finder started, total number of reactions in network 24
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway1_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:50.023009
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway9_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:51.022460
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 123
+Number of reactions: 83
+Time used for network generation: 0.56 minutes
+
+Job name: high_pPotency_molecule_pathway9_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:23:28.819581
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 83
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 82
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway9_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:23:28.848224
+Pathway finder started, total number of reactions in network 82
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway9_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:23:28.864246
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway14_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:23:29.802849
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 81
+Number of reactions: 41
+Time used for network generation: 0.43 minutes
+
+Job name: high_pPotency_molecule_pathway14_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:23:59.471286
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 41
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 41
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway14_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:23:59.498112
+Pathway finder started, total number of reactions in network 41
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway14_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:23:59.511744
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway15_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:24:00.387243
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 96
+Number of reactions: 52
+Time used for network generation: 0.46 minutes
+
+Job name: high_pPotency_molecule_pathway15_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:24:32.159945
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 52
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 51
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway15_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:24:32.186979
+Pathway finder started, total number of reactions in network 51
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway15_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:24:32.198344
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway16_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:24:33.154620
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 96
+Number of reactions: 52
+Time used for network generation: 0.46 minutes
+
+Job name: high_pPotency_molecule_pathway16_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:25:04.732738
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 52
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 51
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway16_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:25:04.759819
+Pathway finder started, total number of reactions in network 51
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway16_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:25:04.771405
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway16_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:25:05.788891
+Checking for targets
+Target found for NC(=[NH2+])NCC=C1OC(=O)[C@@H](CC2(O)CO2)C1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1828
+Number of reactions: 2906
+Time used for network generation: 18.99 minutes
+
+Job name: high_pPotency_molecule_pathway16_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:44:09.274003
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2906
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2865
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway16_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:44:09.408733
+Pathway finder started, total number of reactions in network 2865
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway16_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:44:09.967790
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.8767227339291336
+Max_eco 0.8767227339291336
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway5_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.380735
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 83
+Number of reactions: 43
+Time used for network generation: 0.43 minutes
+
+Job name: high_pPotency_molecule_pathway5_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:53.851090
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 43
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 43
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway5_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:53.878526
+Pathway finder started, total number of reactions in network 43
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway5_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:53.893144
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway11_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:54.655922
+Checking for targets
+Target found for CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 2349
+Number of reactions: 5053
+Time used for network generation: 23.06 minutes
+
+Job name: high_pPotency_molecule_pathway11_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:46:02.480695
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 5053
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 4989
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway11_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:46:02.684182
+Pathway finder started, total number of reactions in network 4989
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+35 pathways found!
+30 reactions found in all pathways
+Min number of reactions in a pathway: 1
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway11_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:46:03.556862
+Start ranking pathways. Number of pathways after sanitization: 34
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.25
+Max_eco 1.0
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway3_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.380918
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 87
+Number of reactions: 43
+Time used for network generation: 0.41 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:52.931381
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 43
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 42
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:52.958448
+Pathway finder started, total number of reactions in network 42
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:52.968644
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway10_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:53.729619
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 117
+Number of reactions: 77
+Time used for network generation: 0.49 minutes
+
+Job name: high_pPotency_molecule_pathway10_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:23:26.948431
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 77
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 76
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway10_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:23:26.977049
+Pathway finder started, total number of reactions in network 76
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway10_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:23:26.991639
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway13_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:23:27.652685
+Checking for targets
+Target found for CC1=CC(=CCNC(N)=[NH2+])OC1(O)CCCO
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 2349
+Number of reactions: 5053
+Time used for network generation: 22.95 minutes
+
+Job name: high_pPotency_molecule_pathway13_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:46:28.691435
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 5053
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 4989
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway13_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:46:28.892712
+Pathway finder started, total number of reactions in network 4989
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway13_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:46:29.728342
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 1
+Max_eco 1.0
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.5555609816735332
+pathway by-product 0
+intermediate by-product {None: 0}
+C=CC(=C)CC1=CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=CC1(CC2=CC(=CCNC(N)=[NH2+])OC2=O)CO1.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+C=CCC1=CC(=CCNC(N)=[NH2+])OC1=O.C=CCC1=CC(=CCNC(N)=[NH2+])OC1=O>>C=CC(=C)CC1=CC(=CCNC(N)=[NH2+])OC1=O.CC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0077_4
+rule0126_2
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:33:54.606377
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 117
+Number of reactions: 77
+Time used for network generation: 0.49 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:34:27.639908
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 77
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 76
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:34:27.667925
+Pathway finder started, total number of reactions in network 76
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:34:27.683130
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway19_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:34:28.334964
+Checking for targets
+Target found for C[C@@]1(CC(=O)O)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Target found for C[C@]1(CC(=O)O)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1275
+Number of reactions: 2127
+Time used for network generation: 12.72 minutes
+
+Job name: high_pPotency_molecule_pathway19_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:47:15.340076
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2127
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2120
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway19_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:47:15.443345
+Pathway finder started, total number of reactions in network 2120
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway19_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:47:15.844531
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 1
+Max_eco 1.0
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.8767227339291336
+pathway by-product 0
+intermediate by-product {None: 0}
+C=C(O)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.NC(=[NH2+])NCC=C1OC(=O)[C@H](CC2(O)CO2)C1=O.O
+C=CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=C(O)C[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0077_4
+rule0004_13
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.385086
+Checking for targets
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1134
+Number of reactions: 1813
+Time used for network generation: 11.85 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:34:19.142747
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 1813
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 1779
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:34:19.234863
+Pathway finder started, total number of reactions in network 1779
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+
+Job name: high_pPotency_molecule_pathway3_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:34:19.562980
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway19_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:34:20.355146
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 87
+Number of reactions: 46
+Time used for network generation: 0.41 minutes
+
+Job name: high_pPotency_molecule_pathway19_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:34:48.248966
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 46
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 46
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway19_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:34:48.275934
+Pathway finder started, total number of reactions in network 46
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway19_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:34:48.285833
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway20_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:34:49.005196
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 87
+Number of reactions: 46
+Time used for network generation: 0.41 minutes
+
+Job name: high_pPotency_molecule_pathway20_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:35:16.969633
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 46
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 46
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway20_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:35:16.996306
+Pathway finder started, total number of reactions in network 46
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway20_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:35:17.006029
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway20_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:35:17.701741
+Checking for targets
+Target found for C[C@@]1(CC(=O)O)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Target found for C[C@]1(CC(=O)O)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 1275
+Number of reactions: 2127
+Time used for network generation: 13.18 minutes
+
+Job name: high_pPotency_molecule_pathway20_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:48:32.493649
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 2127
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 2120
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway20_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:48:32.594094
+Pathway finder started, total number of reactions in network 2120
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+1 pathways found!
+2 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway20_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:48:32.976951
+Start ranking pathways. Number of pathways after sanitization: 1
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 1
+Max_eco 1.0
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.8767227339291336
+pathway by-product 0
+intermediate by-product {None: 0}
+C=C(O)C[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.NC(=[NH2+])NCC=C1OC(=O)[C@@H](CC2(O)CO2)C1=O.O
+C=CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C=C(O)C[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0077_4
+rule0004_13
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.448710
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 90
+Number of reactions: 46
+Time used for network generation: 0.42 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:53.240425
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 46
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 45
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:53.267625
+Pathway finder started, total number of reactions in network 45
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway7_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:53.278396
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway10_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:54.017465
+Checking for targets
+Target found for CC(CNC(N)=[NH2+])=C1C[C@H](CCCO)C(=O)O1
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 2843
+Number of reactions: 6153
+Time used for network generation: 27.41 minutes
+
+Job name: high_pPotency_molecule_pathway10_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:50:22.830513
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 6153
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 6082
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway10_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:50:23.068223
+Pathway finder started, total number of reactions in network 6082
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.02 minutes
+2 pathways found!
+4 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway10_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:50:24.058051
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9307951166667947
+Max_eco 0.9307951166667947
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 7.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 7.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 1.0  x  1  =  1.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC(CNC(N)=[NH2+])=C1C=CC(=O)O1>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCCC(CNC(N)=[NH2+])=C1C=CC(=O)O1
+rule0028_51
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 7.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 1.0  x  1  =  1.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CC(C)NC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CC(C)NC(N)=[NH2+])OC1=O
+rule0028_51
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 3
+final score 7.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 1.0  x  1  =  1.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC(CNC(N)=[NH2+])=C1C=C(C)C(=O)O1>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC(CNC(N)=[NH2+])=C1C=C(C)C(=O)O1
+rule0028_51
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 4
+final score 7.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 1.0  x  1  =  1.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCC1=CC(=C(CC)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=C(CC)CNC(N)=[NH2+])OC1=O
+rule0028_51
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 5
+final score 7.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 1.0  x  1  =  1.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCC(C)C1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC(C)C1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0028_51
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 6
+final score 7.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 1.0  x  1  =  1.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(C)CC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CC(C)CC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0028_51
+rule0028_51
+No_Thermo
+No_Thermo
+
+ranking 7
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 8
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CC(C)NC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 9
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 10
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=C(C)C(=CCNC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 11
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC(C)C1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 12
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC(C)CC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 13
+final score 6.313118386493585
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.31311838649358514  x  1  =  0.31311838649358514
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.48483878987018886
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CC(C)CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0043_12
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 14
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 15
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(CC)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 16
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)C(C)NC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 17
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=C(C)C(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 18
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC(C)C1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 19
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCC(C)CC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 20
+final score 6.294093292658193
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.2940932926581931  x  1  =  0.2940932926581931
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.4705699694936448
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CC(CNC(N)=[NH2+])=C1C=C(CCC(C)C)C(=O)O1.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0126_2
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 21
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 22
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(CC)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 23
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)C(C)NC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 24
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=C(C)C(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 25
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCCC(C)C1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 26
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CCC(C)CC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 27
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O>>CC(CNC(N)=[NH2+])=C1C=C(CCC(C)C)C(=O)O1.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 28
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 29
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CC(C)NC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 30
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 31
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=C(C)C(=CCNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 32
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCCC(C)C1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 33
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC(C)CC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+ranking 34
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.25
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O>>CC(C)CCC1=CC(=CCNC(N)=[NH2+])OC1=O.CCCC1=CC(=CCNC(N)=[NH2+])OC1=O
+rule0126_2
+rule0126_2
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCCC1=CC(=CCNC(N)=[NH2+])OC1=O.O>>NC(=[NH2+])NCC=C1C=C(CCCCO)C(O)O1
+NC(=[NH2+])NCC=C1C=C(CCCCO)C(O)O1>>CC1=CC(=CCNC(N)=[NH2+])OC1(O)CCCO
+rule0070_6
+rule0028_51
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(C(=O)O)[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O>>C[C@]1(CC(=O)O)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.O=C=O>>CC(C(=O)O)[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O
+rule0028_47
+rule0023_20
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+CC[C@@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.O=C=O>>NC(=[NH2+])NCC=C1OC(=O)[C@@H](CCC(=O)O)C1=O
+NC(=[NH2+])NCC=C1OC(=O)[C@@H](CCC(=O)O)C1=O>>C[C@@]1(CC(=O)O)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+rule0023_20
+rule0028_46
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9307951166667947
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>CCC[C@H]1CC(=C(C)CNC(N)=[NH2+])OC1=O
+CCC[C@H]1CC(=C(C)CNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CC(CNC(N)=[NH2+])=C1C[C@H](CCCO)C(=O)O1.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9307951166667947
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(O)CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>CC(CNC(N)=[NH2+])=C1C[C@H](CCCO)C(=O)O1
+CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CC(O)CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9318225683761169
+pathway by-product 0
+intermediate by-product {None: 0}
+N.Nc1ccc(C=C2C=C(O)C(=O)O2)cc1C(=O)O>>NC(=O)c1cc(C=C2C=C(O)C(=O)O2)ccc1N.O
+Nc1ccc(C=C2C=C(O)C(=O)O2)cc1.O=C=O>>Nc1ccc(C=C2C=C(O)C(=O)O2)cc1C(=O)O
+rule0055_2
+rule0023_09
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway17_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:28:12.348256
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 117
+Number of reactions: 77
+Time used for network generation: 0.50 minutes
+
+Job name: high_pPotency_molecule_pathway17_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:28:46.124435
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 77
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 76
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway17_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:28:46.152567
+Pathway finder started, total number of reactions in network 76
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway17_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:28:46.167627
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway17_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:28:46.892081
+Checking for targets
+Target found for C[C@@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O
+Target found for C[C@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 2843
+Number of reactions: 6153
+Time used for network generation: 27.45 minutes
+
+Job name: high_pPotency_molecule_pathway17_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:56:18.166999
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 6153
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 6082
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway17_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:56:18.408189
+Pathway finder started, total number of reactions in network 6082
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.02 minutes
+2 pathways found!
+4 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway17_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:56:19.488535
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9307951166667947
+Max_eco 0.9307951166667947
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway6_wGen1
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.380653
+Checking for targets
+Number of generations: 1
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 87
+Number of reactions: 43
+Time used for network generation: 0.41 minutes
+
+Job name: high_pPotency_molecule_pathway6_wGen1
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:22:52.659430
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 43
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 42
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway6_wGen1
+Job type: pathway search
+Job started on: 2026-07-28 10:22:52.686148
+Pathway finder started, total number of reactions in network 42
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+No pathway found! Try adjusting pruning parameters.
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway6_wGen1
+Job type: pathway ranking
+Job started on: 2026-07-28 10:22:52.696054
+Pathway file not found, exiting pathway ranking
+
+Job name: high_pPotency_molecule_pathway9_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:53.450631
+Checking for targets
+Target found for C[C@@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Target found for C[C@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 3766
+Number of reactions: 7389
+Time used for network generation: 36.74 minutes
+
+Job name: high_pPotency_molecule_pathway9_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 10:59:41.967544
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 7389
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 7310
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway9_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 10:59:42.232406
+Pathway finder started, total number of reactions in network 7310
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.02 minutes
+2 pathways found!
+4 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway9_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 10:59:43.342093
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9343230148342855
+Max_eco 0.9343230148342855
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+C=CCC1=CC(=CCNC(N)=[NH2+])OC1=O.O>>NC(=[NH2+])NCC=C1C=C(CCCO)C(=O)O1
+C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O.NC(=[NH2+])NCC=C1C=C(CCCO)C(=O)O1>>CC(CNC(N)=[NH2+])=C1C=C(CCCO)C(=O)O1.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0020_19
+rule0043_12
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 1.0
+pathway by-product 0
+intermediate by-product {None: 0}
+C=CCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.O>>CC(CNC(N)=[NH2+])=C1C=C(CCCO)C(=O)O1
+C=CCC1=CC(=CCNC(N)=[NH2+])OC1=O.C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O>>C=CCC1=CC(=C(C)CNC(N)=[NH2+])OC1=O.Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O
+rule0020_19
+rule0043_12
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:34:00.934463
+Checking for targets
+Target found for C[C@@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O
+Target found for C[C@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 2843
+Number of reactions: 6153
+Time used for network generation: 26.23 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 11:00:18.709058
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 6153
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 6082
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway18_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 11:00:18.916587
+Pathway finder started, total number of reactions in network 6082
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.01 minutes
+2 pathways found!
+4 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway18_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 11:00:19.772916
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9307951166667947
+Max_eco 0.9307951166667947
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+Job name: high_pPotency_molecule_pathway8_wGen2
+Job type: enzymatic network expansion forward
+Ruleset: JN3604IMT (JN3604IMT_rules.tsv)
+Job started on: 2026-07-28 10:22:24.471318
+Checking for targets
+Target found for C[C@@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Target found for C[C@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+Number of generations: 2
+Number of operators loaded: 3571
+Number of molecules before expantion (including cofactors): 42
+Number of molecules after expantion (including cofactors): 3766
+Number of reactions: 7389
+Time used for network generation: 38.13 minutes
+
+Job name: high_pPotency_molecule_pathway8_wGen2
+Job type: post-processing pretreat networks
+Job started on: 2026-07-28 11:00:36.716539
+Loading networks, it may take a while if loading large networks from file
+Loading network 1 from memory
+Number of reations in network 1: 7389
+Networks loaded, now generating reaction strings
+Reaction strings generation finished
+Removing unconnected reactions
+Unconnected reactions removed
+Total number of reactions after pretreatment: 7310
+Time used for network pretreatment: 0.00 minutes
+
+Job name: high_pPotency_molecule_pathway8_wGen2
+Job type: pathway search
+Job started on: 2026-07-28 11:00:36.969451
+Pathway finder started, total number of reactions in network 7310
+Searching for pathways.
+If it is taking too long, try adjusting pruning parameters
+Pathway search finished, removing loops if there's any.
+Time used for pathway search: 0.02 minutes
+2 pathways found!
+4 reactions found in all pathways
+Min number of reactions in a pathway: 2
+Max number of reactions in a pathway: 2
+Pruning parameters for this search:
+search_depth: 2
+max_num_rxns: 2
+min_rxn_atom_economy: 0.0
+
+Job name: high_pPotency_molecule_pathway8_wGen2
+Job type: pathway ranking
+Job started on: 2026-07-28 11:00:38.070605
+Start ranking pathways. Number of pathways after sanitization: 2
+Reaction thermodynamics ranking working
+Reaction thermodynamics ranking finished
+Atom economy ranking working
+Min_eco 0.9343230148342855
+Max_eco 0.9343230148342855
+None_eco 0
+Atom_economy ranking finished
+Number of steps ranking working
+Number of steps ranking finished
+By product_number ranking working
+You can adjust multi-processing number to speed it up
+
+Saved summary : /mnt/data.ese/nfs/users/sghosh6/DTRA_project/MACAW/DrugDesignData/Results/BacillusAnthracis_bestMACAW_allDB_generative/DORAnet/BasidalinPrecursor/PATHWAY_reconstruction/job_summary.csv
+status
+ok    40
+
+Status by generation:
+status         ok
+generationRun    
+1              20
+2              20
+Total time    : 2299.05 s
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9307951166667947
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>CCC[C@@]1(C)CC(=CCNC(N)=[NH2+])OC1=O
+CCC[C@@]1(C)CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C[C@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9307951166667947
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.NC(=[NH2+])NCC=C1C[C@H](CCCCO)C(=O)O1.O
+NC(=[NH2+])NCC=C1C[C@H](CCCCO)C(=O)O1>>C[C@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O
+rule0004_13
+rule0028_51
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.04 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9343230148342855
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O>>CCC[C@]1(C)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+CCC[C@]1(C)C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C[C@@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9343230148342855
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(O)CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O>>C[C@@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+CCCC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CC(O)CC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9307951166667947
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>CCC[C@]1(C)CC(=CCNC(N)=[NH2+])OC1=O
+CCC[C@]1(C)CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C[C@@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9307951166667947
+pathway by-product 0
+intermediate by-product {None: 0}
+CC(O)CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O>>C[C@@]1(CCCO)CC(=CCNC(N)=[NH2+])OC1=O
+CCCC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>CC(O)CC[C@H]1CC(=CCNC(N)=[NH2+])OC1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+
+By product_number ranking finished
+min score 6.0
+max score 6.0
+
+Pathway ranking finished. Pathway scores:
+
+ranking 1
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9343230148342855
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O>>CCC[C@@]1(C)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+CCC[C@@]1(C)C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>C[C@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.O
+rule0028_51
+rule0004_13
+No_Thermo
+No_Thermo
+
+ranking 2
+final score 6.0
+Max reaction enthalpy score 0  x  2  =  0
+Number of reactions score 1.0  x  4  =  4.0
+By-product score 1.0  x  2  =  2.0
+Pathway atom economy score 0.0  x  1  =  0.0
+Salt score 0  x  0  =  0
+Reaxys score 0  x  0  =  0
+Cool score 0  x  0  =  0
+atom economy 0.9343230148342855
+pathway by-product 0
+intermediate by-product {None: 0}
+CCCC[C@H]1C(=O)OC(=CCNC(N)=[NH2+])C1=O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1.O=O>>NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.NC(=[NH2+])NCC=C1OC(=O)[C@H](CCCCO)C1=O.O
+NC(=[NH2+])NCC=C1OC(=O)[C@H](CCCCO)C1=O>>C[C@]1(CCCO)C(=O)OC(=CCNC(N)=[NH2+])C1=O
+rule0004_13
+rule0028_51
+No_Thermo
+No_Thermo
+
+Time used for pathway ranking: 0.05 minutes
+

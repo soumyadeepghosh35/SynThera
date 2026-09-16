@@ -1,0 +1,52 @@
+pathway number 1
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1, 1)', '(1, 1)$(1,)']
+reaction SMILES, name, and enthalpy:
+*C1=C(*)C(=O)C(*)=C(*)C1=O.C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O>>*c1c(*)c(O)c(*)c(*)c1O.C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+rule0467_8
+rule0070_6
+No_Thermo
+No_Thermo
+
+pathway number 2
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O>>C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.C[C@H](N)C(O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+rule0070_6
+rule0324_2
+No_Thermo
+No_Thermo
+
+pathway number 3
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1>>C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1
+rule0070_6
+rule0002_152
+No_Thermo
+No_Thermo
+
+pathway number 4
+place holder empty
+place holder empty
+place holder empty
+reaction SMILES stoichiometry ['(1, 1)$(1,)', '(1, 1)$(1, 1)']
+reaction SMILES, name, and enthalpy:
+C[C@H](C=C1OC(=O)[C@@H](C)[C@H]1O)CNC(=O)[C@H](C)N.O>>C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O
+C[C@H](N)C(=O)NC(O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.O=O>>C[C@H](N)C(=O)NC(=O)[C@H](C)C=C1OC(O)[C@@H](C)[C@H]1O.OO
+rule0070_6
+rule0074_16
+No_Thermo
+No_Thermo
+

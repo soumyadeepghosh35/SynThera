@@ -1,0 +1,33 @@
+# Parallel DORA-XGB configuration.
+# Run with: python runDORAXGB_parallel.py doraxgb_config_parallel.yaml
+#
+# For each starter_* directory under input.outputDir, the orchestrator ensures a
+# reaction CSV exists (building it from that directory's *_network_pretreated.json
+# when absent), writes runDORAXGB.py and doraxgb_config.yaml into the directory,
+# and runs `python runDORAXGB.py doraxgb_config.yaml` there. Each job writes
+# reactionDF_wDORAXGBfeasibility.csv into its own directory.
+
+input:
+  outputDir: doranet_output          # holds the starter_* subdirectories
+  starterGlob: "starter_*"
+  reactionCSV: reactionDF.csv         # input for each per-dir run; built from JSON if missing
+  networkJsonGlob: "*_network_pretreated.json"
+
+parallel:
+  num_workers: 4                      # directories scored at once; capped at cpu_count()
+
+scoring:
+  # Written into each per-directory doraxgb_config.yaml. Kept single-core because the
+  # outer level already runs many directories in parallel; raise these only if you
+  # instead lower parallel.num_workers.
+  testMode: false
+  testRows: 100
+  useMultiprocessing: false
+  max_cores: 1
+  mpChunkSize: 64
+  cacheSize: 200000
+
+execution:
+  run: true                          # false scaffolds the directories and files without running
+  python: python                     # interpreter used for each `python runDORAXGB.py ...`
+  timeout_seconds: 3600               # per-directory subprocess timeout

@@ -1,0 +1,47 @@
+jobName: starter_00283
+starters:
+- C=CCCC=C1C=C(CCCCc2c[nH]c(Cl)c2Cl)C(=O)O1
+doranetPath: /users/sghosh6/DTRA_project/MACAW/doranet
+generations: 2
+totalGenerations: 2
+direction: forward
+ruleset: JN3604IMT
+maxAtoms:
+  C: 12
+  N: 3
+  O: 5
+  S: 3
+helpers:
+- O
+- O=O
+- '[H][H]'
+- O=C=O
+- C=O
+- '[C-]#[O+]'
+- Br
+- '[Br][Br]'
+- CO
+- C=C
+- O=S(O)O
+- N
+- O=S(=O)(O)O
+- O=NO
+- N#N
+- O=[N+]([O-])O
+- 'NO'
+- C#N
+- S
+- O=S=O
+- N#CO
+- '[H+]'
+- OO
+- Cl
+- I
+- O=C(O)O
+- O=P(O)(O)O
+- O=P(O)(O)OP(=O)(O)O
+- C
+- CC
+- CC=O
+- CC(=O)O
+- CCC(=O)O

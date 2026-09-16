@@ -1,0 +1,18 @@
+input:
+  outputDir: doranet_output
+  starterGlob: starter_*
+  reactionCSV: reactionDF.csv
+  networkJsonGlob: '*_network_pretreated.json'
+parallel:
+  num_workers: 4
+scoring:
+  testMode: false
+  testRows: 100
+  useMultiprocessing: false
+  max_cores: 1
+  mpChunkSize: 64
+  cacheSize: 200000
+execution:
+  run: true
+  python: python
+  timeout_seconds: 3600

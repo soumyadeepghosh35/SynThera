@@ -1,0 +1,2 @@
+SMILES='NC(=[NH2+])NCC=C(O)[C@@H](O)CC(=O)O>>NC(=[NH2+])[N+]1=C(O)C[C@H](O)C(O)=CC1'
+SMILES='NC(=[NH2+])NCC=C1OC(=O)C[C@@H]1O>>NC(=[NH2+])NCC=C(O)[C@@H](O)CC(=O)O'

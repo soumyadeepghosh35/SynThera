@@ -1,0 +1,5 @@
+starter_Canonical_SMILES,Canonical_SMILES,generationSteps,DerivativeSimScore,NonDerivativeSimScore,feasibilityScore_rule3
+Nc1cc(O)cc(C=C2C=C(O)C(=O)O2)c1,Nc1cc(O)c(O)c(C=C2C=C(O)C(=O)O2)c1,1,0.5854,,0.8789982
+Nc1cc(O)cc(C=C2C=C(O)C(=O)O2)c1,Nc1cc(C=C2C=C(O)C(=O)O2)cc(O)c1O,1,0.625,,0.6892645
+Nc1cc(O)cc(C=C2C=C(O)C(=O)O2)c1,Oc1cc2cc(c1O)C=c1cc(O)c(o1)=N2,2,0.1296,,0.6202198
+Nc1cc(O)cc(C=C2C=C(O)C(=O)O2)c1,Oc1cc2cc(c1)N=c1oc(cc1O)=C2,1,0.1765,,0.7763763

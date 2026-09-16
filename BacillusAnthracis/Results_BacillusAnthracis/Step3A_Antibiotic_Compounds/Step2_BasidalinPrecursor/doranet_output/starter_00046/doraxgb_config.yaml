@@ -1,0 +1,11 @@
+input:
+  reactionCSV: reactionDF.csv
+output:
+  fileNamePrefix: starter_00046
+scoring:
+  testMode: false
+  testRows: 100
+  useMultiprocessing: false
+  max_cores: 1
+  mpChunkSize: 64
+  cacheSize: 200000
