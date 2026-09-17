@@ -3,8 +3,14 @@ services:
   synthera:
     build:
       context: .              # the build context is build/ only
-      # Once licensed, uncomment to install ART into SynThera (see ART.md).
+      # RetroTide, DORAnet, and DORA-XGB are installed automatically at their
+      # default (latest) refs - no args needed for them. Uncomment any of
+      # these to pin a specific commit/tag, or (once licensed) to install ART
+      # into SynThera. See build/DOCKER.md.
       # args:
+      #   RETROTIDE_REF: "git+https://github.com/JBEI/RetroTide.git@<commit>"
+      #   DORANET_REF: "<commit-or-tag>"
+      #   DORAXGB_REF: "git+https://github.com/tyo-nu/DORA_XGB.git@<commit>"
       #   ART_SOURCE: "git+https://github.com/JBEI/AutomatedRecommendationTool.git"
     image: synthera:latest
     container_name: synthera

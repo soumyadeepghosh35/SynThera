@@ -2,7 +2,11 @@
 # Edit this file only; runDORAnet.py is reusable across starters.
 
 # Path to the local DORAnet checkout (added to sys.path at runtime).
-doranetPath: /users/sghosh6/DTRA_project/MACAW/doranet
+# The Docker image bakes DORAnet in at this path (build/Dockerfile installs
+# https://github.com/wsprague-nu/doranet.git there for both environments) -
+# leave it as-is when running inside the container. Point it at your own
+# checkout only for a manual, non-Docker setup.
+doranetPath: /opt/synthera-deps/doranet
 
 # Prefix for all output files (molecule CSV and pathway files).
 jobName: GuanosineOnly_gen3

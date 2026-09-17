@@ -9,12 +9,14 @@
 # which keeps notebooks, executables, external/ergochemics, and any mounted data
 # live inside the container with edits saved back to the host.
 #
-# RetroTide (JBEI Biosynthetic Cluster Simulator) is open source and is baked
-# into the image, so users install nothing for it. ART (Automated Recommendation
-# Tool) is the one exception: it is licensed separately and is NOT installed.
-# Obtain an ART license and source first (see ART.md), then add it with the
-# ART_SOURCE build argument below or with installArt.sh against a running
-# container. Only Step2_BuildModel needs ART.
+# RetroTide (JBEI Biosynthetic Cluster Simulator), DORAnet (enzymatic reaction
+# network generation), and DORA-XGB (enzymatic feasibility scoring) are all
+# open source and are baked into the image from their own GitHub repositories,
+# so users install nothing for them. ART (Automated Recommendation Tool) is the
+# one exception: it is licensed separately and is NOT installed. Obtain an ART
+# license and source first (see ART.md), then add it with the ART_SOURCE build
+# argument below or with installArt.sh against a running container. Only
+# Step2_BuildModel needs ART.
 
 # Pin this tag to a specific release on Docker Hub for reproducible rebuilds.
 FROM condaforge/miniforge3:latest
@@ -35,9 +37,11 @@ WORKDIR /opt/build
 # directory, which is the build context.
 COPY environment.yml exptDesigns_environment.yml setup.py prepareEnvSpecs.py ./
 
-# Rewrite the specs in place for a clean from-PyPI build: drop ART (licensed)
-# and pathermo (absent from PyPI), and correct the graphviz pip name. The conda
-# build pins are preserved byte for byte.
+# Rewrite the specs in place for a clean from-PyPI build: drop ART (licensed),
+# pathermo (absent from PyPI), and doranet/dora-xgb (installed below from their
+# own GitHub sources instead, so the exact code the executables/ scripts expect
+# is guaranteed), and correct the graphviz pip name. The conda build pins are
+# preserved byte for byte.
 RUN python prepareEnvSpecs.py
 
 # Build both environments with the project's own logic. The kernel step is
@@ -65,6 +69,35 @@ ARG RETROTIDE_REF="git+https://github.com/JBEI/RetroTide.git"
 RUN conda run -n "$RETROTIDE_ENV" pip install --no-deps mapchiral \
  && conda run -n "$RETROTIDE_ENV" pip install --no-deps "$RETROTIDE_REF" \
  && conda run -n "$RETROTIDE_ENV" python -c "import retrotide, bcs; print('RetroTide import OK')"
+
+# DORAnet (enzymatic reaction network generation) is what SynThera_ExptDesigns
+# actually uses, for both Step 3 (compound generation - Step3_GenerateCompounds.ipynb
+# runs on SynThera_ExptDesigns, not SynThera) and Step 5 (pathway design). The
+# executables/ scripts that drive it (runDORAnet.py, and the per-run pathway
+# scripts Step 5 generates) require a real on-disk checkout at the
+# `doranetPath` set in their config, not just an importable package, so one
+# checkout is kept in the image at DORANET_DIR. It is installed into SynThera
+# too, out of caution in case anything in Steps 1/2/4 still depends on it -
+# drop that half of the loop below if you confirm nothing does. Pass
+# --build-arg DORANET_REF=<tag-or-commit> to pin a specific release instead of
+# the default branch.
+ARG DORANET_REPO="https://github.com/wsprague-nu/doranet.git"
+ARG DORANET_REF=""
+ARG DORANET_DIR="/opt/synthera-deps/doranet"
+RUN git clone "$DORANET_REPO" "$DORANET_DIR" \
+ && if [ -n "$DORANET_REF" ]; then git -C "$DORANET_DIR" checkout "$DORANET_REF"; fi \
+ && for env in SynThera SynThera_ExptDesigns; do \
+      conda run -n "$env" pip install --no-deps "$DORANET_DIR" \
+       && conda run -n "$env" python -c "import doranet.modules.enzymatic, doranet.modules.post_processing; print('DORAnet import OK in $env')"; \
+    done
+
+# DORA-XGB (gradient-boosted enzymatic-reaction feasibility scoring) pins
+# xgboost==1.6.2, which only SynThera_ExptDesigns provides, so it is installed
+# there only. Pass --build-arg DORAXGB_REF=<git-spec-with-@commit> to pin a
+# specific release instead of the default branch.
+ARG DORAXGB_REF="git+https://github.com/tyo-nu/DORA_XGB.git"
+RUN conda run -n SynThera_ExptDesigns pip install --no-deps "$DORAXGB_REF" \
+ && conda run -n SynThera_ExptDesigns python -c "from DORA_XGB import DORA_XGB; print('DORA-XGB import OK')"
 
 # Optional ART install once you are licensed. ART_SOURCE may be a git URL, a
 # PyPI-style spec, or a wheel reachable during the build, for example:

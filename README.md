@@ -60,8 +60,8 @@ them by hand unless you are doing a manual, non-Docker install.
 
 | Environment | Spec file (in `build/`) | Covers | Key tooling |
 |---|---|---|---|
-| **SynThera** | `environment.yml` | Steps 1-4 | Embedding models, ART, DORAnet + RetroTide generation, potency and ADMET scoring |
-| **SynThera_ExptDesigns** | `exptDesigns_environment.yml` | Step 5 | DNA Chisel, codon tables, Biopython, COBRApy, eQuilibrator, DORAnet, DORA-XGB, XGBoost, scikit-learn, RDKit |
+| **SynThera** | `environment.yml` | Steps 1, 2, 4 | Embedding models, ART, potency and ADMET scoring |
+| **SynThera_ExptDesigns** | `exptDesigns_environment.yml` | Steps 3, 5 | DORAnet + RetroTide generation, DNA Chisel, codon tables, Biopython, COBRApy, eQuilibrator, DORA-XGB, XGBoost, scikit-learn, RDKit |
 
 Both spec files now declare their environment name internally (`name: SynThera`
 / `name: SynThera_ExptDesigns`), so this is what you get whether you build with
@@ -107,7 +107,7 @@ Full details, GPU setup, and the ART installation steps below are in
 | `Step0_GetBioactivityData.ipynb` | SynThera |
 | `Step1_DataPreparation.ipynb` | SynThera |
 | `Step2_BuildModel.ipynb` | SynThera |
-| `Step3_GenerateCompounds.ipynb` | SynThera |
+| `Step3_GenerateCompounds.ipynb` | SynThera_ExptDesigns |
 | `Step4_PredictProperties.ipynb` | SynThera |
 | `Step5_ExperimentalDesigns.ipynb` | SynThera_ExptDesigns |
 
@@ -133,7 +133,11 @@ Some Step 3/4/5 work (large DORAnet pathway searches, ADMET scoring batches,
 DORA-XGB feasibility ranking, ART cross-validation) is driven by standalone
 scripts in `executables/`, not run directly inside a notebook cell, because it
 is too long-running for an interactive kernel. The pattern is the same for
-each:
+each, but **the conda environment differs per script**. `Step3_GenerateCompounds.ipynb`
+runs on `SynThera_ExptDesigns`, not `SynThera` - so `runDORAnet.py` (which it
+calls into) needs `SynThera_ExptDesigns` too, same as `runDORAXGB.py` (which
+needs packages that only exist there). Only `runADMET.py` and `runART.py`
+need `SynThera`:
 
 1. The notebook that reaches that step writes out a small YAML config next to
    its results (for example `Results_<Pathogen>/Step4_ADMET/ADMET_config_....yaml`).
@@ -141,18 +145,54 @@ each:
    tab in JupyterLab (**File -> New -> Terminal**) or with
    `docker exec -it synthera bash`:
    ```bash
-   conda run -n SynThera python executables/runDORAnet.py   <path-to-config>.yaml
-   conda run -n SynThera python executables/runADMET.py     <path-to-config>.yaml
-   conda run -n SynThera python executables/runDORAXGB.py   <path-to-config>.yaml
-   conda run -n SynThera python executables/runART.py       <path-to-config>.yaml
+   conda run -n SynThera             python executables/runADMET.py   <path-to-config>.yaml
+   conda run -n SynThera             python executables/runART.py    <path-to-config>.yaml
+   conda run -n SynThera_ExptDesigns python executables/runDORAnet.py <path-to-config>.yaml
+   conda run -n SynThera_ExptDesigns python executables/runDORAXGB.py <path-to-config>.yaml
    ```
 3. The script prints progress and writes its results back into the same
    results folder; existing case studies keep the log as a `*.out` file next
    to the config for reference.
 
 The `*_config.yaml` files directly under `executables/` are templates, not
-live configs - copy one alongside a new run rather than editing it in place,
-and see the caveat about hardcoded paths below before you rely on them.
+live configs - copy one alongside a new run rather than editing it in place.
+`admet_config.yaml` in particular still ships with the original author's
+absolute paths (see [Known limitations](#known-limitations-read-before-you-build))
+and needs its `inputFile`/`outputDir` edited before use; `doranet_config.yaml`
+does not need editing for a Docker run (see below).
+
+### DORAnet, DORA-XGB, and RetroTide are preinstalled
+
+All three are free, open-source packages and are baked into the image at build
+time, straight from their own GitHub repositories - no manual install step, no
+license:
+
+| Tool | Source | Installed into |
+|---|---|---|
+| RetroTide | <https://github.com/JBEI/RetroTide> | `SynThera_ExptDesigns` |
+| DORAnet | <https://github.com/wsprague-nu/doranet> | `SynThera` and `SynThera_ExptDesigns` |
+| DORA-XGB | <https://github.com/tyo-nu/DORA_XGB> | `SynThera_ExptDesigns` |
+
+DORAnet gets one extra step: `runDORAnet.py` and the per-run pathway scripts
+require an actual checkout directory (not just an installed package) at the
+`doranetPath` set in their config, so the image also keeps a real DORAnet
+checkout on disk at `/opt/synthera-deps/doranet`, and
+`executables/doranet_config.yaml` already points there by default. If you
+generate a brand-new config for a new target, keep `doranetPath` set to that
+path (it is the correct value inside the container).
+
+DORAnet is installed into both environments, but `SynThera_ExptDesigns` is the
+one that actually uses it - both `Step3_GenerateCompounds.ipynb` and
+`Step5_ExperimentalDesigns.ipynb` run there (see the kernel table above).
+`SynThera` still gets it installed too, out of caution, since nothing in this
+audit confirmed whether any Step 1/2/4 code also depends on it. If you confirm
+nothing does, it is safe to drop the `SynThera` install from `build/Dockerfile`
+and stop pinning `doranet` in `environment.yml`.
+
+To pin any of the three to an exact commit or tag instead of the latest
+default branch, pass the matching build arg - see
+[`build/DOCKER.md`](build/DOCKER.md#bundled-tools-versus-art) for the exact
+`docker compose build --build-arg ...` invocation.
 
 ## Known limitations (read before you build)
 
@@ -160,13 +200,14 @@ This section is intentionally blunt: these are gaps found by auditing the
 repository, not yet fixed, and worth resolving (or at least being aware of)
 before you rely on the container for a fresh reproduction.
 
-- **Several `executables/*.yaml` templates hardcode the original author's
-  filesystem paths.** For example, `executables/doranet_config.yaml` points
-  `doranetPath` at `/users/sghosh6/DTRA_project/MACAW/doranet` and
-  `executables/admet_config.yaml` points `inputFile`/`outputDir` at an NFS path
-  under `/mnt/data.ese/...`. Neither path exists inside the container or on
-  another machine. Edit these fields to match your own run before using a
-  template config, and expect to do this per pathogen/target.
+- **`executables/admet_config.yaml` still hardcodes the original author's
+  filesystem path.** It points `inputFile`/`outputDir` at an NFS path under
+  `/mnt/data.ese/...` that does not exist inside the container or on another
+  machine. Edit these fields to match your own run before using it as a
+  template, and expect to do this per pathogen/target. (`doranet_config.yaml`
+  no longer has this problem - its `doranetPath` now points at the DORAnet
+  checkout the image bakes in; see
+  [Running the long compute steps](#running-the-long-compute-steps).)
 - **`external/ergochemics` is bundled but not installed as a package.** Step5
   notebooks add `external/ergochemics/src` to `sys.path` at runtime instead of
   a proper `pip install`. This works, but `ergochemics` declares
@@ -194,12 +235,15 @@ python prepareEnvSpecs.py   # rewrites local copies of the specs for a from-PyPI
 python setup.py              # creates both environments and registers their kernels
 ```
 
-`prepareEnvSpecs.py` removes the `art` and `pathermo` pip entries (neither
-resolves from a clean PyPI install - `pathermo` is not currently imported by
-any notebook or script in this repository, so removing it is safe) and renames
-`python-graphviz` to the PyPI name `graphviz`. It edits copies of the specs in
-place; if you run it directly against `build/environment.yml`, keep a backup
-first.
+`prepareEnvSpecs.py` removes the `art`, `pathermo`, `doranet`, and `dora-xgb`
+pip entries and renames `python-graphviz` to the PyPI name `graphviz`. `art`
+and `pathermo` are removed because neither resolves from a clean PyPI install
+(`pathermo` is not currently imported by any notebook or script in this
+repository, so removing it is safe); `doranet` and `dora-xgb` are removed
+because the Docker build reinstalls them from their own GitHub sources instead
+(see below) - on a manual setup, you take over that step yourself. It edits
+copies of the specs in place; if you run it directly against
+`build/environment.yml`, keep a backup first.
 
 Useful `setup.py` options:
 
@@ -207,6 +251,27 @@ Useful `setup.py` options:
 python setup.py --force            # remove and recreate environments that already exist
 python setup.py --skip-kernels     # build the environments without registering kernels
 python setup.py --only SynThera    # act on a single environment
+```
+
+### Installing RetroTide, DORAnet, and DORA-XGB manually
+
+The Docker image installs these automatically (see
+[Running the long compute steps](#running-the-long-compute-steps)); a manual
+setup needs the same three commands run by hand, after `setup.py` finishes:
+
+```bash
+# RetroTide -> SynThera_ExptDesigns
+conda run -n SynThera_ExptDesigns pip install --no-deps mapchiral
+conda run -n SynThera_ExptDesigns pip install --no-deps "git+https://github.com/JBEI/RetroTide.git"
+
+# DORAnet -> both environments, from one checkout kept wherever you like
+git clone https://github.com/wsprague-nu/doranet.git ~/doranet
+conda run -n SynThera             pip install --no-deps ~/doranet
+conda run -n SynThera_ExptDesigns pip install --no-deps ~/doranet
+# then point doranetPath in any executables/doranet_config.yaml you use at ~/doranet
+
+# DORA-XGB -> SynThera_ExptDesigns only (needs xgboost==1.6.2, which only that env has)
+conda run -n SynThera_ExptDesigns pip install --no-deps "git+https://github.com/tyo-nu/DORA_XGB.git"
 ```
 
 ### Prerequisites for manual setup

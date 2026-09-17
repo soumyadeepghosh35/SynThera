@@ -98,7 +98,7 @@ Once ART is installed by Route B:
 
 - Select the **SynThera** kernel and run `Step2_BuildModel.ipynb`; `import art`
   now succeeds.
-- The other steps (1, 3, 4, and Step 5 on `SynThera_ExptDesigns`) do not use ART
+- The other steps (1 and 4 on `SynThera`, and 3 and 5 on `SynThera_ExptDesigns`) do not use ART
   and are unaffected.
 
 Two settings matter for reproducible ART runs, since ART uses all available

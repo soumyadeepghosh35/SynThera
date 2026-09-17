@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rsync -avzP sghosh6@gpu2.ese.lbl.gov:/users/sghosh6/DTRA_project/MACAW/SynThera/ .

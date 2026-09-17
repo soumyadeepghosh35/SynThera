@@ -1,7 +1,9 @@
 """Filter the exported SynThera environment specifications for container builds.
 
-The exported specs contain three pip entries that a clean from-PyPI build cannot
-resolve as written:
+The exported specs contain pip entries that either cannot resolve from a clean
+PyPI build, or that the Dockerfile deliberately reinstalls from their own
+GitHub sources afterward so the exact code the executables/ scripts expect is
+guaranteed:
 
   art              Automated Recommendation Tool. Excluded on purpose: ART is
                    licensed separately for academic use, so it is never baked
@@ -9,6 +11,15 @@ resolve as written:
                    and the author's instructions (see DOCKER.md).
   pathermo         Not published to PyPI. Removed so the build can proceed;
                    supply your own source if a downstream step needs it.
+  doranet          Reinstalled by the Dockerfile from
+                   https://github.com/wsprague-nu/doranet.git into both
+                   environments, from a checkout kept on disk in the image
+                   (runDORAnet.py needs a real directory, not just an
+                   installed package). Removed here so the PyPI pin is never
+                   installed first only to be overwritten.
+  dora-xgb         Reinstalled by the Dockerfile from
+                   https://github.com/tyo-nu/DORA_XGB.git into
+                   SynThera_ExptDesigns only, for the same reason.
   python-graphviz  The conda name for the binding published on PyPI as
                    'graphviz'. Renamed so pip can resolve it.
 
@@ -21,11 +32,11 @@ from pathlib import Path
 
 FILTERS = {
     "environment.yml": {
-        "remove": ("art==", "pathermo=="),
+        "remove": ("art==", "pathermo==", "doranet=="),
         "rename": {},
     },
     "exptDesigns_environment.yml": {
-        "remove": ("pathermo==",),
+        "remove": ("pathermo==", "doranet==", "dora-xgb=="),
         "rename": {"python-graphviz==0.21": "graphviz==0.21"},
     },
 }
@@ -81,6 +92,8 @@ def main():
 
     print(f"\nDone. Removed {totalRemoved} entrie(s), renamed {totalRenamed}.")
     print("ART is intentionally excluded; install it separately once licensed.")
+    print("DORAnet and DORA-XGB are reinstalled by the Dockerfile from their own")
+    print("GitHub sources; see this file's module docstring.")
 
 
 if __name__ == "__main__":
