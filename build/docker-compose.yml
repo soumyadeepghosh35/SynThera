@@ -1,6 +1,11 @@
 # Run from inside this build/ directory:  docker compose up --build
 services:
   synthera:
+    # Forced to amd64 because environment.yml / exptDesigns_environment.yml
+    # are build-pinned linux-64 (x86_64) exports - see the matching comment in
+    # Dockerfile. On Apple Silicon this runs under emulation (enable "Use
+    # Rosetta for x86/amd64 emulation" in Docker Desktop settings for speed).
+    platform: linux/amd64
     build:
       context: .              # the build context is build/ only
       # RetroTide, DORAnet, and DORA-XGB are installed automatically at their

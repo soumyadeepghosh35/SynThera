@@ -130,6 +130,22 @@ Step 3 and Step 5 actually run on; it is also the only environment with the
 `xgboost==1.6.2` that `runDORAXGB.py` needs). See the top-level README for the
 full walkthrough.
 
+## Apple Silicon (and any arm64 host)
+
+Both environment specs are fully build-pinned **linux-64 (x86_64)** exports -
+every package locked to an exact conda build hash. Docker builds against the
+host's native architecture by default, so on an Apple Silicon Mac (arm64) the
+base image resolves to `linux-aarch64` and the very first `mamba env create`
+fails, since none of the pinned x86_64 build hashes exist in that channel. The
+Dockerfile's `FROM --platform=linux/amd64 ...` line and `docker-compose.yml`'s
+`platform: linux/amd64` both force the whole build and container to run under
+x86_64 emulation instead, so this is handled automatically - no action needed
+beyond having Docker Desktop's emulation support available (it ships with
+QEMU-based emulation by default; enabling **Settings -> General -> Use Rosetta
+for x86/amd64 emulation on Apple Silicon** speeds this up noticeably). Expect
+the build, and the containerized packages, to run slower than they would
+natively as a result.
+
 ## GPU and image size
 
 The `SynThera` spec pins CUDA builds of `torch` and `tensorflow` with the full

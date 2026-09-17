@@ -19,7 +19,15 @@
 # Step2_BuildModel needs ART.
 
 # Pin this tag to a specific release on Docker Hub for reproducible rebuilds.
-FROM condaforge/miniforge3:latest
+# --platform=linux/amd64 is required even on an Apple Silicon (arm64) host:
+# environment.yml and exptDesigns_environment.yml are fully build-pinned
+# linux-64 (x86_64) exports (exact conda build hashes), which do not exist in
+# the linux-aarch64 channel. Without this, Docker pulls the base image for the
+# host's native architecture and the very first `mamba env create` fails with
+# "does not exist (perhaps a typo or a missing channel)" for nearly every
+# package. This line forces the whole image to build and run under x86_64
+# emulation instead, so the pinned specs resolve exactly as exported.
+FROM --platform=linux/amd64 condaforge/miniforge3:latest
 
 # git is needed for the git+ pip installs below (RetroTide, and ART when
 # licensed). Installing it at system level keeps it on PATH under any conda env.
