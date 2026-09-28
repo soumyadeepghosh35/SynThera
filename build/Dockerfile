@@ -3,11 +3,18 @@
 # user only needs Docker, not a local conda toolchain. The build-pinned linux-64
 # specs resolve as intended inside this linux-64 image.
 #
-# The build context is this build/ directory only, so the image stays small and
-# the project's large data directories never enter the context. The project
-# itself is bind-mounted at /opt/synthera at runtime (see docker-compose.yml),
-# which keeps notebooks, executables, external/ergochemics, and any mounted data
-# live inside the container with edits saved back to the host.
+# The build context is the repository root (see docker-compose.yml's
+# build.context), filtered through the root ../.dockerignore, which excludes
+# everything except build/, executables/, tests/, and external/ - so the
+# project's multi-GB per-pathogen data directories never enter the context or
+# the image. executables/, tests/, and external/ergochemics/src are copied
+# into a fixed, standalone location (/opt/synthera-app, see the bottom of this
+# file) so that a user who only has the built/pulled image - no source
+# checkout, no bind mount - can still run the test suite. At runtime the full
+# project is additionally bind-mounted at /opt/synthera (see
+# docker-compose.yml), which keeps notebooks, executables, external/ergochemics,
+# and any mounted data live inside the container with edits saved back to the
+# host; that live copy shadows the baked-in one for anyone using compose.
 #
 # RetroTide (JBEI Biosynthetic Cluster Simulator), DORAnet (enzymatic reaction
 # network generation), and DORA-XGB (enzymatic feasibility scoring) are all
@@ -29,9 +36,29 @@
 # emulation instead, so the pinned specs resolve exactly as exported.
 FROM --platform=linux/amd64 condaforge/miniforge3:latest
 
-# git is needed for the git+ pip installs below (RetroTide, and ART when
-# licensed). Installing it at system level keeps it on PATH under any conda env.
-RUN apt-get update && apt-get install -y --no-install-recommends git \
+# Make every RUN below fail immediately if any command in a &&/; chain or a
+# pipe fails, instead of only failing on the exit status of the very last
+# command executed. Without this, a `for env in ...; do cmdA && cmdB; done`
+# RUN step can report success even though cmdB genuinely failed for one of
+# the environments - which is exactly what happened with the DORAnet import
+# check below: it failed for SynThera, the loop carried on to
+# SynThera_ExptDesigns anyway, that one succeeded, and the RUN exited 0.
+SHELL ["/bin/bash", "-eo", "pipefail", "-c"]
+
+# git is needed for the git+ pip installs below (RetroTide, DORAnet,
+# DORA-XGB, and ART when licensed); installing it at system level keeps it
+# on PATH under any conda env. libxrender1/libxext6/libsm6 are X11 shared
+# libraries that rdkit's Chem.Draw submodule links against and dlopens at
+# import time even when it never opens a display or draws anything - DORAnet
+# imports Chem.Draw unconditionally as part of its own post_processing
+# module, so without these three packages the import fails with
+# "ImportError: libXrender.so.1: cannot open shared object file", which is
+# the failure the SHELL fix above now actually surfaces instead of hiding.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      git \
+      libxrender1 \
+      libxext6 \
+      libsm6 \
  && rm -rf /var/lib/apt/lists/*
 
 # JupyterLab lives in the base environment and serves both kernels.
@@ -41,9 +68,10 @@ RUN mamba install -n base -y jupyterlab && mamba clean -a -y
 # so nothing here is shadowed when the project is mounted at /opt/synthera.
 WORKDIR /opt/build
 
-# Only the setup files are copied in. Relative paths resolve against this build/
-# directory, which is the build context.
-COPY environment.yml exptDesigns_environment.yml setup.py prepareEnvSpecs.py ./
+# Only the setup files are copied in here (executables/, tests/, and
+# external/ are copied separately near the end of this file). Source paths
+# are prefixed with build/ because the context is now the repository root.
+COPY build/environment.yml build/exptDesigns_environment.yml build/setup.py build/prepareEnvSpecs.py ./
 
 # Rewrite the specs in place for a clean from-PyPI build: drop ART (licensed),
 # pathermo (absent from PyPI), and doranet/dora-xgb (installed below from their
@@ -64,6 +92,15 @@ RUN for env in SynThera SynThera_ExptDesigns; do \
         || mamba install -n "$env" -y ipykernel; \
       conda run -n "$env" python -m ipykernel install \
         --prefix /opt/conda --name "$env" --display-name "$env"; \
+    done && mamba clean -a -y
+
+# pytest is test tooling, not a pipeline dependency, so it is deliberately not
+# part of the pinned environment.yml / exptDesigns_environment.yml exports.
+# It is installed into both environments here so tests/unit/ can run with
+# `conda run -n <env> pytest tests/unit` without touching the pinned specs.
+RUN for env in SynThera SynThera_ExptDesigns; do \
+      conda run -n "$env" python -c "import pytest" 2>/dev/null \
+        || mamba install -n "$env" -y pytest; \
     done && mamba clean -a -y
 
 # RetroTide is installed into SynThera_ExptDesigns, which already provides its
@@ -118,6 +155,16 @@ RUN if [ -n "$ART_SOURCE" ]; then \
     else \
       echo "ART not installed. Provide --build-arg ART_SOURCE=... once licensed."; \
     fi
+
+# Bake a standalone copy of the small, non-data parts of the project into a
+# fixed location so the test suite (and the scripts it exercises) works from
+# just the image - no bind mount, no source checkout required. This is what
+# `docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh`
+# (see tests/README.md) runs against. Anyone using docker-compose still gets
+# the live project bind-mounted at /opt/synthera, which shadows this copy.
+COPY executables /opt/synthera-app/executables
+COPY tests /opt/synthera-app/tests
+COPY external /opt/synthera-app/external
 
 # The project is bind-mounted here at runtime. Left empty in the image.
 WORKDIR /opt/synthera

@@ -7,18 +7,29 @@ it is bind-mounted into the container at runtime.
 
 ## How it works
 
-The build context is `build/` only, so the image stays small and the large data
-directories at the repository root never enter the context. The image contains:
+The build context is the repository root, filtered through the root
+`../.dockerignore` (an allow-list: everything is excluded by default, and
+only `build/`, `executables/`, `tests/`, and `external/` are let back in), so
+the image stays small and the large per-pathogen data directories at the
+repository root never enter the context. The image contains:
 
 1. JupyterLab in the base environment.
 2. The `SynThera` (Steps 1, 2, and 4) and `SynThera_ExptDesigns` (Steps 3 and
    5) environments, built from the pinned specs by the project's own
    `setup.py`.
 3. Both kernels, registered so a single JupyterLab serves them.
-4. RetroTide (JBEI Biosynthetic Cluster Simulator), DORAnet (enzymatic
+4. `pytest`, installed into both environments (not part of the pinned specs -
+   it is test tooling, not a pipeline dependency) so `tests/unit` can run.
+5. RetroTide (JBEI Biosynthetic Cluster Simulator), DORAnet (enzymatic
    reaction network generation), and DORA-XGB (enzymatic feasibility scoring),
    installed from their own GitHub repositories into whichever environment(s)
    use them.
+6. A standalone copy of `executables/`, `tests/`, and `external/` baked into
+   `/opt/synthera-app`, so the test suite (see
+   [Verifying your build](#verifying-your-build) below) runs from just the
+   image - no bind mount, no source checkout needed. This copy is separate
+   from, and shadowed by, the live project bind-mounted at `/opt/synthera`
+   when you run via `docker compose` or with an explicit `-v` bind mount.
 
 ## Bundled tools versus ART
 
@@ -61,6 +72,25 @@ Everything except the ART-dependent step works at this point.
 
 Stop with `docker compose down`.
 
+## Verifying your build
+
+Before trusting a freshly built (or pulled) image, run the test suite - it
+checks that both environments have every package they need and that each
+`executables/` script actually runs, including a fast unit tier that needs
+no compute run at all:
+
+```bash
+# from just the image, no bind mount needed
+docker run --rm synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh
+
+# or, with the project checked out / bind-mounted, from /opt/synthera
+bash tests/run_all_tests.sh
+```
+
+Add `--full` to either command to also run real, tiny end-to-end checks of
+DORAnet, DORA-XGB, and ADMET (needs network, several minutes). Full
+explanation of each tier in [`../tests/README.md`](../tests/README.md).
+
 ## Spec adjustments made for the build
 
 `prepareEnvSpecs.py` rewrites copies of the specs inside the image, leaving
@@ -89,10 +119,10 @@ environment so `Step2_BuildModel` can import it. The short version of the
 integrated route, once you are licensed:
 
 ```bash
-# at build time, from build/
+# at build time, from the repository root (the build context, not build/)
 docker build \
   --build-arg ART_SOURCE="git+https://github.com/JBEI/AutomatedRecommendationTool.git" \
-  -t synthera:with-art .
+  -f build/Dockerfile -t synthera:with-art .
 
 # or into a running container
 ./installArt.sh synthera "git+https://github.com/JBEI/AutomatedRecommendationTool.git"
@@ -105,9 +135,18 @@ do if a direct install does not resolve.
 ## Building by hand
 
 ```bash
-docker build -t synthera:latest .
+# from the repository root - the build context is the repo root, not build/
+docker build -f build/Dockerfile -t synthera:latest .
 
-docker run --rm -p 8888:8888 -v "$(pwd)/..:/opt/synthera" synthera:latest
+docker run --rm -p 8888:8888 -v "$(pwd):/opt/synthera" synthera:latest
+```
+
+Or, to try the image without any bind mount at all (no notebooks or data
+saved back to your machine, but useful for a quick check or for running the
+test suite - see [Verifying your build](#verifying-your-build)):
+
+```bash
+docker run --rm -p 8888:8888 synthera:latest
 ```
 
 ## Selecting the right kernel
@@ -145,6 +184,33 @@ QEMU-based emulation by default; enabling **Settings -> General -> Use Rosetta
 for x86/amd64 emulation on Apple Silicon** speeds this up noticeably). Expect
 the build, and the containerized packages, to run slower than they would
 natively as a result.
+
+## Build reliability: why a RUN failure now actually fails the build
+
+The Dockerfile's first instruction after `FROM` is now
+`SHELL ["/bin/bash", "-eo", "pipefail", "-c"]`. Without it, a multi-command
+`RUN` step joined with `&&`/`;` can report success even when an inner command
+genuinely failed - which is exactly how an earlier build produced a
+`synthera:latest` image where DORAnet imported fine in
+`SynThera_ExptDesigns` but was silently broken in `SynThera`: the import
+check failed there with `ImportError: libXrender.so.1: cannot open shared
+object file`, but that failure sat inside a `for env in ...; do ... ; done`
+loop, so the loop carried on to the next environment and the RUN step's
+final exit status came from that later, successful iteration. With
+`set -e`/`pipefail` in effect, the same failure now stops the build
+immediately instead of shipping a broken image that looks fine from
+`docker images`.
+
+The root cause of that specific failure is now also fixed: `libxrender1`,
+`libxext6`, and `libsm6` are installed alongside `git` early in the
+Dockerfile. rdkit's `Chem.Draw` submodule links against these X11 shared
+libraries and loads them at import time even when nothing is ever drawn or
+displayed, and DORAnet's own `post_processing` module imports `Chem.Draw`
+unconditionally - so a minimal base image without them fails on
+`import doranet.modules.post_processing`, not because of anything specific
+to DORAnet or SynThera's other dependencies. If you built an image before
+this fix, rebuild it; the old image may have a broken `doranet` import in
+`SynThera` even though `docker images` reports it built successfully.
 
 ## GPU and image size
 

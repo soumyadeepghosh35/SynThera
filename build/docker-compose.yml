@@ -1,4 +1,6 @@
 # Run from inside this build/ directory:  docker compose up --build
+# (compose resolves build.context below relative to this file, so it still
+# works from here even though the context itself is the repository root)
 services:
   synthera:
     # Forced to amd64 because environment.yml / exptDesigns_environment.yml
@@ -7,7 +9,11 @@ services:
     # Rosetta for x86/amd64 emulation" in Docker Desktop settings for speed).
     platform: linux/amd64
     build:
-      context: .              # the build context is build/ only
+      context: ..              # repo root, filtered by ../.dockerignore, so
+                                # executables/, tests/, and external/ can be
+                                # baked into the image alongside build/ - see
+                                # the comment at the top of build/Dockerfile
+      dockerfile: build/Dockerfile
       # RetroTide, DORAnet, and DORA-XGB are installed automatically at their
       # default (latest) refs - no args needed for them. Uncomment any of
       # these to pin a specific commit/tag, or (once licensed) to install ART

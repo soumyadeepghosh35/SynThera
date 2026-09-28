@@ -1,0 +1,31 @@
+# Allow-list dockerignore: the build context is the repository root (see
+# build/docker-compose.yml build.context), and this repo also holds several
+# multi-GB per-pathogen data directories that must never enter that context
+# or the image. Everything is excluded by default; only the paths the
+# Dockerfile actually copies (build/, executables/, tests/, external/) are
+# allowed back in. Adding a new top-level directory to the repo does NOT
+# expose it to the build unless it is explicitly un-ignored below.
+#
+# Negation order matters: a directory has to be un-ignored before its
+# contents can be, and once a directory is excluded, patterns can't reach
+# inside it again - so each allowed path needs its own explicit line, not
+# just a trailing /**.
+
+*
+
+!build/
+!build/**
+
+!executables/
+!executables/**
+
+!tests/
+!tests/**
+
+!external/
+!external/**
+
+# Keep caches and checkpoints out even from allowed directories.
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/

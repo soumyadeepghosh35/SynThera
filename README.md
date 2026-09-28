@@ -50,6 +50,7 @@ template. Read this section before looking for a file by guessing its name.
 | `ART_Results/` | Saved ART models per embedding method (ChemBERTa, MACAW, MIST, MolFormer), shared reference points for Step2. |
 | `executables/` | Reusable, config-driven CLI scripts that the long-running steps call: `runDORAnet.py`, `runDORAXGB.py`, `runADMET.py`, `runART.py`, plus a `*_config.yaml` template for each. See [Running the long compute steps](#running-the-long-compute-steps). |
 | `external/ergochemics/` | A bundled third-party cheminformatics library (reaction fingerprinting) that every Step5 notebook imports. See the caveat under [Known limitations](#known-limitations-read-before-you-build). |
+| `tests/` | A self-contained health check for a build: confirms both environments have every package they should, and that each `executables/` script actually runs. Anyone can run this after building to confirm the image is sound before trusting it for a real case study. See [Verifying your build](#verifying-your-build). |
 
 ## The two environments
 
@@ -76,7 +77,23 @@ conda, no manually resolving Python packages.
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
    (macOS/Windows) or Docker Engine + Compose (Linux), and make sure it is
    running.
-2. Open a terminal in this repository and go to the build directory:
+2. Get the image, either by pulling a published build or by building it
+   yourself from this repository:
+
+   **Option A: pull the pre-built image** *(placeholder - not published yet;
+   use Option B until this is filled in)*
+   ```bash
+   docker pull <DOCKERHUB_NAMESPACE>/synthera:latest
+   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera <DOCKERHUB_NAMESPACE>/synthera:latest
+   ```
+   Replace `<DOCKERHUB_NAMESPACE>/synthera:latest` with the real image name
+   once it is published to Docker Hub. Run the `docker run` command from the
+   repository root so the bind mount (`-v "$(pwd)":/opt/synthera`) puts your
+   notebooks, executables, and data inside the container the same way
+   `docker compose` does below - without it you get a working pipeline but
+   none of your own files.
+
+   **Option B: build it locally from this repository**
    ```bash
    cd build
    docker compose up --build
@@ -119,13 +136,45 @@ image by default. Every step except Step2's ART modeling works without it.
 Once you have a license (see `build/ART.md`), install it with:
 
 ```bash
-cd build
-docker build --build-arg ART_SOURCE="git+https://github.com/JBEI/AutomatedRecommendationTool.git" -t synthera:with-art .
+# run from the repository root - the build context is the repo root, not build/
+docker build --build-arg ART_SOURCE="git+https://github.com/JBEI/AutomatedRecommendationTool.git" \
+  -f build/Dockerfile -t synthera:with-art .
 ```
 
 or into an already-running container with `build/installART.sh`. `build/ART.md`
 has the full licensing steps and a fallback route if the direct install does
 not resolve.
+
+## Verifying your build
+
+Before trusting a freshly built image for a real run, confirm it actually
+works: unit-level logic checks, both conda environments have every package
+they need, and each script in `executables/` runs. The image bakes a
+standalone copy of `executables/`, `tests/`, and `external/` into
+`/opt/synthera-app`, so this works even if all you have is the image - no
+source checkout, no bind mount:
+
+```bash
+docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh          # a few seconds
+docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh --full   # + real runs, several minutes, needs network
+```
+
+(`<image>` is whatever tag you built or pulled, e.g. `synthera:latest`.) If
+you instead have the project checked out - `docker exec -it synthera bash`,
+or a terminal opened inside JupyterLab (**File -> New -> Terminal**), from
+the repository root (`/opt/synthera` in the container):
+
+```bash
+cd /opt/synthera
+bash tests/run_all_tests.sh
+bash tests/run_all_tests.sh --full
+```
+
+It prints a `[PASS]` / `[FAIL]` / `[SKIP]` line per check. `[SKIP]` on ART is
+expected on a standard build (see [Installing ART](#installing-art-optional-only-needed-for-step2)
+above) - anything else marked `[FAIL]` means the build is missing something,
+and the failure detail says what. Full explanation of each check, including
+the unit test tier, in [`tests/README.md`](tests/README.md).
 
 ## Running the long compute steps
 
