@@ -19,6 +19,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Git tag v1.0 is published as Docker tag 1.0
+      - name: Set Docker tag
+        run: echo "DOCKER_TAG=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+
       # The image is ~18 GB; hosted runners ship with ~14 GB free.
       - name: Free disk space
         run: |
@@ -32,11 +36,11 @@ jobs:
             --label org.opencontainers.image.revision=$GITHUB_SHA \
             --label org.opencontainers.image.version=${GITHUB_REF_NAME} \
             --label org.opencontainers.image.source=${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY} \
-            -f build/Dockerfile -t "$IMAGE:${GITHUB_REF_NAME}" .
+            -f build/Dockerfile -t "$IMAGE:$DOCKER_TAG" .
 
       - name: Run test suite
         run: |
-          docker run --rm --platform linux/amd64 "$IMAGE:${GITHUB_REF_NAME}" \
+          docker run --rm --platform linux/amd64 "$IMAGE:$DOCKER_TAG" \
             bash /opt/synthera-app/tests/run_all_tests.sh
 
       - name: Log in to Docker Hub
@@ -47,5 +51,5 @@ jobs:
 
       - name: Push image
         run: |
-          docker push "$IMAGE:${GITHUB_REF_NAME}"
-          docker inspect --format='{{index .RepoDigests 0}}' "$IMAGE:${GITHUB_REF_NAME}" || true
+          docker push "$IMAGE:$DOCKER_TAG"
+          docker inspect --format='{{index .RepoDigests 0}}' "$IMAGE:$DOCKER_TAG" || true
