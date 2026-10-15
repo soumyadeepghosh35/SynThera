@@ -15,13 +15,14 @@ docker-compose bind mount) - the image bakes a standalone copy of
 exactly this case:
 
 ```bash
-docker run --rm synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh
-docker run --rm synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh --full
+docker run --rm soumya35/synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh
+docker run --rm soumya35/synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh --full
 ```
 
-Replace `synthera:latest` with whatever tag you built or pulled (see the
-main [README.md](../README.md) for the Docker Hub pull command once
-published). Each invocation is a fresh, throwaway container (`--rm`); output
+Replace `soumya35/synthera:latest` with whatever tag you built (for example
+`synthera:latest` from `docker compose build`). The published image is on
+Docker Hub: see the main [README.md](../README.md) for the pull command.
+Each invocation is a fresh, throwaway container (`--rm`); output
 from a `--full` run is left behind only for the life of that container, so
 copy anything you want to keep out with `docker cp` before it exits, or drop
 `--rm` and inspect it with `docker cp`/`docker exec` afterward.

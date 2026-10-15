@@ -80,18 +80,17 @@ conda, no manually resolving Python packages.
 2. Get the image, either by pulling a published build or by building it
    yourself from this repository:
 
-   **Option A: pull the pre-built image** *(placeholder - not published yet;
-   use Option B until this is filled in)*
+   **Option A: pull the pre-built image from Docker Hub** (recommended)
    ```bash
-   docker pull <DOCKERHUB_NAMESPACE>/synthera:latest
-   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera <DOCKERHUB_NAMESPACE>/synthera:latest
+   docker pull soumya35/synthera:latest
+   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera soumya35/synthera:latest
    ```
-   Replace `<DOCKERHUB_NAMESPACE>/synthera:latest` with the real image name
-   once it is published to Docker Hub. Run the `docker run` command from the
-   repository root so the bind mount (`-v "$(pwd)":/opt/synthera`) puts your
-   notebooks, executables, and data inside the container the same way
-   `docker compose` does below - without it you get a working pipeline but
-   none of your own files.
+   Run the `docker run` command from the repository root so the bind mount
+   (`-v "$(pwd)":/opt/synthera`) puts your notebooks, executables, and data
+   inside the container the same way `docker compose` does below - without it
+   you get a working pipeline but none of your own files. The image is
+   `linux/amd64`; on Apple Silicon it runs under emulation, so expect it to be
+   slower. ART is not included; see [build/ART.md](build/ART.md) to add it.
 
    **Option B: build it locally from this repository**
    ```bash
@@ -159,8 +158,8 @@ docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh          #
 docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh --full   # + real runs, several minutes, needs network
 ```
 
-(`<image>` is whatever tag you built or pulled, e.g. `synthera:latest`.) If
-you instead have the project checked out - `docker exec -it synthera bash`,
+(`<image>` is `soumya35/synthera:latest` if you pulled the published image, or
+the tag you built, e.g. `synthera:latest`.) If you instead have the project checked out - `docker exec -it synthera bash`,
 or a terminal opened inside JupyterLab (**File -> New -> Terminal**), from
 the repository root (`/opt/synthera` in the container):
 
