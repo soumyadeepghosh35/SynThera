@@ -1,0 +1,34 @@
+name: Build image and run tests
+
+on:
+  push:
+    branches: [rc2-test-fix]
+  workflow_dispatch:
+
+jobs:
+  test:
+    # Native amd64 runner, so no QEMU emulaunder it).
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      # The image is ~18 GB; hosted runners
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@v1.
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false
+
+      - name: Build image
+        run: |
+          docker build --platform linux/amd synthera:ci .
+
+      - name: Run test suite
+        run: |
+          docker run --rm --platform linux/pt/synthera-app/tests/run_all_tests.sh
