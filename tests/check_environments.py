@@ -91,10 +91,12 @@ def checkRetrotide():
 
 
 def checkDoraXgb():
+    # Same import runExecutables/runDORAXGB.py uses: `from DORA_XGB import DORA_XGB`
+    # gives the DORA_XGB submodule, which is what provides feasibility_classifier().
     try:
-        module = importlib.import_module("DORA_XGB")
-        if not hasattr(module, "DORA_XGB"):
-            raise ImportError("DORA_XGB module found but has no DORA_XGB submodule/class")
+        from DORA_XGB import DORA_XGB as doraXgbModule
+        if not callable(getattr(doraXgbModule, "feasibility_classifier", None)):
+            raise ImportError("DORA_XGB.DORA_XGB has no feasibility_classifier()")
         record("DORA_XGB (DORA-XGB)", True)
     except Exception as exc:  # noqa: BLE001
         record("DORA_XGB (DORA-XGB)", False, f"{type(exc).__name__}: {exc}")

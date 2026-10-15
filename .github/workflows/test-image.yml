@@ -1,0 +1,29 @@
+name: Build image and run tests
+
+on:
+  push:
+    branches: [rc2-test-fix]
+  workflow_dispatch:
+
+jobs:
+  test:
+    # Native amd64 runner, so no QEMU emulation (TensorFlow crashes under it).
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      # The image is ~18 GB; hosted runners ship with ~14 GB free.
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/boost "$AGENT_TOOLSDIRECTORY"
+          sudo docker image prune --all --force
+          df -h /
+
+      - name: Build image
+        run: |
+          docker build --platform linux/amd64 -f build/Dockerfile -t synthera:ci .
+
+      - name: Run test suite
+        run: |
+          docker run --rm --platform linux/amd64 synthera:ci bash /opt/synthera-app/tests/run_all_tests.sh
