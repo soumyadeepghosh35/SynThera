@@ -1,5 +1,6 @@
 .githooks/
 .ipynb_checkpoints/
+claude_sessions/
 Database_Data_Raw/ChEMBL_data/StaphylococcusAureus/Staphylococcus_aureus_compounds.csv
 Ebola/Results_Ebola/Ebola_wchemberta_molformer_mist_ARTready.csv
 Database_Data_Raw/ChEMBL_data/Ebola/PubChem_bioassay2.xml
