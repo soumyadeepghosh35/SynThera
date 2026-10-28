@@ -1,0 +1,87 @@
+name: CI/CD (main to Docker Hub latest)
+
+# Every push to main builds the image, runs the test suite inside that exact
+# image, and only then overwrites soumya35/synthera:latest on Docker Hub.
+on:
+  push:
+    # TEMPORARY: ci-cd-latest is here only for the first test run. Remove it
+    # once the workflow is verified.
+    branches: [main, ci-cd-latest]
+
+env:
+  IMAGE: soumya35/synthera
+  # Layer cache lives in a separate tag on Docker Hub. The GitHub cache
+  # (type=gha) is capped at 10 GB per repository, which this ~18 GB image
+  # exceeds, so it would be evicted constantly.
+  CACHE_REF: soumya35/synthera:buildcache
+
+# A newer push to main supersedes a run that is still going.
+concurrency:
+  group: ci-cd-main
+  cancel-in-progress: true
+
+jobs:
+  test-build-publish:
+    # Native amd64 runner. TensorFlow crashes under QEMU emulation, so do not
+    # build on arm64 or under emulation.
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    permissions:
+      contents: read
+    steps:
+      # Test stage, step 1: get the source.
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # The image is ~18 GB; hosted runners ship with ~14 GB free.
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/boost "$AGENT_TOOLSDIRECTORY"
+          sudo docker image prune --all --force
+          df -h /
+
+      # Buildx is the builder that supports external layer caches.
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Login happens before the build only because writing the layer cache to
+      # Docker Hub needs credentials. The latest tag is not touched until the
+      # tests pass (see the Push step below).
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # The tests live inside the image (/opt/synthera-app/tests), so the image
+      # has to exist before they can run. load: true puts it in the local
+      # Docker daemon without pushing it. A failure here stops the job.
+      - name: Build image (not pushed yet)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: build/Dockerfile
+          platforms: linux/amd64
+          load: true
+          push: false
+          tags: ${{ env.IMAGE }}:latest
+          labels: |
+            org.opencontainers.image.revision=${{ github.sha }}
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+          cache-from: type=registry,ref=${{ env.CACHE_REF }}
+          cache-to: type=registry,ref=${{ env.CACHE_REF }},mode=max
+
+      # Run the suite on the exact image that would be published. Any non-zero
+      # exit fails this step, and every later step is skipped, so the publish
+      # step cannot run on a failing build.
+      - name: Run test suite
+        run: |
+          docker run --rm --platform linux/amd64 "$IMAGE:latest" \
+            bash /opt/synthera-app/tests/run_all_tests.sh
+
+      # Reached only if all earlier steps succeeded. Pushing the same tag
+      # replaces the existing latest image on Docker Hub.
+      - name: Push latest
+        run: |
+          docker push "$IMAGE:latest"
+          docker inspect --format='{{index .RepoDigests 0}}' "$IMAGE:latest"
