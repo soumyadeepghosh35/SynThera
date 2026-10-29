@@ -82,17 +82,19 @@ conda, no manually resolving Python packages.
 
    **Option A: pull the pre-built image from Docker Hub** (recommended)
    ```bash
-   docker pull soumya35/synthera:latest
-   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera soumya35/synthera:latest
+   docker pull soumya35/synthera:1.0
+   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera soumya35/synthera:1.0
    ```
-   `latest` is rebuilt and tested on every push to the `main` branch. For a
-   fixed release that does not change, use `soumya35/synthera:1.0` instead.
    Run the `docker run` command from the repository root so the bind mount
    (`-v "$(pwd)":/opt/synthera`) puts your notebooks, executables, and data
    inside the container the same way `docker compose` does below - without it
    you get a working pipeline but none of your own files. The image is
    `linux/amd64`; on Apple Silicon it runs under emulation, so expect it to be
    slower. ART is not included; see [build/ART.md](build/ART.md) to add it.
+
+   This pulls the fixed public release (`1.0`). It does not change after
+   release, so it gives reproducible results. If you are developing
+   SynThera, see [For developers](#for-developers-image-tags-and-cicd).
 
    **Option B: build it locally from this repository**
    ```bash
@@ -160,7 +162,7 @@ docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh          #
 docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh --full   # + real runs, several minutes, needs network
 ```
 
-(`<image>` is `soumya35/synthera:latest` if you pulled the published image, or
+(`<image>` is `soumya35/synthera:1.0` (public release) or `soumya35/synthera:dev` (developer build) if you pulled a published image, or
 the tag you built, e.g. `synthera:latest`.) If you instead have the project checked out - `docker exec -it synthera bash`,
 or a terminal opened inside JupyterLab (**File -> New -> Terminal**), from
 the repository root (`/opt/synthera` in the container):
@@ -378,3 +380,77 @@ before running Step 1.
 - **A pip package fails to build** - check that system build tools are
   available; on a fresh Linux host you may need `build-essential`. The Docker
   route avoids this entirely.
+
+## For developers: image tags and CI/CD
+
+Users pull the fixed release (see [Quick start](#quick-start-docker-recommended)).
+This section is for people who change the code in `build/`, `executables/`,
+`tests/` or `external/`.
+
+### Image tags on Docker Hub
+
+| Tag | For | Behaviour |
+|---|---|---|
+| `soumya35/synthera:1.0` | Public release | Fixed. Published by `publish-image.yml` when a `v*` git tag is pushed. |
+| `soumya35/synthera:dev` | Developers | The newest tested build of `main`. Replaced on every qualifying push. |
+| `soumya35/synthera:dev-previous` | Developers | The `dev` image from before the last update, kept for rollback. |
+
+Pull the developer build with:
+
+```bash
+docker pull soumya35/synthera:dev
+```
+
+Do not rely on `dev` for results you need to reproduce. Use `1.0` for that.
+
+### What happens when you push to `main`
+
+`.github/workflows/ci-cd.yml` runs on a push to `main` that changes
+`build/`, `executables/`, `tests/`, `external/` or the workflow file itself.
+Pushes that change only notebooks, data, or Markdown files do not trigger it.
+The workflow:
+
+1. builds the image from `build/Dockerfile` on a `linux/amd64` runner (about
+   20 to 30 minutes, no layer cache);
+2. runs `tests/run_all_tests.sh` inside that exact image;
+3. only if the tests pass, copies the current `dev` to `dev-previous` and
+   pushes the new image as `dev`.
+
+If any step fails, no tag on Docker Hub is changed. Progress is in the
+repository's Actions tab. A newer push cancels a run that is still going.
+
+The workflow needs two repository secrets (Settings, Secrets and variables,
+Actions): `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`. The token must have
+Read & Write scope.
+
+### Rolling `dev` back
+
+If a bad build passes the tests, point `dev` back at the previous image. This
+works on Docker Hub directly and downloads nothing. Log in with a token that
+can write to the repository first:
+
+```bash
+docker buildx imagetools create -t soumya35/synthera:dev soumya35/synthera:dev-previous
+```
+
+Only one step back is kept. Fix the problem on `main` afterwards, because the
+next qualifying push replaces `dev` again.
+
+### Making a release
+
+Push a version tag. `v1.1` publishes `soumya35/synthera:1.1`:
+
+```bash
+git tag v1.1
+git push origin v1.1
+```
+
+`publish-image.yml` builds the image, runs the tests, and pushes the tag only
+if they pass. Release tags are never touched by the `dev` workflow. Do not
+re-run the workflow for an existing release tag, because that overwrites it.
+
+### Running the tests by hand
+
+`.github/workflows/test-image.yml` builds the image and runs the tests without
+publishing anything. It runs only when started manually from the Actions tab.
+To test a local build, see [Verifying your build](#verifying-your-build).
