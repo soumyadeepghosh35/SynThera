@@ -5,6 +5,8 @@ name: CI/CD (main to Docker Hub latest)
 on:
   push:
     branches: [main]
+    # Documentation-only pushes do not rebuild the ~18 GB image.
+    paths-ignore: ["**/*.md"]
 
 env:
   IMAGE: soumya35/synthera

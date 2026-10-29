@@ -82,9 +82,11 @@ conda, no manually resolving Python packages.
 
    **Option A: pull the pre-built image from Docker Hub** (recommended)
    ```bash
-   docker pull soumya35/synthera:1.0
-   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera soumya35/synthera:1.0
+   docker pull soumya35/synthera:latest
+   docker run -p 8888:8888 -v "$(pwd)":/opt/synthera soumya35/synthera:latest
    ```
+   `latest` is rebuilt and tested on every push to the `main` branch. For a
+   fixed release that does not change, use `soumya35/synthera:1.0` instead.
    Run the `docker run` command from the repository root so the bind mount
    (`-v "$(pwd)":/opt/synthera`) puts your notebooks, executables, and data
    inside the container the same way `docker compose` does below - without it
@@ -158,7 +160,7 @@ docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh          #
 docker run --rm <image> bash /opt/synthera-app/tests/run_all_tests.sh --full   # + real runs, several minutes, needs network
 ```
 
-(`<image>` is `soumya35/synthera:1.0` if you pulled the published image, or
+(`<image>` is `soumya35/synthera:latest` if you pulled the published image, or
 the tag you built, e.g. `synthera:latest`.) If you instead have the project checked out - `docker exec -it synthera bash`,
 or a terminal opened inside JupyterLab (**File -> New -> Terminal**), from
 the repository root (`/opt/synthera` in the container):

@@ -15,11 +15,11 @@ docker-compose bind mount) - the image bakes a standalone copy of
 exactly this case:
 
 ```bash
-docker run --rm soumya35/synthera:1.0 bash /opt/synthera-app/tests/run_all_tests.sh
-docker run --rm soumya35/synthera:1.0 bash /opt/synthera-app/tests/run_all_tests.sh --full
+docker run --rm soumya35/synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh
+docker run --rm soumya35/synthera:latest bash /opt/synthera-app/tests/run_all_tests.sh --full
 ```
 
-Replace `soumya35/synthera:1.0` with whatever tag you built (for example
+Replace `soumya35/synthera:latest` with whatever tag you built (for example
 `synthera:latest` from `docker compose build`). The published image is on
 Docker Hub: see the main [README.md](../README.md) for the pull command.
 Each invocation is a fresh, throwaway container (`--rm`); output
