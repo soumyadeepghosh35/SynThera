@@ -395,6 +395,9 @@ This section is for people who change the code in `build/`, `executables/`,
 | `soumya35/synthera:dev` | Developers | The newest tested build of `main`. Replaced on every qualifying push. |
 | `soumya35/synthera:dev-previous` | Developers | The `dev` image from before the last update, kept for rollback. |
 
+There is no `latest` tag on purpose. Always name the tag you want, because a
+bare `docker pull soumya35/synthera` fails.
+
 Pull the developer build with:
 
 ```bash

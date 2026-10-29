@@ -5,6 +5,7 @@ name: CI/CD (main to Docker Hub dev)
 #   soumya35/synthera:dev            moves with main (for developers)
 #   soumya35/synthera:dev-previous   the dev image from before the last update
 # The release tag (1.0) is published separately by publish-image.yml.
+# No latest tag is published on purpose, so users must name a tag.
 on:
   push:
     branches: [main]
